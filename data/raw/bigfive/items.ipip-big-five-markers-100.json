@@ -1,0 +1,741 @@
+{
+  "_meta": {
+    "instrument": "IPIP Big-Five Factor Markers (100-item)",
+    "full_name": "International Personality Item Pool (IPIP) Big-Five Factor Markers, 100-item version (based on Goldberg's 1992 unipolar Big-Five markers)",
+    "source_url": "https://ipip.ori.org/newBigFive5broadKey.htm",
+    "license": "Public domain. Per the IPIP website (ipip.ori.org): \"The items and scales are in the public domain, which means that one can copy, edit, translate, or use them for any purpose without asking permission and without paying a fee.\"",
+    "license_class": "public_domain",
+    "safe_for_noncommercial_reuse": true,
+    "safe_for_commercial_reuse": true,
+    "attribution": "Items from the International Personality Item Pool (IPIP), based on Goldberg's Big-Five factor markers. Cite: Goldberg, L. R. (1992). The development of markers for the Big-Five factor structure. Psychological Assessment, 4, 26-42. And: Goldberg, L. R., Johnson, J. A., Eber, H. W., Hogan, R., Ashton, M. C., Cloninger, C. R., & Gough, H. G. (2006). The International Personality Item Pool and the future of public-domain personality measures. Journal of Research in Personality, 40, 84-96. Source of scales: International Personality Item Pool, https://ipip.ori.org/.",
+    "scoring_notes": "Standard IPIP scoring: administer on a 5-point Likert scale (1 = Very Inaccurate ... 5 = Very Accurate); score + keyed items 1->5 and - keyed items reversed 5->1, then sum the 20 items within each factor. The 100-item version is composed of the 20-item scale for each of the five factors on the IPIP scoring-key page (reported alphas: Extraversion .91, Agreeableness .88, Conscientiousness .88, Emotional Stability .91, Intellect/Imagination .90). Keying breakdown by factor: Extraversion 10+/10-, Agreeableness 14+/6-, Conscientiousness 11+/9-, Emotional Stability 5+/15-, Intellect/Imagination 13+/7- (53 positive, 47 negative overall). Note: Factor IV is scored as Emotional Stability (the reverse pole of Neuroticism) and Factor V (Intellect/Imagination) corresponds to Openness. The separately-collected 50-item version (10 items per factor) is a proper subset of these 100 items.",
+    "cautions": "All 100 items were fetched verbatim from the raw HTML of the official IPIP scoring-key page (https://ipip.ori.org/newBigFive5broadKey.htm); none were reconstructed from memory. The 100-item version equals the \"20-item scale\" for each of the five factors listed on that page; the same page also lists the \"10-item scale\" per factor, which is the 50-item version (a proper subset, collected elsewhere). Item text is preserved exactly including trailing periods; items are written as verb phrases with an implied first-person \"I\" stem (the questionnaire prepends \"I...\" at administration). Per-factor keying is unbalanced (e.g., Emotional Stability is only 5+/15-), which is faithful to the source, not an extraction error. The scoring key groups items by factor and does NOT specify a single canonical mixed administration order; the \"num\" values (1-100) are a sequential index I assigned in factor-grouped, +then- order for reference, not item numbers from the source. This instrument has no facet structure (it is a factor-marker set), so no facet labels are provided. Factor IV is scored toward Emotional Stability (reverse of Neuroticism) and Factor V (Intellect/Imagination) is the IPIP label for Openness. License verified as public domain from the IPIP homepage.",
+    "corrections_applied": [],
+    "verification": {
+      "fabrication_risk": "none",
+      "item_count_plausible": true,
+      "license_correct_asreported": true,
+      "summary": "adversarially fact-checked by a second agent vs primary sources (deepinme wide-collection workflow, 2026-07)"
+    },
+    "sources": [
+      {
+        "title": "IPIP Big-Five Factor Markers - Scoring Key (Factors I-V, 10- and 20-item scales)",
+        "url": "https://ipip.ori.org/newBigFive5broadKey.htm",
+        "license": "Public domain"
+      },
+      {
+        "title": "International Personality Item Pool (IPIP) Home - public-domain statement",
+        "url": "https://ipip.ori.org/",
+        "license": "Public domain"
+      },
+      {
+        "title": "Administering IPIP Measures, with a 50-item Sample Questionnaire (scoring instructions)",
+        "url": "https://ipip.ori.org/new_ipip-50-item-scale.htm",
+        "license": "Public domain"
+      }
+    ]
+  },
+  "count": 100,
+  "items": [
+    {
+      "num": "1",
+      "text": "Am the life of the party.",
+      "language": "en",
+      "factor": "Extraversion",
+      "keyed": "+"
+    },
+    {
+      "num": "2",
+      "text": "Feel comfortable around people.",
+      "language": "en",
+      "factor": "Extraversion",
+      "keyed": "+"
+    },
+    {
+      "num": "3",
+      "text": "Start conversations.",
+      "language": "en",
+      "factor": "Extraversion",
+      "keyed": "+"
+    },
+    {
+      "num": "4",
+      "text": "Talk to a lot of different people at parties.",
+      "language": "en",
+      "factor": "Extraversion",
+      "keyed": "+"
+    },
+    {
+      "num": "5",
+      "text": "Don't mind being the center of attention.",
+      "language": "en",
+      "factor": "Extraversion",
+      "keyed": "+"
+    },
+    {
+      "num": "6",
+      "text": "Make friends easily.",
+      "language": "en",
+      "factor": "Extraversion",
+      "keyed": "+"
+    },
+    {
+      "num": "7",
+      "text": "Take charge.",
+      "language": "en",
+      "factor": "Extraversion",
+      "keyed": "+"
+    },
+    {
+      "num": "8",
+      "text": "Know how to captivate people.",
+      "language": "en",
+      "factor": "Extraversion",
+      "keyed": "+"
+    },
+    {
+      "num": "9",
+      "text": "Feel at ease with people.",
+      "language": "en",
+      "factor": "Extraversion",
+      "keyed": "+"
+    },
+    {
+      "num": "10",
+      "text": "Am skilled in handling social situations.",
+      "language": "en",
+      "factor": "Extraversion",
+      "keyed": "+"
+    },
+    {
+      "num": "11",
+      "text": "Don't talk a lot.",
+      "language": "en",
+      "factor": "Extraversion",
+      "keyed": "-"
+    },
+    {
+      "num": "12",
+      "text": "Keep in the background.",
+      "language": "en",
+      "factor": "Extraversion",
+      "keyed": "-"
+    },
+    {
+      "num": "13",
+      "text": "Have little to say.",
+      "language": "en",
+      "factor": "Extraversion",
+      "keyed": "-"
+    },
+    {
+      "num": "14",
+      "text": "Don't like to draw attention to myself.",
+      "language": "en",
+      "factor": "Extraversion",
+      "keyed": "-"
+    },
+    {
+      "num": "15",
+      "text": "Am quiet around strangers.",
+      "language": "en",
+      "factor": "Extraversion",
+      "keyed": "-"
+    },
+    {
+      "num": "16",
+      "text": "Find it difficult to approach others.",
+      "language": "en",
+      "factor": "Extraversion",
+      "keyed": "-"
+    },
+    {
+      "num": "17",
+      "text": "Often feel uncomfortable around others.",
+      "language": "en",
+      "factor": "Extraversion",
+      "keyed": "-"
+    },
+    {
+      "num": "18",
+      "text": "Bottle up my feelings.",
+      "language": "en",
+      "factor": "Extraversion",
+      "keyed": "-"
+    },
+    {
+      "num": "19",
+      "text": "Am a very private person.",
+      "language": "en",
+      "factor": "Extraversion",
+      "keyed": "-"
+    },
+    {
+      "num": "20",
+      "text": "Wait for others to lead the way.",
+      "language": "en",
+      "factor": "Extraversion",
+      "keyed": "-"
+    },
+    {
+      "num": "21",
+      "text": "Am interested in people.",
+      "language": "en",
+      "factor": "Agreeableness",
+      "keyed": "+"
+    },
+    {
+      "num": "22",
+      "text": "Sympathize with others' feelings.",
+      "language": "en",
+      "factor": "Agreeableness",
+      "keyed": "+"
+    },
+    {
+      "num": "23",
+      "text": "Have a soft heart.",
+      "language": "en",
+      "factor": "Agreeableness",
+      "keyed": "+"
+    },
+    {
+      "num": "24",
+      "text": "Take time out for others.",
+      "language": "en",
+      "factor": "Agreeableness",
+      "keyed": "+"
+    },
+    {
+      "num": "25",
+      "text": "Feel others' emotions.",
+      "language": "en",
+      "factor": "Agreeableness",
+      "keyed": "+"
+    },
+    {
+      "num": "26",
+      "text": "Make people feel at ease.",
+      "language": "en",
+      "factor": "Agreeableness",
+      "keyed": "+"
+    },
+    {
+      "num": "27",
+      "text": "Inquire about others' well-being.",
+      "language": "en",
+      "factor": "Agreeableness",
+      "keyed": "+"
+    },
+    {
+      "num": "28",
+      "text": "Know how to comfort others.",
+      "language": "en",
+      "factor": "Agreeableness",
+      "keyed": "+"
+    },
+    {
+      "num": "29",
+      "text": "Love children.",
+      "language": "en",
+      "factor": "Agreeableness",
+      "keyed": "+"
+    },
+    {
+      "num": "30",
+      "text": "Am on good terms with nearly everyone.",
+      "language": "en",
+      "factor": "Agreeableness",
+      "keyed": "+"
+    },
+    {
+      "num": "31",
+      "text": "Have a good word for everyone.",
+      "language": "en",
+      "factor": "Agreeableness",
+      "keyed": "+"
+    },
+    {
+      "num": "32",
+      "text": "Show my gratitude.",
+      "language": "en",
+      "factor": "Agreeableness",
+      "keyed": "+"
+    },
+    {
+      "num": "33",
+      "text": "Think of others first.",
+      "language": "en",
+      "factor": "Agreeableness",
+      "keyed": "+"
+    },
+    {
+      "num": "34",
+      "text": "Love to help others.",
+      "language": "en",
+      "factor": "Agreeableness",
+      "keyed": "+"
+    },
+    {
+      "num": "35",
+      "text": "Insult people.",
+      "language": "en",
+      "factor": "Agreeableness",
+      "keyed": "-"
+    },
+    {
+      "num": "36",
+      "text": "Am not interested in other people's problems.",
+      "language": "en",
+      "factor": "Agreeableness",
+      "keyed": "-"
+    },
+    {
+      "num": "37",
+      "text": "Feel little concern for others.",
+      "language": "en",
+      "factor": "Agreeableness",
+      "keyed": "-"
+    },
+    {
+      "num": "38",
+      "text": "Am not really interested in others.",
+      "language": "en",
+      "factor": "Agreeableness",
+      "keyed": "-"
+    },
+    {
+      "num": "39",
+      "text": "Am hard to get to know.",
+      "language": "en",
+      "factor": "Agreeableness",
+      "keyed": "-"
+    },
+    {
+      "num": "40",
+      "text": "Am indifferent to the feelings of others.",
+      "language": "en",
+      "factor": "Agreeableness",
+      "keyed": "-"
+    },
+    {
+      "num": "41",
+      "text": "Am always prepared.",
+      "language": "en",
+      "factor": "Conscientiousness",
+      "keyed": "+"
+    },
+    {
+      "num": "42",
+      "text": "Pay attention to details.",
+      "language": "en",
+      "factor": "Conscientiousness",
+      "keyed": "+"
+    },
+    {
+      "num": "43",
+      "text": "Get chores done right away.",
+      "language": "en",
+      "factor": "Conscientiousness",
+      "keyed": "+"
+    },
+    {
+      "num": "44",
+      "text": "Like order.",
+      "language": "en",
+      "factor": "Conscientiousness",
+      "keyed": "+"
+    },
+    {
+      "num": "45",
+      "text": "Follow a schedule.",
+      "language": "en",
+      "factor": "Conscientiousness",
+      "keyed": "+"
+    },
+    {
+      "num": "46",
+      "text": "Am exacting in my work.",
+      "language": "en",
+      "factor": "Conscientiousness",
+      "keyed": "+"
+    },
+    {
+      "num": "47",
+      "text": "Do things according to a plan.",
+      "language": "en",
+      "factor": "Conscientiousness",
+      "keyed": "+"
+    },
+    {
+      "num": "48",
+      "text": "Continue until everything is perfect.",
+      "language": "en",
+      "factor": "Conscientiousness",
+      "keyed": "+"
+    },
+    {
+      "num": "49",
+      "text": "Make plans and stick to them.",
+      "language": "en",
+      "factor": "Conscientiousness",
+      "keyed": "+"
+    },
+    {
+      "num": "50",
+      "text": "Love order and regularity.",
+      "language": "en",
+      "factor": "Conscientiousness",
+      "keyed": "+"
+    },
+    {
+      "num": "51",
+      "text": "Like to tidy up.",
+      "language": "en",
+      "factor": "Conscientiousness",
+      "keyed": "+"
+    },
+    {
+      "num": "52",
+      "text": "Leave my belongings around.",
+      "language": "en",
+      "factor": "Conscientiousness",
+      "keyed": "-"
+    },
+    {
+      "num": "53",
+      "text": "Make a mess of things.",
+      "language": "en",
+      "factor": "Conscientiousness",
+      "keyed": "-"
+    },
+    {
+      "num": "54",
+      "text": "Often forget to put things back in their proper place.",
+      "language": "en",
+      "factor": "Conscientiousness",
+      "keyed": "-"
+    },
+    {
+      "num": "55",
+      "text": "Shirk my duties.",
+      "language": "en",
+      "factor": "Conscientiousness",
+      "keyed": "-"
+    },
+    {
+      "num": "56",
+      "text": "Neglect my duties.",
+      "language": "en",
+      "factor": "Conscientiousness",
+      "keyed": "-"
+    },
+    {
+      "num": "57",
+      "text": "Waste my time.",
+      "language": "en",
+      "factor": "Conscientiousness",
+      "keyed": "-"
+    },
+    {
+      "num": "58",
+      "text": "Do things in a half-way manner.",
+      "language": "en",
+      "factor": "Conscientiousness",
+      "keyed": "-"
+    },
+    {
+      "num": "59",
+      "text": "Find it difficult to get down to work.",
+      "language": "en",
+      "factor": "Conscientiousness",
+      "keyed": "-"
+    },
+    {
+      "num": "60",
+      "text": "Leave a mess in my room.",
+      "language": "en",
+      "factor": "Conscientiousness",
+      "keyed": "-"
+    },
+    {
+      "num": "61",
+      "text": "Am relaxed most of the time.",
+      "language": "en",
+      "factor": "Emotional Stability",
+      "keyed": "+"
+    },
+    {
+      "num": "62",
+      "text": "Seldom feel blue.",
+      "language": "en",
+      "factor": "Emotional Stability",
+      "keyed": "+"
+    },
+    {
+      "num": "63",
+      "text": "Am not easily bothered by things.",
+      "language": "en",
+      "factor": "Emotional Stability",
+      "keyed": "+"
+    },
+    {
+      "num": "64",
+      "text": "Rarely get irritated.",
+      "language": "en",
+      "factor": "Emotional Stability",
+      "keyed": "+"
+    },
+    {
+      "num": "65",
+      "text": "Seldom get mad.",
+      "language": "en",
+      "factor": "Emotional Stability",
+      "keyed": "+"
+    },
+    {
+      "num": "66",
+      "text": "Get stressed out easily.",
+      "language": "en",
+      "factor": "Emotional Stability",
+      "keyed": "-"
+    },
+    {
+      "num": "67",
+      "text": "Worry about things.",
+      "language": "en",
+      "factor": "Emotional Stability",
+      "keyed": "-"
+    },
+    {
+      "num": "68",
+      "text": "Am easily disturbed.",
+      "language": "en",
+      "factor": "Emotional Stability",
+      "keyed": "-"
+    },
+    {
+      "num": "69",
+      "text": "Get upset easily.",
+      "language": "en",
+      "factor": "Emotional Stability",
+      "keyed": "-"
+    },
+    {
+      "num": "70",
+      "text": "Change my mood a lot.",
+      "language": "en",
+      "factor": "Emotional Stability",
+      "keyed": "-"
+    },
+    {
+      "num": "71",
+      "text": "Have frequent mood swings.",
+      "language": "en",
+      "factor": "Emotional Stability",
+      "keyed": "-"
+    },
+    {
+      "num": "72",
+      "text": "Get irritated easily.",
+      "language": "en",
+      "factor": "Emotional Stability",
+      "keyed": "-"
+    },
+    {
+      "num": "73",
+      "text": "Often feel blue.",
+      "language": "en",
+      "factor": "Emotional Stability",
+      "keyed": "-"
+    },
+    {
+      "num": "74",
+      "text": "Get angry easily.",
+      "language": "en",
+      "factor": "Emotional Stability",
+      "keyed": "-"
+    },
+    {
+      "num": "75",
+      "text": "Panic easily.",
+      "language": "en",
+      "factor": "Emotional Stability",
+      "keyed": "-"
+    },
+    {
+      "num": "76",
+      "text": "Feel threatened easily.",
+      "language": "en",
+      "factor": "Emotional Stability",
+      "keyed": "-"
+    },
+    {
+      "num": "77",
+      "text": "Get overwhelmed by emotions.",
+      "language": "en",
+      "factor": "Emotional Stability",
+      "keyed": "-"
+    },
+    {
+      "num": "78",
+      "text": "Take offense easily.",
+      "language": "en",
+      "factor": "Emotional Stability",
+      "keyed": "-"
+    },
+    {
+      "num": "79",
+      "text": "Get caught up in my problems.",
+      "language": "en",
+      "factor": "Emotional Stability",
+      "keyed": "-"
+    },
+    {
+      "num": "80",
+      "text": "Grumble about things.",
+      "language": "en",
+      "factor": "Emotional Stability",
+      "keyed": "-"
+    },
+    {
+      "num": "81",
+      "text": "Have a rich vocabulary.",
+      "language": "en",
+      "factor": "Intellect/Imagination",
+      "keyed": "+"
+    },
+    {
+      "num": "82",
+      "text": "Have a vivid imagination.",
+      "language": "en",
+      "factor": "Intellect/Imagination",
+      "keyed": "+"
+    },
+    {
+      "num": "83",
+      "text": "Have excellent ideas.",
+      "language": "en",
+      "factor": "Intellect/Imagination",
+      "keyed": "+"
+    },
+    {
+      "num": "84",
+      "text": "Am quick to understand things.",
+      "language": "en",
+      "factor": "Intellect/Imagination",
+      "keyed": "+"
+    },
+    {
+      "num": "85",
+      "text": "Use difficult words.",
+      "language": "en",
+      "factor": "Intellect/Imagination",
+      "keyed": "+"
+    },
+    {
+      "num": "86",
+      "text": "Spend time reflecting on things.",
+      "language": "en",
+      "factor": "Intellect/Imagination",
+      "keyed": "+"
+    },
+    {
+      "num": "87",
+      "text": "Am full of ideas.",
+      "language": "en",
+      "factor": "Intellect/Imagination",
+      "keyed": "+"
+    },
+    {
+      "num": "88",
+      "text": "Carry the conversation to a higher level.",
+      "language": "en",
+      "factor": "Intellect/Imagination",
+      "keyed": "+"
+    },
+    {
+      "num": "89",
+      "text": "Catch on to things quickly.",
+      "language": "en",
+      "factor": "Intellect/Imagination",
+      "keyed": "+"
+    },
+    {
+      "num": "90",
+      "text": "Can handle a lot of information.",
+      "language": "en",
+      "factor": "Intellect/Imagination",
+      "keyed": "+"
+    },
+    {
+      "num": "91",
+      "text": "Love to think up new ways of doing things.",
+      "language": "en",
+      "factor": "Intellect/Imagination",
+      "keyed": "+"
+    },
+    {
+      "num": "92",
+      "text": "Love to read challenging material.",
+      "language": "en",
+      "factor": "Intellect/Imagination",
+      "keyed": "+"
+    },
+    {
+      "num": "93",
+      "text": "Am good at many things.",
+      "language": "en",
+      "factor": "Intellect/Imagination",
+      "keyed": "+"
+    },
+    {
+      "num": "94",
+      "text": "Have difficulty understanding abstract ideas.",
+      "language": "en",
+      "factor": "Intellect/Imagination",
+      "keyed": "-"
+    },
+    {
+      "num": "95",
+      "text": "Am not interested in abstract ideas.",
+      "language": "en",
+      "factor": "Intellect/Imagination",
+      "keyed": "-"
+    },
+    {
+      "num": "96",
+      "text": "Do not have a good imagination.",
+      "language": "en",
+      "factor": "Intellect/Imagination",
+      "keyed": "-"
+    },
+    {
+      "num": "97",
+      "text": "Try to avoid complex people.",
+      "language": "en",
+      "factor": "Intellect/Imagination",
+      "keyed": "-"
+    },
+    {
+      "num": "98",
+      "text": "Have difficulty imagining things.",
+      "language": "en",
+      "factor": "Intellect/Imagination",
+      "keyed": "-"
+    },
+    {
+      "num": "99",
+      "text": "Avoid difficult reading material.",
+      "language": "en",
+      "factor": "Intellect/Imagination",
+      "keyed": "-"
+    },
+    {
+      "num": "100",
+      "text": "Will not probe deeply into a subject.",
+      "language": "en",
+      "factor": "Intellect/Imagination",
+      "keyed": "-"
+    }
+  ]
+}

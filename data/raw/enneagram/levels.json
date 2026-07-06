@@ -1,0 +1,58 @@
+{
+  "_meta": {
+    "kind": "reference",
+    "subject": "Riso-Hudson Levels of Development (health continuum) — basis for 'current psychological health state' feature",
+    "attribution": "The nine named Levels are proprietary Riso-Hudson (© The Enneagram Institute) creative expression — treat the level NAMES as short attributed quotations. The concept of a 9-level healthy/average/unhealthy continuum is the structure.",
+    "safe_for_commercial_reuse": "structure=yes; the specific level NAMES are attributed EI quotations — paraphrase before publishing UI copy",
+    "verified": "adversarially fact-checked by a second agent against primary sources (deepinme research workflow, 2026-07)",
+    "license_class": "attributed_quotation",
+    "safe_for_noncommercial_reuse": true,
+    "source": "see reference/sources.md and _meta of related item files",
+    "sources": [
+      {
+        "title": "See aggregated sources",
+        "url": "reference/sources.md",
+        "license": "mixed — see file"
+      }
+    ]
+  },
+  "levels": {
+    "description": "Riso-Hudson Levels of Development: a vertical continuum of nine Levels within each type measuring psychological health, from most free/liberated (Level 1) to most pathological (Level 9), grouped into three bands.",
+    "healthy": {
+      "levels": [
+        1,
+        2,
+        3
+      ],
+      "names": {
+        "1": "The Level of Liberation",
+        "2": "The Level of Psychological Capacity",
+        "3": "The Level of Social Value"
+      }
+    },
+    "average": {
+      "levels": [
+        4,
+        5,
+        6
+      ],
+      "names": {
+        "4": "The Level of Imbalance / Social Role",
+        "5": "The Level of Interpersonal Control",
+        "6": "The Level of Overcompensation"
+      }
+    },
+    "unhealthy": {
+      "levels": [
+        7,
+        8,
+        9
+      ],
+      "names": {
+        "7": "The Level of Violation",
+        "8": "The Level of Obsession and Compulsion",
+        "9": "The Level of Pathological Destructiveness"
+      }
+    }
+  }
+}

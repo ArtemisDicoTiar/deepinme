@@ -1,0 +1,878 @@
+{
+  "_meta": {
+    "instrument": "IPIP Big-Five Factor Markers (100-item) — 한국어 번역",
+    "full_name": "International Personality Item Pool (IPIP) Big-Five Factor Markers, 100-item version (based on Goldberg's 1992 unipolar Big-Five markers) (Korean translation)",
+    "source_url": "https://ipip.ori.org/newBigFive5broadKey.htm",
+    "license": "Public domain. Per the IPIP website (ipip.ori.org): \"The items and scales are in the public domain, which means that one can copy, edit, translate, or use them for any purpose without asking permission and without paying a fee.\"",
+    "license_class": "public_domain",
+    "safe_for_noncommercial_reuse": true,
+    "safe_for_commercial_reuse": true,
+    "reuse_notes": "한국어 번역(파생물). 비상업 1단계용. LLM 번역이며 검증된 한국어 표준검사가 아님 — 실사용 전 재검수 권장. 라이선스는 원본을 따르되 번역은 파생물이므로 CC-SA/연구용 조건이 그대로 적용됨.",
+    "attribution": "Items from the International Personality Item Pool (IPIP), based on Goldberg's Big-Five factor markers. Cite: Goldberg, L. R. (1992). The development of markers for the Big-Five factor structure. Psychological Assessment, 4, 26-42. And: Goldberg, L. R., Johnson, J. A., Eber, H. W., Hogan, R., Ashton, M. C., Cloninger, C. R., & Gough, H. G. (2006). The International Personality Item Pool and the future of public-domain personality measures. Journal of Research in Personality, 40, 84-96. Source of scales: International Personality Item Pool, https://ipip.ori.org/. · 한국어 번역: deepinme 번역 워크플로우(2026-07, LLM).",
+    "scoring_notes": "Standard IPIP scoring: administer on a 5-point Likert scale (1 = Very Inaccurate ... 5 = Very Accurate); score + keyed items 1->5 and - keyed items reversed 5->1, then sum the 20 items within each factor. The 100-item version is composed of the 20-item scale for each of the five factors on the IPIP scoring-key page (reported alphas: Extraversion .91, Agreeableness .88, Conscientiousness .88, Emotional Stability .91, Intellect/Imagination .90). Keying breakdown by factor: Extraversion 10+/10-, Agreeableness 14+/6-, Conscientiousness 11+/9-, Emotional Stability 5+/15-, Intellect/Imagination 13+/7- (53 positive, 47 negative overall). Note: Factor IV is scored as Emotional Stability (the reverse pole of Neuroticism) and Factor V (Intellect/Imagination) corresponds to Openness. The separately-collected 50-item version (10 items per factor) is a proper subset of these 100 items.",
+    "cautions": "All 100 items were fetched verbatim from the raw HTML of the official IPIP scoring-key page (https://ipip.ori.org/newBigFive5broadKey.htm); none were reconstructed from memory. The 100-item version equals the \"20-item scale\" for each of the five factors listed on that page; the same page also lists the \"10-item scale\" per factor, which is the 50-item version (a proper subset, collected elsewhere). Item text is preserved exactly including trailing periods; items are written as verb phrases with an implied first-person \"I\" stem (the questionnaire prepends \"I...\" at administration). Per-factor keying is unbalanced (e.g., Emotional Stability is only 5+/15-), which is faithful to the source, not an extraction error. The scoring key groups items by factor and does NOT specify a single canonical mixed administration order; the \"num\" values (1-100) are a sequential index I assigned in factor-grouped, +then- order for reference, not item numbers from the source. This instrument has no facet structure (it is a factor-marker set), so no facet labels are provided. Factor IV is scored toward Emotional Stability (reverse of Neuroticism) and Factor V (Intellect/Imagination) is the IPIP label for Openness. License verified as public domain from the IPIP homepage. | 번역본: 문항 순서·채점방향(keyed)·factor/facet은 원본과 동일. text_en에 원문 병기.",
+    "translation": {
+      "language": "ko",
+      "translated_from": "raw/bigfive/items.ipip-big-five-markers-100.json",
+      "method": "LLM faithful translation (deepinme workflow, 2026-07) — 충실 번역이며 '쉬운말 리라이팅'은 별도 단계",
+      "status": "working draft — NOT a validated Korean instrument",
+      "qa": {
+        "fidelity": "high",
+        "naturalness": "natural",
+        "count_match": true,
+        "reviewer_overall": "Very clean, high-quality translation set. All 100 source items are translated one-to-one with unique IDs 1-100 (count matches). Every item preserves the measured trait meaning and uses a consistent first-person self-report frame ('나는 …다'), and reverse-keyed items are correctly presented as plain affirmative statements rather than negated — the proper IPIP convention. Naturalness is high; the Korean reads idiomatically rather than as translationese. Only a handful of low-severity nits: item 85 adds an unwarranted 'enjoy' (즐겨) nuance, item 76 uses the stiff coinage '위협감', and item 59 is wordy/formal (착수); item 63 is a mild idiomatic shift. None of these change the construct being measured. Fidelity: high; naturalness: natural.",
+        "issues": [
+          {
+            "id": "85",
+            "problem": "'Use difficult words' is rendered as '어려운 단어를 즐겨 쓴다', where '즐겨' adds an enjoyment/preference nuance ('enjoy using') that is not in the neutral, habitual English source.",
+            "suggestion": "나는 어려운 단어를 자주 쓴다. (or simply: 나는 어려운 단어를 쓴다.)"
+          },
+          {
+            "id": "76",
+            "problem": "'Feel threatened easily' → '쉽게 위협감을 느낀다'. '위협감' is a stiff/clinical coinage and reads slightly awkwardly.",
+            "suggestion": "나는 쉽게 위협을 느낀다."
+          },
+          {
+            "id": "59",
+            "problem": "'Find it difficult to get down to work' → '일에 집중해서 착수하는 것을 어려워한다' is wordy and '착수' is formal/번역투-ish for an everyday self-report item.",
+            "suggestion": "나는 좀처럼 일을 시작하지 못한다. (or: 나는 일에 손을 대기가 어렵다.)"
+          },
+          {
+            "id": "63",
+            "problem": "'Am not easily bothered by things' → '웬만한 일로는 마음이 흔들리지 않는다' slightly shifts 'bothered/annoyed' toward 'shaken/swayed'; acceptable but not a literal match.",
+            "suggestion": "나는 웬만한 일에는 별로 신경 쓰지 않는다. (only if a closer match to 'bothered' is desired; current version is defensible.)"
+          }
+        ]
+      }
+    },
+    "verification": {
+      "summary": "번역 QA(2차 에이전트): fidelity=high, naturalness=natural, count_match=True, issues=4",
+      "fabrication_risk": "none"
+    },
+    "sources": [
+      {
+        "title": "IPIP Big-Five Factor Markers - Scoring Key (Factors I-V, 10- and 20-item scales)",
+        "url": "https://ipip.ori.org/newBigFive5broadKey.htm",
+        "license": "Public domain"
+      },
+      {
+        "title": "International Personality Item Pool (IPIP) Home - public-domain statement",
+        "url": "https://ipip.ori.org/",
+        "license": "Public domain"
+      },
+      {
+        "title": "Administering IPIP Measures, with a 50-item Sample Questionnaire (scoring instructions)",
+        "url": "https://ipip.ori.org/new_ipip-50-item-scale.htm",
+        "license": "Public domain"
+      },
+      {
+        "title": "Korean translation (deepinme workflow)",
+        "url": "https://ipip.ori.org/newBigFive5broadKey.htm",
+        "license": "translation is a derivative; see reuse_notes"
+      }
+    ]
+  },
+  "count": 100,
+  "items": [
+    {
+      "num": "1",
+      "text": "나는 파티에서 분위기를 주도하는 편이다.",
+      "text_en": "Am the life of the party.",
+      "language": "ko",
+      "factor": "Extraversion",
+      "keyed": "+"
+    },
+    {
+      "num": "2",
+      "text": "나는 사람들과 함께 있을 때 편안함을 느낀다.",
+      "text_en": "Feel comfortable around people.",
+      "language": "ko",
+      "factor": "Extraversion",
+      "keyed": "+"
+    },
+    {
+      "num": "3",
+      "text": "나는 먼저 대화를 시작하는 편이다.",
+      "text_en": "Start conversations.",
+      "language": "ko",
+      "factor": "Extraversion",
+      "keyed": "+"
+    },
+    {
+      "num": "4",
+      "text": "나는 파티에서 여러 다양한 사람들과 이야기를 나눈다.",
+      "text_en": "Talk to a lot of different people at parties.",
+      "language": "ko",
+      "factor": "Extraversion",
+      "keyed": "+"
+    },
+    {
+      "num": "5",
+      "text": "나는 주목받는 것을 개의치 않는다.",
+      "text_en": "Don't mind being the center of attention.",
+      "language": "ko",
+      "factor": "Extraversion",
+      "keyed": "+"
+    },
+    {
+      "num": "6",
+      "text": "나는 쉽게 친구를 사귄다.",
+      "text_en": "Make friends easily.",
+      "language": "ko",
+      "factor": "Extraversion",
+      "keyed": "+"
+    },
+    {
+      "num": "7",
+      "text": "나는 나서서 상황을 주도한다.",
+      "text_en": "Take charge.",
+      "language": "ko",
+      "factor": "Extraversion",
+      "keyed": "+"
+    },
+    {
+      "num": "8",
+      "text": "나는 사람들의 마음을 사로잡는 법을 안다.",
+      "text_en": "Know how to captivate people.",
+      "language": "ko",
+      "factor": "Extraversion",
+      "keyed": "+"
+    },
+    {
+      "num": "9",
+      "text": "나는 사람들과 있으면 마음이 편하다.",
+      "text_en": "Feel at ease with people.",
+      "language": "ko",
+      "factor": "Extraversion",
+      "keyed": "+"
+    },
+    {
+      "num": "10",
+      "text": "나는 사교적인 상황에 능숙하게 대처한다.",
+      "text_en": "Am skilled in handling social situations.",
+      "language": "ko",
+      "factor": "Extraversion",
+      "keyed": "+"
+    },
+    {
+      "num": "11",
+      "text": "나는 말수가 적은 편이다.",
+      "text_en": "Don't talk a lot.",
+      "language": "ko",
+      "factor": "Extraversion",
+      "keyed": "-"
+    },
+    {
+      "num": "12",
+      "text": "나는 나서지 않고 뒤로 물러나 있는 편이다.",
+      "text_en": "Keep in the background.",
+      "language": "ko",
+      "factor": "Extraversion",
+      "keyed": "-"
+    },
+    {
+      "num": "13",
+      "text": "나는 할 말이 별로 없다.",
+      "text_en": "Have little to say.",
+      "language": "ko",
+      "factor": "Extraversion",
+      "keyed": "-"
+    },
+    {
+      "num": "14",
+      "text": "나는 나에게 관심이 쏠리는 것을 좋아하지 않는다.",
+      "text_en": "Don't like to draw attention to myself.",
+      "language": "ko",
+      "factor": "Extraversion",
+      "keyed": "-"
+    },
+    {
+      "num": "15",
+      "text": "나는 낯선 사람들 앞에서는 조용한 편이다.",
+      "text_en": "Am quiet around strangers.",
+      "language": "ko",
+      "factor": "Extraversion",
+      "keyed": "-"
+    },
+    {
+      "num": "16",
+      "text": "나는 다른 사람에게 먼저 다가가는 것을 어려워한다.",
+      "text_en": "Find it difficult to approach others.",
+      "language": "ko",
+      "factor": "Extraversion",
+      "keyed": "-"
+    },
+    {
+      "num": "17",
+      "text": "나는 다른 사람들과 있을 때 자주 불편함을 느낀다.",
+      "text_en": "Often feel uncomfortable around others.",
+      "language": "ko",
+      "factor": "Extraversion",
+      "keyed": "-"
+    },
+    {
+      "num": "18",
+      "text": "나는 내 감정을 속으로 억누른다.",
+      "text_en": "Bottle up my feelings.",
+      "language": "ko",
+      "factor": "Extraversion",
+      "keyed": "-"
+    },
+    {
+      "num": "19",
+      "text": "나는 자신을 좀처럼 드러내지 않는 사람이다.",
+      "text_en": "Am a very private person.",
+      "language": "ko",
+      "factor": "Extraversion",
+      "keyed": "-"
+    },
+    {
+      "num": "20",
+      "text": "나는 다른 사람이 먼저 나서주기를 기다린다.",
+      "text_en": "Wait for others to lead the way.",
+      "language": "ko",
+      "factor": "Extraversion",
+      "keyed": "-"
+    },
+    {
+      "num": "21",
+      "text": "나는 사람들에게 관심이 많다.",
+      "text_en": "Am interested in people.",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "keyed": "+"
+    },
+    {
+      "num": "22",
+      "text": "나는 다른 사람의 감정에 공감한다.",
+      "text_en": "Sympathize with others' feelings.",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "keyed": "+"
+    },
+    {
+      "num": "23",
+      "text": "나는 마음이 여린 편이다.",
+      "text_en": "Have a soft heart.",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "keyed": "+"
+    },
+    {
+      "num": "24",
+      "text": "나는 다른 사람을 위해 기꺼이 시간을 낸다.",
+      "text_en": "Take time out for others.",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "keyed": "+"
+    },
+    {
+      "num": "25",
+      "text": "나는 다른 사람의 감정을 함께 느낀다.",
+      "text_en": "Feel others' emotions.",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "keyed": "+"
+    },
+    {
+      "num": "26",
+      "text": "나는 사람들의 마음을 편하게 해 준다.",
+      "text_en": "Make people feel at ease.",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "keyed": "+"
+    },
+    {
+      "num": "27",
+      "text": "나는 다른 사람의 안부를 챙긴다.",
+      "text_en": "Inquire about others' well-being.",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "keyed": "+"
+    },
+    {
+      "num": "28",
+      "text": "나는 다른 사람을 위로할 줄 안다.",
+      "text_en": "Know how to comfort others.",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "keyed": "+"
+    },
+    {
+      "num": "29",
+      "text": "나는 아이들을 무척 좋아한다.",
+      "text_en": "Love children.",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "keyed": "+"
+    },
+    {
+      "num": "30",
+      "text": "나는 거의 모든 사람과 사이가 좋다.",
+      "text_en": "Am on good terms with nearly everyone.",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "keyed": "+"
+    },
+    {
+      "num": "31",
+      "text": "나는 누구에게나 좋은 말을 건넨다.",
+      "text_en": "Have a good word for everyone.",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "keyed": "+"
+    },
+    {
+      "num": "32",
+      "text": "나는 고마운 마음을 잘 표현한다.",
+      "text_en": "Show my gratitude.",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "keyed": "+"
+    },
+    {
+      "num": "33",
+      "text": "나는 다른 사람을 먼저 생각한다.",
+      "text_en": "Think of others first.",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "keyed": "+"
+    },
+    {
+      "num": "34",
+      "text": "나는 다른 사람을 돕는 것을 좋아한다.",
+      "text_en": "Love to help others.",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "keyed": "+"
+    },
+    {
+      "num": "35",
+      "text": "나는 사람들에게 모욕적인 말을 한다.",
+      "text_en": "Insult people.",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "keyed": "-"
+    },
+    {
+      "num": "36",
+      "text": "나는 다른 사람의 문제에는 관심이 없다.",
+      "text_en": "Am not interested in other people's problems.",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "keyed": "-"
+    },
+    {
+      "num": "37",
+      "text": "나는 다른 사람을 별로 신경 쓰지 않는다.",
+      "text_en": "Feel little concern for others.",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "keyed": "-"
+    },
+    {
+      "num": "38",
+      "text": "나는 다른 사람에게 별로 관심이 없다.",
+      "text_en": "Am not really interested in others.",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "keyed": "-"
+    },
+    {
+      "num": "39",
+      "text": "나는 남들이 알아가기 어려운 사람이다.",
+      "text_en": "Am hard to get to know.",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "keyed": "-"
+    },
+    {
+      "num": "40",
+      "text": "나는 다른 사람의 감정에 무관심하다.",
+      "text_en": "Am indifferent to the feelings of others.",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "keyed": "-"
+    },
+    {
+      "num": "41",
+      "text": "나는 항상 준비가 되어 있다.",
+      "text_en": "Am always prepared.",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "keyed": "+"
+    },
+    {
+      "num": "42",
+      "text": "나는 세부적인 것까지 꼼꼼히 신경 쓴다.",
+      "text_en": "Pay attention to details.",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "keyed": "+"
+    },
+    {
+      "num": "43",
+      "text": "나는 해야 할 일을 바로바로 처리한다.",
+      "text_en": "Get chores done right away.",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "keyed": "+"
+    },
+    {
+      "num": "44",
+      "text": "나는 정돈된 상태를 좋아한다.",
+      "text_en": "Like order.",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "keyed": "+"
+    },
+    {
+      "num": "45",
+      "text": "나는 정해진 일정에 따라 움직인다.",
+      "text_en": "Follow a schedule.",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "keyed": "+"
+    },
+    {
+      "num": "46",
+      "text": "나는 일을 빈틈없이 꼼꼼하게 한다.",
+      "text_en": "Am exacting in my work.",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "keyed": "+"
+    },
+    {
+      "num": "47",
+      "text": "나는 계획에 따라 일을 처리한다.",
+      "text_en": "Do things according to a plan.",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "keyed": "+"
+    },
+    {
+      "num": "48",
+      "text": "나는 모든 것이 완벽해질 때까지 계속한다.",
+      "text_en": "Continue until everything is perfect.",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "keyed": "+"
+    },
+    {
+      "num": "49",
+      "text": "나는 계획을 세우면 그대로 지킨다.",
+      "text_en": "Make plans and stick to them.",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "keyed": "+"
+    },
+    {
+      "num": "50",
+      "text": "나는 질서와 규칙적인 것을 매우 좋아한다.",
+      "text_en": "Love order and regularity.",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "keyed": "+"
+    },
+    {
+      "num": "51",
+      "text": "나는 정리 정돈하는 것을 좋아한다.",
+      "text_en": "Like to tidy up.",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "keyed": "+"
+    },
+    {
+      "num": "52",
+      "text": "나는 내 물건을 여기저기 늘어놓는다.",
+      "text_en": "Leave my belongings around.",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "keyed": "-"
+    },
+    {
+      "num": "53",
+      "text": "나는 이것저것 어질러 놓는다.",
+      "text_en": "Make a mess of things.",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "keyed": "-"
+    },
+    {
+      "num": "54",
+      "text": "나는 물건을 제자리에 두는 것을 자주 잊는다.",
+      "text_en": "Often forget to put things back in their proper place.",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "keyed": "-"
+    },
+    {
+      "num": "55",
+      "text": "나는 해야 할 일을 회피한다.",
+      "text_en": "Shirk my duties.",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "keyed": "-"
+    },
+    {
+      "num": "56",
+      "text": "나는 해야 할 일을 소홀히 한다.",
+      "text_en": "Neglect my duties.",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "keyed": "-"
+    },
+    {
+      "num": "57",
+      "text": "나는 시간을 헛되이 보낸다.",
+      "text_en": "Waste my time.",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "keyed": "-"
+    },
+    {
+      "num": "58",
+      "text": "나는 무슨 일이든 어중간하게 하다 만다.",
+      "text_en": "Do things in a half-way manner.",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "keyed": "-"
+    },
+    {
+      "num": "59",
+      "text": "나는 일에 집중해서 착수하는 것을 어려워한다.",
+      "text_en": "Find it difficult to get down to work.",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "keyed": "-"
+    },
+    {
+      "num": "60",
+      "text": "나는 방을 어질러 놓는다.",
+      "text_en": "Leave a mess in my room.",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "keyed": "-"
+    },
+    {
+      "num": "61",
+      "text": "나는 대체로 느긋한 편이다.",
+      "text_en": "Am relaxed most of the time.",
+      "language": "ko",
+      "factor": "Emotional Stability",
+      "keyed": "+"
+    },
+    {
+      "num": "62",
+      "text": "나는 좀처럼 우울해지지 않는다.",
+      "text_en": "Seldom feel blue.",
+      "language": "ko",
+      "factor": "Emotional Stability",
+      "keyed": "+"
+    },
+    {
+      "num": "63",
+      "text": "나는 웬만한 일로는 마음이 흔들리지 않는다.",
+      "text_en": "Am not easily bothered by things.",
+      "language": "ko",
+      "factor": "Emotional Stability",
+      "keyed": "+"
+    },
+    {
+      "num": "64",
+      "text": "나는 좀처럼 짜증을 내지 않는다.",
+      "text_en": "Rarely get irritated.",
+      "language": "ko",
+      "factor": "Emotional Stability",
+      "keyed": "+"
+    },
+    {
+      "num": "65",
+      "text": "나는 좀처럼 화를 내지 않는다.",
+      "text_en": "Seldom get mad.",
+      "language": "ko",
+      "factor": "Emotional Stability",
+      "keyed": "+"
+    },
+    {
+      "num": "66",
+      "text": "나는 쉽게 스트레스를 받는다.",
+      "text_en": "Get stressed out easily.",
+      "language": "ko",
+      "factor": "Emotional Stability",
+      "keyed": "-"
+    },
+    {
+      "num": "67",
+      "text": "나는 이런저런 걱정을 자주 한다.",
+      "text_en": "Worry about things.",
+      "language": "ko",
+      "factor": "Emotional Stability",
+      "keyed": "-"
+    },
+    {
+      "num": "68",
+      "text": "나는 쉽게 심란해진다.",
+      "text_en": "Am easily disturbed.",
+      "language": "ko",
+      "factor": "Emotional Stability",
+      "keyed": "-"
+    },
+    {
+      "num": "69",
+      "text": "나는 쉽게 속상해한다.",
+      "text_en": "Get upset easily.",
+      "language": "ko",
+      "factor": "Emotional Stability",
+      "keyed": "-"
+    },
+    {
+      "num": "70",
+      "text": "나는 기분 변화가 심하다.",
+      "text_en": "Change my mood a lot.",
+      "language": "ko",
+      "factor": "Emotional Stability",
+      "keyed": "-"
+    },
+    {
+      "num": "71",
+      "text": "나는 기분이 자주 오르락내리락한다.",
+      "text_en": "Have frequent mood swings.",
+      "language": "ko",
+      "factor": "Emotional Stability",
+      "keyed": "-"
+    },
+    {
+      "num": "72",
+      "text": "나는 쉽게 짜증을 낸다.",
+      "text_en": "Get irritated easily.",
+      "language": "ko",
+      "factor": "Emotional Stability",
+      "keyed": "-"
+    },
+    {
+      "num": "73",
+      "text": "나는 자주 우울해진다.",
+      "text_en": "Often feel blue.",
+      "language": "ko",
+      "factor": "Emotional Stability",
+      "keyed": "-"
+    },
+    {
+      "num": "74",
+      "text": "나는 쉽게 화를 낸다.",
+      "text_en": "Get angry easily.",
+      "language": "ko",
+      "factor": "Emotional Stability",
+      "keyed": "-"
+    },
+    {
+      "num": "75",
+      "text": "나는 쉽게 당황하며 허둥댄다.",
+      "text_en": "Panic easily.",
+      "language": "ko",
+      "factor": "Emotional Stability",
+      "keyed": "-"
+    },
+    {
+      "num": "76",
+      "text": "나는 쉽게 위협감을 느낀다.",
+      "text_en": "Feel threatened easily.",
+      "language": "ko",
+      "factor": "Emotional Stability",
+      "keyed": "-"
+    },
+    {
+      "num": "77",
+      "text": "나는 감정에 쉽게 압도된다.",
+      "text_en": "Get overwhelmed by emotions.",
+      "language": "ko",
+      "factor": "Emotional Stability",
+      "keyed": "-"
+    },
+    {
+      "num": "78",
+      "text": "나는 쉽게 기분이 상한다.",
+      "text_en": "Take offense easily.",
+      "language": "ko",
+      "factor": "Emotional Stability",
+      "keyed": "-"
+    },
+    {
+      "num": "79",
+      "text": "나는 내 문제에 사로잡히곤 한다.",
+      "text_en": "Get caught up in my problems.",
+      "language": "ko",
+      "factor": "Emotional Stability",
+      "keyed": "-"
+    },
+    {
+      "num": "80",
+      "text": "나는 이것저것 투덜거린다.",
+      "text_en": "Grumble about things.",
+      "language": "ko",
+      "factor": "Emotional Stability",
+      "keyed": "-"
+    },
+    {
+      "num": "81",
+      "text": "나는 어휘력이 풍부하다.",
+      "text_en": "Have a rich vocabulary.",
+      "language": "ko",
+      "factor": "Intellect/Imagination",
+      "keyed": "+"
+    },
+    {
+      "num": "82",
+      "text": "나는 상상력이 풍부하다.",
+      "text_en": "Have a vivid imagination.",
+      "language": "ko",
+      "factor": "Intellect/Imagination",
+      "keyed": "+"
+    },
+    {
+      "num": "83",
+      "text": "나는 훌륭한 아이디어를 잘 떠올린다.",
+      "text_en": "Have excellent ideas.",
+      "language": "ko",
+      "factor": "Intellect/Imagination",
+      "keyed": "+"
+    },
+    {
+      "num": "84",
+      "text": "나는 무엇이든 빠르게 이해한다.",
+      "text_en": "Am quick to understand things.",
+      "language": "ko",
+      "factor": "Intellect/Imagination",
+      "keyed": "+"
+    },
+    {
+      "num": "85",
+      "text": "나는 어려운 단어를 즐겨 쓴다.",
+      "text_en": "Use difficult words.",
+      "language": "ko",
+      "factor": "Intellect/Imagination",
+      "keyed": "+"
+    },
+    {
+      "num": "86",
+      "text": "나는 여러 가지를 곰곰이 성찰하는 시간을 갖는다.",
+      "text_en": "Spend time reflecting on things.",
+      "language": "ko",
+      "factor": "Intellect/Imagination",
+      "keyed": "+"
+    },
+    {
+      "num": "87",
+      "text": "나는 아이디어가 넘친다.",
+      "text_en": "Am full of ideas.",
+      "language": "ko",
+      "factor": "Intellect/Imagination",
+      "keyed": "+"
+    },
+    {
+      "num": "88",
+      "text": "나는 대화를 더 깊이 있는 수준으로 끌어올린다.",
+      "text_en": "Carry the conversation to a higher level.",
+      "language": "ko",
+      "factor": "Intellect/Imagination",
+      "keyed": "+"
+    },
+    {
+      "num": "89",
+      "text": "나는 무엇이든 금방 터득한다.",
+      "text_en": "Catch on to things quickly.",
+      "language": "ko",
+      "factor": "Intellect/Imagination",
+      "keyed": "+"
+    },
+    {
+      "num": "90",
+      "text": "나는 많은 정보를 잘 다룰 수 있다.",
+      "text_en": "Can handle a lot of information.",
+      "language": "ko",
+      "factor": "Intellect/Imagination",
+      "keyed": "+"
+    },
+    {
+      "num": "91",
+      "text": "나는 일을 하는 새로운 방식을 궁리해 내는 것을 좋아한다.",
+      "text_en": "Love to think up new ways of doing things.",
+      "language": "ko",
+      "factor": "Intellect/Imagination",
+      "keyed": "+"
+    },
+    {
+      "num": "92",
+      "text": "나는 어렵고 도전적인 글을 읽는 것을 좋아한다.",
+      "text_en": "Love to read challenging material.",
+      "language": "ko",
+      "factor": "Intellect/Imagination",
+      "keyed": "+"
+    },
+    {
+      "num": "93",
+      "text": "나는 여러 방면에 두루 능하다.",
+      "text_en": "Am good at many things.",
+      "language": "ko",
+      "factor": "Intellect/Imagination",
+      "keyed": "+"
+    },
+    {
+      "num": "94",
+      "text": "나는 추상적인 개념을 이해하는 데 어려움을 느낀다.",
+      "text_en": "Have difficulty understanding abstract ideas.",
+      "language": "ko",
+      "factor": "Intellect/Imagination",
+      "keyed": "-"
+    },
+    {
+      "num": "95",
+      "text": "나는 추상적인 개념에 관심이 없다.",
+      "text_en": "Am not interested in abstract ideas.",
+      "language": "ko",
+      "factor": "Intellect/Imagination",
+      "keyed": "-"
+    },
+    {
+      "num": "96",
+      "text": "나는 상상력이 풍부하지 않다.",
+      "text_en": "Do not have a good imagination.",
+      "language": "ko",
+      "factor": "Intellect/Imagination",
+      "keyed": "-"
+    },
+    {
+      "num": "97",
+      "text": "나는 복잡한 사람은 피하려고 한다.",
+      "text_en": "Try to avoid complex people.",
+      "language": "ko",
+      "factor": "Intellect/Imagination",
+      "keyed": "-"
+    },
+    {
+      "num": "98",
+      "text": "나는 무언가를 상상하는 것을 어려워한다.",
+      "text_en": "Have difficulty imagining things.",
+      "language": "ko",
+      "factor": "Intellect/Imagination",
+      "keyed": "-"
+    },
+    {
+      "num": "99",
+      "text": "나는 어려운 읽을거리는 피한다.",
+      "text_en": "Avoid difficult reading material.",
+      "language": "ko",
+      "factor": "Intellect/Imagination",
+      "keyed": "-"
+    },
+    {
+      "num": "100",
+      "text": "나는 어떤 주제를 깊이 파고들지 않는다.",
+      "text_en": "Will not probe deeply into a subject.",
+      "language": "ko",
+      "factor": "Intellect/Imagination",
+      "keyed": "-"
+    }
+  ]
+}

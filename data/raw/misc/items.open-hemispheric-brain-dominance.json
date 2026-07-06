@@ -1,0 +1,191 @@
+{
+  "_meta": {
+    "instrument": "OHBDS",
+    "full_name": "Open Hemispheric Brain Dominance Scale",
+    "source_url": "https://openpsychometrics.org/tests/OHBDS/development/",
+    "license": "Creative Commons license (specific CC variant not stated). The Open-Source Psychometrics Project (openpsychometrics.org) states on its About page that the tests it has developed \"are made available under a creative commons license,\" and its /development/ page lists the OHBDS among the tests it developed that \"are available under a creative commons licence.\" Because even the most restrictive CC license permits non-commercial reproduction, this is safe for a non-commercial research corpus. NOTE: this is openpsychometrics.ORG (the actual open-source project), NOT openpsychometrics.NET, a separate re-host whose Terms reserve all rights. The interactive test additionally carries a use disclaimer: \"You use of this assessment should be for educational or entertainment purposes only. This is not psychological advice of any kind.\" The underlying construct items were newly written/assembled by OPP for this scale (many resemble public-domain IPIP-style statements).",
+    "license_class": "cc",
+    "safe_for_noncommercial_reuse": true,
+    "safe_for_commercial_reuse": false,
+    "attribution": "Open Hemispheric Brain Dominance Scale (OHBDS), Open-Source Psychometrics Project. Development manual: Eric Jorgenson (2015), \"Development of the Open Hemispheric Brain Dominance Scale,\" https://openpsychometrics.org/tests/OHBDS/development/. Item text and raw response data: Open-Source Psychometrics Project, https://openpsychometrics.org/ (OHBDS raw dataset, collected April 2015-January 2016, n=29,544).",
+    "scoring_notes": "Response format: each item is rated on a 5-point agreement scale where 1=Disagree, 3=Neutral, 5=Agree (per both the codebook and the test page). The OHBDS is unidimensional: it produces a single bipolar score along a left-brain (analytical/logical/orderly) to right-brain (intuitive/creative/spontaneous) continuum. To score, reverse the R-keyed items (or the L-keyed items, depending on which pole you want high scores to represent) and sum/average. The scale was built by criterion keying: from an 80-item pool, 4 items were selected for each of 5 published left-right reference scales (Alert Scale of Cognitive Style / Crane; Wagner Preference Inventory / Wagner; Polarity Questionnaire / Morton; Philip Carter's exercise / Carter; Madeleine Turgeon's questionnaire / Turgeon) on the basis of Pearson correlation, yielding 20 items. Reference-scale polarity used to derive keying: high Carter and high Wagner indicate the left/analytical pole; high Crane and high Turgeon indicate the right/intuitive pole (Morton is weaker/less consistent). keyed values: L (left/analytical pole) = items 1,2,3,5,7,8,10,11,12,14,18,20; R (right/intuitive pole) = items 4,6,9,13,15,16,17,19. Again, this keying is derived from the published correlation table, not an OPP-supplied answer key.",
+    "cautions": "ITEM TEXT is verbatim and double-sourced: all 20 items were taken from the OHBDS raw-data codebook (OHBDS-data.zip on https://openpsychometrics.org/_rawdata/) and each was independently confirmed to appear verbatim in the item pool published on the development page. Nothing was reconstructed from memory. One item preserves a source typo verbatim: item 4 reads \"I don't bother to the read instructions before I start putting something together.\" KEYING IS DERIVED, NOT OPP-STATED: OPP does not publish an explicit per-item scoring key for the OHBDS. The scale yields a single bipolar left-brain/right-brain score. I derived each item's L (left-brain/analytical) or R (right-brain/intuitive) direction from the development-page correlation table (correlations of each item with five reference scales: Carter, Crane, Morton, Turgeon, Wagner), anchored on unambiguous items (\"I prize logic above all else\" and \"I would prefer a class in mathematics to a class in pottery\" define the left/analytical pole). Items keyed L correlate positively with Carter/Wagner and negatively with Crane/Turgeon; R items show the reverse. Treat keyed as a documented inference, not an official key. Least certain item: item 7 (\"I like working with words\") has mixed reference-scale correlations (Carter -0.12 and Crane +0.13 point R, but Wagner +0.22 points L); I keyed it L because verbal/language content maps to the left-brain pole in this construct and it was retained via the Wagner reference scale, but this one is genuinely ambiguous. ITEM-COUNT DISCREPANCY: the finalized scale and the published dataset both contain 20 items (codebook lists Q1-Q20 with matching response-time variables E1-E20; development page states \"yielding the 20 items of the OHBDS\"), so expected_item_count=20. However, the CURRENT live interactive test page (https://openpsychometrics.org/tests/OHBDS/) states it now presents 24 items. The 4 additional live items are NOT included here: the live items load via client-side JS/AJAX and are not in the static HTML or in any published codebook, so fetching their verbatim text was not possible and including them would violate the verbatim rule. CONSTRUCT CAVEAT: the left-brain/right-brain distinction is scientifically discredited as neuroscience; OPP itself states \"The theory is completely bogus.\" It is retained only as a popular descriptive typology. FACET field left empty (OPP does not publish which reference scale each final item was selected for with enough certainty to assign).",
+    "corrections_applied": [],
+    "verification": {
+      "fabrication_risk": "none",
+      "item_count_plausible": true,
+      "license_correct_asreported": true,
+      "summary": "adversarially fact-checked by a second agent vs primary sources (deepinme wide-collection workflow, 2026-07)"
+    },
+    "sources": [
+      {
+        "title": "Development of the Open Hemispheric Brain Dominance Scale (item pool + correlation table; Eric Jorgenson, 2015)",
+        "url": "https://openpsychometrics.org/tests/OHBDS/development/",
+        "license": "Creative Commons (OPP-developed test)"
+      },
+      {
+        "title": "OHBDS raw dataset + codebook (OHBDS-data.zip; verbatim 20-item list, n=29,544, collected Apr 2015-Jan 2016)",
+        "url": "https://openpsychometrics.org/_rawdata/",
+        "license": "Anonymous research data released by OPP; test items CC"
+      },
+      {
+        "title": "OHBDS interactive test page (intro, 5-point scale, use disclaimer; currently states 24 items)",
+        "url": "https://openpsychometrics.org/tests/OHBDS/",
+        "license": "Creative Commons (OPP-developed test)"
+      },
+      {
+        "title": "Open-Source Psychometrics Project - About (states OPP-developed measures are available under a creative commons license)",
+        "url": "https://openpsychometrics.org/about/",
+        "license": "n/a (policy page)"
+      },
+      {
+        "title": "Open-Source Psychometrics Project - Tests developed / full list (lists OEJTS, OHBDS, OEPS, Exposure Based Face Memory Test as CC-licensed)",
+        "url": "https://openpsychometrics.org/development/",
+        "license": "n/a (index page)"
+      }
+    ]
+  },
+  "count": 20,
+  "items": [
+    {
+      "num": "1",
+      "text": "I do not need others praise.",
+      "factor": "Hemispheric brain dominance (single bipolar left-right dimension)",
+      "keyed": "L",
+      "language": "en"
+    },
+    {
+      "num": "2",
+      "text": "I would prefer a class in mathematics to a class in pottery.",
+      "factor": "Hemispheric brain dominance (single bipolar left-right dimension)",
+      "keyed": "L",
+      "language": "en"
+    },
+    {
+      "num": "3",
+      "text": "I never show up late.",
+      "factor": "Hemispheric brain dominance (single bipolar left-right dimension)",
+      "keyed": "L",
+      "language": "en"
+    },
+    {
+      "num": "4",
+      "text": "I don't bother to the read instructions before I start putting something together.",
+      "factor": "Hemispheric brain dominance (single bipolar left-right dimension)",
+      "keyed": "R",
+      "language": "en"
+    },
+    {
+      "num": "5",
+      "text": "I could not live in a mess.",
+      "factor": "Hemispheric brain dominance (single bipolar left-right dimension)",
+      "keyed": "L",
+      "language": "en"
+    },
+    {
+      "num": "6",
+      "text": "I am totally random.",
+      "factor": "Hemispheric brain dominance (single bipolar left-right dimension)",
+      "keyed": "R",
+      "language": "en"
+    },
+    {
+      "num": "7",
+      "text": "I like working with words.",
+      "factor": "Hemispheric brain dominance (single bipolar left-right dimension)",
+      "keyed": "L",
+      "language": "en"
+    },
+    {
+      "num": "8",
+      "text": "I behave in a businesslike manner.",
+      "factor": "Hemispheric brain dominance (single bipolar left-right dimension)",
+      "keyed": "L",
+      "language": "en"
+    },
+    {
+      "num": "9",
+      "text": "I come up with something new.",
+      "factor": "Hemispheric brain dominance (single bipolar left-right dimension)",
+      "keyed": "R",
+      "language": "en"
+    },
+    {
+      "num": "10",
+      "text": "I am not easily disturbed by events.",
+      "factor": "Hemispheric brain dominance (single bipolar left-right dimension)",
+      "keyed": "L",
+      "language": "en"
+    },
+    {
+      "num": "11",
+      "text": "I rarely cry during sad movies.",
+      "factor": "Hemispheric brain dominance (single bipolar left-right dimension)",
+      "keyed": "L",
+      "language": "en"
+    },
+    {
+      "num": "12",
+      "text": "I plan my life logically.",
+      "factor": "Hemispheric brain dominance (single bipolar left-right dimension)",
+      "keyed": "L",
+      "language": "en"
+    },
+    {
+      "num": "13",
+      "text": "I need a creative outlet.",
+      "factor": "Hemispheric brain dominance (single bipolar left-right dimension)",
+      "keyed": "R",
+      "language": "en"
+    },
+    {
+      "num": "14",
+      "text": "I make decisions based on facts, not feelings.",
+      "factor": "Hemispheric brain dominance (single bipolar left-right dimension)",
+      "keyed": "L",
+      "language": "en"
+    },
+    {
+      "num": "15",
+      "text": "I make a mess of things.",
+      "factor": "Hemispheric brain dominance (single bipolar left-right dimension)",
+      "keyed": "R",
+      "language": "en"
+    },
+    {
+      "num": "16",
+      "text": "I get stressed out easily.",
+      "factor": "Hemispheric brain dominance (single bipolar left-right dimension)",
+      "keyed": "R",
+      "language": "en"
+    },
+    {
+      "num": "17",
+      "text": "I am romantic.",
+      "factor": "Hemispheric brain dominance (single bipolar left-right dimension)",
+      "keyed": "R",
+      "language": "en"
+    },
+    {
+      "num": "18",
+      "text": "I prize logic above all else.",
+      "factor": "Hemispheric brain dominance (single bipolar left-right dimension)",
+      "keyed": "L",
+      "language": "en"
+    },
+    {
+      "num": "19",
+      "text": "I often forget to put things back in their proper place.",
+      "factor": "Hemispheric brain dominance (single bipolar left-right dimension)",
+      "keyed": "R",
+      "language": "en"
+    },
+    {
+      "num": "20",
+      "text": "I am calm even in tense situations.",
+      "factor": "Hemispheric brain dominance (single bipolar left-right dimension)",
+      "keyed": "L",
+      "language": "en"
+    }
+  ]
+}

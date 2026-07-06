@@ -1,0 +1,521 @@
+{
+  "_meta": {
+    "instrument": "HEXACO-60",
+    "full_name": "HEXACO-60: A Short Measure of the Major Dimensions of Personality (HEXACO-PI-R 60-item self-report short form; Ashton & Lee, 2009)",
+    "source_url": "https://cpb-us-e1.wpmucdn.com/sites.psu.edu/dist/f/29060/files/2015/07/HEXACO-60-item-factor-analysis-study.pdf",
+    "license": "Copyright Kibeom Lee and Michael C. Ashton. Per the article Appendix: \"The HEXACO-60 items may be used free of charge for nonprofit research purposes.\" The English self-report form is reproduced here. The observer-report form and non-English translations require contacting the authors for authorization. Item text reprinted with permission in Journal of Personality Assessment.",
+    "license_class": "free_research_noncommercial",
+    "safe_for_noncommercial_reuse": true,
+    "safe_for_commercial_reuse": false,
+    "attribution": "Ashton, M. C., & Lee, K. (2009). The HEXACO-60: A short measure of the major dimensions of personality. Journal of Personality Assessment, 91(4), 340-345. Items copyright Kibeom Lee and Michael C. Ashton; may be used free of charge for nonprofit research purposes. Official instrument resources: hexaco.org.",
+    "scoring_notes": "Response scale: 5-point agree-disagree (5 = strongly agree, 4 = agree, 3 = neutral, 2 = disagree, 1 = strongly disagree). keyed \"+\" = item scored in the direction of the factor; keyed \"-\" = reverse-keyed (marked \"R\" in the source), recode before scoring as 5->1, 4->2, 3->3, 2->4, 1->5. Factor scale score = mean of that factor's 10 items after recoding reverse-keyed items. Facet scale score = mean of that facet's items after recoding. Factor-item key (from the article): Honesty-Humility = 6,12R,18,24R,30R,36,42R,48R,54,60R; Emotionality = 5,11,17,23,29,35R,41R,47,53R,59R; Extraversion = 4,10R,16,22,28R,34,40,46R,52R,58; Agreeableness (versus Anger) = 3,9R,15R,21R,27,33,39,45,51,57R; Conscientiousness = 2,8,14R,20R,26R,32R,38,44R,50,56R; Openness to Experience = 1R,7,13,19R,25,31R,37,43,49R,55R. Each factor has 10 items; 24 facets of 2-3 items each.",
+    "cautions": "LICENSE SCOPE: The authors permit use \"free of charge for nonprofit research purposes\" only. A stage-1 non-commercial research corpus is within scope, but if the downstream self-understanding product becomes commercial, this license does NOT cover it — separate permission from Kibeom Lee and Michael C. Ashton would be required. REWRITING: The task plans to rewrite items into plain language; the copyright is on the original wording, so retain attribution and do not present rewrites as the authentic instrument. FORM: This is the English SELF-report form only; the observer-report form and translations are separate authorized materials (contact authors). FACETS: The 60-item version's 24 facet scales are very short (2-3 items each) and are explicitly NOT intended to have high internal-consistency reliability — recommended only as factor indicators or predictors, not stand-alone facet scores. VERBATIM NOTE: Item text is reproduced exactly from the article Appendix; curly apostrophes/quotes in the source have been rendered as straight ASCII quotes (e.g., item 27 contains the quoted phrase \"forgive and forget\"), no words changed. All 60 items and their factor/facet/keying were cross-checked against both the article's scoring key and the official hexaco.org ScoringKeys_60 facet key; both agree.",
+    "corrections_applied": [],
+    "verification": {
+      "fabrication_risk": "none",
+      "item_count_plausible": true,
+      "license_correct_asreported": true,
+      "summary": "adversarially fact-checked by a second agent vs primary sources (deepinme wide-collection workflow, 2026-07)"
+    },
+    "sources": [
+      {
+        "title": "Ashton, M. C., & Lee, K. (2009). The HEXACO-60: A short measure of the major dimensions of personality. Journal of Personality Assessment, 91(4), 340-345 (full-text PDF with Appendix containing all 60 items and scoring key).",
+        "url": "https://cpb-us-e1.wpmucdn.com/sites.psu.edu/dist/f/29060/files/2015/07/HEXACO-60-item-factor-analysis-study.pdf",
+        "license": "Copyright Kibeom Lee & Michael C. Ashton; items free for nonprofit research use (per Appendix note)."
+      },
+      {
+        "title": "Official HEXACO scoring keys for the 60-item version (facet- and factor-level item assignments with reverse-keying), hexaco.org.",
+        "url": "https://hexaco.org/downloads/ScoringKeys_60.pdf",
+        "license": "Copyright Kibeom Lee & Michael C. Ashton; scoring resources provided free for nonprofit research use."
+      },
+      {
+        "title": "Journal of Personality Assessment publisher record (canonical citation / DOI 10.1080/00223890902935878).",
+        "url": "https://www.tandfonline.com/doi/abs/10.1080/00223890902935878",
+        "license": "Publisher (Taylor & Francis) copyright; item text free for nonprofit research per authors."
+      }
+    ]
+  },
+  "count": 60,
+  "items": [
+    {
+      "num": "1",
+      "text": "I would be quite bored by a visit to an art gallery.",
+      "factor": "Openness to Experience",
+      "facet": "Aesthetic Appreciation",
+      "keyed": "-",
+      "language": "en"
+    },
+    {
+      "num": "2",
+      "text": "I plan ahead and organize things, to avoid scrambling at the last minute.",
+      "factor": "Conscientiousness",
+      "facet": "Organization",
+      "keyed": "+",
+      "language": "en"
+    },
+    {
+      "num": "3",
+      "text": "I rarely hold a grudge, even against people who have badly wronged me.",
+      "factor": "Agreeableness",
+      "facet": "Forgiveness",
+      "keyed": "+",
+      "language": "en"
+    },
+    {
+      "num": "4",
+      "text": "I feel reasonably satisfied with myself overall.",
+      "factor": "Extraversion",
+      "facet": "Social Self-Esteem",
+      "keyed": "+",
+      "language": "en"
+    },
+    {
+      "num": "5",
+      "text": "I would feel afraid if I had to travel in bad weather conditions.",
+      "factor": "Emotionality",
+      "facet": "Fearfulness",
+      "keyed": "+",
+      "language": "en"
+    },
+    {
+      "num": "6",
+      "text": "I wouldn't use flattery to get a raise or promotion at work, even if I thought it would succeed.",
+      "factor": "Honesty-Humility",
+      "facet": "Sincerity",
+      "keyed": "+",
+      "language": "en"
+    },
+    {
+      "num": "7",
+      "text": "I'm interested in learning about the history and politics of other countries.",
+      "factor": "Openness to Experience",
+      "facet": "Inquisitiveness",
+      "keyed": "+",
+      "language": "en"
+    },
+    {
+      "num": "8",
+      "text": "I often push myself very hard when trying to achieve a goal.",
+      "factor": "Conscientiousness",
+      "facet": "Diligence",
+      "keyed": "+",
+      "language": "en"
+    },
+    {
+      "num": "9",
+      "text": "People sometimes tell me that I am too critical of others.",
+      "factor": "Agreeableness",
+      "facet": "Gentleness",
+      "keyed": "-",
+      "language": "en"
+    },
+    {
+      "num": "10",
+      "text": "I rarely express my opinions in group meetings.",
+      "factor": "Extraversion",
+      "facet": "Social Boldness",
+      "keyed": "-",
+      "language": "en"
+    },
+    {
+      "num": "11",
+      "text": "I sometimes can't help worrying about little things.",
+      "factor": "Emotionality",
+      "facet": "Anxiety",
+      "keyed": "+",
+      "language": "en"
+    },
+    {
+      "num": "12",
+      "text": "If I knew that I could never get caught, I would be willing to steal a million dollars.",
+      "factor": "Honesty-Humility",
+      "facet": "Fairness",
+      "keyed": "-",
+      "language": "en"
+    },
+    {
+      "num": "13",
+      "text": "I would enjoy creating a work of art, such as a novel, a song, or a painting.",
+      "factor": "Openness to Experience",
+      "facet": "Creativity",
+      "keyed": "+",
+      "language": "en"
+    },
+    {
+      "num": "14",
+      "text": "When working on something, I don't pay much attention to small details.",
+      "factor": "Conscientiousness",
+      "facet": "Perfectionism",
+      "keyed": "-",
+      "language": "en"
+    },
+    {
+      "num": "15",
+      "text": "People sometimes tell me that I'm too stubborn.",
+      "factor": "Agreeableness",
+      "facet": "Flexibility",
+      "keyed": "-",
+      "language": "en"
+    },
+    {
+      "num": "16",
+      "text": "I prefer jobs that involve active social interaction to those that involve working alone.",
+      "factor": "Extraversion",
+      "facet": "Sociability",
+      "keyed": "+",
+      "language": "en"
+    },
+    {
+      "num": "17",
+      "text": "When I suffer from a painful experience, I need someone to make me feel comfortable.",
+      "factor": "Emotionality",
+      "facet": "Dependence",
+      "keyed": "+",
+      "language": "en"
+    },
+    {
+      "num": "18",
+      "text": "Having a lot of money is not especially important to me.",
+      "factor": "Honesty-Humility",
+      "facet": "Greed-Avoidance",
+      "keyed": "+",
+      "language": "en"
+    },
+    {
+      "num": "19",
+      "text": "I think that paying attention to radical ideas is a waste of time.",
+      "factor": "Openness to Experience",
+      "facet": "Unconventionality",
+      "keyed": "-",
+      "language": "en"
+    },
+    {
+      "num": "20",
+      "text": "I make decisions based on the feeling of the moment rather than on careful thought.",
+      "factor": "Conscientiousness",
+      "facet": "Prudence",
+      "keyed": "-",
+      "language": "en"
+    },
+    {
+      "num": "21",
+      "text": "People think of me as someone who has a quick temper.",
+      "factor": "Agreeableness",
+      "facet": "Patience",
+      "keyed": "-",
+      "language": "en"
+    },
+    {
+      "num": "22",
+      "text": "On most days, I feel cheerful and optimistic.",
+      "factor": "Extraversion",
+      "facet": "Liveliness",
+      "keyed": "+",
+      "language": "en"
+    },
+    {
+      "num": "23",
+      "text": "I feel like crying when I see other people crying.",
+      "factor": "Emotionality",
+      "facet": "Sentimentality",
+      "keyed": "+",
+      "language": "en"
+    },
+    {
+      "num": "24",
+      "text": "I think that I am entitled to more respect than the average person is.",
+      "factor": "Honesty-Humility",
+      "facet": "Modesty",
+      "keyed": "-",
+      "language": "en"
+    },
+    {
+      "num": "25",
+      "text": "If I had the opportunity, I would like to attend a classical music concert.",
+      "factor": "Openness to Experience",
+      "facet": "Aesthetic Appreciation",
+      "keyed": "+",
+      "language": "en"
+    },
+    {
+      "num": "26",
+      "text": "When working, I sometimes have difficulties due to being disorganized.",
+      "factor": "Conscientiousness",
+      "facet": "Organization",
+      "keyed": "-",
+      "language": "en"
+    },
+    {
+      "num": "27",
+      "text": "My attitude toward people who have treated me badly is \"forgive and forget.\"",
+      "factor": "Agreeableness",
+      "facet": "Forgiveness",
+      "keyed": "+",
+      "language": "en"
+    },
+    {
+      "num": "28",
+      "text": "I feel that I am an unpopular person.",
+      "factor": "Extraversion",
+      "facet": "Social Self-Esteem",
+      "keyed": "-",
+      "language": "en"
+    },
+    {
+      "num": "29",
+      "text": "When it comes to physical danger, I am very fearful.",
+      "factor": "Emotionality",
+      "facet": "Fearfulness",
+      "keyed": "+",
+      "language": "en"
+    },
+    {
+      "num": "30",
+      "text": "If I want something from someone, I will laugh at that person's worst jokes.",
+      "factor": "Honesty-Humility",
+      "facet": "Sincerity",
+      "keyed": "-",
+      "language": "en"
+    },
+    {
+      "num": "31",
+      "text": "I've never really enjoyed looking through an encyclopedia.",
+      "factor": "Openness to Experience",
+      "facet": "Inquisitiveness",
+      "keyed": "-",
+      "language": "en"
+    },
+    {
+      "num": "32",
+      "text": "I do only the minimum amount of work needed to get by.",
+      "factor": "Conscientiousness",
+      "facet": "Diligence",
+      "keyed": "-",
+      "language": "en"
+    },
+    {
+      "num": "33",
+      "text": "I tend to be lenient in judging other people.",
+      "factor": "Agreeableness",
+      "facet": "Gentleness",
+      "keyed": "+",
+      "language": "en"
+    },
+    {
+      "num": "34",
+      "text": "In social situations, I'm usually the one who makes the first move.",
+      "factor": "Extraversion",
+      "facet": "Social Boldness",
+      "keyed": "+",
+      "language": "en"
+    },
+    {
+      "num": "35",
+      "text": "I worry a lot less than most people do.",
+      "factor": "Emotionality",
+      "facet": "Anxiety",
+      "keyed": "-",
+      "language": "en"
+    },
+    {
+      "num": "36",
+      "text": "I would never accept a bribe, even if it were very large.",
+      "factor": "Honesty-Humility",
+      "facet": "Fairness",
+      "keyed": "+",
+      "language": "en"
+    },
+    {
+      "num": "37",
+      "text": "People have often told me that I have a good imagination.",
+      "factor": "Openness to Experience",
+      "facet": "Creativity",
+      "keyed": "+",
+      "language": "en"
+    },
+    {
+      "num": "38",
+      "text": "I always try to be accurate in my work, even at the expense of time.",
+      "factor": "Conscientiousness",
+      "facet": "Perfectionism",
+      "keyed": "+",
+      "language": "en"
+    },
+    {
+      "num": "39",
+      "text": "I am usually quite flexible in my opinions when people disagree with me.",
+      "factor": "Agreeableness",
+      "facet": "Flexibility",
+      "keyed": "+",
+      "language": "en"
+    },
+    {
+      "num": "40",
+      "text": "The first thing that I always do in a new place is to make friends.",
+      "factor": "Extraversion",
+      "facet": "Sociability",
+      "keyed": "+",
+      "language": "en"
+    },
+    {
+      "num": "41",
+      "text": "I can handle difficult situations without needing emotional support from anyone else.",
+      "factor": "Emotionality",
+      "facet": "Dependence",
+      "keyed": "-",
+      "language": "en"
+    },
+    {
+      "num": "42",
+      "text": "I would get a lot of pleasure from owning expensive luxury goods.",
+      "factor": "Honesty-Humility",
+      "facet": "Greed-Avoidance",
+      "keyed": "-",
+      "language": "en"
+    },
+    {
+      "num": "43",
+      "text": "I like people who have unconventional views.",
+      "factor": "Openness to Experience",
+      "facet": "Unconventionality",
+      "keyed": "+",
+      "language": "en"
+    },
+    {
+      "num": "44",
+      "text": "I make a lot of mistakes because I don't think before I act.",
+      "factor": "Conscientiousness",
+      "facet": "Prudence",
+      "keyed": "-",
+      "language": "en"
+    },
+    {
+      "num": "45",
+      "text": "Most people tend to get angry more quickly than I do.",
+      "factor": "Agreeableness",
+      "facet": "Patience",
+      "keyed": "+",
+      "language": "en"
+    },
+    {
+      "num": "46",
+      "text": "Most people are more upbeat and dynamic than I generally am.",
+      "factor": "Extraversion",
+      "facet": "Liveliness",
+      "keyed": "-",
+      "language": "en"
+    },
+    {
+      "num": "47",
+      "text": "I feel strong emotions when someone close to me is going away for a long time.",
+      "factor": "Emotionality",
+      "facet": "Sentimentality",
+      "keyed": "+",
+      "language": "en"
+    },
+    {
+      "num": "48",
+      "text": "I want people to know that I am an important person of high status.",
+      "factor": "Honesty-Humility",
+      "facet": "Modesty",
+      "keyed": "-",
+      "language": "en"
+    },
+    {
+      "num": "49",
+      "text": "I don't think of myself as the artistic or creative type.",
+      "factor": "Openness to Experience",
+      "facet": "Creativity",
+      "keyed": "-",
+      "language": "en"
+    },
+    {
+      "num": "50",
+      "text": "People often call me a perfectionist.",
+      "factor": "Conscientiousness",
+      "facet": "Perfectionism",
+      "keyed": "+",
+      "language": "en"
+    },
+    {
+      "num": "51",
+      "text": "Even when people make a lot of mistakes, I rarely say anything negative.",
+      "factor": "Agreeableness",
+      "facet": "Gentleness",
+      "keyed": "+",
+      "language": "en"
+    },
+    {
+      "num": "52",
+      "text": "I sometimes feel that I am a worthless person.",
+      "factor": "Extraversion",
+      "facet": "Social Self-Esteem",
+      "keyed": "-",
+      "language": "en"
+    },
+    {
+      "num": "53",
+      "text": "Even in an emergency I wouldn't feel like panicking.",
+      "factor": "Emotionality",
+      "facet": "Fearfulness",
+      "keyed": "-",
+      "language": "en"
+    },
+    {
+      "num": "54",
+      "text": "I wouldn't pretend to like someone just to get that person to do favors for me.",
+      "factor": "Honesty-Humility",
+      "facet": "Sincerity",
+      "keyed": "+",
+      "language": "en"
+    },
+    {
+      "num": "55",
+      "text": "I find it boring to discuss philosophy.",
+      "factor": "Openness to Experience",
+      "facet": "Unconventionality",
+      "keyed": "-",
+      "language": "en"
+    },
+    {
+      "num": "56",
+      "text": "I prefer to do whatever comes to mind, rather than stick to a plan.",
+      "factor": "Conscientiousness",
+      "facet": "Prudence",
+      "keyed": "-",
+      "language": "en"
+    },
+    {
+      "num": "57",
+      "text": "When people tell me that I'm wrong, my first reaction is to argue with them.",
+      "factor": "Agreeableness",
+      "facet": "Flexibility",
+      "keyed": "-",
+      "language": "en"
+    },
+    {
+      "num": "58",
+      "text": "When I'm in a group of people, I'm often the one who speaks on behalf of the group.",
+      "factor": "Extraversion",
+      "facet": "Social Boldness",
+      "keyed": "+",
+      "language": "en"
+    },
+    {
+      "num": "59",
+      "text": "I remain unemotional even in situations where most people get very sentimental.",
+      "factor": "Emotionality",
+      "facet": "Sentimentality",
+      "keyed": "-",
+      "language": "en"
+    },
+    {
+      "num": "60",
+      "text": "I'd be tempted to use counterfeit money, if I were sure I could get away with it.",
+      "factor": "Honesty-Humility",
+      "facet": "Fairness",
+      "keyed": "-",
+      "language": "en"
+    }
+  ]
+}

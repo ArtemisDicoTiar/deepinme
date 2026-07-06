@@ -1,0 +1,996 @@
+{
+  "_meta": {
+    "instrument": "IPIP-NEO-120",
+    "full_name": "International Personality Item Pool Representation of the NEO PI-R, 120-item version (IPIP-NEO-120; Johnson, 2014)",
+    "source_url": "https://ipip.ori.org/30FacetNEO-PI-RItems.htm",
+    "license": "Public domain. All items in the International Personality Item Pool (IPIP), including Johnson's (2014) IPIP-NEO-120, are explicitly not copyrighted and are in the public domain; they may be used for any purpose (research, clinical, commercial) without permission, license, or fee. Johnson (2014) developed and released the 120-item form into the public domain, and the IPIP site (ipip.ori.org) distributes the item text freely.",
+    "license_class": "public_domain",
+    "safe_for_noncommercial_reuse": true,
+    "safe_for_commercial_reuse": true,
+    "attribution": "Items from the International Personality Item Pool (Goldberg, L. R., Johnson, J. A., Eber, H. W., Hogan, R., Ashton, M. C., Cloninger, C. R., & Gough, H. G., 2006; ipip.ori.org). 120-item form: Johnson, J. A. (2014). Measuring thirty facets of the Five Factor Model with a 120-item public domain inventory: Development of the IPIP-NEO-120. Journal of Research in Personality, 51, 78-89.",
+    "scoring_notes": "Respondents rate each statement on a 5-point scale (1 = Very Inaccurate, 2 = Moderately Inaccurate, 3 = Neither Inaccurate nor Accurate, 4 = Moderately Accurate, 5 = Very Accurate) under the instruction to describe themselves as they generally are now, honestly, relative to others of the same sex and roughly the same age. Items keyed \"+\" are scored 1->5; items keyed \"-\" are reverse-scored (5->1). Each of the 30 facet scores is the sum (or mean) of its 4 items (raw sum range 4-20); each of the 5 domain scores (N, E, O, A, C) is the mean/sum of its 6 constituent facets. \"num\" is the item's position in the 120-item administration order (the \"IPIP-120 item no.\" column in Johnson, 2014, Table 1); the parent IPIP-NEO-300 uses different item numbers, not included here.",
+    "cautions": "These are the ORIGINAL, terse IPIP item stems (short first-person predicate phrases such as \"Worry about things.\") captured verbatim for a stage-1 corpus intended to be rewritten into plain language. Item text was taken verbatim from the official IPIP repository page (ipip.ori.org/30FacetNEO-PI-RItems.htm); the administration item numbers (1-120), factor, facet, and +/- keying were independently cross-checked against Johnson (2014) Table 1 (the Penn State PDF) — every keying sign matched across both sources, and all 30 facets have exactly 4 items. One minor wording variant exists: item 58 (O6 Liberalism) reads \"Believe that there is no absolute right and wrong\" on ipip.ori.org (used here) but is typeset as \"right or wrong\" in Johnson (2014) Table 1; the IPIP repository wording is used. Keying is intentionally imbalanced (65 positively-keyed, 55 negatively-keyed) because Johnson selected items purely by item-total correlation, so several facets are all-one-direction (e.g., E5, E6, O1, C1 are entirely +; A2, A4, A5, C6 are entirely -). Apostrophes were normalized to straight ASCII to match the HTML source. Items are listed as bare stems without a leading pronoun; some live administrations of Johnson's IPIP-NEO prepend an \"I\" to each statement.",
+    "corrections_applied": [],
+    "verification": {
+      "fabrication_risk": "none",
+      "item_count_plausible": true,
+      "license_correct_asreported": true,
+      "summary": "adversarially fact-checked by a second agent vs primary sources (deepinme wide-collection workflow, 2026-07)"
+    },
+    "sources": [
+      {
+        "title": "The Items in Each of the 4-Item IPIP Scales Measuring Constructs Similar to Those in the 30 NEO-PI-R Facet Scales (Johnson, 2014) — International Personality Item Pool",
+        "url": "https://ipip.ori.org/30FacetNEO-PI-RItems.htm",
+        "license": "Public domain (IPIP items are not copyrighted)"
+      },
+      {
+        "title": "Johnson, J. A. (2014). Measuring thirty facets of the Five Factor Model with a 120-item public domain inventory: Development of the IPIP-NEO-120. Journal of Research in Personality, 51, 78-89 (Table 1: item numbers, facet keys, alphas)",
+        "url": "https://bpb-us-e1.wpmucdn.com/sites.psu.edu/dist/1/163537/files/2023/07/IPIPNEO120.pdf",
+        "license": "IPIP items public domain; article prose © Elsevier, used here only to verify item numbering and keying"
+      }
+    ]
+  },
+  "count": 120,
+  "items": [
+    {
+      "num": "1",
+      "factor": "N",
+      "facet": "N1: Anxiety",
+      "keyed": "+",
+      "text": "Worry about things.",
+      "language": "en"
+    },
+    {
+      "num": "31",
+      "factor": "N",
+      "facet": "N1: Anxiety",
+      "keyed": "+",
+      "text": "Fear for the worst.",
+      "language": "en"
+    },
+    {
+      "num": "61",
+      "factor": "N",
+      "facet": "N1: Anxiety",
+      "keyed": "+",
+      "text": "Am afraid of many things.",
+      "language": "en"
+    },
+    {
+      "num": "91",
+      "factor": "N",
+      "facet": "N1: Anxiety",
+      "keyed": "+",
+      "text": "Get stressed out easily.",
+      "language": "en"
+    },
+    {
+      "num": "6",
+      "factor": "N",
+      "facet": "N2: Anger",
+      "keyed": "+",
+      "text": "Get angry easily.",
+      "language": "en"
+    },
+    {
+      "num": "36",
+      "factor": "N",
+      "facet": "N2: Anger",
+      "keyed": "+",
+      "text": "Get irritated easily.",
+      "language": "en"
+    },
+    {
+      "num": "66",
+      "factor": "N",
+      "facet": "N2: Anger",
+      "keyed": "+",
+      "text": "Lose my temper.",
+      "language": "en"
+    },
+    {
+      "num": "96",
+      "factor": "N",
+      "facet": "N2: Anger",
+      "keyed": "-",
+      "text": "Am not easily annoyed.",
+      "language": "en"
+    },
+    {
+      "num": "11",
+      "factor": "N",
+      "facet": "N3: Depression",
+      "keyed": "+",
+      "text": "Often feel blue.",
+      "language": "en"
+    },
+    {
+      "num": "41",
+      "factor": "N",
+      "facet": "N3: Depression",
+      "keyed": "+",
+      "text": "Dislike myself.",
+      "language": "en"
+    },
+    {
+      "num": "71",
+      "factor": "N",
+      "facet": "N3: Depression",
+      "keyed": "+",
+      "text": "Am often down in the dumps.",
+      "language": "en"
+    },
+    {
+      "num": "101",
+      "factor": "N",
+      "facet": "N3: Depression",
+      "keyed": "-",
+      "text": "Feel comfortable with myself.",
+      "language": "en"
+    },
+    {
+      "num": "16",
+      "factor": "N",
+      "facet": "N4: Self-Consciousness",
+      "keyed": "+",
+      "text": "Find it difficult to approach others.",
+      "language": "en"
+    },
+    {
+      "num": "46",
+      "factor": "N",
+      "facet": "N4: Self-Consciousness",
+      "keyed": "+",
+      "text": "Am afraid to draw attention to myself.",
+      "language": "en"
+    },
+    {
+      "num": "76",
+      "factor": "N",
+      "facet": "N4: Self-Consciousness",
+      "keyed": "+",
+      "text": "Only feel comfortable with friends.",
+      "language": "en"
+    },
+    {
+      "num": "106",
+      "factor": "N",
+      "facet": "N4: Self-Consciousness",
+      "keyed": "-",
+      "text": "Am not bothered by difficult social situations.",
+      "language": "en"
+    },
+    {
+      "num": "21",
+      "factor": "N",
+      "facet": "N5: Immoderation",
+      "keyed": "+",
+      "text": "Go on binges.",
+      "language": "en"
+    },
+    {
+      "num": "51",
+      "factor": "N",
+      "facet": "N5: Immoderation",
+      "keyed": "-",
+      "text": "Rarely overindulge.",
+      "language": "en"
+    },
+    {
+      "num": "81",
+      "factor": "N",
+      "facet": "N5: Immoderation",
+      "keyed": "-",
+      "text": "Easily resist temptations.",
+      "language": "en"
+    },
+    {
+      "num": "111",
+      "factor": "N",
+      "facet": "N5: Immoderation",
+      "keyed": "-",
+      "text": "Am able to control my cravings.",
+      "language": "en"
+    },
+    {
+      "num": "26",
+      "factor": "N",
+      "facet": "N6: Vulnerability",
+      "keyed": "+",
+      "text": "Panic easily.",
+      "language": "en"
+    },
+    {
+      "num": "56",
+      "factor": "N",
+      "facet": "N6: Vulnerability",
+      "keyed": "+",
+      "text": "Become overwhelmed by events.",
+      "language": "en"
+    },
+    {
+      "num": "86",
+      "factor": "N",
+      "facet": "N6: Vulnerability",
+      "keyed": "+",
+      "text": "Feel that I'm unable to deal with things.",
+      "language": "en"
+    },
+    {
+      "num": "116",
+      "factor": "N",
+      "facet": "N6: Vulnerability",
+      "keyed": "-",
+      "text": "Remain calm under pressure.",
+      "language": "en"
+    },
+    {
+      "num": "2",
+      "factor": "E",
+      "facet": "E1: Friendliness",
+      "keyed": "+",
+      "text": "Make friends easily.",
+      "language": "en"
+    },
+    {
+      "num": "32",
+      "factor": "E",
+      "facet": "E1: Friendliness",
+      "keyed": "+",
+      "text": "Feel comfortable around people.",
+      "language": "en"
+    },
+    {
+      "num": "62",
+      "factor": "E",
+      "facet": "E1: Friendliness",
+      "keyed": "-",
+      "text": "Avoid contacts with others.",
+      "language": "en"
+    },
+    {
+      "num": "92",
+      "factor": "E",
+      "facet": "E1: Friendliness",
+      "keyed": "-",
+      "text": "Keep others at a distance.",
+      "language": "en"
+    },
+    {
+      "num": "7",
+      "factor": "E",
+      "facet": "E2: Gregariousness",
+      "keyed": "+",
+      "text": "Love large parties.",
+      "language": "en"
+    },
+    {
+      "num": "37",
+      "factor": "E",
+      "facet": "E2: Gregariousness",
+      "keyed": "+",
+      "text": "Talk to a lot of different people at parties.",
+      "language": "en"
+    },
+    {
+      "num": "67",
+      "factor": "E",
+      "facet": "E2: Gregariousness",
+      "keyed": "-",
+      "text": "Prefer to be alone.",
+      "language": "en"
+    },
+    {
+      "num": "97",
+      "factor": "E",
+      "facet": "E2: Gregariousness",
+      "keyed": "-",
+      "text": "Avoid crowds.",
+      "language": "en"
+    },
+    {
+      "num": "12",
+      "factor": "E",
+      "facet": "E3: Assertiveness",
+      "keyed": "+",
+      "text": "Take charge.",
+      "language": "en"
+    },
+    {
+      "num": "42",
+      "factor": "E",
+      "facet": "E3: Assertiveness",
+      "keyed": "+",
+      "text": "Try to lead others.",
+      "language": "en"
+    },
+    {
+      "num": "72",
+      "factor": "E",
+      "facet": "E3: Assertiveness",
+      "keyed": "+",
+      "text": "Take control of things.",
+      "language": "en"
+    },
+    {
+      "num": "102",
+      "factor": "E",
+      "facet": "E3: Assertiveness",
+      "keyed": "-",
+      "text": "Wait for others to lead the way.",
+      "language": "en"
+    },
+    {
+      "num": "17",
+      "factor": "E",
+      "facet": "E4: Activity Level",
+      "keyed": "+",
+      "text": "Am always busy.",
+      "language": "en"
+    },
+    {
+      "num": "47",
+      "factor": "E",
+      "facet": "E4: Activity Level",
+      "keyed": "+",
+      "text": "Am always on the go.",
+      "language": "en"
+    },
+    {
+      "num": "77",
+      "factor": "E",
+      "facet": "E4: Activity Level",
+      "keyed": "+",
+      "text": "Do a lot in my spare time.",
+      "language": "en"
+    },
+    {
+      "num": "107",
+      "factor": "E",
+      "facet": "E4: Activity Level",
+      "keyed": "-",
+      "text": "Like to take it easy.",
+      "language": "en"
+    },
+    {
+      "num": "22",
+      "factor": "E",
+      "facet": "E5: Excitement-Seeking",
+      "keyed": "+",
+      "text": "Love excitement.",
+      "language": "en"
+    },
+    {
+      "num": "52",
+      "factor": "E",
+      "facet": "E5: Excitement-Seeking",
+      "keyed": "+",
+      "text": "Seek adventure.",
+      "language": "en"
+    },
+    {
+      "num": "82",
+      "factor": "E",
+      "facet": "E5: Excitement-Seeking",
+      "keyed": "+",
+      "text": "Enjoy being reckless.",
+      "language": "en"
+    },
+    {
+      "num": "112",
+      "factor": "E",
+      "facet": "E5: Excitement-Seeking",
+      "keyed": "+",
+      "text": "Act wild and crazy.",
+      "language": "en"
+    },
+    {
+      "num": "27",
+      "factor": "E",
+      "facet": "E6: Cheerfulness",
+      "keyed": "+",
+      "text": "Radiate joy.",
+      "language": "en"
+    },
+    {
+      "num": "57",
+      "factor": "E",
+      "facet": "E6: Cheerfulness",
+      "keyed": "+",
+      "text": "Have a lot of fun.",
+      "language": "en"
+    },
+    {
+      "num": "87",
+      "factor": "E",
+      "facet": "E6: Cheerfulness",
+      "keyed": "+",
+      "text": "Love life.",
+      "language": "en"
+    },
+    {
+      "num": "117",
+      "factor": "E",
+      "facet": "E6: Cheerfulness",
+      "keyed": "+",
+      "text": "Look at the bright side of life.",
+      "language": "en"
+    },
+    {
+      "num": "3",
+      "factor": "O",
+      "facet": "O1: Imagination",
+      "keyed": "+",
+      "text": "Have a vivid imagination.",
+      "language": "en"
+    },
+    {
+      "num": "33",
+      "factor": "O",
+      "facet": "O1: Imagination",
+      "keyed": "+",
+      "text": "Enjoy wild flights of fantasy.",
+      "language": "en"
+    },
+    {
+      "num": "63",
+      "factor": "O",
+      "facet": "O1: Imagination",
+      "keyed": "+",
+      "text": "Love to daydream.",
+      "language": "en"
+    },
+    {
+      "num": "93",
+      "factor": "O",
+      "facet": "O1: Imagination",
+      "keyed": "+",
+      "text": "Like to get lost in thought.",
+      "language": "en"
+    },
+    {
+      "num": "8",
+      "factor": "O",
+      "facet": "O2: Artistic Interests",
+      "keyed": "+",
+      "text": "Believe in the importance of art.",
+      "language": "en"
+    },
+    {
+      "num": "38",
+      "factor": "O",
+      "facet": "O2: Artistic Interests",
+      "keyed": "+",
+      "text": "See beauty in things that others might not notice.",
+      "language": "en"
+    },
+    {
+      "num": "68",
+      "factor": "O",
+      "facet": "O2: Artistic Interests",
+      "keyed": "-",
+      "text": "Do not like poetry.",
+      "language": "en"
+    },
+    {
+      "num": "98",
+      "factor": "O",
+      "facet": "O2: Artistic Interests",
+      "keyed": "-",
+      "text": "Do not enjoy going to art museums.",
+      "language": "en"
+    },
+    {
+      "num": "13",
+      "factor": "O",
+      "facet": "O3: Emotionality",
+      "keyed": "+",
+      "text": "Experience my emotions intensely.",
+      "language": "en"
+    },
+    {
+      "num": "43",
+      "factor": "O",
+      "facet": "O3: Emotionality",
+      "keyed": "+",
+      "text": "Feel others' emotions.",
+      "language": "en"
+    },
+    {
+      "num": "73",
+      "factor": "O",
+      "facet": "O3: Emotionality",
+      "keyed": "-",
+      "text": "Rarely notice my emotional reactions.",
+      "language": "en"
+    },
+    {
+      "num": "103",
+      "factor": "O",
+      "facet": "O3: Emotionality",
+      "keyed": "-",
+      "text": "Don't understand people who get emotional.",
+      "language": "en"
+    },
+    {
+      "num": "18",
+      "factor": "O",
+      "facet": "O4: Adventurousness",
+      "keyed": "+",
+      "text": "Prefer variety to routine.",
+      "language": "en"
+    },
+    {
+      "num": "48",
+      "factor": "O",
+      "facet": "O4: Adventurousness",
+      "keyed": "-",
+      "text": "Prefer to stick with things that I know.",
+      "language": "en"
+    },
+    {
+      "num": "78",
+      "factor": "O",
+      "facet": "O4: Adventurousness",
+      "keyed": "-",
+      "text": "Dislike changes.",
+      "language": "en"
+    },
+    {
+      "num": "108",
+      "factor": "O",
+      "facet": "O4: Adventurousness",
+      "keyed": "-",
+      "text": "Am attached to conventional ways.",
+      "language": "en"
+    },
+    {
+      "num": "23",
+      "factor": "O",
+      "facet": "O5: Intellect",
+      "keyed": "+",
+      "text": "Love to read challenging material.",
+      "language": "en"
+    },
+    {
+      "num": "53",
+      "factor": "O",
+      "facet": "O5: Intellect",
+      "keyed": "-",
+      "text": "Avoid philosophical discussions.",
+      "language": "en"
+    },
+    {
+      "num": "83",
+      "factor": "O",
+      "facet": "O5: Intellect",
+      "keyed": "-",
+      "text": "Have difficulty understanding abstract ideas.",
+      "language": "en"
+    },
+    {
+      "num": "113",
+      "factor": "O",
+      "facet": "O5: Intellect",
+      "keyed": "-",
+      "text": "Am not interested in theoretical discussions.",
+      "language": "en"
+    },
+    {
+      "num": "28",
+      "factor": "O",
+      "facet": "O6: Liberalism",
+      "keyed": "+",
+      "text": "Tend to vote for liberal political candidates.",
+      "language": "en"
+    },
+    {
+      "num": "58",
+      "factor": "O",
+      "facet": "O6: Liberalism",
+      "keyed": "+",
+      "text": "Believe that there is no absolute right and wrong.",
+      "language": "en"
+    },
+    {
+      "num": "88",
+      "factor": "O",
+      "facet": "O6: Liberalism",
+      "keyed": "-",
+      "text": "Tend to vote for conservative political candidates.",
+      "language": "en"
+    },
+    {
+      "num": "118",
+      "factor": "O",
+      "facet": "O6: Liberalism",
+      "keyed": "-",
+      "text": "Believe that we should be tough on crime.",
+      "language": "en"
+    },
+    {
+      "num": "4",
+      "factor": "A",
+      "facet": "A1: Trust",
+      "keyed": "+",
+      "text": "Trust others.",
+      "language": "en"
+    },
+    {
+      "num": "34",
+      "factor": "A",
+      "facet": "A1: Trust",
+      "keyed": "+",
+      "text": "Believe that others have good intentions.",
+      "language": "en"
+    },
+    {
+      "num": "64",
+      "factor": "A",
+      "facet": "A1: Trust",
+      "keyed": "+",
+      "text": "Trust what people say.",
+      "language": "en"
+    },
+    {
+      "num": "94",
+      "factor": "A",
+      "facet": "A1: Trust",
+      "keyed": "-",
+      "text": "Distrust people.",
+      "language": "en"
+    },
+    {
+      "num": "9",
+      "factor": "A",
+      "facet": "A2: Morality",
+      "keyed": "-",
+      "text": "Use others for my own ends.",
+      "language": "en"
+    },
+    {
+      "num": "39",
+      "factor": "A",
+      "facet": "A2: Morality",
+      "keyed": "-",
+      "text": "Cheat to get ahead.",
+      "language": "en"
+    },
+    {
+      "num": "69",
+      "factor": "A",
+      "facet": "A2: Morality",
+      "keyed": "-",
+      "text": "Take advantage of others.",
+      "language": "en"
+    },
+    {
+      "num": "99",
+      "factor": "A",
+      "facet": "A2: Morality",
+      "keyed": "-",
+      "text": "Obstruct others' plans.",
+      "language": "en"
+    },
+    {
+      "num": "14",
+      "factor": "A",
+      "facet": "A3: Altruism",
+      "keyed": "+",
+      "text": "Love to help others.",
+      "language": "en"
+    },
+    {
+      "num": "44",
+      "factor": "A",
+      "facet": "A3: Altruism",
+      "keyed": "+",
+      "text": "Am concerned about others.",
+      "language": "en"
+    },
+    {
+      "num": "74",
+      "factor": "A",
+      "facet": "A3: Altruism",
+      "keyed": "-",
+      "text": "Am indifferent to the feelings of others.",
+      "language": "en"
+    },
+    {
+      "num": "104",
+      "factor": "A",
+      "facet": "A3: Altruism",
+      "keyed": "-",
+      "text": "Take no time for others.",
+      "language": "en"
+    },
+    {
+      "num": "19",
+      "factor": "A",
+      "facet": "A4: Cooperation",
+      "keyed": "-",
+      "text": "Love a good fight.",
+      "language": "en"
+    },
+    {
+      "num": "49",
+      "factor": "A",
+      "facet": "A4: Cooperation",
+      "keyed": "-",
+      "text": "Yell at people.",
+      "language": "en"
+    },
+    {
+      "num": "79",
+      "factor": "A",
+      "facet": "A4: Cooperation",
+      "keyed": "-",
+      "text": "Insult people.",
+      "language": "en"
+    },
+    {
+      "num": "109",
+      "factor": "A",
+      "facet": "A4: Cooperation",
+      "keyed": "-",
+      "text": "Get back at others.",
+      "language": "en"
+    },
+    {
+      "num": "24",
+      "factor": "A",
+      "facet": "A5: Modesty",
+      "keyed": "-",
+      "text": "Believe that I am better than others.",
+      "language": "en"
+    },
+    {
+      "num": "54",
+      "factor": "A",
+      "facet": "A5: Modesty",
+      "keyed": "-",
+      "text": "Think highly of myself.",
+      "language": "en"
+    },
+    {
+      "num": "84",
+      "factor": "A",
+      "facet": "A5: Modesty",
+      "keyed": "-",
+      "text": "Have a high opinion of myself.",
+      "language": "en"
+    },
+    {
+      "num": "114",
+      "factor": "A",
+      "facet": "A5: Modesty",
+      "keyed": "-",
+      "text": "Boast about my virtues.",
+      "language": "en"
+    },
+    {
+      "num": "29",
+      "factor": "A",
+      "facet": "A6: Sympathy",
+      "keyed": "+",
+      "text": "Sympathize with the homeless.",
+      "language": "en"
+    },
+    {
+      "num": "59",
+      "factor": "A",
+      "facet": "A6: Sympathy",
+      "keyed": "+",
+      "text": "Feel sympathy for those who are worse off than myself.",
+      "language": "en"
+    },
+    {
+      "num": "89",
+      "factor": "A",
+      "facet": "A6: Sympathy",
+      "keyed": "-",
+      "text": "Am not interested in other people's problems.",
+      "language": "en"
+    },
+    {
+      "num": "119",
+      "factor": "A",
+      "facet": "A6: Sympathy",
+      "keyed": "-",
+      "text": "Try not to think about the needy.",
+      "language": "en"
+    },
+    {
+      "num": "5",
+      "factor": "C",
+      "facet": "C1: Self-Efficacy",
+      "keyed": "+",
+      "text": "Complete tasks successfully.",
+      "language": "en"
+    },
+    {
+      "num": "35",
+      "factor": "C",
+      "facet": "C1: Self-Efficacy",
+      "keyed": "+",
+      "text": "Excel in what I do.",
+      "language": "en"
+    },
+    {
+      "num": "65",
+      "factor": "C",
+      "facet": "C1: Self-Efficacy",
+      "keyed": "+",
+      "text": "Handle tasks smoothly.",
+      "language": "en"
+    },
+    {
+      "num": "95",
+      "factor": "C",
+      "facet": "C1: Self-Efficacy",
+      "keyed": "+",
+      "text": "Know how to get things done.",
+      "language": "en"
+    },
+    {
+      "num": "10",
+      "factor": "C",
+      "facet": "C2: Orderliness",
+      "keyed": "+",
+      "text": "Like to tidy up.",
+      "language": "en"
+    },
+    {
+      "num": "40",
+      "factor": "C",
+      "facet": "C2: Orderliness",
+      "keyed": "-",
+      "text": "Often forget to put things back in their proper place.",
+      "language": "en"
+    },
+    {
+      "num": "70",
+      "factor": "C",
+      "facet": "C2: Orderliness",
+      "keyed": "-",
+      "text": "Leave a mess in my room.",
+      "language": "en"
+    },
+    {
+      "num": "100",
+      "factor": "C",
+      "facet": "C2: Orderliness",
+      "keyed": "-",
+      "text": "Leave my belongings around.",
+      "language": "en"
+    },
+    {
+      "num": "15",
+      "factor": "C",
+      "facet": "C3: Dutifulness",
+      "keyed": "+",
+      "text": "Keep my promises.",
+      "language": "en"
+    },
+    {
+      "num": "45",
+      "factor": "C",
+      "facet": "C3: Dutifulness",
+      "keyed": "+",
+      "text": "Tell the truth.",
+      "language": "en"
+    },
+    {
+      "num": "75",
+      "factor": "C",
+      "facet": "C3: Dutifulness",
+      "keyed": "-",
+      "text": "Break rules.",
+      "language": "en"
+    },
+    {
+      "num": "105",
+      "factor": "C",
+      "facet": "C3: Dutifulness",
+      "keyed": "-",
+      "text": "Break my promises.",
+      "language": "en"
+    },
+    {
+      "num": "20",
+      "factor": "C",
+      "facet": "C4: Achievement-Striving",
+      "keyed": "+",
+      "text": "Work hard.",
+      "language": "en"
+    },
+    {
+      "num": "50",
+      "factor": "C",
+      "facet": "C4: Achievement-Striving",
+      "keyed": "+",
+      "text": "Do more than what's expected of me.",
+      "language": "en"
+    },
+    {
+      "num": "80",
+      "factor": "C",
+      "facet": "C4: Achievement-Striving",
+      "keyed": "-",
+      "text": "Do just enough work to get by.",
+      "language": "en"
+    },
+    {
+      "num": "110",
+      "factor": "C",
+      "facet": "C4: Achievement-Striving",
+      "keyed": "-",
+      "text": "Put little time and effort into my work.",
+      "language": "en"
+    },
+    {
+      "num": "25",
+      "factor": "C",
+      "facet": "C5: Self-Discipline",
+      "keyed": "+",
+      "text": "Am always prepared.",
+      "language": "en"
+    },
+    {
+      "num": "55",
+      "factor": "C",
+      "facet": "C5: Self-Discipline",
+      "keyed": "+",
+      "text": "Carry out my plans.",
+      "language": "en"
+    },
+    {
+      "num": "85",
+      "factor": "C",
+      "facet": "C5: Self-Discipline",
+      "keyed": "-",
+      "text": "Waste my time.",
+      "language": "en"
+    },
+    {
+      "num": "115",
+      "factor": "C",
+      "facet": "C5: Self-Discipline",
+      "keyed": "-",
+      "text": "Have difficulty starting tasks.",
+      "language": "en"
+    },
+    {
+      "num": "30",
+      "factor": "C",
+      "facet": "C6: Cautiousness",
+      "keyed": "-",
+      "text": "Jump into things without thinking.",
+      "language": "en"
+    },
+    {
+      "num": "60",
+      "factor": "C",
+      "facet": "C6: Cautiousness",
+      "keyed": "-",
+      "text": "Make rash decisions.",
+      "language": "en"
+    },
+    {
+      "num": "90",
+      "factor": "C",
+      "facet": "C6: Cautiousness",
+      "keyed": "-",
+      "text": "Rush into things.",
+      "language": "en"
+    },
+    {
+      "num": "120",
+      "factor": "C",
+      "facet": "C6: Cautiousness",
+      "keyed": "-",
+      "text": "Act without thinking.",
+      "language": "en"
+    }
+  ]
+}

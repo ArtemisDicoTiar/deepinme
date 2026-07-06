@@ -1,0 +1,618 @@
+{
+  "_meta": {
+    "instrument": "BFI-2 — 한국어 번역",
+    "full_name": "Big Five Inventory-2 (BFI-2) (Korean translation)",
+    "source_url": "https://www.colby.edu/wp-content/uploads/2013/08/bfi2-form.pdf",
+    "license": "BFI-2 items copyright 2015 by Oliver P. John and Christopher J. Soto. Distributed by the Colby College Personality Lab. Freely available for personal and non-commercial research use (\"permission is granted for personal and research use of the BFI-2... the BFI-2 is for non-commercial uses only\"). Not in the public domain; the authors retain copyright, and commercial use requires their permission. The lab asks users to complete a short registration survey before downloading the measure and scoring key.",
+    "license_class": "free_research_noncommercial",
+    "safe_for_noncommercial_reuse": true,
+    "safe_for_commercial_reuse": false,
+    "reuse_notes": "한국어 번역(파생물). 비상업 1단계용. LLM 번역이며 검증된 한국어 표준검사가 아님 — 실사용 전 재검수 권장. 라이선스는 원본을 따르되 번역은 파생물이므로 CC-SA/연구용 조건이 그대로 적용됨.",
+    "attribution": "Soto, C. J., & John, O. P. (2017). The next Big Five Inventory (BFI-2): Developing and assessing a hierarchical model with 15 facets to enhance bandwidth, fidelity, and predictive power. Journal of Personality and Social Psychology, 113(1), 117-143. BFI-2 items copyright 2015 by Oliver P. John and Christopher J. Soto. Obtained from the Colby College Personality Lab. · 한국어 번역: deepinme 번역 워크플로우(2026-07, LLM).",
+    "scoring_notes": "All 60 items share the stem \"I am someone who...\" and are rated on a 5-point Likert scale: 1 = Disagree strongly, 2 = Disagree a little, 3 = Neutral; no opinion, 4 = Agree a little, 5 = Agree strongly. The BFI-2 has a hierarchical structure: 5 domains x 3 facets each (15 facets), with 4 items per facet and 12 items per domain. Domains: Extraversion, Agreeableness, Conscientiousness, Negative Emotionality (i.e., Neuroticism), Open-Mindedness (i.e., Openness). Every scale is balanced with equal numbers of positively and negatively (reverse) keyed items. In the \"keyed\" field, \"positive\" = scored in the trait direction as written; \"negative\" = reverse-keyed (marked \"R\" in the official scoring key; recode 1<->5, 2<->4 before summing/averaging). Scale scores are computed as the mean of their items. Verbatim scoring key from the source: Extraversion = 1,6,11R,16R,21,26R,31R,36R,41,46,51R,56; Agreeableness = 2,7,12R,17R,22R,27,32,37R,42R,47R,52,57; Conscientiousness = 3R,8R,13,18,23R,28R,33,38,43,48R,53,58R; Negative Emotionality = 4R,9R,14,19,24R,29R,34,39,44R,49R,54,59; Open-Mindedness = 5R,10,15,20,25R,30R,35,40,45R,50R,55R,60. Facets (4 items each): Sociability 1,16R,31R,46; Assertiveness 6,21,36R,51R; Energy Level 11R,26R,41,56; Compassion 2,17R,32,47R; Respectfulness 7,22R,37R,52; Trust 12R,27,42R,57; Organization 3R,18,33,48R; Productiveness 8R,23R,38,53; Responsibility 13,28R,43,58R; Anxiety 4R,19,34,49R; Depression 9R,24R,39,54; Emotional Volatility 14,29R,44R,59; Intellectual Curiosity 10,25R,40,55R; Aesthetic Sensitivity 5R,20,35,50R; Creative Imagination 15,30R,45R,60. SHORT FORMS (same item pool, subsets of these 60): BFI-2-S = 30 items (2 per facet), and BFI-2-XS = 15 items (1 per facet, domain scores only); both from Soto & John (2017), Journal of Research in Personality, 68, 69-81, and distributed on separate forms by the Colby lab. The 30 and 15 item selections/keys are given on the respective bfi2s-form.pdf and bfi2xs-form.pdf documents (not enumerated here).",
+    "cautions": "Items are the exact verbatim text fetched from the official BFI-2 form PDF hosted by the Colby College Personality Lab (page 1 = item text, page 2 = scoring key); no item was reconstructed from memory. All 60 items and every domain/facet/keying assignment were cross-checked against the source's own scoring key and are internally consistent. LICENSE: The BFI-2 is copyrighted (2015, John & Soto), NOT public domain. It is free for personal and non-commercial RESEARCH use only; commercial use is not permitted without the authors' permission. This corpus is intended for a non-commercial stage-1 research use, which is within the stated terms. The authors request that users complete a short registration survey on the Colby lab site before downloading; anyone deploying this should do so and cite Soto & John (2017). Reproducing the original item wording in a commercial product, or selling access, would fall outside the free license and require permission. The plan to later REWRITE items into plain language means end-user-facing text will be derivative paraphrases, not the copyrighted verbatim items; retain attribution and confirm licensing scope before public/commercial distribution. Note the BFI-2 uses \"Negative Emotionality\" and \"Open-Mindedness\" as domain labels (equivalent to Neuroticism and Openness). | 번역본: 문항 순서·채점방향(keyed)·factor/facet은 원본과 동일. text_en에 원문 병기.",
+    "translation": {
+      "language": "ko",
+      "translated_from": "raw/bigfive/items.bfi-2-60.json",
+      "method": "LLM faithful translation (deepinme workflow, 2026-07) — 충실 번역이며 '쉬운말 리라이팅'은 별도 단계",
+      "status": "working draft — NOT a validated Korean instrument",
+      "qa": {
+        "fidelity": "high",
+        "naturalness": "natural",
+        "count_match": true,
+        "reviewer_overall": "전반적으로 매우 높은 품질의 번역 세트다. 60개 항목이 id 1~60에 순차적으로 하나씩 대응하며 누락·중복 없음. 모든 항목이 자기보고 문항에 맞는 평서형 '-다' 종결을 일관되게 유지하고, 역채점(부정 키) 문항들(예: 3 정리 정돈을 잘 못하는, 5 관심이 별로 없다, 8 게으른, 11 좀처럼 신이 나거나, 17 좀처럼 동정심, 30 창의력이 별로 없다, 48 어질러 놓고 치우지 않는다 등)이 방향성을 정확히 보존한다. '말수가 적다', '흠을 잡다', '신이 나다', '어질러 놓다' 등 관용적 한국어를 써서 번역투가 거의 없고 자연스럽다. 충실도는 high로 유지되며, 지적 사항은 모두 경미한 수준이다: (57) 원문에 없는 빈도 부사 '늘'이 추가되어 응답 기준을 높이는 심리측정적 문제, (59) '다혈질'이 temperamental의 의미를 분노 성향 쪽으로 약간 좁힘, (7) '존중하며 대한다'의 어색한 중복. 세 건 모두 등급 강등 사유는 아니며 소폭 다듬기 권장 수준이다.",
+        "issues": [
+          {
+            "id": "57",
+            "problem": "'Assumes the best about people'에는 빈도 부사가 없는데 번역에 '늘'(always)이 추가되어 '사람을 늘 좋은 쪽으로 생각한다'가 됨. 이 강도 부사는 문항의 응답(동의) 기준을 높여 심리측정적으로 문항 난이도를 미묘하게 바꿈. 같은 세트의 22('잘'), 56('매사에')처럼 원문에 없는 강조가 들어간 사례 중 가장 뚜렷함.",
+            "suggestion": "'사람을 좋은 쪽으로 생각한다' 또는 '사람들을 좋게 보는 편이다'로 '늘'을 제거"
+          },
+          {
+            "id": "59",
+            "problem": "'temperamental'을 '다혈질'로 옮겨 의미가 화를 잘 내는(성마른) 쪽으로 다소 좁아짐. 원문+'gets emotional easily'는 감정 기복 전반을 포함하는데 '다혈질'은 분노 성향에 치우친 뉘앙스. 전반적으로 수용 가능한 수준의 경미한 뉘앙스 문제.",
+            "suggestion": "'쉽게 격해지고 감정적이 되는 기질이다' 정도로 완화 가능. 단 '변덕/기분 기복' 어휘는 동일 facet인 14번('변덕스럽고 기분의 기복이 심하다')과 겹치므로 피할 것."
+          },
+          {
+            "id": "7",
+            "problem": "'예의 바르고 남을 존중하며 대한다'의 '존중하며 대한다'가 약간 어색하고 중복적인 표현. 의미 전달에는 문제 없으나 자연스러움이 다소 떨어짐.",
+            "suggestion": "'남에게 예의 바르고 남을 존중한다' 또는 '예의 바르며 남을 존중하는 태도로 대한다'"
+          }
+        ]
+      }
+    },
+    "verification": {
+      "summary": "번역 QA(2차 에이전트): fidelity=high, naturalness=natural, count_match=True, issues=3",
+      "fabrication_risk": "none"
+    },
+    "sources": [
+      {
+        "title": "The Big Five Inventory-2 (BFI-2) - official form with all 60 items and scoring key (Colby College Personality Lab)",
+        "url": "https://www.colby.edu/wp-content/uploads/2013/08/bfi2-form.pdf",
+        "license": "Copyright 2015 O. P. John & C. J. Soto; free for personal and non-commercial research use (Colby Personality Lab)"
+      },
+      {
+        "title": "The Big Five Inventory-2 (BFI-2) - Colby College Personality Lab (terms of use / availability)",
+        "url": "https://www.colby.edu/academics/departments-and-programs/psychology/research-opportunities/personality-lab/the-bfi-2/",
+        "license": "Free for personal and non-commercial research use; not public domain"
+      },
+      {
+        "title": "Soto, C. J., & John, O. P. (2017). The next Big Five Inventory (BFI-2). Journal of Personality and Social Psychology, 113, 117-143 (development paper / primary citation)",
+        "url": "https://www.colby.edu/wp-content/uploads/2013/08/Soto_John_2017a.pdf",
+        "license": "Copyrighted journal article; cited for provenance"
+      },
+      {
+        "title": "Soto, C. J., & John, O. P. (2017). Short and extra-short forms of the Big Five Inventory-2: The BFI-2-S and BFI-2-XS. Journal of Research in Personality, 68, 69-81 (short-form source)",
+        "url": "https://www.colby.edu/wp-content/uploads/2013/08/Soto_John_2017b.pdf",
+        "license": "Copyrighted journal article; cited for BFI-2-S (30) and BFI-2-XS (15) short forms"
+      },
+      {
+        "title": "Korean translation (deepinme workflow)",
+        "url": "https://www.colby.edu/wp-content/uploads/2013/08/bfi2-form.pdf",
+        "license": "translation is a derivative; see reuse_notes"
+      }
+    ]
+  },
+  "count": 60,
+  "items": [
+    {
+      "num": "1",
+      "text": "외향적이고 사교적이다.",
+      "text_en": "Is outgoing, sociable.",
+      "language": "ko",
+      "factor": "Extraversion",
+      "facet": "Sociability",
+      "keyed": "positive"
+    },
+    {
+      "num": "2",
+      "text": "인정이 많고 마음이 따뜻하다.",
+      "text_en": "Is compassionate, has a soft heart.",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "facet": "Compassion",
+      "keyed": "positive"
+    },
+    {
+      "num": "3",
+      "text": "정리 정돈을 잘 못하는 편이다.",
+      "text_en": "Tends to be disorganized.",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "facet": "Organization",
+      "keyed": "negative"
+    },
+    {
+      "num": "4",
+      "text": "느긋하고 스트레스에 잘 대처한다.",
+      "text_en": "Is relaxed, handles stress well.",
+      "language": "ko",
+      "factor": "Negative Emotionality",
+      "facet": "Anxiety",
+      "keyed": "negative"
+    },
+    {
+      "num": "5",
+      "text": "예술적인 것에는 관심이 별로 없다.",
+      "text_en": "Has few artistic interests.",
+      "language": "ko",
+      "factor": "Open-Mindedness",
+      "facet": "Aesthetic Sensitivity",
+      "keyed": "negative"
+    },
+    {
+      "num": "6",
+      "text": "자기주장이 강한 성격이다.",
+      "text_en": "Has an assertive personality.",
+      "language": "ko",
+      "factor": "Extraversion",
+      "facet": "Assertiveness",
+      "keyed": "positive"
+    },
+    {
+      "num": "7",
+      "text": "예의 바르고 남을 존중하며 대한다.",
+      "text_en": "Is respectful, treats others with respect.",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "facet": "Respectfulness",
+      "keyed": "positive"
+    },
+    {
+      "num": "8",
+      "text": "게으른 편이다.",
+      "text_en": "Tends to be lazy.",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "facet": "Productiveness",
+      "keyed": "negative"
+    },
+    {
+      "num": "9",
+      "text": "좌절을 겪은 뒤에도 낙관적인 태도를 유지한다.",
+      "text_en": "Stays optimistic after experiencing a setback.",
+      "language": "ko",
+      "factor": "Negative Emotionality",
+      "facet": "Depression",
+      "keyed": "negative"
+    },
+    {
+      "num": "10",
+      "text": "여러 가지 다양한 것에 호기심이 많다.",
+      "text_en": "Is curious about many different things.",
+      "language": "ko",
+      "factor": "Open-Mindedness",
+      "facet": "Intellectual Curiosity",
+      "keyed": "positive"
+    },
+    {
+      "num": "11",
+      "text": "좀처럼 신이 나거나 의욕이 생기지 않는다.",
+      "text_en": "Rarely feels excited or eager.",
+      "language": "ko",
+      "factor": "Extraversion",
+      "facet": "Energy Level",
+      "keyed": "negative"
+    },
+    {
+      "num": "12",
+      "text": "남의 흠을 잘 잡는 편이다.",
+      "text_en": "Tends to find fault with others.",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "facet": "Trust",
+      "keyed": "negative"
+    },
+    {
+      "num": "13",
+      "text": "믿음직하고 한결같다.",
+      "text_en": "Is dependable, steady.",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "facet": "Responsibility",
+      "keyed": "positive"
+    },
+    {
+      "num": "14",
+      "text": "변덕스럽고 기분의 기복이 심하다.",
+      "text_en": "Is moody, has up and down mood swings.",
+      "language": "ko",
+      "factor": "Negative Emotionality",
+      "facet": "Emotional Volatility",
+      "keyed": "positive"
+    },
+    {
+      "num": "15",
+      "text": "재간이 있어 일을 영리하게 해내는 방법을 잘 찾아낸다.",
+      "text_en": "Is inventive, finds clever ways to do things.",
+      "language": "ko",
+      "factor": "Open-Mindedness",
+      "facet": "Creative Imagination",
+      "keyed": "positive"
+    },
+    {
+      "num": "16",
+      "text": "말수가 적은 편이다.",
+      "text_en": "Tends to be quiet.",
+      "language": "ko",
+      "factor": "Extraversion",
+      "facet": "Sociability",
+      "keyed": "negative"
+    },
+    {
+      "num": "17",
+      "text": "남에게 좀처럼 동정심을 느끼지 않는다.",
+      "text_en": "Feels little sympathy for others.",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "facet": "Compassion",
+      "keyed": "negative"
+    },
+    {
+      "num": "18",
+      "text": "체계적이고 모든 것을 정돈된 상태로 유지하기를 좋아한다.",
+      "text_en": "Is systematic, likes to keep things in order.",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "facet": "Organization",
+      "keyed": "positive"
+    },
+    {
+      "num": "19",
+      "text": "긴장할 때가 있다.",
+      "text_en": "Can be tense.",
+      "language": "ko",
+      "factor": "Negative Emotionality",
+      "facet": "Anxiety",
+      "keyed": "positive"
+    },
+    {
+      "num": "20",
+      "text": "미술, 음악, 문학에 깊이 매료된다.",
+      "text_en": "Is fascinated by art, music, or literature.",
+      "language": "ko",
+      "factor": "Open-Mindedness",
+      "facet": "Aesthetic Sensitivity",
+      "keyed": "positive"
+    },
+    {
+      "num": "21",
+      "text": "주도적이며 리더 역할을 한다.",
+      "text_en": "Is dominant, acts as a leader.",
+      "language": "ko",
+      "factor": "Extraversion",
+      "facet": "Assertiveness",
+      "keyed": "positive"
+    },
+    {
+      "num": "22",
+      "text": "남과 언쟁을 잘 벌인다.",
+      "text_en": "Starts arguments with others.",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "facet": "Respectfulness",
+      "keyed": "negative"
+    },
+    {
+      "num": "23",
+      "text": "해야 할 일에 좀처럼 착수하지 못한다.",
+      "text_en": "Has difficulty getting started on tasks.",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "facet": "Productiveness",
+      "keyed": "negative"
+    },
+    {
+      "num": "24",
+      "text": "마음이 안정되어 있고 자기 자신을 편안하게 여긴다.",
+      "text_en": "Feels secure, comfortable with self.",
+      "language": "ko",
+      "factor": "Negative Emotionality",
+      "facet": "Depression",
+      "keyed": "negative"
+    },
+    {
+      "num": "25",
+      "text": "지적이거나 철학적인 토론을 피한다.",
+      "text_en": "Avoids intellectual, philosophical discussions.",
+      "language": "ko",
+      "factor": "Open-Mindedness",
+      "facet": "Intellectual Curiosity",
+      "keyed": "negative"
+    },
+    {
+      "num": "26",
+      "text": "다른 사람보다 덜 활동적이다.",
+      "text_en": "Is less active than other people.",
+      "language": "ko",
+      "factor": "Extraversion",
+      "facet": "Energy Level",
+      "keyed": "negative"
+    },
+    {
+      "num": "27",
+      "text": "남을 잘 용서하는 성품이다.",
+      "text_en": "Has a forgiving nature.",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "facet": "Trust",
+      "keyed": "positive"
+    },
+    {
+      "num": "28",
+      "text": "다소 부주의한 면이 있다.",
+      "text_en": "Can be somewhat careless.",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "facet": "Responsibility",
+      "keyed": "negative"
+    },
+    {
+      "num": "29",
+      "text": "정서적으로 안정되어 있어 쉽게 동요하지 않는다.",
+      "text_en": "Is emotionally stable, not easily upset.",
+      "language": "ko",
+      "factor": "Negative Emotionality",
+      "facet": "Emotional Volatility",
+      "keyed": "negative"
+    },
+    {
+      "num": "30",
+      "text": "창의력이 별로 없다.",
+      "text_en": "Has little creativity.",
+      "language": "ko",
+      "factor": "Open-Mindedness",
+      "facet": "Creative Imagination",
+      "keyed": "negative"
+    },
+    {
+      "num": "31",
+      "text": "때때로 수줍음을 타고 내성적이다.",
+      "text_en": "Is sometimes shy, introverted.",
+      "language": "ko",
+      "factor": "Extraversion",
+      "facet": "Sociability",
+      "keyed": "negative"
+    },
+    {
+      "num": "32",
+      "text": "남을 잘 돕고 사심 없이 대한다.",
+      "text_en": "Is helpful and unselfish with others.",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "facet": "Compassion",
+      "keyed": "positive"
+    },
+    {
+      "num": "33",
+      "text": "주변을 깔끔하고 단정하게 정돈해 둔다.",
+      "text_en": "Keeps things neat and tidy.",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "facet": "Organization",
+      "keyed": "positive"
+    },
+    {
+      "num": "34",
+      "text": "걱정이 많다.",
+      "text_en": "Worries a lot.",
+      "language": "ko",
+      "factor": "Negative Emotionality",
+      "facet": "Anxiety",
+      "keyed": "positive"
+    },
+    {
+      "num": "35",
+      "text": "예술과 아름다움을 소중히 여긴다.",
+      "text_en": "Values art and beauty.",
+      "language": "ko",
+      "factor": "Open-Mindedness",
+      "facet": "Aesthetic Sensitivity",
+      "keyed": "positive"
+    },
+    {
+      "num": "36",
+      "text": "다른 사람에게 영향을 미치는 것을 어려워한다.",
+      "text_en": "Finds it hard to influence people.",
+      "language": "ko",
+      "factor": "Extraversion",
+      "facet": "Assertiveness",
+      "keyed": "negative"
+    },
+    {
+      "num": "37",
+      "text": "때때로 남에게 무례하게 군다.",
+      "text_en": "Is sometimes rude to others.",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "facet": "Respectfulness",
+      "keyed": "negative"
+    },
+    {
+      "num": "38",
+      "text": "효율적이어서 일을 확실히 끝마친다.",
+      "text_en": "Is efficient, gets things done.",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "facet": "Productiveness",
+      "keyed": "positive"
+    },
+    {
+      "num": "39",
+      "text": "자주 슬픔을 느낀다.",
+      "text_en": "Often feels sad.",
+      "language": "ko",
+      "factor": "Negative Emotionality",
+      "facet": "Depression",
+      "keyed": "positive"
+    },
+    {
+      "num": "40",
+      "text": "사고가 복합적이고 깊이 있게 생각한다.",
+      "text_en": "Is complex, a deep thinker.",
+      "language": "ko",
+      "factor": "Open-Mindedness",
+      "facet": "Intellectual Curiosity",
+      "keyed": "positive"
+    },
+    {
+      "num": "41",
+      "text": "활력이 넘친다.",
+      "text_en": "Is full of energy.",
+      "language": "ko",
+      "factor": "Extraversion",
+      "facet": "Energy Level",
+      "keyed": "positive"
+    },
+    {
+      "num": "42",
+      "text": "다른 사람의 의도를 의심한다.",
+      "text_en": "Is suspicious of others' intentions.",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "facet": "Trust",
+      "keyed": "negative"
+    },
+    {
+      "num": "43",
+      "text": "믿을 수 있어서 언제든 의지할 수 있다.",
+      "text_en": "Is reliable, can always be counted on.",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "facet": "Responsibility",
+      "keyed": "positive"
+    },
+    {
+      "num": "44",
+      "text": "자신의 감정을 잘 다스린다.",
+      "text_en": "Keeps their emotions under control.",
+      "language": "ko",
+      "factor": "Negative Emotionality",
+      "facet": "Emotional Volatility",
+      "keyed": "negative"
+    },
+    {
+      "num": "45",
+      "text": "무언가를 상상하는 것을 어려워한다.",
+      "text_en": "Has difficulty imagining things.",
+      "language": "ko",
+      "factor": "Open-Mindedness",
+      "facet": "Creative Imagination",
+      "keyed": "negative"
+    },
+    {
+      "num": "46",
+      "text": "말이 많다.",
+      "text_en": "Is talkative.",
+      "language": "ko",
+      "factor": "Extraversion",
+      "facet": "Sociability",
+      "keyed": "positive"
+    },
+    {
+      "num": "47",
+      "text": "차갑고 무심할 때가 있다.",
+      "text_en": "Can be cold and uncaring.",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "facet": "Compassion",
+      "keyed": "negative"
+    },
+    {
+      "num": "48",
+      "text": "어질러 놓고 치우지 않는다.",
+      "text_en": "Leaves a mess, doesn't clean up.",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "facet": "Organization",
+      "keyed": "negative"
+    },
+    {
+      "num": "49",
+      "text": "좀처럼 불안하거나 두려움을 느끼지 않는다.",
+      "text_en": "Rarely feels anxious or afraid.",
+      "language": "ko",
+      "factor": "Negative Emotionality",
+      "facet": "Anxiety",
+      "keyed": "negative"
+    },
+    {
+      "num": "50",
+      "text": "시나 연극이 지루하다고 생각한다.",
+      "text_en": "Thinks poetry and plays are boring.",
+      "language": "ko",
+      "factor": "Open-Mindedness",
+      "facet": "Aesthetic Sensitivity",
+      "keyed": "negative"
+    },
+    {
+      "num": "51",
+      "text": "다른 사람이 주도해 주기를 선호한다.",
+      "text_en": "Prefers to have others take charge.",
+      "language": "ko",
+      "factor": "Extraversion",
+      "facet": "Assertiveness",
+      "keyed": "negative"
+    },
+    {
+      "num": "52",
+      "text": "남에게 예의 바르고 정중하다.",
+      "text_en": "Is polite, courteous to others.",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "facet": "Respectfulness",
+      "keyed": "positive"
+    },
+    {
+      "num": "53",
+      "text": "끈기가 있어 일이 끝날 때까지 해낸다.",
+      "text_en": "Is persistent, works until the task is finished.",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "facet": "Productiveness",
+      "keyed": "positive"
+    },
+    {
+      "num": "54",
+      "text": "우울하고 기분이 가라앉는 편이다.",
+      "text_en": "Tends to feel depressed, blue.",
+      "language": "ko",
+      "factor": "Negative Emotionality",
+      "facet": "Depression",
+      "keyed": "positive"
+    },
+    {
+      "num": "55",
+      "text": "추상적인 개념에는 관심이 별로 없다.",
+      "text_en": "Has little interest in abstract ideas.",
+      "language": "ko",
+      "factor": "Open-Mindedness",
+      "facet": "Intellectual Curiosity",
+      "keyed": "negative"
+    },
+    {
+      "num": "56",
+      "text": "매사에 열의를 많이 보인다.",
+      "text_en": "Shows a lot of enthusiasm.",
+      "language": "ko",
+      "factor": "Extraversion",
+      "facet": "Energy Level",
+      "keyed": "positive"
+    },
+    {
+      "num": "57",
+      "text": "사람을 늘 좋은 쪽으로 생각한다.",
+      "text_en": "Assumes the best about people.",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "facet": "Trust",
+      "keyed": "positive"
+    },
+    {
+      "num": "58",
+      "text": "때때로 무책임하게 행동한다.",
+      "text_en": "Sometimes behaves irresponsibly.",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "facet": "Responsibility",
+      "keyed": "negative"
+    },
+    {
+      "num": "59",
+      "text": "다혈질이라 쉽게 감정적으로 변한다.",
+      "text_en": "Is temperamental, gets emotional easily.",
+      "language": "ko",
+      "factor": "Negative Emotionality",
+      "facet": "Emotional Volatility",
+      "keyed": "positive"
+    },
+    {
+      "num": "60",
+      "text": "독창적이어서 새로운 아이디어를 잘 떠올린다.",
+      "text_en": "Is original, comes up with new ideas.",
+      "language": "ko",
+      "factor": "Open-Mindedness",
+      "facet": "Creative Imagination",
+      "keyed": "positive"
+    }
+  ]
+}

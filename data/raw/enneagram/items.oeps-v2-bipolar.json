@@ -1,0 +1,426 @@
+{
+  "_meta": {
+    "instrument": "Open Enneagram of Personality Scales (OEPS v2.0)",
+    "full_name": "Open Enneagram of Personality Scales, version 2.0 (bipolar / semantic-differential item version) — Open-Source Psychometrics Project",
+    "source_url": "https://openpsychometrics.org/tests/OEPS/development/OSPP-Enneagram-of-Personality-Scales-v2.odt",
+    "license": "Creative Commons, variant UNSPECIFIED. The OSPP About page states the site's tests are \"made available under a creative commons license on this website\" but names no specific variant. The v2.0 ODT artifact contains no embedded CC notice (checked content.xml, meta.xml, manifest.rdf, styles.xml — no license/copyright string), and the OEPS pages carry no per-item CC notice. A BY-NC-SA 4.0 variant is commonly inferred from sibling OSPP pages but is NOT printed on the OEPS materials, so the exact variant is uncertain. Non-commercial research reuse is safe under any CC variant; commercial reuse would require confirming the variant with the author (info@openpsychometrics.org).",
+    "license_class": "cc",
+    "safe_for_noncommercial_reuse": true,
+    "safe_for_commercial_reuse": false,
+    "attribution": "Open-Source Psychometrics Project (openpsychometrics.org). The OEPS was developed by the OSPP website (project run by an anonymous author/maintainer) as an open-source Enneagram assessment. Cite as: OSPP Enneagram of Personality Scales v2.0, Open-Source Psychometrics Project, https://openpsychometrics.org/tests/OEPS/ (development docs and ODT at /tests/OEPS/development/).",
+    "scoring_notes": "Response scales: Q1-Q36 Likert 1-5 (1=Disagree, 3=Neutral, 5=Agree). Q37-Q54 bipolar 1-5 (1=Entirely like left pole, 3=In between, 5=Entirely like right pole). Type score = sum of listed terms; assigned type = highest score. Verbatim scoring formulas from the ODT: Type 1 = Q1 + Q10 + Q19 + Q28 + (6-Q38) + (6-Q41) + Q46; Type 2 = Q2 + Q11 + Q20 + Q29 + (6-Q42) + Q45 + Q47; Type 3 = Q3 + Q12 + Q21 + Q30 + (6-Q40) + Q39 + (6-Q48); Type 4 = Q4 + Q13 + Q22 + Q31 + Q38 + Q44 + Q49; Type 5 = Q5 + Q14 + Q23 + Q32 + Q42 + (6-Q44) + Q50; Type 6 = Q6 + Q15 + Q24 + Q33 + Q37 + Q40 + Q51; Type 7 = Q7 + Q16 + Q25 + Q34 + Q41 + (6-Q43) + (6-Q47) + (6-Q52); Type 8 = Q8 + Q17 + Q26 + Q35 + (6-Q37) + (6-Q45) + (6-Q53); Type 9 = Q9 + Q18 + Q27 + Q36 + (6-Q39) + Q43 + (6-Q54). Type 7 sums 8 items; every other type sums 7. Per-item factor/keyed values above were derived from these formulas and re-verified: contributor counts match exactly. Type names (conventional, NOT printed in ODT which labels only Type 1..9): 1 Reformer/Perfectionist, 2 Helper/Giver, 3 Achiever/Performer, 4 Individualist/Romantic, 5 Investigator/Observer, 6 Loyalist/Loyal Skeptic, 7 Enthusiast/Epicure, 8 Challenger/Protector, 9 Peacemaker/Mediator.",
+    "cautions": "SCOPE: v2.0 has 54 items total. Q1-Q36 are Likert single statements whose wording is IDENTICAL to the already-collected v1.0 36-item set but RENUMBERED and REORDERED (e.g., v2.0 Q10 'I am a perfectionist' = v1.0 Q1; v2.0 Q1 'I strive for efficiency' = v1.0 Q2). The genuinely NEW v2.0 content is Q37-Q54: 18 bipolar semantic-differential items (rate 1-5 between two opposing poles). All 54 are included here so the v2.0 instrument and its full multi-keyed scoring are complete; de-duplicate against v1.0 if you only want net-new items.\n\nITEM COUNT DISCREPANCY: A WebFetch summary of the /development/ directory prose mentioned '57 items' - that is inaccurate. The actual v2.0 ODT contains exactly 54 items (Q1-Q54), matching the live test page at /tests/OEPS/ (updated 21 January 2026), which states 'The test has 54 statements.' expected_item_count = 54.\n\nMULTI/REVERSE KEYING: Bipolar items are multi-keyed. 10 of the 18 bipolar items (Q37-Q45 and Q47) load on TWO types with opposite scoring direction; the other 8 (Q46, Q48-Q54) load on one type. Reverse-keying is expressed as (6-Q) in the source. Verified: per-type contributor counts derived from the items exactly match the ODT scoring formulas (see scoring_notes).\n\nLICENSE: Creative Commons but variant is NOT printed on any OEPS artifact or page; treat as uncertain. Safe for non-commercial research use; confirm the variant with the author before any commercial reuse or verbatim commercial republication. Consistent with the existing repo's items.oeps.json (v1.0), which flags the same license uncertainty and marks safe_for_commercial_reuse=false.\n\nVALIDITY: The Enneagram is not an empirically validated model of personality (the OSPP page itself states 'The Enneagram is not a model used in psychological research'). Present results as a self-reflection tool, never as diagnosis. Type labels in parentheses (Reformer, Helper, etc.) are conventional Enneagram names added here for clarity; the ODT itself scores only 'Type 1'..'Type 9'.\n\nFORMAT NOTE: Bipolar item 'text' is given as 'leftpole (left pole) - rightpole (right pole)'; the poles are verbatim, while '(left pole)/(right pole)' labels and the em dash are editorial connectors (the source lays the poles in two table columns with a 1-5 rating scale between them).",
+    "corrections_applied": [
+      "attribution: removed unsupported 'Eric Jorgenson'; OSPP maintainer is publicly anonymous (per verification)"
+    ],
+    "verification": {
+      "fabrication_risk": "low",
+      "item_count_plausible": true,
+      "license_correct_asreported": true,
+      "summary": "adversarially fact-checked by a second agent vs primary sources (deepinme wide-collection workflow, 2026-07)"
+    },
+    "sources": [
+      {
+        "title": "OSPP Enneagram of Personality Scales v2.0 (primary source — ODT downloaded and unzipped; items extracted verbatim from content.xml)",
+        "url": "https://openpsychometrics.org/tests/OEPS/development/OSPP-Enneagram-of-Personality-Scales-v2.odt",
+        "license": "Creative Commons, variant unspecified (no embedded notice in ODT)"
+      },
+      {
+        "title": "OEPS live interactive test page (confirms 54 statements; 'Updated: 21 January 2026')",
+        "url": "https://openpsychometrics.org/tests/OEPS/",
+        "license": "CC (variant unspecified)"
+      },
+      {
+        "title": "OEPS development documentation directory (lists v1.0 and v2.0 ODT files)",
+        "url": "https://openpsychometrics.org/tests/OEPS/development/",
+        "license": "CC (variant unspecified)"
+      },
+      {
+        "title": "Open-Source Psychometrics Project — About page (license statement: tests 'made available under a creative commons license on this website'; no variant named)",
+        "url": "https://openpsychometrics.org/about/",
+        "license": "CC (variant unspecified)"
+      }
+    ]
+  },
+  "count": 54,
+  "items": [
+    {
+      "num": "Q1",
+      "text": "I strive for efficiency.",
+      "language": "English",
+      "factor": "Type 1 (The Reformer/Perfectionist)",
+      "keyed": "positive (Likert 1-5, 1=Disagree 5=Agree; higher = more Type 1 (The Reformer/Perfectionist)); scored: +Q1 in Type 1"
+    },
+    {
+      "num": "Q2",
+      "text": "My relationships with others are what my life is about.",
+      "language": "English",
+      "factor": "Type 2 (The Helper/Giver)",
+      "keyed": "positive (Likert 1-5, 1=Disagree 5=Agree; higher = more Type 2 (The Helper/Giver)); scored: +Q2 in Type 2"
+    },
+    {
+      "num": "Q3",
+      "text": "I put work first.",
+      "language": "English",
+      "factor": "Type 3 (The Achiever/Performer)",
+      "keyed": "positive (Likert 1-5, 1=Disagree 5=Agree; higher = more Type 3 (The Achiever/Performer)); scored: +Q3 in Type 3"
+    },
+    {
+      "num": "Q4",
+      "text": "I daydream about being in love.",
+      "language": "English",
+      "factor": "Type 4 (The Individualist/Romantic)",
+      "keyed": "positive (Likert 1-5, 1=Disagree 5=Agree; higher = more Type 4 (The Individualist/Romantic)); scored: +Q4 in Type 4"
+    },
+    {
+      "num": "Q5",
+      "text": "I have a hard time showing emotions.",
+      "language": "English",
+      "factor": "Type 5 (The Investigator/Observer)",
+      "keyed": "positive (Likert 1-5, 1=Disagree 5=Agree; higher = more Type 5 (The Investigator/Observer)); scored: +Q5 in Type 5"
+    },
+    {
+      "num": "Q6",
+      "text": "Fear of being taken advantage of keeps me from being more trusting.",
+      "language": "English",
+      "factor": "Type 6 (The Loyalist/Loyal Skeptic)",
+      "keyed": "positive (Likert 1-5, 1=Disagree 5=Agree; higher = more Type 6 (The Loyalist/Loyal Skeptic)); scored: +Q6 in Type 6"
+    },
+    {
+      "num": "Q7",
+      "text": "I must always be having new experiences.",
+      "language": "English",
+      "factor": "Type 7 (The Enthusiast/Epicure)",
+      "keyed": "positive (Likert 1-5, 1=Disagree 5=Agree; higher = more Type 7 (The Enthusiast/Epicure)); scored: +Q7 in Type 7"
+    },
+    {
+      "num": "Q8",
+      "text": "I naturally emerge as a leader.",
+      "language": "English",
+      "factor": "Type 8 (The Challenger/Protector)",
+      "keyed": "positive (Likert 1-5, 1=Disagree 5=Agree; higher = more Type 8 (The Challenger/Protector)); scored: +Q8 in Type 8"
+    },
+    {
+      "num": "Q9",
+      "text": "When other people are arguing, I leave the room.",
+      "language": "English",
+      "factor": "Type 9 (The Peacemaker/Mediator)",
+      "keyed": "positive (Likert 1-5, 1=Disagree 5=Agree; higher = more Type 9 (The Peacemaker/Mediator)); scored: +Q9 in Type 9"
+    },
+    {
+      "num": "Q10",
+      "text": "I am a perfectionist.",
+      "language": "English",
+      "factor": "Type 1 (The Reformer/Perfectionist)",
+      "keyed": "positive (Likert 1-5, 1=Disagree 5=Agree; higher = more Type 1 (The Reformer/Perfectionist)); scored: +Q10 in Type 1"
+    },
+    {
+      "num": "Q11",
+      "text": "I have difficulty saying no.",
+      "language": "English",
+      "factor": "Type 2 (The Helper/Giver)",
+      "keyed": "positive (Likert 1-5, 1=Disagree 5=Agree; higher = more Type 2 (The Helper/Giver)); scored: +Q11 in Type 2"
+    },
+    {
+      "num": "Q12",
+      "text": "I like to stand out.",
+      "language": "English",
+      "factor": "Type 3 (The Achiever/Performer)",
+      "keyed": "positive (Likert 1-5, 1=Disagree 5=Agree; higher = more Type 3 (The Achiever/Performer)); scored: +Q12 in Type 3"
+    },
+    {
+      "num": "Q13",
+      "text": "I really enjoy feeling bitter sweet.",
+      "language": "English",
+      "factor": "Type 4 (The Individualist/Romantic)",
+      "keyed": "positive (Likert 1-5, 1=Disagree 5=Agree; higher = more Type 4 (The Individualist/Romantic)); scored: +Q13 in Type 4"
+    },
+    {
+      "num": "Q14",
+      "text": "I spend hours alone with my hobbies.",
+      "language": "English",
+      "factor": "Type 5 (The Investigator/Observer)",
+      "keyed": "positive (Likert 1-5, 1=Disagree 5=Agree; higher = more Type 5 (The Investigator/Observer)); scored: +Q14 in Type 5"
+    },
+    {
+      "num": "Q15",
+      "text": "I get input from others before I make a decision.",
+      "language": "English",
+      "factor": "Type 6 (The Loyalist/Loyal Skeptic)",
+      "keyed": "positive (Likert 1-5, 1=Disagree 5=Agree; higher = more Type 6 (The Loyalist/Loyal Skeptic)); scored: +Q15 in Type 6"
+    },
+    {
+      "num": "Q16",
+      "text": "I can keep a conversation going with anyone about anything.",
+      "language": "English",
+      "factor": "Type 7 (The Enthusiast/Epicure)",
+      "keyed": "positive (Likert 1-5, 1=Disagree 5=Agree; higher = more Type 7 (The Enthusiast/Epicure)); scored: +Q16 in Type 7"
+    },
+    {
+      "num": "Q17",
+      "text": "I like a conversation where no one agrees.",
+      "language": "English",
+      "factor": "Type 8 (The Challenger/Protector)",
+      "keyed": "positive (Likert 1-5, 1=Disagree 5=Agree; higher = more Type 8 (The Challenger/Protector)); scored: +Q17 in Type 8"
+    },
+    {
+      "num": "Q18",
+      "text": "I keep my thoughts to myself, to prevent trouble.",
+      "language": "English",
+      "factor": "Type 9 (The Peacemaker/Mediator)",
+      "keyed": "positive (Likert 1-5, 1=Disagree 5=Agree; higher = more Type 9 (The Peacemaker/Mediator)); scored: +Q18 in Type 9"
+    },
+    {
+      "num": "Q19",
+      "text": "I often have to redo other peoples work.",
+      "language": "English",
+      "factor": "Type 1 (The Reformer/Perfectionist)",
+      "keyed": "positive (Likert 1-5, 1=Disagree 5=Agree; higher = more Type 1 (The Reformer/Perfectionist)); scored: +Q19 in Type 1"
+    },
+    {
+      "num": "Q20",
+      "text": "I get lots of satisfaction from helping others achieve their goals.",
+      "language": "English",
+      "factor": "Type 2 (The Helper/Giver)",
+      "keyed": "positive (Likert 1-5, 1=Disagree 5=Agree; higher = more Type 2 (The Helper/Giver)); scored: +Q20 in Type 2"
+    },
+    {
+      "num": "Q21",
+      "text": "It is good to wake up to a full day of planned activities.",
+      "language": "English",
+      "factor": "Type 3 (The Achiever/Performer)",
+      "keyed": "positive (Likert 1-5, 1=Disagree 5=Agree; higher = more Type 3 (The Achiever/Performer)); scored: +Q21 in Type 3"
+    },
+    {
+      "num": "Q22",
+      "text": "I cry.",
+      "language": "English",
+      "factor": "Type 4 (The Individualist/Romantic)",
+      "keyed": "positive (Likert 1-5, 1=Disagree 5=Agree; higher = more Type 4 (The Individualist/Romantic)); scored: +Q22 in Type 4"
+    },
+    {
+      "num": "Q23",
+      "text": "I spend most of my time trying to understand things.",
+      "language": "English",
+      "factor": "Type 5 (The Investigator/Observer)",
+      "keyed": "positive (Likert 1-5, 1=Disagree 5=Agree; higher = more Type 5 (The Investigator/Observer)); scored: +Q23 in Type 5"
+    },
+    {
+      "num": "Q24",
+      "text": "I conform.",
+      "language": "English",
+      "factor": "Type 6 (The Loyalist/Loyal Skeptic)",
+      "keyed": "positive (Likert 1-5, 1=Disagree 5=Agree; higher = more Type 6 (The Loyalist/Loyal Skeptic)); scored: +Q24 in Type 6"
+    },
+    {
+      "num": "Q25",
+      "text": "I am uninhibited.",
+      "language": "English",
+      "factor": "Type 7 (The Enthusiast/Epicure)",
+      "keyed": "positive (Likert 1-5, 1=Disagree 5=Agree; higher = more Type 7 (The Enthusiast/Epicure)); scored: +Q25 in Type 7"
+    },
+    {
+      "num": "Q26",
+      "text": "I want people to tell me the truth, not spare my feelings.",
+      "language": "English",
+      "factor": "Type 8 (The Challenger/Protector)",
+      "keyed": "positive (Likert 1-5, 1=Disagree 5=Agree; higher = more Type 8 (The Challenger/Protector)); scored: +Q26 in Type 8"
+    },
+    {
+      "num": "Q27",
+      "text": "I am very accepting and flexible.",
+      "language": "English",
+      "factor": "Type 9 (The Peacemaker/Mediator)",
+      "keyed": "positive (Likert 1-5, 1=Disagree 5=Agree; higher = more Type 9 (The Peacemaker/Mediator)); scored: +Q27 in Type 9"
+    },
+    {
+      "num": "Q28",
+      "text": "I keep my belongings in order.",
+      "language": "English",
+      "factor": "Type 1 (The Reformer/Perfectionist)",
+      "keyed": "positive (Likert 1-5, 1=Disagree 5=Agree; higher = more Type 1 (The Reformer/Perfectionist)); scored: +Q28 in Type 1"
+    },
+    {
+      "num": "Q29",
+      "text": "I put family first.",
+      "language": "English",
+      "factor": "Type 2 (The Helper/Giver)",
+      "keyed": "positive (Likert 1-5, 1=Disagree 5=Agree; higher = more Type 2 (The Helper/Giver)); scored: +Q29 in Type 2"
+    },
+    {
+      "num": "Q30",
+      "text": "Money is important to my happiness.",
+      "language": "English",
+      "factor": "Type 3 (The Achiever/Performer)",
+      "keyed": "positive (Likert 1-5, 1=Disagree 5=Agree; higher = more Type 3 (The Achiever/Performer)); scored: +Q30 in Type 3"
+    },
+    {
+      "num": "Q31",
+      "text": "I side with the rebels over the establishment.",
+      "language": "English",
+      "factor": "Type 4 (The Individualist/Romantic)",
+      "keyed": "positive (Likert 1-5, 1=Disagree 5=Agree; higher = more Type 4 (The Individualist/Romantic)); scored: +Q31 in Type 4"
+    },
+    {
+      "num": "Q32",
+      "text": "I like mental challenges.",
+      "language": "English",
+      "factor": "Type 5 (The Investigator/Observer)",
+      "keyed": "positive (Likert 1-5, 1=Disagree 5=Agree; higher = more Type 5 (The Investigator/Observer)); scored: +Q32 in Type 5"
+    },
+    {
+      "num": "Q33",
+      "text": "I am loyal.",
+      "language": "English",
+      "factor": "Type 6 (The Loyalist/Loyal Skeptic)",
+      "keyed": "positive (Likert 1-5, 1=Disagree 5=Agree; higher = more Type 6 (The Loyalist/Loyal Skeptic)); scored: +Q33 in Type 6"
+    },
+    {
+      "num": "Q34",
+      "text": "I always try to break the tension with a good joke.",
+      "language": "English",
+      "factor": "Type 7 (The Enthusiast/Epicure)",
+      "keyed": "positive (Likert 1-5, 1=Disagree 5=Agree; higher = more Type 7 (The Enthusiast/Epicure)); scored: +Q34 in Type 7"
+    },
+    {
+      "num": "Q35",
+      "text": "I prefer it when leaders are decisive.",
+      "language": "English",
+      "factor": "Type 8 (The Challenger/Protector)",
+      "keyed": "positive (Likert 1-5, 1=Disagree 5=Agree; higher = more Type 8 (The Challenger/Protector)); scored: +Q35 in Type 8"
+    },
+    {
+      "num": "Q36",
+      "text": "I avoid confrontation.",
+      "language": "English",
+      "factor": "Type 9 (The Peacemaker/Mediator)",
+      "keyed": "positive (Likert 1-5, 1=Disagree 5=Agree; higher = more Type 9 (The Peacemaker/Mediator)); scored: +Q36 in Type 9"
+    },
+    {
+      "num": "Q37",
+      "text": "confident (left pole) — insecure (right pole)",
+      "language": "English",
+      "factor": "Type 6 (The Loyalist/Loyal Skeptic) / Type 8 (The Challenger/Protector)",
+      "keyed": "bipolar semantic-differential (1=entirely like left 'confident', 5=entirely like right 'insecure', 3=in between). Type 6 (The Loyalist/Loyal Skeptic) positive (+Q37: higher/right-pole 'insecure' raises Type 6); Type 8 (The Challenger/Protector) reverse (6-Q37: lower/left-pole 'confident' raises Type 8)"
+    },
+    {
+      "num": "Q38",
+      "text": "rational (left pole) — whimsical (right pole)",
+      "language": "English",
+      "factor": "Type 1 (The Reformer/Perfectionist) / Type 4 (The Individualist/Romantic)",
+      "keyed": "bipolar semantic-differential (1=entirely like left 'rational', 5=entirely like right 'whimsical', 3=in between). Type 1 (The Reformer/Perfectionist) reverse (6-Q38: lower/left-pole 'rational' raises Type 1); Type 4 (The Individualist/Romantic) positive (+Q38: higher/right-pole 'whimsical' raises Type 4)"
+    },
+    {
+      "num": "Q39",
+      "text": "unambitious (left pole) — driven (right pole)",
+      "language": "English",
+      "factor": "Type 3 (The Achiever/Performer) / Type 9 (The Peacemaker/Mediator)",
+      "keyed": "bipolar semantic-differential (1=entirely like left 'unambitious', 5=entirely like right 'driven', 3=in between). Type 3 (The Achiever/Performer) positive (+Q39: higher/right-pole 'driven' raises Type 3); Type 9 (The Peacemaker/Mediator) reverse (6-Q39: lower/left-pole 'unambitious' raises Type 9)"
+    },
+    {
+      "num": "Q40",
+      "text": "extrovert (left pole) — introvert (right pole)",
+      "language": "English",
+      "factor": "Type 3 (The Achiever/Performer) / Type 6 (The Loyalist/Loyal Skeptic)",
+      "keyed": "bipolar semantic-differential (1=entirely like left 'extrovert', 5=entirely like right 'introvert', 3=in between). Type 3 (The Achiever/Performer) reverse (6-Q40: lower/left-pole 'extrovert' raises Type 3); Type 6 (The Loyalist/Loyal Skeptic) positive (+Q40: higher/right-pole 'introvert' raises Type 6)"
+    },
+    {
+      "num": "Q41",
+      "text": "orderly (left pole) — chaotic (right pole)",
+      "language": "English",
+      "factor": "Type 1 (The Reformer/Perfectionist) / Type 7 (The Enthusiast/Epicure)",
+      "keyed": "bipolar semantic-differential (1=entirely like left 'orderly', 5=entirely like right 'chaotic', 3=in between). Type 1 (The Reformer/Perfectionist) reverse (6-Q41: lower/left-pole 'orderly' raises Type 1); Type 7 (The Enthusiast/Epicure) positive (+Q41: higher/right-pole 'chaotic' raises Type 7)"
+    },
+    {
+      "num": "Q42",
+      "text": "touchy-feely (left pole) — distant (right pole)",
+      "language": "English",
+      "factor": "Type 2 (The Helper/Giver) / Type 5 (The Investigator/Observer)",
+      "keyed": "bipolar semantic-differential (1=entirely like left 'touchy-feely', 5=entirely like right 'distant', 3=in between). Type 2 (The Helper/Giver) reverse (6-Q42: lower/left-pole 'touchy-feely' raises Type 2); Type 5 (The Investigator/Observer) positive (+Q42: higher/right-pole 'distant' raises Type 5)"
+    },
+    {
+      "num": "Q43",
+      "text": "wild (left pole) — tame (right pole)",
+      "language": "English",
+      "factor": "Type 7 (The Enthusiast/Epicure) / Type 9 (The Peacemaker/Mediator)",
+      "keyed": "bipolar semantic-differential (1=entirely like left 'wild', 5=entirely like right 'tame', 3=in between). Type 7 (The Enthusiast/Epicure) reverse (6-Q43: lower/left-pole 'wild' raises Type 7); Type 9 (The Peacemaker/Mediator) positive (+Q43: higher/right-pole 'tame' raises Type 9)"
+    },
+    {
+      "num": "Q44",
+      "text": "never cries (left pole) — often crying (right pole)",
+      "language": "English",
+      "factor": "Type 4 (The Individualist/Romantic) / Type 5 (The Investigator/Observer)",
+      "keyed": "bipolar semantic-differential (1=entirely like left 'never cries', 5=entirely like right 'often crying', 3=in between). Type 4 (The Individualist/Romantic) positive (+Q44: higher/right-pole 'often crying' raises Type 4); Type 5 (The Investigator/Observer) reverse (6-Q44: lower/left-pole 'never cries' raises Type 5)"
+    },
+    {
+      "num": "Q45",
+      "text": "harsh (left pole) — gentle (right pole)",
+      "language": "English",
+      "factor": "Type 2 (The Helper/Giver) / Type 8 (The Challenger/Protector)",
+      "keyed": "bipolar semantic-differential (1=entirely like left 'harsh', 5=entirely like right 'gentle', 3=in between). Type 2 (The Helper/Giver) positive (+Q45: higher/right-pole 'gentle' raises Type 2); Type 8 (The Challenger/Protector) reverse (6-Q45: lower/left-pole 'harsh' raises Type 8)"
+    },
+    {
+      "num": "Q46",
+      "text": "disorganized (left pole) — self-disciplined (right pole)",
+      "language": "English",
+      "factor": "Type 1 (The Reformer/Perfectionist)",
+      "keyed": "bipolar semantic-differential (1=entirely like left 'disorganized', 5=entirely like right 'self-disciplined', 3=in between). Type 1 (The Reformer/Perfectionist) positive (+Q46: higher/right-pole 'self-disciplined' raises Type 1)"
+    },
+    {
+      "num": "Q47",
+      "text": "poisonous (left pole) — nurturing (right pole)",
+      "language": "English",
+      "factor": "Type 2 (The Helper/Giver) / Type 7 (The Enthusiast/Epicure)",
+      "keyed": "bipolar semantic-differential (1=entirely like left 'poisonous', 5=entirely like right 'nurturing', 3=in between). Type 2 (The Helper/Giver) positive (+Q47: higher/right-pole 'nurturing' raises Type 2); Type 7 (The Enthusiast/Epicure) reverse (6-Q47: lower/left-pole 'poisonous' raises Type 7)"
+    },
+    {
+      "num": "Q48",
+      "text": "social climber (left pole) — nonconformist (right pole)",
+      "language": "English",
+      "factor": "Type 3 (The Achiever/Performer)",
+      "keyed": "bipolar semantic-differential (1=entirely like left 'social climber', 5=entirely like right 'nonconformist', 3=in between). Type 3 (The Achiever/Performer) reverse (6-Q48: lower/left-pole 'social climber' raises Type 3)"
+    },
+    {
+      "num": "Q49",
+      "text": "stable (left pole) — unstable (right pole)",
+      "language": "English",
+      "factor": "Type 4 (The Individualist/Romantic)",
+      "keyed": "bipolar semantic-differential (1=entirely like left 'stable', 5=entirely like right 'unstable', 3=in between). Type 4 (The Individualist/Romantic) positive (+Q49: higher/right-pole 'unstable' raises Type 4)"
+    },
+    {
+      "num": "Q50",
+      "text": "people-person (left pole) — things-person (right pole)",
+      "language": "English",
+      "factor": "Type 5 (The Investigator/Observer)",
+      "keyed": "bipolar semantic-differential (1=entirely like left 'people-person', 5=entirely like right 'things-person', 3=in between). Type 5 (The Investigator/Observer) positive (+Q50: higher/right-pole 'things-person' raises Type 5)"
+    },
+    {
+      "num": "Q51",
+      "text": "hopeful (left pole) — fearful (right pole)",
+      "language": "English",
+      "factor": "Type 6 (The Loyalist/Loyal Skeptic)",
+      "keyed": "bipolar semantic-differential (1=entirely like left 'hopeful', 5=entirely like right 'fearful', 3=in between). Type 6 (The Loyalist/Loyal Skeptic) positive (+Q51: higher/right-pole 'fearful' raises Type 6)"
+    },
+    {
+      "num": "Q52",
+      "text": "spontaneous (left pole) — deliberate (right pole)",
+      "language": "English",
+      "factor": "Type 7 (The Enthusiast/Epicure)",
+      "keyed": "bipolar semantic-differential (1=entirely like left 'spontaneous', 5=entirely like right 'deliberate', 3=in between). Type 7 (The Enthusiast/Epicure) reverse (6-Q52: lower/left-pole 'spontaneous' raises Type 7)"
+    },
+    {
+      "num": "Q53",
+      "text": "thick-skinned (left pole) — sensitive (right pole)",
+      "language": "English",
+      "factor": "Type 8 (The Challenger/Protector)",
+      "keyed": "bipolar semantic-differential (1=entirely like left 'thick-skinned', 5=entirely like right 'sensitive', 3=in between). Type 8 (The Challenger/Protector) reverse (6-Q53: lower/left-pole 'thick-skinned' raises Type 8)"
+    },
+    {
+      "num": "Q54",
+      "text": "neutral (left pole) — opinionated (right pole)",
+      "language": "English",
+      "factor": "Type 9 (The Peacemaker/Mediator)",
+      "keyed": "bipolar semantic-differential (1=entirely like left 'neutral', 5=entirely like right 'opinionated', 3=in between). Type 9 (The Peacemaker/Mediator) reverse (6-Q54: lower/left-pole 'neutral' raises Type 9)"
+    }
+  ]
+}

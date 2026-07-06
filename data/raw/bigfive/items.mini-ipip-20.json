@@ -1,0 +1,206 @@
+{
+  "_meta": {
+    "instrument": "Mini-IPIP",
+    "full_name": "Mini-International Personality Item Pool (Mini-IPIP), 20-item short form of the 50-item IPIP Big-Five Factor Markers (Donnellan, Oswald, Baird, & Lucas, 2006)",
+    "source_url": "https://ipip.ori.org/MiniIPIPKey.htm",
+    "license": "Public domain. Per the official IPIP site (ipip.ori.org): \"The items and scales are in the public domain, which means that one can copy, edit, translate, or use them for any purpose without asking permission and without paying a fee.\" The Mini-IPIP items are drawn from Goldberg's IPIP and are freely usable for commercial and non-commercial purposes.",
+    "license_class": "public_domain",
+    "safe_for_noncommercial_reuse": true,
+    "safe_for_commercial_reuse": true,
+    "attribution": "Items sourced from the International Personality Item Pool (Goldberg, L. R., et al.), https://ipip.ori.org. Scale developed and validated by Donnellan, M. B., Oswald, F. L., Baird, B. M., & Lucas, R. E. (2006). The Mini-IPIP scales: Tiny-yet-effective measures of the Big Five factors of personality. Psychological Assessment, 18(2), 192-203. Verbatim item text and keying taken from the official IPIP Mini-IPIP Scoring Key.",
+    "scoring_notes": "20 items, 4 per Big Five domain. Response scale is a 5-point accuracy scale (1 = Very Inaccurate, 2 = Moderately Inaccurate, 3 = Neither Inaccurate nor Accurate, 4 = Moderately Accurate, 5 = Very Accurate). Domain score = mean (or sum) of its 4 items after reverse-scoring negatively keyed items (reverse: 6 becomes new value = 6 - raw on the 1-5 scale). 11 of 20 items are negatively keyed (items 6, 7, 8, 9, 10, 15, 16, 17, 18, 19, 20 in the administration order below). IPIP-reported internal consistencies (alphas) on the official key: Extraversion .77, Agreeableness .70, Conscientiousness .69, Neuroticism .68, Intellect/Imagination .65. Each IPIP item is completed as a self-description with the implied stem \"I ...\" (e.g., \"[I] Am the life of the party.\").",
+    "cautions": "All 20 item texts and their +/- keying were fetched verbatim from the primary, public-domain IPIP Mini-IPIP Scoring Key (https://ipip.ori.org/MiniIPIPKey.htm), which groups items by factor and labels each \"+ Keyed\" or \"- Keyed\" but does NOT print a 1-20 item number. The numbered administration order (num 1-20) shown here was taken from a secondary source (PsychKit, https://psychkit.org/mini-ipip-big-five-20/); it reproduces the standard Donnellan et al. (2006) presentation order and is fully consistent with the primary source (identical item text, identical factor assignments, identical 11 reverse-keyed items). If exact original ordering is critical, verify against the Donnellan et al. (2006) article appendix. Factor V is labeled \"Intellect/Imagination\" on the IPIP key (following Goldberg); it corresponds to the Big Five \"Openness/Openness to Experience\" domain and some sources (including PsychKit) label it \"Openness\" — same construct. Note: a helper model twice refused to re-transcribe the IPIP key citing \"copyright,\" but this is incorrect — the IPIP is explicitly public domain; the item text used here is from the successful primary fetch. Mini-IPIP measures domain level only and has no facet structure, so facet is left blank for all items.",
+    "corrections_applied": [],
+    "verification": {
+      "fabrication_risk": "none",
+      "item_count_plausible": true,
+      "license_correct_asreported": true,
+      "summary": "adversarially fact-checked by a second agent vs primary sources (deepinme wide-collection workflow, 2026-07)"
+    },
+    "sources": [
+      {
+        "title": "Mini-IPIP Scoring Key (official IPIP, primary source for verbatim items and keying)",
+        "url": "https://ipip.ori.org/MiniIPIPKey.htm",
+        "license": "Public domain"
+      },
+      {
+        "title": "ORI - IPIP Home (public-domain statement)",
+        "url": "https://ipip.ori.org/index.htm",
+        "license": "Public domain"
+      },
+      {
+        "title": "Mini-IPIP Big Five (20-item) - PsychKit (numbered administration order, corroborating source)",
+        "url": "https://psychkit.org/mini-ipip-big-five-20/",
+        "license": "Items public domain (IPIP)"
+      },
+      {
+        "title": "Donnellan, Oswald, Baird & Lucas (2006), The Mini-IPIP scales, Psychological Assessment 18(2):192-203 (PubMed)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/16768595/",
+        "license": "Article copyrighted; items public domain"
+      }
+    ]
+  },
+  "count": 20,
+  "items": [
+    {
+      "num": "1",
+      "text": "Am the life of the party.",
+      "factor": "Extraversion",
+      "facet": "",
+      "keyed": "+",
+      "language": "English"
+    },
+    {
+      "num": "2",
+      "text": "Sympathize with others' feelings.",
+      "factor": "Agreeableness",
+      "facet": "",
+      "keyed": "+",
+      "language": "English"
+    },
+    {
+      "num": "3",
+      "text": "Get chores done right away.",
+      "factor": "Conscientiousness",
+      "facet": "",
+      "keyed": "+",
+      "language": "English"
+    },
+    {
+      "num": "4",
+      "text": "Have frequent mood swings.",
+      "factor": "Neuroticism",
+      "facet": "",
+      "keyed": "+",
+      "language": "English"
+    },
+    {
+      "num": "5",
+      "text": "Have a vivid imagination.",
+      "factor": "Intellect/Imagination",
+      "facet": "",
+      "keyed": "+",
+      "language": "English"
+    },
+    {
+      "num": "6",
+      "text": "Don't talk a lot.",
+      "factor": "Extraversion",
+      "facet": "",
+      "keyed": "-",
+      "language": "English"
+    },
+    {
+      "num": "7",
+      "text": "Am not interested in other people's problems.",
+      "factor": "Agreeableness",
+      "facet": "",
+      "keyed": "-",
+      "language": "English"
+    },
+    {
+      "num": "8",
+      "text": "Often forget to put things back in their proper place.",
+      "factor": "Conscientiousness",
+      "facet": "",
+      "keyed": "-",
+      "language": "English"
+    },
+    {
+      "num": "9",
+      "text": "Am relaxed most of the time.",
+      "factor": "Neuroticism",
+      "facet": "",
+      "keyed": "-",
+      "language": "English"
+    },
+    {
+      "num": "10",
+      "text": "Have difficulty understanding abstract ideas.",
+      "factor": "Intellect/Imagination",
+      "facet": "",
+      "keyed": "-",
+      "language": "English"
+    },
+    {
+      "num": "11",
+      "text": "Talk to a lot of different people at parties.",
+      "factor": "Extraversion",
+      "facet": "",
+      "keyed": "+",
+      "language": "English"
+    },
+    {
+      "num": "12",
+      "text": "Feel others' emotions.",
+      "factor": "Agreeableness",
+      "facet": "",
+      "keyed": "+",
+      "language": "English"
+    },
+    {
+      "num": "13",
+      "text": "Like order.",
+      "factor": "Conscientiousness",
+      "facet": "",
+      "keyed": "+",
+      "language": "English"
+    },
+    {
+      "num": "14",
+      "text": "Get upset easily.",
+      "factor": "Neuroticism",
+      "facet": "",
+      "keyed": "+",
+      "language": "English"
+    },
+    {
+      "num": "15",
+      "text": "Am not interested in abstract ideas.",
+      "factor": "Intellect/Imagination",
+      "facet": "",
+      "keyed": "-",
+      "language": "English"
+    },
+    {
+      "num": "16",
+      "text": "Keep in the background.",
+      "factor": "Extraversion",
+      "facet": "",
+      "keyed": "-",
+      "language": "English"
+    },
+    {
+      "num": "17",
+      "text": "Am not really interested in others.",
+      "factor": "Agreeableness",
+      "facet": "",
+      "keyed": "-",
+      "language": "English"
+    },
+    {
+      "num": "18",
+      "text": "Make a mess of things.",
+      "factor": "Conscientiousness",
+      "facet": "",
+      "keyed": "-",
+      "language": "English"
+    },
+    {
+      "num": "19",
+      "text": "Seldom feel blue.",
+      "factor": "Neuroticism",
+      "facet": "",
+      "keyed": "-",
+      "language": "English"
+    },
+    {
+      "num": "20",
+      "text": "Do not have a good imagination.",
+      "factor": "Intellect/Imagination",
+      "facet": "",
+      "keyed": "-",
+      "language": "English"
+    }
+  ]
+}

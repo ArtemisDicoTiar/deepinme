@@ -1,0 +1,526 @@
+{
+  "_meta": {
+    "instrument": "BFI-2",
+    "full_name": "Big Five Inventory-2 (BFI-2)",
+    "source_url": "https://www.colby.edu/wp-content/uploads/2013/08/bfi2-form.pdf",
+    "license": "BFI-2 items copyright 2015 by Oliver P. John and Christopher J. Soto. Distributed by the Colby College Personality Lab. Freely available for personal and non-commercial research use (\"permission is granted for personal and research use of the BFI-2... the BFI-2 is for non-commercial uses only\"). Not in the public domain; the authors retain copyright, and commercial use requires their permission. The lab asks users to complete a short registration survey before downloading the measure and scoring key.",
+    "license_class": "free_research_noncommercial",
+    "safe_for_noncommercial_reuse": true,
+    "safe_for_commercial_reuse": false,
+    "attribution": "Soto, C. J., & John, O. P. (2017). The next Big Five Inventory (BFI-2): Developing and assessing a hierarchical model with 15 facets to enhance bandwidth, fidelity, and predictive power. Journal of Personality and Social Psychology, 113(1), 117-143. BFI-2 items copyright 2015 by Oliver P. John and Christopher J. Soto. Obtained from the Colby College Personality Lab.",
+    "scoring_notes": "All 60 items share the stem \"I am someone who...\" and are rated on a 5-point Likert scale: 1 = Disagree strongly, 2 = Disagree a little, 3 = Neutral; no opinion, 4 = Agree a little, 5 = Agree strongly. The BFI-2 has a hierarchical structure: 5 domains x 3 facets each (15 facets), with 4 items per facet and 12 items per domain. Domains: Extraversion, Agreeableness, Conscientiousness, Negative Emotionality (i.e., Neuroticism), Open-Mindedness (i.e., Openness). Every scale is balanced with equal numbers of positively and negatively (reverse) keyed items. In the \"keyed\" field, \"positive\" = scored in the trait direction as written; \"negative\" = reverse-keyed (marked \"R\" in the official scoring key; recode 1<->5, 2<->4 before summing/averaging). Scale scores are computed as the mean of their items. Verbatim scoring key from the source: Extraversion = 1,6,11R,16R,21,26R,31R,36R,41,46,51R,56; Agreeableness = 2,7,12R,17R,22R,27,32,37R,42R,47R,52,57; Conscientiousness = 3R,8R,13,18,23R,28R,33,38,43,48R,53,58R; Negative Emotionality = 4R,9R,14,19,24R,29R,34,39,44R,49R,54,59; Open-Mindedness = 5R,10,15,20,25R,30R,35,40,45R,50R,55R,60. Facets (4 items each): Sociability 1,16R,31R,46; Assertiveness 6,21,36R,51R; Energy Level 11R,26R,41,56; Compassion 2,17R,32,47R; Respectfulness 7,22R,37R,52; Trust 12R,27,42R,57; Organization 3R,18,33,48R; Productiveness 8R,23R,38,53; Responsibility 13,28R,43,58R; Anxiety 4R,19,34,49R; Depression 9R,24R,39,54; Emotional Volatility 14,29R,44R,59; Intellectual Curiosity 10,25R,40,55R; Aesthetic Sensitivity 5R,20,35,50R; Creative Imagination 15,30R,45R,60. SHORT FORMS (same item pool, subsets of these 60): BFI-2-S = 30 items (2 per facet), and BFI-2-XS = 15 items (1 per facet, domain scores only); both from Soto & John (2017), Journal of Research in Personality, 68, 69-81, and distributed on separate forms by the Colby lab. The 30 and 15 item selections/keys are given on the respective bfi2s-form.pdf and bfi2xs-form.pdf documents (not enumerated here).",
+    "cautions": "Items are the exact verbatim text fetched from the official BFI-2 form PDF hosted by the Colby College Personality Lab (page 1 = item text, page 2 = scoring key); no item was reconstructed from memory. All 60 items and every domain/facet/keying assignment were cross-checked against the source's own scoring key and are internally consistent. LICENSE: The BFI-2 is copyrighted (2015, John & Soto), NOT public domain. It is free for personal and non-commercial RESEARCH use only; commercial use is not permitted without the authors' permission. This corpus is intended for a non-commercial stage-1 research use, which is within the stated terms. The authors request that users complete a short registration survey on the Colby lab site before downloading; anyone deploying this should do so and cite Soto & John (2017). Reproducing the original item wording in a commercial product, or selling access, would fall outside the free license and require permission. The plan to later REWRITE items into plain language means end-user-facing text will be derivative paraphrases, not the copyrighted verbatim items; retain attribution and confirm licensing scope before public/commercial distribution. Note the BFI-2 uses \"Negative Emotionality\" and \"Open-Mindedness\" as domain labels (equivalent to Neuroticism and Openness).",
+    "corrections_applied": [],
+    "verification": {
+      "fabrication_risk": "none",
+      "item_count_plausible": true,
+      "license_correct_asreported": true,
+      "summary": "adversarially fact-checked by a second agent vs primary sources (deepinme wide-collection workflow, 2026-07)"
+    },
+    "sources": [
+      {
+        "title": "The Big Five Inventory-2 (BFI-2) - official form with all 60 items and scoring key (Colby College Personality Lab)",
+        "url": "https://www.colby.edu/wp-content/uploads/2013/08/bfi2-form.pdf",
+        "license": "Copyright 2015 O. P. John & C. J. Soto; free for personal and non-commercial research use (Colby Personality Lab)"
+      },
+      {
+        "title": "The Big Five Inventory-2 (BFI-2) - Colby College Personality Lab (terms of use / availability)",
+        "url": "https://www.colby.edu/academics/departments-and-programs/psychology/research-opportunities/personality-lab/the-bfi-2/",
+        "license": "Free for personal and non-commercial research use; not public domain"
+      },
+      {
+        "title": "Soto, C. J., & John, O. P. (2017). The next Big Five Inventory (BFI-2). Journal of Personality and Social Psychology, 113, 117-143 (development paper / primary citation)",
+        "url": "https://www.colby.edu/wp-content/uploads/2013/08/Soto_John_2017a.pdf",
+        "license": "Copyrighted journal article; cited for provenance"
+      },
+      {
+        "title": "Soto, C. J., & John, O. P. (2017). Short and extra-short forms of the Big Five Inventory-2: The BFI-2-S and BFI-2-XS. Journal of Research in Personality, 68, 69-81 (short-form source)",
+        "url": "https://www.colby.edu/wp-content/uploads/2013/08/Soto_John_2017b.pdf",
+        "license": "Copyrighted journal article; cited for BFI-2-S (30) and BFI-2-XS (15) short forms"
+      }
+    ]
+  },
+  "count": 60,
+  "items": [
+    {
+      "num": "1",
+      "text": "Is outgoing, sociable.",
+      "factor": "Extraversion",
+      "facet": "Sociability",
+      "keyed": "positive",
+      "language": "en"
+    },
+    {
+      "num": "2",
+      "text": "Is compassionate, has a soft heart.",
+      "factor": "Agreeableness",
+      "facet": "Compassion",
+      "keyed": "positive",
+      "language": "en"
+    },
+    {
+      "num": "3",
+      "text": "Tends to be disorganized.",
+      "factor": "Conscientiousness",
+      "facet": "Organization",
+      "keyed": "negative",
+      "language": "en"
+    },
+    {
+      "num": "4",
+      "text": "Is relaxed, handles stress well.",
+      "factor": "Negative Emotionality",
+      "facet": "Anxiety",
+      "keyed": "negative",
+      "language": "en"
+    },
+    {
+      "num": "5",
+      "text": "Has few artistic interests.",
+      "factor": "Open-Mindedness",
+      "facet": "Aesthetic Sensitivity",
+      "keyed": "negative",
+      "language": "en"
+    },
+    {
+      "num": "6",
+      "text": "Has an assertive personality.",
+      "factor": "Extraversion",
+      "facet": "Assertiveness",
+      "keyed": "positive",
+      "language": "en"
+    },
+    {
+      "num": "7",
+      "text": "Is respectful, treats others with respect.",
+      "factor": "Agreeableness",
+      "facet": "Respectfulness",
+      "keyed": "positive",
+      "language": "en"
+    },
+    {
+      "num": "8",
+      "text": "Tends to be lazy.",
+      "factor": "Conscientiousness",
+      "facet": "Productiveness",
+      "keyed": "negative",
+      "language": "en"
+    },
+    {
+      "num": "9",
+      "text": "Stays optimistic after experiencing a setback.",
+      "factor": "Negative Emotionality",
+      "facet": "Depression",
+      "keyed": "negative",
+      "language": "en"
+    },
+    {
+      "num": "10",
+      "text": "Is curious about many different things.",
+      "factor": "Open-Mindedness",
+      "facet": "Intellectual Curiosity",
+      "keyed": "positive",
+      "language": "en"
+    },
+    {
+      "num": "11",
+      "text": "Rarely feels excited or eager.",
+      "factor": "Extraversion",
+      "facet": "Energy Level",
+      "keyed": "negative",
+      "language": "en"
+    },
+    {
+      "num": "12",
+      "text": "Tends to find fault with others.",
+      "factor": "Agreeableness",
+      "facet": "Trust",
+      "keyed": "negative",
+      "language": "en"
+    },
+    {
+      "num": "13",
+      "text": "Is dependable, steady.",
+      "factor": "Conscientiousness",
+      "facet": "Responsibility",
+      "keyed": "positive",
+      "language": "en"
+    },
+    {
+      "num": "14",
+      "text": "Is moody, has up and down mood swings.",
+      "factor": "Negative Emotionality",
+      "facet": "Emotional Volatility",
+      "keyed": "positive",
+      "language": "en"
+    },
+    {
+      "num": "15",
+      "text": "Is inventive, finds clever ways to do things.",
+      "factor": "Open-Mindedness",
+      "facet": "Creative Imagination",
+      "keyed": "positive",
+      "language": "en"
+    },
+    {
+      "num": "16",
+      "text": "Tends to be quiet.",
+      "factor": "Extraversion",
+      "facet": "Sociability",
+      "keyed": "negative",
+      "language": "en"
+    },
+    {
+      "num": "17",
+      "text": "Feels little sympathy for others.",
+      "factor": "Agreeableness",
+      "facet": "Compassion",
+      "keyed": "negative",
+      "language": "en"
+    },
+    {
+      "num": "18",
+      "text": "Is systematic, likes to keep things in order.",
+      "factor": "Conscientiousness",
+      "facet": "Organization",
+      "keyed": "positive",
+      "language": "en"
+    },
+    {
+      "num": "19",
+      "text": "Can be tense.",
+      "factor": "Negative Emotionality",
+      "facet": "Anxiety",
+      "keyed": "positive",
+      "language": "en"
+    },
+    {
+      "num": "20",
+      "text": "Is fascinated by art, music, or literature.",
+      "factor": "Open-Mindedness",
+      "facet": "Aesthetic Sensitivity",
+      "keyed": "positive",
+      "language": "en"
+    },
+    {
+      "num": "21",
+      "text": "Is dominant, acts as a leader.",
+      "factor": "Extraversion",
+      "facet": "Assertiveness",
+      "keyed": "positive",
+      "language": "en"
+    },
+    {
+      "num": "22",
+      "text": "Starts arguments with others.",
+      "factor": "Agreeableness",
+      "facet": "Respectfulness",
+      "keyed": "negative",
+      "language": "en"
+    },
+    {
+      "num": "23",
+      "text": "Has difficulty getting started on tasks.",
+      "factor": "Conscientiousness",
+      "facet": "Productiveness",
+      "keyed": "negative",
+      "language": "en"
+    },
+    {
+      "num": "24",
+      "text": "Feels secure, comfortable with self.",
+      "factor": "Negative Emotionality",
+      "facet": "Depression",
+      "keyed": "negative",
+      "language": "en"
+    },
+    {
+      "num": "25",
+      "text": "Avoids intellectual, philosophical discussions.",
+      "factor": "Open-Mindedness",
+      "facet": "Intellectual Curiosity",
+      "keyed": "negative",
+      "language": "en"
+    },
+    {
+      "num": "26",
+      "text": "Is less active than other people.",
+      "factor": "Extraversion",
+      "facet": "Energy Level",
+      "keyed": "negative",
+      "language": "en"
+    },
+    {
+      "num": "27",
+      "text": "Has a forgiving nature.",
+      "factor": "Agreeableness",
+      "facet": "Trust",
+      "keyed": "positive",
+      "language": "en"
+    },
+    {
+      "num": "28",
+      "text": "Can be somewhat careless.",
+      "factor": "Conscientiousness",
+      "facet": "Responsibility",
+      "keyed": "negative",
+      "language": "en"
+    },
+    {
+      "num": "29",
+      "text": "Is emotionally stable, not easily upset.",
+      "factor": "Negative Emotionality",
+      "facet": "Emotional Volatility",
+      "keyed": "negative",
+      "language": "en"
+    },
+    {
+      "num": "30",
+      "text": "Has little creativity.",
+      "factor": "Open-Mindedness",
+      "facet": "Creative Imagination",
+      "keyed": "negative",
+      "language": "en"
+    },
+    {
+      "num": "31",
+      "text": "Is sometimes shy, introverted.",
+      "factor": "Extraversion",
+      "facet": "Sociability",
+      "keyed": "negative",
+      "language": "en"
+    },
+    {
+      "num": "32",
+      "text": "Is helpful and unselfish with others.",
+      "factor": "Agreeableness",
+      "facet": "Compassion",
+      "keyed": "positive",
+      "language": "en"
+    },
+    {
+      "num": "33",
+      "text": "Keeps things neat and tidy.",
+      "factor": "Conscientiousness",
+      "facet": "Organization",
+      "keyed": "positive",
+      "language": "en"
+    },
+    {
+      "num": "34",
+      "text": "Worries a lot.",
+      "factor": "Negative Emotionality",
+      "facet": "Anxiety",
+      "keyed": "positive",
+      "language": "en"
+    },
+    {
+      "num": "35",
+      "text": "Values art and beauty.",
+      "factor": "Open-Mindedness",
+      "facet": "Aesthetic Sensitivity",
+      "keyed": "positive",
+      "language": "en"
+    },
+    {
+      "num": "36",
+      "text": "Finds it hard to influence people.",
+      "factor": "Extraversion",
+      "facet": "Assertiveness",
+      "keyed": "negative",
+      "language": "en"
+    },
+    {
+      "num": "37",
+      "text": "Is sometimes rude to others.",
+      "factor": "Agreeableness",
+      "facet": "Respectfulness",
+      "keyed": "negative",
+      "language": "en"
+    },
+    {
+      "num": "38",
+      "text": "Is efficient, gets things done.",
+      "factor": "Conscientiousness",
+      "facet": "Productiveness",
+      "keyed": "positive",
+      "language": "en"
+    },
+    {
+      "num": "39",
+      "text": "Often feels sad.",
+      "factor": "Negative Emotionality",
+      "facet": "Depression",
+      "keyed": "positive",
+      "language": "en"
+    },
+    {
+      "num": "40",
+      "text": "Is complex, a deep thinker.",
+      "factor": "Open-Mindedness",
+      "facet": "Intellectual Curiosity",
+      "keyed": "positive",
+      "language": "en"
+    },
+    {
+      "num": "41",
+      "text": "Is full of energy.",
+      "factor": "Extraversion",
+      "facet": "Energy Level",
+      "keyed": "positive",
+      "language": "en"
+    },
+    {
+      "num": "42",
+      "text": "Is suspicious of others' intentions.",
+      "factor": "Agreeableness",
+      "facet": "Trust",
+      "keyed": "negative",
+      "language": "en"
+    },
+    {
+      "num": "43",
+      "text": "Is reliable, can always be counted on.",
+      "factor": "Conscientiousness",
+      "facet": "Responsibility",
+      "keyed": "positive",
+      "language": "en"
+    },
+    {
+      "num": "44",
+      "text": "Keeps their emotions under control.",
+      "factor": "Negative Emotionality",
+      "facet": "Emotional Volatility",
+      "keyed": "negative",
+      "language": "en"
+    },
+    {
+      "num": "45",
+      "text": "Has difficulty imagining things.",
+      "factor": "Open-Mindedness",
+      "facet": "Creative Imagination",
+      "keyed": "negative",
+      "language": "en"
+    },
+    {
+      "num": "46",
+      "text": "Is talkative.",
+      "factor": "Extraversion",
+      "facet": "Sociability",
+      "keyed": "positive",
+      "language": "en"
+    },
+    {
+      "num": "47",
+      "text": "Can be cold and uncaring.",
+      "factor": "Agreeableness",
+      "facet": "Compassion",
+      "keyed": "negative",
+      "language": "en"
+    },
+    {
+      "num": "48",
+      "text": "Leaves a mess, doesn't clean up.",
+      "factor": "Conscientiousness",
+      "facet": "Organization",
+      "keyed": "negative",
+      "language": "en"
+    },
+    {
+      "num": "49",
+      "text": "Rarely feels anxious or afraid.",
+      "factor": "Negative Emotionality",
+      "facet": "Anxiety",
+      "keyed": "negative",
+      "language": "en"
+    },
+    {
+      "num": "50",
+      "text": "Thinks poetry and plays are boring.",
+      "factor": "Open-Mindedness",
+      "facet": "Aesthetic Sensitivity",
+      "keyed": "negative",
+      "language": "en"
+    },
+    {
+      "num": "51",
+      "text": "Prefers to have others take charge.",
+      "factor": "Extraversion",
+      "facet": "Assertiveness",
+      "keyed": "negative",
+      "language": "en"
+    },
+    {
+      "num": "52",
+      "text": "Is polite, courteous to others.",
+      "factor": "Agreeableness",
+      "facet": "Respectfulness",
+      "keyed": "positive",
+      "language": "en"
+    },
+    {
+      "num": "53",
+      "text": "Is persistent, works until the task is finished.",
+      "factor": "Conscientiousness",
+      "facet": "Productiveness",
+      "keyed": "positive",
+      "language": "en"
+    },
+    {
+      "num": "54",
+      "text": "Tends to feel depressed, blue.",
+      "factor": "Negative Emotionality",
+      "facet": "Depression",
+      "keyed": "positive",
+      "language": "en"
+    },
+    {
+      "num": "55",
+      "text": "Has little interest in abstract ideas.",
+      "factor": "Open-Mindedness",
+      "facet": "Intellectual Curiosity",
+      "keyed": "negative",
+      "language": "en"
+    },
+    {
+      "num": "56",
+      "text": "Shows a lot of enthusiasm.",
+      "factor": "Extraversion",
+      "facet": "Energy Level",
+      "keyed": "positive",
+      "language": "en"
+    },
+    {
+      "num": "57",
+      "text": "Assumes the best about people.",
+      "factor": "Agreeableness",
+      "facet": "Trust",
+      "keyed": "positive",
+      "language": "en"
+    },
+    {
+      "num": "58",
+      "text": "Sometimes behaves irresponsibly.",
+      "factor": "Conscientiousness",
+      "facet": "Responsibility",
+      "keyed": "negative",
+      "language": "en"
+    },
+    {
+      "num": "59",
+      "text": "Is temperamental, gets emotional easily.",
+      "factor": "Negative Emotionality",
+      "facet": "Emotional Volatility",
+      "keyed": "positive",
+      "language": "en"
+    },
+    {
+      "num": "60",
+      "text": "Is original, comes up with new ideas.",
+      "factor": "Open-Mindedness",
+      "facet": "Creative Imagination",
+      "keyed": "positive",
+      "language": "en"
+    }
+  ]
+}

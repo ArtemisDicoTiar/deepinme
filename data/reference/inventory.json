@@ -1,0 +1,330 @@
+{
+  "total_items": 2084,
+  "by_language": {
+    "en": 976,
+    "ko": 1108
+  },
+  "files": 32,
+  "instrument_files": [
+    {
+      "file": "raw/bigfive/items.bfi-2-60.json",
+      "instrument": "BFI-2",
+      "count": 60,
+      "language": "en",
+      "license_class": "free_research_noncommercial",
+      "safe_noncommercial": true,
+      "safe_commercial": false,
+      "translated_from": null
+    },
+    {
+      "file": "raw/bigfive/items.bfi-44.json",
+      "instrument": "BFI",
+      "count": 44,
+      "language": "en",
+      "license_class": "free_research_noncommercial",
+      "safe_noncommercial": true,
+      "safe_commercial": false,
+      "translated_from": null
+    },
+    {
+      "file": "raw/bigfive/items.ipip-bfas-100.json",
+      "instrument": "Big Five Aspect Scales (BFAS)",
+      "count": 100,
+      "language": "en",
+      "license_class": "public_domain",
+      "safe_noncommercial": true,
+      "safe_commercial": true,
+      "translated_from": null
+    },
+    {
+      "file": "raw/bigfive/items.ipip-big-five-markers-100.json",
+      "instrument": "IPIP Big-Five Factor Markers (100-item)",
+      "count": 100,
+      "language": "en",
+      "license_class": "public_domain",
+      "safe_noncommercial": true,
+      "safe_commercial": true,
+      "translated_from": null
+    },
+    {
+      "file": "raw/bigfive/items.ipip-neo-120.json",
+      "instrument": "IPIP-NEO-120",
+      "count": 120,
+      "language": "en",
+      "license_class": "public_domain",
+      "safe_noncommercial": true,
+      "safe_commercial": true,
+      "translated_from": null
+    },
+    {
+      "file": "raw/bigfive/items.mini-ipip-20.json",
+      "instrument": "Mini-IPIP",
+      "count": 20,
+      "language": "en",
+      "license_class": "public_domain",
+      "safe_noncommercial": true,
+      "safe_commercial": true,
+      "translated_from": null
+    },
+    {
+      "file": "raw/bigfive/items.saucier-mini-markers-40.json",
+      "instrument": "Saucier's Mini-Markers (1994)",
+      "count": 40,
+      "language": "en",
+      "license_class": "free_research_noncommercial",
+      "safe_noncommercial": true,
+      "safe_commercial": false,
+      "translated_from": null
+    },
+    {
+      "file": "raw/bigfive/items.tipi-10.json",
+      "instrument": "Ten-Item Personality Inventory (TIPI)",
+      "count": 10,
+      "language": "en",
+      "license_class": "free_research_noncommercial",
+      "safe_noncommercial": true,
+      "safe_commercial": false,
+      "translated_from": null
+    },
+    {
+      "file": "raw/enneagram/items.oeps-v2-bipolar.json",
+      "instrument": "Open Enneagram of Personality Scales (OEPS v2.0)",
+      "count": 54,
+      "language": "en",
+      "license_class": "cc",
+      "safe_noncommercial": true,
+      "safe_commercial": false,
+      "translated_from": null
+    },
+    {
+      "file": "raw/enneagram/items.oeps.json",
+      "instrument": "Open Enneagram of Personality Scales (OEPS v1.0), Open-Source Psychometrics Project",
+      "count": 36,
+      "language": "en",
+      "license_class": "cc",
+      "safe_noncommercial": true,
+      "safe_commercial": false,
+      "translated_from": null
+    },
+    {
+      "file": "raw/hexaco/items.hexaco-60.json",
+      "instrument": "HEXACO-60",
+      "count": 60,
+      "language": "en",
+      "license_class": "free_research_noncommercial",
+      "safe_noncommercial": true,
+      "safe_commercial": false,
+      "translated_from": null
+    },
+    {
+      "file": "raw/hexaco/items.ipip-hexaco.json",
+      "instrument": "IPIP-HEXACO",
+      "count": 240,
+      "language": "en",
+      "license_class": "public_domain",
+      "safe_noncommercial": true,
+      "safe_commercial": true,
+      "translated_from": null
+    },
+    {
+      "file": "raw/korean/items.ipip-ko.json",
+      "instrument": "IPIP Big-Five Factor Markers — Korean back-translation (In-Sue Oh), hosted by IPIP",
+      "count": 32,
+      "language": "ko",
+      "license_class": "public_domain",
+      "safe_noncommercial": true,
+      "safe_commercial": true,
+      "translated_from": null
+    },
+    {
+      "file": "raw/korean/items.ipip-markers-ko.json",
+      "instrument": "IPIP Big-Five Factor Markers — Korean (한국어 IPIP 성격 5요인 구분자, 100문항)",
+      "count": 100,
+      "language": "ko",
+      "license_class": "public_domain",
+      "safe_noncommercial": true,
+      "safe_commercial": true,
+      "translated_from": null
+    },
+    {
+      "file": "raw/mbti/items.ipip-bffm.json",
+      "instrument": "IPIP Big-Five Factor Markers (50-item, Goldberg 1992) — 40 MBTI-relevant items",
+      "count": 40,
+      "language": "en",
+      "license_class": "public_domain",
+      "safe_noncommercial": true,
+      "safe_commercial": true,
+      "translated_from": null
+    },
+    {
+      "file": "raw/mbti/items.oejts.json",
+      "instrument": "Open Extended Jungian Type Scales (OEJTS 1.2), Eric Jorgenson",
+      "count": 32,
+      "language": "en",
+      "license_class": "cc",
+      "safe_noncommercial": true,
+      "safe_commercial": false,
+      "translated_from": null
+    },
+    {
+      "file": "raw/misc/items.open-hemispheric-brain-dominance.json",
+      "instrument": "OHBDS",
+      "count": 20,
+      "language": "en",
+      "license_class": "cc",
+      "safe_noncommercial": true,
+      "safe_commercial": false,
+      "translated_from": null
+    },
+    {
+      "file": "translations/ko/bigfive/items.bfi-2-60.ko.json",
+      "instrument": "BFI-2 — 한국어 번역",
+      "count": 60,
+      "language": "ko",
+      "license_class": "free_research_noncommercial",
+      "safe_noncommercial": true,
+      "safe_commercial": false,
+      "translated_from": "raw/bigfive/items.bfi-2-60.json"
+    },
+    {
+      "file": "translations/ko/bigfive/items.bfi-44.ko.json",
+      "instrument": "BFI — 한국어 번역",
+      "count": 44,
+      "language": "ko",
+      "license_class": "free_research_noncommercial",
+      "safe_noncommercial": true,
+      "safe_commercial": false,
+      "translated_from": "raw/bigfive/items.bfi-44.json"
+    },
+    {
+      "file": "translations/ko/bigfive/items.ipip-bfas-100.ko.json",
+      "instrument": "Big Five Aspect Scales (BFAS) — 한국어 번역",
+      "count": 100,
+      "language": "ko",
+      "license_class": "public_domain",
+      "safe_noncommercial": true,
+      "safe_commercial": true,
+      "translated_from": "raw/bigfive/items.ipip-bfas-100.json"
+    },
+    {
+      "file": "translations/ko/bigfive/items.ipip-big-five-markers-100.ko.json",
+      "instrument": "IPIP Big-Five Factor Markers (100-item) — 한국어 번역",
+      "count": 100,
+      "language": "ko",
+      "license_class": "public_domain",
+      "safe_noncommercial": true,
+      "safe_commercial": true,
+      "translated_from": "raw/bigfive/items.ipip-big-five-markers-100.json"
+    },
+    {
+      "file": "translations/ko/bigfive/items.ipip-neo-120.ko.json",
+      "instrument": "IPIP-NEO-120 — 한국어 번역",
+      "count": 120,
+      "language": "ko",
+      "license_class": "public_domain",
+      "safe_noncommercial": true,
+      "safe_commercial": true,
+      "translated_from": "raw/bigfive/items.ipip-neo-120.json"
+    },
+    {
+      "file": "translations/ko/bigfive/items.mini-ipip-20.ko.json",
+      "instrument": "Mini-IPIP — 한국어 번역",
+      "count": 20,
+      "language": "ko",
+      "license_class": "public_domain",
+      "safe_noncommercial": true,
+      "safe_commercial": true,
+      "translated_from": "raw/bigfive/items.mini-ipip-20.json"
+    },
+    {
+      "file": "translations/ko/bigfive/items.saucier-mini-markers-40.ko.json",
+      "instrument": "Saucier's Mini-Markers (1994) — 한국어 번역",
+      "count": 40,
+      "language": "ko",
+      "license_class": "free_research_noncommercial",
+      "safe_noncommercial": true,
+      "safe_commercial": false,
+      "translated_from": "raw/bigfive/items.saucier-mini-markers-40.json"
+    },
+    {
+      "file": "translations/ko/bigfive/items.tipi-10.ko.json",
+      "instrument": "Ten-Item Personality Inventory (TIPI) — 한국어 번역",
+      "count": 10,
+      "language": "ko",
+      "license_class": "free_research_noncommercial",
+      "safe_noncommercial": true,
+      "safe_commercial": false,
+      "translated_from": "raw/bigfive/items.tipi-10.json"
+    },
+    {
+      "file": "translations/ko/enneagram/items.oeps-v2-bipolar.ko.json",
+      "instrument": "Open Enneagram of Personality Scales (OEPS v2.0) — 한국어 번역",
+      "count": 54,
+      "language": "ko",
+      "license_class": "cc",
+      "safe_noncommercial": true,
+      "safe_commercial": false,
+      "translated_from": "raw/enneagram/items.oeps-v2-bipolar.json"
+    },
+    {
+      "file": "translations/ko/enneagram/items.oeps.ko.json",
+      "instrument": "Open Enneagram of Personality Scales (OEPS v1.0), Open-Source Psychometrics Project — 한국어 번역",
+      "count": 36,
+      "language": "ko",
+      "license_class": "cc",
+      "safe_noncommercial": true,
+      "safe_commercial": false,
+      "translated_from": "raw/enneagram/items.oeps.json"
+    },
+    {
+      "file": "translations/ko/hexaco/items.hexaco-60.ko.json",
+      "instrument": "HEXACO-60 — 한국어 번역",
+      "count": 60,
+      "language": "ko",
+      "license_class": "free_research_noncommercial",
+      "safe_noncommercial": true,
+      "safe_commercial": false,
+      "translated_from": "raw/hexaco/items.hexaco-60.json"
+    },
+    {
+      "file": "translations/ko/hexaco/items.ipip-hexaco.ko.json",
+      "instrument": "IPIP-HEXACO — 한국어 번역",
+      "count": 240,
+      "language": "ko",
+      "license_class": "public_domain",
+      "safe_noncommercial": true,
+      "safe_commercial": true,
+      "translated_from": "raw/hexaco/items.ipip-hexaco.json"
+    },
+    {
+      "file": "translations/ko/mbti/items.ipip-bffm.ko.json",
+      "instrument": "IPIP Big-Five Factor Markers (50-item, Goldberg 1992) — 40 MBTI-relevant items — 한국어 번역",
+      "count": 40,
+      "language": "ko",
+      "license_class": "public_domain",
+      "safe_noncommercial": true,
+      "safe_commercial": true,
+      "translated_from": "raw/mbti/items.ipip-bffm.json"
+    },
+    {
+      "file": "translations/ko/mbti/items.oejts.ko.json",
+      "instrument": "Open Extended Jungian Type Scales (OEJTS 1.2), Eric Jorgenson — 한국어 번역",
+      "count": 32,
+      "language": "ko",
+      "license_class": "cc",
+      "safe_noncommercial": true,
+      "safe_commercial": false,
+      "translated_from": "raw/mbti/items.oejts.json"
+    },
+    {
+      "file": "translations/ko/misc/items.open-hemispheric-brain-dominance.ko.json",
+      "instrument": "OHBDS — 한국어 번역",
+      "count": 20,
+      "language": "ko",
+      "license_class": "cc",
+      "safe_noncommercial": true,
+      "safe_commercial": false,
+      "translated_from": "raw/misc/items.open-hemispheric-brain-dominance.json"
+    }
+  ]
+}

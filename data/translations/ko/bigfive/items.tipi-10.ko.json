@@ -1,0 +1,158 @@
+{
+  "_meta": {
+    "instrument": "Ten-Item Personality Inventory (TIPI) — 한국어 번역",
+    "full_name": "Ten-Item Personality Inventory (Korean translation)",
+    "source_url": "https://gosling.psy.utexas.edu/scales-weve-developed/ten-item-personality-measure-tipi/ten-item-personality-inventory-tipi/",
+    "license": "Copyright held by the authors (Gosling, Rentfrow & Swann, 2003), published in Journal of Research in Personality (Elsevier). The authors grant blanket permission for any use. The official Gosling lab website states verbatim: \"WANT TO USE THE TIPI? GO AHEAD. ANYONE CAN USE IT FOR ANY PURPOSE. NO NEED TO ASK ME FOR PERMISSION.\" The instrument is therefore free for both research and commercial use, with no permission or fee required. (The Elsevier journal article text is separately copyrighted, but the 10-item instrument itself is distributed free by the authors on the lab website and reproduced in Appendix A of the article.)",
+    "license_class": "free_research_noncommercial",
+    "safe_for_noncommercial_reuse": true,
+    "safe_for_commercial_reuse": false,
+    "reuse_notes": "한국어 번역(파생물). 비상업 1단계용. LLM 번역이며 검증된 한국어 표준검사가 아님 — 실사용 전 재검수 권장. 라이선스는 원본을 따르되 번역은 파생물이므로 CC-SA/연구용 조건이 그대로 적용됨.",
+    "attribution": "Gosling, S. D., Rentfrow, P. J., & Swann, W. B., Jr. (2003). A very brief measure of the Big-Five personality domains. Journal of Research in Personality, 37, 504-528. · 한국어 번역: deepinme 번역 워크플로우(2026-07, LLM).",
+    "scoring_notes": "Shared stem for all 10 items: \"I see myself as:\" followed by a pair of trait adjectives. Each item is rated on a 7-point scale: 1 = Disagree strongly, 2 = Disagree moderately, 3 = Disagree a little, 4 = Neither agree nor disagree, 5 = Agree a little, 6 = Agree moderately, 7 = Agree strongly. Respondents are told the two traits may not both apply equally but to rate the extent the pair applies. Scoring key (from Appendix A, \"R\" = reverse-scored): Extraversion = items 1, 6R; Agreeableness = items 2R, 7; Conscientiousness = items 3, 8R; Emotional Stability = items 4R, 9; Openness to Experiences = items 5, 10R. Reverse-scored items are 2, 4, 6, 8, and 10; reverse a score with (8 - raw). Each of the five domain scores is the average of its two items. In this dataset \"keyed\": \"forward\" = scored in the direction of the domain name; \"keyed\": \"reverse\" = reverse-scored.",
+    "cautions": "Item text is the original English trait-adjective pairs exactly as printed in Appendix A of Gosling, Rentfrow & Swann (2003) and on the official Gosling lab website; both sources match verbatim. The \"text\" field gives only the adjective pair; the shared administration stem \"I see myself as:\" (documented in scoring_notes) precedes every item. The TIPI has no facet structure (each item is a broad domain marker), so facet is left blank. Numerous validated translations exist (Spanish, German, French, Japanese, etc.) but were NOT collected here; only the English original is included. The instrument is copyrighted by the authors but explicitly released for free use for any purpose; the surrounding Elsevier journal article text is separately copyrighted and was not reproduced beyond the instrument itself. | 번역본: 문항 순서·채점방향(keyed)·factor/facet은 원본과 동일. text_en에 원문 병기.",
+    "translation": {
+      "language": "ko",
+      "translated_from": "raw/bigfive/items.tipi-10.json",
+      "method": "LLM faithful translation (deepinme workflow, 2026-07) — 충실 번역이며 '쉬운말 리라이팅'은 별도 단계",
+      "status": "working draft — NOT a validated Korean instrument",
+      "qa": {
+        "fidelity": "high",
+        "naturalness": "natural",
+        "count_match": true,
+        "reviewer_overall": "Clean, high-quality set. All 10 source items are translated one-to-one and preserve the measured Big Five construct and the adjectival self-report framing (attributive ~ㄴ/~는 forms). Language reads as natural, fluent Korean with no 번역투. Items 1, 3, 5, 8, 9, 10 are accurate and idiomatic; item 5's added '사고가' appropriately disambiguates 'complex' as intellectual complexity. Two minor issues: item 4 slightly narrows 'easily upset' toward 'gets one's feelings hurt' (감정이 상하다) rather than general distress, and item 6 leans 'reserved' toward '내성적/introverted' where a reticence sense (과묵한) would be more precise. Neither undermines the construct being measured, so overall fidelity remains high.",
+        "issues": [
+          {
+            "id": "4",
+            "problem": "'쉽게 감정이 상하는' narrows 'easily upset' to 'easily has hurt feelings / gets offended' (interpersonal slight), whereas the neuroticism item means easily distressed/agitated in general.",
+            "suggestion": "쉽게 속상해하는 or 쉽게 동요하는 (better captures general distress/instability rather than only offended feelings)."
+          },
+          {
+            "id": "6",
+            "problem": "'내성적이고' renders 'reserved' as 'introverted' (inward-oriented disposition). 'Reserved' more precisely denotes being restrained/reticent in expression; combined with '말수가 적은' for 'quiet' it partly overlaps. Minor construct drift, though acceptable as the reverse-extraversion item.",
+            "suggestion": "과묵하고 말수가 적은 or 신중하고 말수가 적은 to distinguish 'reserved' from 'quiet'."
+          }
+        ]
+      }
+    },
+    "verification": {
+      "summary": "번역 QA(2차 에이전트): fidelity=high, naturalness=natural, count_match=True, issues=2",
+      "fabrication_risk": "none"
+    },
+    "sources": [
+      {
+        "title": "Ten-Item Personality Inventory (TIPI) - official item text and scoring key, Gosling Lab, University of Texas at Austin",
+        "url": "https://gosling.psy.utexas.edu/scales-weve-developed/ten-item-personality-measure-tipi/ten-item-personality-inventory-tipi/",
+        "license": "Free to use for any purpose, no permission required (per authors)"
+      },
+      {
+        "title": "Ten Item Personality Measure (TIPI) - Gosling Lab main page (permission statement and citation)",
+        "url": "https://gosling.psy.utexas.edu/scales-weve-developed/ten-item-personality-measure-tipi/",
+        "license": "Free to use for any purpose, no permission required (per authors)"
+      },
+      {
+        "title": "Gosling, Rentfrow & Swann (2003). A very brief measure of the Big-Five personality domains. Journal of Research in Personality, 37, 504-528 (primary source PDF; TIPI in Appendix A)",
+        "url": "https://gosling.psy.utexas.edu/wp-content/uploads/2014/09/JRP-03-tipi.pdf",
+        "license": "Article text copyright Elsevier; instrument free to use per authors"
+      },
+      {
+        "title": "Korean translation (deepinme workflow)",
+        "url": "https://gosling.psy.utexas.edu/scales-weve-developed/ten-item-personality-measure-tipi/ten-item-personality-inventory-tipi/",
+        "license": "translation is a derivative; see reuse_notes"
+      }
+    ]
+  },
+  "count": 10,
+  "items": [
+    {
+      "num": "1",
+      "text": "외향적이고 열정적인",
+      "text_en": "Extraverted, enthusiastic",
+      "language": "ko",
+      "factor": "Extraversion",
+      "facet": "",
+      "keyed": "forward"
+    },
+    {
+      "num": "2",
+      "text": "비판적이고 다투기 좋아하는",
+      "text_en": "Critical, quarrelsome",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "facet": "",
+      "keyed": "reverse"
+    },
+    {
+      "num": "3",
+      "text": "믿음직하고 자기 관리가 철저한",
+      "text_en": "Dependable, self-disciplined",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "facet": "",
+      "keyed": "forward"
+    },
+    {
+      "num": "4",
+      "text": "불안해하고 쉽게 감정이 상하는",
+      "text_en": "Anxious, easily upset",
+      "language": "ko",
+      "factor": "Emotional Stability",
+      "facet": "",
+      "keyed": "reverse"
+    },
+    {
+      "num": "5",
+      "text": "새로운 경험에 개방적이고 사고가 복합적인",
+      "text_en": "Open to new experiences, complex",
+      "language": "ko",
+      "factor": "Openness to Experience",
+      "facet": "",
+      "keyed": "forward"
+    },
+    {
+      "num": "6",
+      "text": "내성적이고 말수가 적은",
+      "text_en": "Reserved, quiet",
+      "language": "ko",
+      "factor": "Extraversion",
+      "facet": "",
+      "keyed": "reverse"
+    },
+    {
+      "num": "7",
+      "text": "동정심이 많고 따뜻한",
+      "text_en": "Sympathetic, warm",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "facet": "",
+      "keyed": "forward"
+    },
+    {
+      "num": "8",
+      "text": "체계적이지 못하고 부주의한",
+      "text_en": "Disorganized, careless",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "facet": "",
+      "keyed": "reverse"
+    },
+    {
+      "num": "9",
+      "text": "차분하고 정서적으로 안정된",
+      "text_en": "Calm, emotionally stable",
+      "language": "ko",
+      "factor": "Emotional Stability",
+      "facet": "",
+      "keyed": "forward"
+    },
+    {
+      "num": "10",
+      "text": "관습적이고 창의적이지 않은",
+      "text_en": "Conventional, uncreative",
+      "language": "ko",
+      "factor": "Openness to Experience",
+      "facet": "",
+      "keyed": "reverse"
+    }
+  ]
+}

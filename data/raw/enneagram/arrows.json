@@ -1,0 +1,69 @@
+{
+  "_meta": {
+    "kind": "reference (factual structure)",
+    "safe_for_commercial_reuse": true,
+    "note": "Integration(growth) & Disintegration(stress) directions. Stress sequence 1-4-2-8-5-7-1 and 9-6-3-9; growth is the exact reverse. Per-type mapping verified individually against The Enneagram Institute (the classic error site) — none reversed.",
+    "verified": "adversarially fact-checked by a second agent against primary sources (deepinme research workflow, 2026-07)",
+    "license_class": "factual_classical",
+    "safe_for_noncommercial_reuse": true,
+    "attribution": "Integration/disintegration line structure — classical Enneagram tradition; per-type mapping verified vs The Enneagram Institute.",
+    "source": "see reference/sources.md and _meta of related item files",
+    "sources": [
+      {
+        "title": "See aggregated sources",
+        "url": "reference/sources.md",
+        "license": "mixed — see file"
+      }
+    ]
+  },
+  "arrows": {
+    "description": "Each type is connected by inner lines to two other types. One line is the Direction of Integration (Growth); the other is the Direction of Disintegration (Stress). The lines follow two sequences: a hexad and the inner triangle.",
+    "disintegration_stress_sequences": [
+      "1-4-2-8-5-7-1",
+      "9-6-3-9"
+    ],
+    "integration_growth_sequences": [
+      "1-7-5-8-2-4-1",
+      "9-3-6-9"
+    ],
+    "note_on_direction": "Under stress a type takes on the average-to-unhealthy traits of its stress point; in growth it takes on the healthy traits of its growth point. The growth direction is the exact reverse of the stress direction. Reversing these is a common error; every value below was verified individually against The Enneagram Institute's type-specific pages.",
+    "by_type": {
+      "1": {
+        "stress_to": 4,
+        "growth_to": 7
+      },
+      "2": {
+        "stress_to": 8,
+        "growth_to": 4
+      },
+      "3": {
+        "stress_to": 9,
+        "growth_to": 6
+      },
+      "4": {
+        "stress_to": 2,
+        "growth_to": 1
+      },
+      "5": {
+        "stress_to": 7,
+        "growth_to": 8
+      },
+      "6": {
+        "stress_to": 3,
+        "growth_to": 9
+      },
+      "7": {
+        "stress_to": 1,
+        "growth_to": 5
+      },
+      "8": {
+        "stress_to": 5,
+        "growth_to": 2
+      },
+      "9": {
+        "stress_to": 6,
+        "growth_to": 3
+      }
+    }
+  }
+}

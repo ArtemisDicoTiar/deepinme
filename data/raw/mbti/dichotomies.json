@@ -1,0 +1,82 @@
+{
+  "_meta": {
+    "kind": "reference (factual)",
+    "subject": "MBTI 4 dichotomies",
+    "license": "factual data — not copyrightable; 'MBTI'/'Myers-Briggs' are trademarks of The Myers-Briggs Company",
+    "safe_for_commercial_reuse": true,
+    "verified": "adversarially fact-checked by a second agent against primary sources (deepinme research workflow, 2026-07)",
+    "license_class": "factual_reference",
+    "safe_for_noncommercial_reuse": true,
+    "attribution": "MBTI dichotomy descriptions — factual reference (not copyrightable). 'MBTI'/'Myers-Briggs' are trademarks of The Myers-Briggs Company.",
+    "source": "see reference/sources.md and _meta of related item files",
+    "sources": [
+      {
+        "title": "See aggregated sources",
+        "url": "reference/sources.md",
+        "license": "mixed — see file"
+      }
+    ]
+  },
+  "dichotomies": [
+    {
+      "pair": "E/I",
+      "name": "Extraversion / Introversion",
+      "dimension": "Where you direct attention and draw energy",
+      "poles": {
+        "E": {
+          "label": "Extraversion",
+          "description": "Oriented toward the outer world of people, activity, and things; gains energy from interaction and tends to act, then reflect."
+        },
+        "I": {
+          "label": "Introversion",
+          "description": "Oriented toward the inner world of ideas and reflection; gains energy from solitude and tends to reflect, then act."
+        }
+      }
+    },
+    {
+      "pair": "S/N",
+      "name": "Sensing / Intuition",
+      "dimension": "How you take in information",
+      "poles": {
+        "S": {
+          "label": "Sensing",
+          "description": "Trusts concrete, tangible, present-focused information gathered directly through the five senses; attends to facts and details."
+        },
+        "N": {
+          "label": "Intuition",
+          "description": "Trusts patterns, meanings, connections, and future possibilities; reads between the lines and focuses on the big picture. Abbreviated N to distinguish it from Introversion."
+        }
+      }
+    },
+    {
+      "pair": "T/F",
+      "name": "Thinking / Feeling",
+      "dimension": "How you make decisions",
+      "poles": {
+        "T": {
+          "label": "Thinking",
+          "description": "Decides from a detached, objective standpoint using logic, consistency, and cause-and-effect analysis."
+        },
+        "F": {
+          "label": "Feeling",
+          "description": "Decides by weighing personal and shared values and the impact of choices on people, seeking empathy and harmony."
+        }
+      }
+    },
+    {
+      "pair": "J/P",
+      "name": "Judging / Perceiving",
+      "dimension": "How you orient to the outer world",
+      "poles": {
+        "J": {
+          "label": "Judging",
+          "description": "Prefers structure, planning, and closure; likes matters decided and settled. (Indicates an extraverted judging function is used in the outer world, not that the person is judgmental.)"
+        },
+        "P": {
+          "label": "Perceiving",
+          "description": "Prefers flexibility, spontaneity, and openness; likes to keep options open and gather more information. (Indicates an extraverted perceiving function is used in the outer world.)"
+        }
+      }
+    }
+  ]
+}

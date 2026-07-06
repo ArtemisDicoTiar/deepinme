@@ -1,0 +1,61 @@
+{
+  "_meta": {
+    "kind": "reference (factual)",
+    "subject": "8 Jungian cognitive functions",
+    "safe_for_commercial_reuse": true,
+    "verified": "adversarially fact-checked by a second agent against primary sources (deepinme research workflow, 2026-07)",
+    "license_class": "factual_reference",
+    "safe_for_noncommercial_reuse": true,
+    "attribution": "8 Jungian cognitive functions — factual reference.",
+    "source": "see reference/sources.md and _meta of related item files",
+    "sources": [
+      {
+        "title": "See aggregated sources",
+        "url": "reference/sources.md",
+        "license": "mixed — see file"
+      }
+    ]
+  },
+  "functions": [
+    {
+      "code": "Se",
+      "name": "Extraverted Sensing",
+      "definition": "Engages fully with immediate, concrete sensory experience of the physical environment; notices what is real and present and responds to it in the moment."
+    },
+    {
+      "code": "Si",
+      "name": "Introverted Sensing",
+      "definition": "Compares present experience against stored past impressions and detailed internal records; values memory, consistency, routine, and tradition."
+    },
+    {
+      "code": "Ne",
+      "name": "Extraverted Intuition",
+      "definition": "Scans the outer world for patterns, possibilities, and novel connections; generates ideas, alternatives, and what-if scenarios."
+    },
+    {
+      "code": "Ni",
+      "name": "Introverted Intuition",
+      "definition": "Synthesizes information into unconscious insights, underlying meanings, and long-range visions; converges on a single future implication or interpretation."
+    },
+    {
+      "code": "Te",
+      "name": "Extraverted Thinking",
+      "definition": "Organizes the external world with objective logic, structure, and efficiency; makes decisions by measurable results, plans, and standards."
+    },
+    {
+      "code": "Ti",
+      "name": "Introverted Thinking",
+      "definition": "Analyzes internally for logical precision and consistency; builds and refines a personal framework of principles to understand how things truly work."
+    },
+    {
+      "code": "Fe",
+      "name": "Extraverted Feeling",
+      "definition": "Attends to others' emotions and to social harmony; makes decisions based on shared values, group needs, and maintaining connection."
+    },
+    {
+      "code": "Fi",
+      "name": "Introverted Feeling",
+      "definition": "Evaluates by deeply held personal values and authenticity; focuses on inner emotional integrity and staying true to what feels right."
+    }
+  ]
+}

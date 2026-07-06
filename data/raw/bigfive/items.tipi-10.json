@@ -1,0 +1,121 @@
+{
+  "_meta": {
+    "instrument": "Ten-Item Personality Inventory (TIPI)",
+    "full_name": "Ten-Item Personality Inventory",
+    "source_url": "https://gosling.psy.utexas.edu/scales-weve-developed/ten-item-personality-measure-tipi/ten-item-personality-inventory-tipi/",
+    "license": "Copyright held by the authors (Gosling, Rentfrow & Swann, 2003), published in Journal of Research in Personality (Elsevier). The authors grant blanket permission for any use. The official Gosling lab website states verbatim: \"WANT TO USE THE TIPI? GO AHEAD. ANYONE CAN USE IT FOR ANY PURPOSE. NO NEED TO ASK ME FOR PERMISSION.\" The instrument is therefore free for both research and commercial use, with no permission or fee required. (The Elsevier journal article text is separately copyrighted, but the 10-item instrument itself is distributed free by the authors on the lab website and reproduced in Appendix A of the article.)",
+    "license_class": "free_research_noncommercial",
+    "safe_for_noncommercial_reuse": true,
+    "safe_for_commercial_reuse": false,
+    "attribution": "Gosling, S. D., Rentfrow, P. J., & Swann, W. B., Jr. (2003). A very brief measure of the Big-Five personality domains. Journal of Research in Personality, 37, 504-528.",
+    "scoring_notes": "Shared stem for all 10 items: \"I see myself as:\" followed by a pair of trait adjectives. Each item is rated on a 7-point scale: 1 = Disagree strongly, 2 = Disagree moderately, 3 = Disagree a little, 4 = Neither agree nor disagree, 5 = Agree a little, 6 = Agree moderately, 7 = Agree strongly. Respondents are told the two traits may not both apply equally but to rate the extent the pair applies. Scoring key (from Appendix A, \"R\" = reverse-scored): Extraversion = items 1, 6R; Agreeableness = items 2R, 7; Conscientiousness = items 3, 8R; Emotional Stability = items 4R, 9; Openness to Experiences = items 5, 10R. Reverse-scored items are 2, 4, 6, 8, and 10; reverse a score with (8 - raw). Each of the five domain scores is the average of its two items. In this dataset \"keyed\": \"forward\" = scored in the direction of the domain name; \"keyed\": \"reverse\" = reverse-scored.",
+    "cautions": "Item text is the original English trait-adjective pairs exactly as printed in Appendix A of Gosling, Rentfrow & Swann (2003) and on the official Gosling lab website; both sources match verbatim. The \"text\" field gives only the adjective pair; the shared administration stem \"I see myself as:\" (documented in scoring_notes) precedes every item. The TIPI has no facet structure (each item is a broad domain marker), so facet is left blank. Numerous validated translations exist (Spanish, German, French, Japanese, etc.) but were NOT collected here; only the English original is included. The instrument is copyrighted by the authors but explicitly released for free use for any purpose; the surrounding Elsevier journal article text is separately copyrighted and was not reproduced beyond the instrument itself.",
+    "corrections_applied": [],
+    "verification": {
+      "fabrication_risk": "none",
+      "item_count_plausible": true,
+      "license_correct_asreported": true,
+      "summary": "adversarially fact-checked by a second agent vs primary sources (deepinme wide-collection workflow, 2026-07)"
+    },
+    "sources": [
+      {
+        "title": "Ten-Item Personality Inventory (TIPI) - official item text and scoring key, Gosling Lab, University of Texas at Austin",
+        "url": "https://gosling.psy.utexas.edu/scales-weve-developed/ten-item-personality-measure-tipi/ten-item-personality-inventory-tipi/",
+        "license": "Free to use for any purpose, no permission required (per authors)"
+      },
+      {
+        "title": "Ten Item Personality Measure (TIPI) - Gosling Lab main page (permission statement and citation)",
+        "url": "https://gosling.psy.utexas.edu/scales-weve-developed/ten-item-personality-measure-tipi/",
+        "license": "Free to use for any purpose, no permission required (per authors)"
+      },
+      {
+        "title": "Gosling, Rentfrow & Swann (2003). A very brief measure of the Big-Five personality domains. Journal of Research in Personality, 37, 504-528 (primary source PDF; TIPI in Appendix A)",
+        "url": "https://gosling.psy.utexas.edu/wp-content/uploads/2014/09/JRP-03-tipi.pdf",
+        "license": "Article text copyright Elsevier; instrument free to use per authors"
+      }
+    ]
+  },
+  "count": 10,
+  "items": [
+    {
+      "num": "1",
+      "text": "Extraverted, enthusiastic",
+      "factor": "Extraversion",
+      "facet": "",
+      "keyed": "forward",
+      "language": "English"
+    },
+    {
+      "num": "2",
+      "text": "Critical, quarrelsome",
+      "factor": "Agreeableness",
+      "facet": "",
+      "keyed": "reverse",
+      "language": "English"
+    },
+    {
+      "num": "3",
+      "text": "Dependable, self-disciplined",
+      "factor": "Conscientiousness",
+      "facet": "",
+      "keyed": "forward",
+      "language": "English"
+    },
+    {
+      "num": "4",
+      "text": "Anxious, easily upset",
+      "factor": "Emotional Stability",
+      "facet": "",
+      "keyed": "reverse",
+      "language": "English"
+    },
+    {
+      "num": "5",
+      "text": "Open to new experiences, complex",
+      "factor": "Openness to Experience",
+      "facet": "",
+      "keyed": "forward",
+      "language": "English"
+    },
+    {
+      "num": "6",
+      "text": "Reserved, quiet",
+      "factor": "Extraversion",
+      "facet": "",
+      "keyed": "reverse",
+      "language": "English"
+    },
+    {
+      "num": "7",
+      "text": "Sympathetic, warm",
+      "factor": "Agreeableness",
+      "facet": "",
+      "keyed": "forward",
+      "language": "English"
+    },
+    {
+      "num": "8",
+      "text": "Disorganized, careless",
+      "factor": "Conscientiousness",
+      "facet": "",
+      "keyed": "reverse",
+      "language": "English"
+    },
+    {
+      "num": "9",
+      "text": "Calm, emotionally stable",
+      "factor": "Emotional Stability",
+      "facet": "",
+      "keyed": "forward",
+      "language": "English"
+    },
+    {
+      "num": "10",
+      "text": "Conventional, uncreative",
+      "factor": "Openness to Experience",
+      "facet": "",
+      "keyed": "reverse",
+      "language": "English"
+    }
+  ]
+}

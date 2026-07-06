@@ -1,0 +1,2233 @@
+{
+  "_meta": {
+    "instrument": "IPIP-HEXACO — 한국어 번역",
+    "full_name": "IPIP-HEXACO Scales — International Personality Item Pool representation of the HEXACO personality model (Ashton, Lee, & Goldberg, 2007) (Korean translation)",
+    "source_url": "https://ipip.ori.org/newHEXACO_PI_key.htm",
+    "license": "Public domain. Per the official IPIP website (ipip.ori.org): \"The items and scales are in the public domain, which means that one can copy, edit, translate, or use them for any purpose without asking permission and without paying a fee.\" The IPIP was created by Lewis R. Goldberg with NIMH support; no permission or fee is required for any use, commercial or non-commercial.",
+    "license_class": "public_domain",
+    "safe_for_noncommercial_reuse": true,
+    "safe_for_commercial_reuse": true,
+    "reuse_notes": "한국어 번역(파생물). 비상업 1단계용. LLM 번역이며 검증된 한국어 표준검사가 아님 — 실사용 전 재검수 권장. 라이선스는 원본을 따르되 번역은 파생물이므로 CC-SA/연구용 조건이 그대로 적용됨.",
+    "attribution": "Items authored/compiled by Lewis R. Goldberg and the International Personality Item Pool (IPIP; https://ipip.ori.org). Scale construction: Ashton, M. C., Lee, K., & Goldberg, L. R. (2007). The IPIP-HEXACO scales: An alternative, public-domain measure of the personality constructs in the HEXACO model. Personality and Individual Differences, 42, 1515-1526. The IPIP representations were built to parallel the constructs of Lee & Ashton's (2004) HEXACO Personality Inventory. Recommended IPIP citation: Goldberg, L. R. (1999) and Goldberg et al. (2006), Journal of Research in Personality, 40, 84-96. · 한국어 번역: deepinme 번역 워크플로우(2026-07, LLM).",
+    "scoring_notes": "Structure: 6 HEXACO factors, each with 4 facet scales (24 facets total), each facet measured by exactly 10 items = 240 items. Factor -> facet map with IPIP abbreviations and Cronbach's alpha reported on the source key page (from Ashton, Lee, & Goldberg, 2007): HONESTY-HUMILITY {Sincerity (H:Sinc) a=.81, Fairness (H:Fair) a=.77, Greed Avoidance (H:Gree) a=.69, Modesty (H:Mode) a=.81}; EMOTIONALITY {Fearfulness (E:Fear) a=.84, Anxiety (E:Anxi) a=.85, Dependence (E:Depe) a=.73 (all 10 items +keyed), Sentimentality (E:Sent) a=.79}; EXTRAVERSION {Expressiveness (X:Expr) a=.84, Social Boldness (X:SocB) a=.86, Sociability (X:Soci) a=.85, Liveliness (X:Live) a=.82}; AGREEABLENESS {Forgiveness (A:Forg) a=.78, Gentleness (A:Gent) a=.81, Flexibility (A:Flex) a=.73, Patience (A:Pati) a=.88}; CONSCIENTIOUSNESS {Organization (C:Orga) a=.85, Diligence (C:Dili) a=.81, Perfectionism (C:Perf) a=.80, Prudence (C:Prud) a=.80}; OPENNESS TO EXPERIENCE {Aesthetic Appreciation (O:AesA) a=.83, Inquisitiveness (O:Inqu) a=.78, Creativity (O:Crea) a=.85, Unconventionality (O:Unco) a=.84}. Keying: keyed=\"+\" items score in the direction of the facet; keyed=\"-\" items are reverse-scored before summing. On the customary 5-point scale (1=Very Inaccurate ... 5=Very Accurate) reverse scoring is 5->1, 4->2, 3->3, 2->4, 1->5. Overall balance across the 240 items: 118 positively keyed, 122 negatively keyed. Items are first-person self-report statements administered with a standard IPIP instruction stem (\"Describe yourself as you generally are now... indicate how accurately each statement describes you\").",
+    "cautions": "1) This is the FULL 240-item facet-level IPIP-HEXACO (24 facet scales x 10 items), fetched verbatim from the official IPIP key page. The task cited \"the 100-item IPIP-HEXACO\" only as an example; the authoritative IPIP site hosts this complete 240-item facet version, so the entire coherent set was collected rather than a partial subset. All 240 items were captured (none omitted); a shorter 100-item or 60-item public-domain HEXACO subset can be derived from these same items if needed. 2) The \"num\" field is the sequential position within the source key listing (ordered factor -> facet -> +keyed then -keyed), NOT an official IPIP master-item identifier; IPIP assigns its own item IDs in its 3,000+ alphabetical item pool. 3) These public-domain IPIP items are an ALTERNATIVE proxy for the HEXACO constructs; they are NOT the copyrighted HEXACO-PI-R by Lee & Ashton. The proprietary HEXACO-PI-R (hosted at hexaco.org) was deliberately NOT reproduced here; only the public-domain IPIP representation was collected. 4) Reported alpha reliabilities are from the 2007 development sample and are provided on the source page for reference. 5) Item text is reproduced exactly as it appears on the IPIP key page (including punctuation and quotation marks); these are stage-1 raw items intended to be rewritten into plain language downstream. | 번역본: 문항 순서·채점방향(keyed)·factor/facet은 원본과 동일. text_en에 원문 병기.",
+    "translation": {
+      "language": "ko",
+      "translated_from": "raw/hexaco/items.ipip-hexaco.json",
+      "method": "LLM faithful translation (deepinme workflow, 2026-07) — 충실 번역이며 '쉬운말 리라이팅'은 별도 단계",
+      "status": "working draft — NOT a validated Korean instrument",
+      "qa": {
+        "fidelity": "high",
+        "naturalness": "natural",
+        "count_match": true,
+        "reviewer_overall": "All 240 items are present and sequential (count matches), one Korean rendering per source item. Fidelity is high: measured meaning and first-person self-report framing are preserved, reverse-keyed items are translated literally rather than un-reversed (e.g., 22 '애쓰지 않는다', 189 '너무 기울이지 않는다', 227 '좋지 않다'), and consistent terminology is used across sibling items (e.g., 화/짜증/겁). Naturalness is strong — the items read as idiomatic Korean questionnaire statements, with good idiomatic choices for tricky items (82 '할 말이 없어 막히는 법이 없다', 150 '도무지 말이 통하지 않는다', 235 '세상의 흐름을 거슬러 나아간다'), and little to no translationese. Only three minor points surfaced: a semantic nuance shift on id 10 ('feel important' → '우월감/superiority'), a case-particle slip on id 172 ('일을 착수한다'), and a mild narrowing on id 55 ('panic' → '겁에 질린다'). A handful of items add small intensifiers/explicitations (e.g., 30 '오로지', 61 '안심시켜 주는 말', 158 '사소한 일에도', 200 '남들 앞에서') that are defensible and do not distort the construct. No true mistranslations or framing errors were found.",
+        "issues": [
+          {
+            "id": "10",
+            "problem": "'Let people push me around to help them feel important' — 'feel important' is rendered as '우월감을 느끼도록' (feel superiority), which shifts the meaning from others feeling valued/significant to others feeling superior to me. The rest ('함부로 대하게 내버려 둔다') is good.",
+            "suggestion": "남들이 자신이 중요한 사람이라고 느끼도록 그들이 나를 함부로 대하게 내버려 둔다."
+          },
+          {
+            "id": "172",
+            "problem": "'Get started quickly on doing a job' → '일을 빨리 착수한다' uses the wrong case particle: 착수하다 governs 에 (일에 착수하다), so 일을 착수한다 reads as slightly ungrammatical 번역투.",
+            "suggestion": "일에 빨리 착수한다 (or more naturally: 일을 빨리 시작한다)."
+          },
+          {
+            "id": "55",
+            "problem": "'Panic easily' → '쉽게 겁에 질린다' narrows 'panic' to fear/terror (질리다 = be terrified), losing the agitation / loss-of-composure sense. Minor; also overlaps semantically with item 42's '겁에 질리기'.",
+            "suggestion": "쉽게 당황한다 (or 쉽게 허둥댄다 / 쉽게 공황에 빠진다)."
+          }
+        ]
+      }
+    },
+    "verification": {
+      "summary": "번역 QA(2차 에이전트): fidelity=high, naturalness=natural, count_match=True, issues=3",
+      "fabrication_risk": "none"
+    },
+    "sources": [
+      {
+        "title": "IPIP-HEXACO key page: The Items in the Preliminary IPIP Scales Measuring Constructs Similar to Those Included in Lee and Ashton's HEXACO Personality Inventory (official IPIP / Oregon Research Institute)",
+        "url": "https://ipip.ori.org/newHEXACO_PI_key.htm",
+        "license": "Public domain"
+      },
+      {
+        "title": "International Personality Item Pool (IPIP) home page — public-domain statement and site overview",
+        "url": "https://ipip.ori.org/",
+        "license": "Public domain"
+      },
+      {
+        "title": "Ashton, Lee, & Goldberg (2007), The IPIP-HEXACO scales: An alternative, public-domain measure of the personality constructs in the HEXACO model, Personality and Individual Differences, 42, 1515-1526 (author PDF)",
+        "url": "https://projects.ori.org/lrg/PDFs_papers/Ashton_Lee_Goldberg_2007_PAID.pdf",
+        "license": "Copyrighted article describing public-domain scales"
+      },
+      {
+        "title": "Korean translation (deepinme workflow)",
+        "url": "https://ipip.ori.org/newHEXACO_PI_key.htm",
+        "license": "translation is a derivative; see reuse_notes"
+      }
+    ]
+  },
+  "count": 240,
+  "items": [
+    {
+      "num": "1",
+      "text": "실제 나보다 더 나은 사람인 척하지 않는다.",
+      "text_en": "Don't pretend to be more than I am.",
+      "language": "ko",
+      "factor": "Honesty-Humility",
+      "facet": "Sincerity",
+      "keyed": "+"
+    },
+    {
+      "num": "2",
+      "text": "앞서 나가기 위해 아첨을 이용한다.",
+      "text_en": "Use flattery to get ahead.",
+      "language": "ko",
+      "factor": "Honesty-Humility",
+      "facet": "Sincerity",
+      "keyed": "-"
+    },
+    {
+      "num": "3",
+      "text": "남들이 내가 원하는 대로 행동하게 하려고 그들이 듣고 싶어 하는 말을 해 준다.",
+      "text_en": "Tell other people what they want to hear so that they will do what I want them to do.",
+      "language": "ko",
+      "factor": "Honesty-Humility",
+      "facet": "Sincerity",
+      "keyed": "-"
+    },
+    {
+      "num": "4",
+      "text": "남들에게 강한 인상을 주려고 겉으로 그럴싸하게 꾸민다.",
+      "text_en": "Put on a show to impress people.",
+      "language": "ko",
+      "factor": "Honesty-Humility",
+      "facet": "Sincerity",
+      "keyed": "-"
+    },
+    {
+      "num": "5",
+      "text": "내키는 대로 충성의 대상을 바꾼다.",
+      "text_en": "Switch my loyalties when I feel like it.",
+      "language": "ko",
+      "factor": "Honesty-Humility",
+      "facet": "Sincerity",
+      "keyed": "-"
+    },
+    {
+      "num": "6",
+      "text": "남들에게 강한 인상을 주려고 어떤 역할을 연기한다.",
+      "text_en": "Play a role in order to impress people.",
+      "language": "ko",
+      "factor": "Honesty-Humility",
+      "facet": "Sincerity",
+      "keyed": "-"
+    },
+    {
+      "num": "7",
+      "text": "남을 걱정하는 척한다.",
+      "text_en": "Pretend to be concerned for others.",
+      "language": "ko",
+      "factor": "Honesty-Humility",
+      "facet": "Sincerity",
+      "keyed": "-"
+    },
+    {
+      "num": "8",
+      "text": "상황에 따라 다른 사람처럼 행동한다.",
+      "text_en": "Act like different people in different situations.",
+      "language": "ko",
+      "factor": "Honesty-Humility",
+      "facet": "Sincerity",
+      "keyed": "-"
+    },
+    {
+      "num": "9",
+      "text": "권력을 가진 사람들의 비위를 맞출 필요가 있다고 느낀다.",
+      "text_en": "Find it necessary to please the people who have power.",
+      "language": "ko",
+      "factor": "Honesty-Humility",
+      "facet": "Sincerity",
+      "keyed": "-"
+    },
+    {
+      "num": "10",
+      "text": "남들이 우월감을 느끼도록 그들이 나를 함부로 대하게 내버려 둔다.",
+      "text_en": "Let people push me around to help them feel important.",
+      "language": "ko",
+      "factor": "Honesty-Humility",
+      "facet": "Sincerity",
+      "keyed": "-"
+    },
+    {
+      "num": "11",
+      "text": "내 것이 아닌 물건은 절대 가져가지 않는다.",
+      "text_en": "Would never take things that aren't mine.",
+      "language": "ko",
+      "factor": "Honesty-Humility",
+      "facet": "Fairness",
+      "keyed": "+"
+    },
+    {
+      "num": "12",
+      "text": "절대 세금을 속이지 않는다.",
+      "text_en": "Would never cheat on my taxes.",
+      "language": "ko",
+      "factor": "Honesty-Humility",
+      "facet": "Fairness",
+      "keyed": "+"
+    },
+    {
+      "num": "13",
+      "text": "계산원이 실수로 거스름돈을 더 주면 돌려준다.",
+      "text_en": "Return extra change when a cashier makes a mistake.",
+      "language": "ko",
+      "factor": "Honesty-Humility",
+      "facet": "Fairness",
+      "keyed": "+"
+    },
+    {
+      "num": "14",
+      "text": "누군가의 물건을 훔친다면 오랫동안 몹시 죄책감을 느낄 것이다.",
+      "text_en": "Would feel very badly for a long time if I were to steal from someone.",
+      "language": "ko",
+      "factor": "Honesty-Humility",
+      "facet": "Fairness",
+      "keyed": "+"
+    },
+    {
+      "num": "15",
+      "text": "규칙을 지키려고 노력한다.",
+      "text_en": "Try to follow the rules.",
+      "language": "ko",
+      "factor": "Honesty-Humility",
+      "facet": "Fairness",
+      "keyed": "+"
+    },
+    {
+      "num": "16",
+      "text": "정말 교묘한 사기를 보면 감탄한다.",
+      "text_en": "Admire a really clever scam.",
+      "language": "ko",
+      "factor": "Honesty-Humility",
+      "facet": "Fairness",
+      "keyed": "-"
+    },
+    {
+      "num": "17",
+      "text": "앞서 나가기 위해 부정한 수단을 쓴다.",
+      "text_en": "Cheat to get ahead.",
+      "language": "ko",
+      "factor": "Honesty-Humility",
+      "facet": "Fairness",
+      "keyed": "-"
+    },
+    {
+      "num": "18",
+      "text": "물건을 훔친다.",
+      "text_en": "Steal things.",
+      "language": "ko",
+      "factor": "Honesty-Humility",
+      "facet": "Fairness",
+      "keyed": "-"
+    },
+    {
+      "num": "19",
+      "text": "나를 믿어 준 사람들을 속인다.",
+      "text_en": "Cheat on people who have trusted me.",
+      "language": "ko",
+      "factor": "Honesty-Humility",
+      "facet": "Fairness",
+      "keyed": "-"
+    },
+    {
+      "num": "20",
+      "text": "충동적으로 누군가를 이용한다 해도 내 행동을 후회하지 않을 것이다.",
+      "text_en": "Would not regret my behavior if I were to take advantage of someone impulsively.",
+      "language": "ko",
+      "factor": "Honesty-Humility",
+      "facet": "Fairness",
+      "keyed": "-"
+    },
+    {
+      "num": "21",
+      "text": "유명 인사가 되는 것을 즐기지 않을 것이다.",
+      "text_en": "Would not enjoy being a famous celebrity.",
+      "language": "ko",
+      "factor": "Honesty-Humility",
+      "facet": "Greed Avoidance",
+      "keyed": "+"
+    },
+    {
+      "num": "22",
+      "text": "외모를 우아하게 꾸미려고 애쓰지 않는다.",
+      "text_en": "Don't strive for elegance in my appearance.",
+      "language": "ko",
+      "factor": "Honesty-Humility",
+      "facet": "Greed Avoidance",
+      "keyed": "+"
+    },
+    {
+      "num": "23",
+      "text": "사치를 좋아한다.",
+      "text_en": "Love luxury.",
+      "language": "ko",
+      "factor": "Honesty-Humility",
+      "facet": "Greed Avoidance",
+      "keyed": "-"
+    },
+    {
+      "num": "24",
+      "text": "권력에 대한 욕구가 강하다.",
+      "text_en": "Have a strong need for power.",
+      "language": "ko",
+      "factor": "Honesty-Humility",
+      "facet": "Greed Avoidance",
+      "keyed": "-"
+    },
+    {
+      "num": "25",
+      "text": "지위를 추구한다.",
+      "text_en": "Seek status.",
+      "language": "ko",
+      "factor": "Honesty-Humility",
+      "facet": "Greed Avoidance",
+      "keyed": "-"
+    },
+    {
+      "num": "26",
+      "text": "주로 돈에 관심이 있다.",
+      "text_en": "Am mainly interested in money.",
+      "language": "ko",
+      "factor": "Honesty-Humility",
+      "facet": "Greed Avoidance",
+      "keyed": "-"
+    },
+    {
+      "num": "27",
+      "text": "영원히 젊게 지내고 싶다.",
+      "text_en": "Wish to stay young forever.",
+      "language": "ko",
+      "factor": "Honesty-Humility",
+      "facet": "Greed Avoidance",
+      "keyed": "-"
+    },
+    {
+      "num": "28",
+      "text": "남에게 좋은 인상을 주려고 애쓴다.",
+      "text_en": "Try to impress others.",
+      "language": "ko",
+      "factor": "Honesty-Humility",
+      "facet": "Greed Avoidance",
+      "keyed": "-"
+    },
+    {
+      "num": "29",
+      "text": "비싼 식당에서 식사하는 것을 선호한다.",
+      "text_en": "Prefer to eat at expensive restaurants.",
+      "language": "ko",
+      "factor": "Honesty-Humility",
+      "facet": "Greed Avoidance",
+      "keyed": "-"
+    },
+    {
+      "num": "30",
+      "text": "오로지 내 개인적 이익을 좇는다.",
+      "text_en": "Am out for my own personal gain.",
+      "language": "ko",
+      "factor": "Honesty-Humility",
+      "facet": "Greed Avoidance",
+      "keyed": "-"
+    },
+    {
+      "num": "31",
+      "text": "내가 남들보다 낫다고 생각하지 않는다.",
+      "text_en": "Don't think that I'm better than other people.",
+      "language": "ko",
+      "factor": "Honesty-Humility",
+      "facet": "Modesty",
+      "keyed": "+"
+    },
+    {
+      "num": "32",
+      "text": "나 자신을 평범한 사람으로 본다.",
+      "text_en": "See myself as an average person.",
+      "language": "ko",
+      "factor": "Honesty-Humility",
+      "facet": "Modesty",
+      "keyed": "+"
+    },
+    {
+      "num": "33",
+      "text": "나는 그저 평범한 사람일 뿐이다.",
+      "text_en": "Am just an ordinary person.",
+      "language": "ko",
+      "factor": "Honesty-Humility",
+      "facet": "Modesty",
+      "keyed": "+"
+    },
+    {
+      "num": "34",
+      "text": "나 자신을 보통 사람이라고 생각한다.",
+      "text_en": "Consider myself an average person.",
+      "language": "ko",
+      "factor": "Honesty-Humility",
+      "facet": "Modesty",
+      "keyed": "+"
+    },
+    {
+      "num": "35",
+      "text": "남들보다 더 많은 권력을 갖고 싶다.",
+      "text_en": "Would like to have more power than other people.",
+      "language": "ko",
+      "factor": "Honesty-Humility",
+      "facet": "Modesty",
+      "keyed": "-"
+    },
+    {
+      "num": "36",
+      "text": "내가 남들보다 낫다고 믿는다.",
+      "text_en": "Believe that I am better than others.",
+      "language": "ko",
+      "factor": "Honesty-Humility",
+      "facet": "Modesty",
+      "keyed": "-"
+    },
+    {
+      "num": "37",
+      "text": "주목받는 것을 좋아한다.",
+      "text_en": "Like to attract attention.",
+      "language": "ko",
+      "factor": "Honesty-Humility",
+      "facet": "Modesty",
+      "keyed": "-"
+    },
+    {
+      "num": "38",
+      "text": "대부분의 사람들보다 내가 더 유능하다.",
+      "text_en": "Am more capable than most others.",
+      "language": "ko",
+      "factor": "Honesty-Humility",
+      "facet": "Modesty",
+      "keyed": "-"
+    },
+    {
+      "num": "39",
+      "text": "기회가 생기면 뽐내는 편이다.",
+      "text_en": "Am likely to show off if I get the chance.",
+      "language": "ko",
+      "factor": "Honesty-Humility",
+      "facet": "Modesty",
+      "keyed": "-"
+    },
+    {
+      "num": "40",
+      "text": "내 장점을 자랑한다.",
+      "text_en": "Boast about my virtues.",
+      "language": "ko",
+      "factor": "Honesty-Humility",
+      "facet": "Modesty",
+      "keyed": "-"
+    },
+    {
+      "num": "41",
+      "text": "신체적 위험 앞에서는 겁쟁이다.",
+      "text_en": "Am a physical coward.",
+      "language": "ko",
+      "factor": "Emotionality",
+      "facet": "Fearfulness",
+      "keyed": "+"
+    },
+    {
+      "num": "42",
+      "text": "위험이 닥치면 겁에 질리기 시작한다.",
+      "text_en": "Begin to panic when there is danger.",
+      "language": "ko",
+      "factor": "Emotionality",
+      "facet": "Fearfulness",
+      "keyed": "+"
+    },
+    {
+      "num": "43",
+      "text": "범죄가 많은 도시 지역을 걷는 것이 두려울 것 같다.",
+      "text_en": "Would fear walking in a high-crime part of a city.",
+      "language": "ko",
+      "factor": "Emotionality",
+      "facet": "Fearfulness",
+      "keyed": "+"
+    },
+    {
+      "num": "44",
+      "text": "위험한 상황에서 몸이 떨린다.",
+      "text_en": "Tremble in dangerous situations.",
+      "language": "ko",
+      "factor": "Emotionality",
+      "facet": "Fearfulness",
+      "keyed": "+"
+    },
+    {
+      "num": "45",
+      "text": "카누를 타고 급류를 내려가는 일은 절대 하지 않을 것이다.",
+      "text_en": "Would never go riding down a stretch of rapids in a canoe.",
+      "language": "ko",
+      "factor": "Emotionality",
+      "facet": "Fearfulness",
+      "keyed": "+"
+    },
+    {
+      "num": "46",
+      "text": "무서운 일을 하는 것을 좋아한다.",
+      "text_en": "Like to do frightening things.",
+      "language": "ko",
+      "factor": "Emotionality",
+      "facet": "Fearfulness",
+      "keyed": "-"
+    },
+    {
+      "num": "47",
+      "text": "위험에 자신 있게 맞선다.",
+      "text_en": "Face danger confidently.",
+      "language": "ko",
+      "factor": "Emotionality",
+      "facet": "Fearfulness",
+      "keyed": "-"
+    },
+    {
+      "num": "48",
+      "text": "위험한 상황을 아주 좋아한다.",
+      "text_en": "Love dangerous situations.",
+      "language": "ko",
+      "factor": "Emotionality",
+      "facet": "Fearfulness",
+      "keyed": "-"
+    },
+    {
+      "num": "49",
+      "text": "불타는 건물에서 사람들을 구조하는 일을 잘할 것이다.",
+      "text_en": "Would be good at rescuing people from a burning building.",
+      "language": "ko",
+      "factor": "Emotionality",
+      "facet": "Fearfulness",
+      "keyed": "-"
+    },
+    {
+      "num": "50",
+      "text": "기꺼이 위험을 감수한다.",
+      "text_en": "Am willing to take risks.",
+      "language": "ko",
+      "factor": "Emotionality",
+      "facet": "Fearfulness",
+      "keyed": "-"
+    },
+    {
+      "num": "51",
+      "text": "결국 별것 아닌 일로 자주 걱정한다.",
+      "text_en": "Often worry about things that turn out to be unimportant.",
+      "language": "ko",
+      "factor": "Emotionality",
+      "facet": "Anxiety",
+      "keyed": "+"
+    },
+    {
+      "num": "52",
+      "text": "이런저런 일을 걱정한다.",
+      "text_en": "Worry about things.",
+      "language": "ko",
+      "factor": "Emotionality",
+      "facet": "Anxiety",
+      "keyed": "+"
+    },
+    {
+      "num": "53",
+      "text": "쉽게 스트레스를 받는다.",
+      "text_en": "Get stressed out easily.",
+      "language": "ko",
+      "factor": "Emotionality",
+      "facet": "Anxiety",
+      "keyed": "+"
+    },
+    {
+      "num": "54",
+      "text": "머릿속에 떠오르는 불쾌한 생각들 때문에 마음이 상한다.",
+      "text_en": "Get upset by unpleasant thoughts that come into my mind.",
+      "language": "ko",
+      "factor": "Emotionality",
+      "facet": "Anxiety",
+      "keyed": "+"
+    },
+    {
+      "num": "55",
+      "text": "쉽게 겁에 질린다.",
+      "text_en": "Panic easily.",
+      "language": "ko",
+      "factor": "Emotionality",
+      "facet": "Anxiety",
+      "keyed": "+"
+    },
+    {
+      "num": "56",
+      "text": "좀처럼 걱정하지 않는다.",
+      "text_en": "Rarely worry.",
+      "language": "ko",
+      "factor": "Emotionality",
+      "facet": "Anxiety",
+      "keyed": "-"
+    },
+    {
+      "num": "57",
+      "text": "좀처럼 우울해지지 않는다.",
+      "text_en": "Rarely feel depressed.",
+      "language": "ko",
+      "factor": "Emotionality",
+      "facet": "Anxiety",
+      "keyed": "-"
+    },
+    {
+      "num": "58",
+      "text": "어떤 일에도 쉽게 동요하지 않는다.",
+      "text_en": "Am not easily disturbed by events.",
+      "language": "ko",
+      "factor": "Emotionality",
+      "facet": "Anxiety",
+      "keyed": "-"
+    },
+    {
+      "num": "59",
+      "text": "압박 속에서도 침착함을 유지한다.",
+      "text_en": "Remain calm under pressure.",
+      "language": "ko",
+      "factor": "Emotionality",
+      "facet": "Anxiety",
+      "keyed": "-"
+    },
+    {
+      "num": "60",
+      "text": "이미 지나간 일은 걱정하지 않는다.",
+      "text_en": "Don't worry about things that have already happened.",
+      "language": "ko",
+      "factor": "Emotionality",
+      "facet": "Anxiety",
+      "keyed": "-"
+    },
+    {
+      "num": "61",
+      "text": "안심시켜 주는 말이 필요하다.",
+      "text_en": "Need reassurance.",
+      "language": "ko",
+      "factor": "Emotionality",
+      "facet": "Dependence",
+      "keyed": "+"
+    },
+    {
+      "num": "62",
+      "text": "남들의 영향을 잘 받는다.",
+      "text_en": "Let myself be influenced by others.",
+      "language": "ko",
+      "factor": "Emotionality",
+      "facet": "Dependence",
+      "keyed": "+"
+    },
+    {
+      "num": "63",
+      "text": "남들의 인정이 필요하다.",
+      "text_en": "Need the approval of others.",
+      "language": "ko",
+      "factor": "Emotionality",
+      "facet": "Dependence",
+      "keyed": "+"
+    },
+    {
+      "num": "64",
+      "text": "보호받는 것이 필요하다.",
+      "text_en": "Need protection.",
+      "language": "ko",
+      "factor": "Emotionality",
+      "facet": "Dependence",
+      "keyed": "+"
+    },
+    {
+      "num": "65",
+      "text": "자주 도움이 필요하다.",
+      "text_en": "Often need help.",
+      "language": "ko",
+      "factor": "Emotionality",
+      "facet": "Dependence",
+      "keyed": "+"
+    },
+    {
+      "num": "66",
+      "text": "내 슬픔을 겉으로 드러낸다.",
+      "text_en": "Show my sadness.",
+      "language": "ko",
+      "factor": "Emotionality",
+      "facet": "Dependence",
+      "keyed": "+"
+    },
+    {
+      "num": "67",
+      "text": "슬플 때 내 표정에 그 감정이 드러나는 것 같다.",
+      "text_en": "Suspect that my facial expressions give me away when I feel sad.",
+      "language": "ko",
+      "factor": "Emotionality",
+      "facet": "Dependence",
+      "keyed": "+"
+    },
+    {
+      "num": "68",
+      "text": "다른 사람의 지지를 구한다.",
+      "text_en": "Seek support.",
+      "language": "ko",
+      "factor": "Emotionality",
+      "facet": "Dependence",
+      "keyed": "+"
+    },
+    {
+      "num": "69",
+      "text": "다른 사람들과 어울리지 않고는 지낼 수 없다.",
+      "text_en": "Can't do without the company of others.",
+      "language": "ko",
+      "factor": "Emotionality",
+      "facet": "Dependence",
+      "keyed": "+"
+    },
+    {
+      "num": "70",
+      "text": "남들에게 호감을 얻고 싶어 한다.",
+      "text_en": "Want to be liked.",
+      "language": "ko",
+      "factor": "Emotionality",
+      "facet": "Dependence",
+      "keyed": "+"
+    },
+    {
+      "num": "71",
+      "text": "다른 사람의 감정을 함께 느낀다.",
+      "text_en": "Feel others' emotions.",
+      "language": "ko",
+      "factor": "Emotionality",
+      "facet": "Sentimentality",
+      "keyed": "+"
+    },
+    {
+      "num": "72",
+      "text": "안 좋은 일을 전해 들으면 곧바로 슬퍼진다.",
+      "text_en": "Immediately feel sad when hearing of an unhappy event.",
+      "language": "ko",
+      "factor": "Emotionality",
+      "facet": "Sentimentality",
+      "keyed": "+"
+    },
+    {
+      "num": "73",
+      "text": "영화를 보다가 운다.",
+      "text_en": "Cry during movies.",
+      "language": "ko",
+      "factor": "Emotionality",
+      "facet": "Sentimentality",
+      "keyed": "+"
+    },
+    {
+      "num": "74",
+      "text": "다른 사람이 무엇을 필요로 하는지 민감하게 알아차린다.",
+      "text_en": "Am sensitive to the needs of others.",
+      "language": "ko",
+      "factor": "Emotionality",
+      "facet": "Sentimentality",
+      "keyed": "+"
+    },
+    {
+      "num": "75",
+      "text": "다른 사람의 불행에 깊이 마음이 움직인다.",
+      "text_en": "Am deeply moved by others' misfortunes.",
+      "language": "ko",
+      "factor": "Emotionality",
+      "facet": "Sentimentality",
+      "keyed": "+"
+    },
+    {
+      "num": "76",
+      "text": "슬픈 영화를 봐도 좀처럼 울지 않는다.",
+      "text_en": "Rarely cry during sad movies.",
+      "language": "ko",
+      "factor": "Emotionality",
+      "facet": "Sentimentality",
+      "keyed": "-"
+    },
+    {
+      "num": "77",
+      "text": "이야기의 슬픈 대목을 읽어도 좀처럼 눈물이 나지 않는다.",
+      "text_en": "Seldom feel weepy while reading the sad part of a story.",
+      "language": "ko",
+      "factor": "Emotionality",
+      "facet": "Sentimentality",
+      "keyed": "-"
+    },
+    {
+      "num": "78",
+      "text": "낯선 사람이 겪는 고통을 봐도 좀처럼 마음이 쓰이지 않는다.",
+      "text_en": "Am seldom bothered by the apparent suffering of strangers.",
+      "language": "ko",
+      "factor": "Emotionality",
+      "facet": "Sentimentality",
+      "keyed": "-"
+    },
+    {
+      "num": "79",
+      "text": "감정에 북받치는 사람들을 이해하지 못한다.",
+      "text_en": "Don't understand people who get emotional.",
+      "language": "ko",
+      "factor": "Emotionality",
+      "facet": "Sentimentality",
+      "keyed": "-"
+    },
+    {
+      "num": "80",
+      "text": "좀처럼 감정에 북받치지 않는다.",
+      "text_en": "Seldom get emotional.",
+      "language": "ko",
+      "factor": "Emotionality",
+      "facet": "Sentimentality",
+      "keyed": "-"
+    },
+    {
+      "num": "81",
+      "text": "말을 많이 한다.",
+      "text_en": "Talk a lot.",
+      "language": "ko",
+      "factor": "Extraversion",
+      "facet": "Expressiveness",
+      "keyed": "+"
+    },
+    {
+      "num": "82",
+      "text": "할 말이 없어 막히는 법이 없다.",
+      "text_en": "Am never at a loss for words.",
+      "language": "ko",
+      "factor": "Extraversion",
+      "facet": "Expressiveness",
+      "keyed": "+"
+    },
+    {
+      "num": "83",
+      "text": "모임에서 분위기를 주도한다.",
+      "text_en": "Am the life of the party.",
+      "language": "ko",
+      "factor": "Extraversion",
+      "facet": "Expressiveness",
+      "keyed": "+"
+    },
+    {
+      "num": "84",
+      "text": "짜증이 날 때는 그 사실을 남들에게 말한다.",
+      "text_en": "Tell people about it when I'm irritated.",
+      "language": "ko",
+      "factor": "Extraversion",
+      "facet": "Expressiveness",
+      "keyed": "+"
+    },
+    {
+      "num": "85",
+      "text": "크고 요란하게 웃는다.",
+      "text_en": "Have an intense, boisterous laugh.",
+      "language": "ko",
+      "factor": "Extraversion",
+      "facet": "Expressiveness",
+      "keyed": "+"
+    },
+    {
+      "num": "86",
+      "text": "말을 많이 하지 않는다.",
+      "text_en": "Don't talk a lot.",
+      "language": "ko",
+      "factor": "Extraversion",
+      "facet": "Expressiveness",
+      "keyed": "-"
+    },
+    {
+      "num": "87",
+      "text": "나에게 이목이 쏠리는 것을 좋아하지 않는다.",
+      "text_en": "Don't like to draw attention to myself.",
+      "language": "ko",
+      "factor": "Extraversion",
+      "facet": "Expressiveness",
+      "keyed": "-"
+    },
+    {
+      "num": "88",
+      "text": "말수가 적다.",
+      "text_en": "Say little.",
+      "language": "ko",
+      "factor": "Extraversion",
+      "facet": "Expressiveness",
+      "keyed": "-"
+    },
+    {
+      "num": "89",
+      "text": "감정을 속으로 억누른다.",
+      "text_en": "Bottle up my feelings.",
+      "language": "ko",
+      "factor": "Extraversion",
+      "facet": "Expressiveness",
+      "keyed": "-"
+    },
+    {
+      "num": "90",
+      "text": "작은 목소리로 말한다.",
+      "text_en": "Speak softly.",
+      "language": "ko",
+      "factor": "Extraversion",
+      "facet": "Expressiveness",
+      "keyed": "-"
+    },
+    {
+      "num": "91",
+      "text": "즉석 연설을 잘한다.",
+      "text_en": "Am good at making impromptu speeches.",
+      "language": "ko",
+      "factor": "Extraversion",
+      "facet": "Social Boldness",
+      "keyed": "+"
+    },
+    {
+      "num": "92",
+      "text": "주목의 중심에 서는 것을 개의치 않는다.",
+      "text_en": "Don't mind being the center of attention.",
+      "language": "ko",
+      "factor": "Extraversion",
+      "facet": "Social Boldness",
+      "keyed": "+"
+    },
+    {
+      "num": "93",
+      "text": "사람들과 함께 있으면 마음이 편하다.",
+      "text_en": "Feel comfortable around people.",
+      "language": "ko",
+      "factor": "Extraversion",
+      "facet": "Social Boldness",
+      "keyed": "+"
+    },
+    {
+      "num": "94",
+      "text": "리더십이 있다.",
+      "text_en": "Have leadership abilities.",
+      "language": "ko",
+      "factor": "Extraversion",
+      "facet": "Social Boldness",
+      "keyed": "+"
+    },
+    {
+      "num": "95",
+      "text": "성격이 강하다.",
+      "text_en": "Have a strong personality.",
+      "language": "ko",
+      "factor": "Extraversion",
+      "facet": "Social Boldness",
+      "keyed": "+"
+    },
+    {
+      "num": "96",
+      "text": "사람들 앞에서 연설하는 것이 두려울 것 같다.",
+      "text_en": "Would be afraid to give a speech in public.",
+      "language": "ko",
+      "factor": "Extraversion",
+      "facet": "Social Boldness",
+      "keyed": "-"
+    },
+    {
+      "num": "97",
+      "text": "나서지 않고 뒤에 머문다.",
+      "text_en": "Keep in the background.",
+      "language": "ko",
+      "factor": "Extraversion",
+      "facet": "Social Boldness",
+      "keyed": "-"
+    },
+    {
+      "num": "98",
+      "text": "남에게 먼저 다가가기 어렵다.",
+      "text_en": "Find it difficult to approach others.",
+      "language": "ko",
+      "factor": "Extraversion",
+      "facet": "Social Boldness",
+      "keyed": "-"
+    },
+    {
+      "num": "99",
+      "text": "주목의 중심에 서는 것을 몹시 싫어한다.",
+      "text_en": "Hate being the center of attention.",
+      "language": "ko",
+      "factor": "Extraversion",
+      "facet": "Social Boldness",
+      "keyed": "-"
+    },
+    {
+      "num": "100",
+      "text": "할 말이 별로 없다.",
+      "text_en": "Have little to say.",
+      "language": "ko",
+      "factor": "Extraversion",
+      "facet": "Social Boldness",
+      "keyed": "-"
+    },
+    {
+      "num": "101",
+      "text": "여가 시간을 대개 사람들과 함께 보내는 것을 좋아한다.",
+      "text_en": "Usually like to spend my free time with people.",
+      "language": "ko",
+      "factor": "Extraversion",
+      "facet": "Sociability",
+      "keyed": "+"
+    },
+    {
+      "num": "102",
+      "text": "파티에서 여러 다른 사람들과 이야기를 나눈다.",
+      "text_en": "Talk to a lot of different people at parties.",
+      "language": "ko",
+      "factor": "Extraversion",
+      "facet": "Sociability",
+      "keyed": "+"
+    },
+    {
+      "num": "103",
+      "text": "수다 떠는 것을 아주 좋아한다.",
+      "text_en": "Love to chat.",
+      "language": "ko",
+      "factor": "Extraversion",
+      "facet": "Sociability",
+      "keyed": "+"
+    },
+    {
+      "num": "104",
+      "text": "쉽게 친구를 사귄다.",
+      "text_en": "Make friends easily.",
+      "language": "ko",
+      "factor": "Extraversion",
+      "facet": "Sociability",
+      "keyed": "+"
+    },
+    {
+      "num": "105",
+      "text": "무리에 속해 있는 것을 즐긴다.",
+      "text_en": "Enjoy being part of a group.",
+      "language": "ko",
+      "factor": "Extraversion",
+      "facet": "Sociability",
+      "keyed": "+"
+    },
+    {
+      "num": "106",
+      "text": "다른 사람들만큼 사람들과 어울리는 데서 즐거움을 느끼지 못하는 것 같다.",
+      "text_en": "Seem to derive less enjoyment from interacting with people than others do.",
+      "language": "ko",
+      "factor": "Extraversion",
+      "facet": "Sociability",
+      "keyed": "-"
+    },
+    {
+      "num": "107",
+      "text": "사람들과 함께 있는 것을 좀처럼 즐기지 않는다.",
+      "text_en": "Rarely enjoy being with people.",
+      "language": "ko",
+      "factor": "Extraversion",
+      "facet": "Sociability",
+      "keyed": "-"
+    },
+    {
+      "num": "108",
+      "text": "사람들과 많이 교류해야 하는 일은 즐기지 못할 것이다.",
+      "text_en": "Would not enjoy a job that involves a lot of social interaction.",
+      "language": "ko",
+      "factor": "Extraversion",
+      "facet": "Sociability",
+      "keyed": "-"
+    },
+    {
+      "num": "109",
+      "text": "나는 남들이 쉽게 알기 어려운 사람이다.",
+      "text_en": "Am hard to get to know.",
+      "language": "ko",
+      "factor": "Extraversion",
+      "facet": "Sociability",
+      "keyed": "-"
+    },
+    {
+      "num": "110",
+      "text": "남들과 거리를 둔다.",
+      "text_en": "Keep others at a distance.",
+      "language": "ko",
+      "factor": "Extraversion",
+      "facet": "Sociability",
+      "keyed": "-"
+    },
+    {
+      "num": "111",
+      "text": "하루 종일 활력을 유지한다.",
+      "text_en": "Maintain high energy throughout the day.",
+      "language": "ko",
+      "factor": "Extraversion",
+      "facet": "Liveliness",
+      "keyed": "+"
+    },
+    {
+      "num": "112",
+      "text": "체력이 아주 좋다.",
+      "text_en": "Have great stamina.",
+      "language": "ko",
+      "factor": "Extraversion",
+      "facet": "Liveliness",
+      "keyed": "+"
+    },
+    {
+      "num": "113",
+      "text": "대개 활동적이고 에너지가 넘친다.",
+      "text_en": "Am usually active and full of energy.",
+      "language": "ko",
+      "factor": "Extraversion",
+      "facet": "Liveliness",
+      "keyed": "+"
+    },
+    {
+      "num": "114",
+      "text": "자주 미소 짓는다.",
+      "text_en": "Smile a lot.",
+      "language": "ko",
+      "factor": "Extraversion",
+      "facet": "Liveliness",
+      "keyed": "+"
+    },
+    {
+      "num": "115",
+      "text": "대부분의 시간 동안 건강하고 활기차다고 느낀다.",
+      "text_en": "Feel healthy and vibrant most of the time.",
+      "language": "ko",
+      "factor": "Extraversion",
+      "facet": "Liveliness",
+      "keyed": "+"
+    },
+    {
+      "num": "116",
+      "text": "자주 웃는다.",
+      "text_en": "Laugh a lot.",
+      "language": "ko",
+      "factor": "Extraversion",
+      "facet": "Liveliness",
+      "keyed": "+"
+    },
+    {
+      "num": "117",
+      "text": "내 안에 강한 힘이 있다고 느낀다.",
+      "text_en": "Feel that I have a lot of inner strength.",
+      "language": "ko",
+      "factor": "Extraversion",
+      "facet": "Liveliness",
+      "keyed": "+"
+    },
+    {
+      "num": "118",
+      "text": "즐거운 시간을 많이 보낸다.",
+      "text_en": "Have a lot of fun.",
+      "language": "ko",
+      "factor": "Extraversion",
+      "facet": "Liveliness",
+      "keyed": "+"
+    },
+    {
+      "num": "119",
+      "text": "금방 지친다.",
+      "text_en": "Tire out quickly.",
+      "language": "ko",
+      "factor": "Extraversion",
+      "facet": "Liveliness",
+      "keyed": "-"
+    },
+    {
+      "num": "120",
+      "text": "자주 울적함을 느낀다.",
+      "text_en": "Often feel blue.",
+      "language": "ko",
+      "factor": "Extraversion",
+      "facet": "Liveliness",
+      "keyed": "-"
+    },
+    {
+      "num": "121",
+      "text": "나의 적까지도 사랑한다.",
+      "text_en": "Love my enemies.",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "facet": "Forgiveness",
+      "keyed": "+"
+    },
+    {
+      "num": "122",
+      "text": "용서하고 잊으려 노력한다.",
+      "text_en": "Try to forgive and forget.",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "facet": "Forgiveness",
+      "keyed": "+"
+    },
+    {
+      "num": "123",
+      "text": "남을 잘 용서하는 편이다.",
+      "text_en": "Am inclined to forgive others.",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "facet": "Forgiveness",
+      "keyed": "+"
+    },
+    {
+      "num": "124",
+      "text": "화를 내야 마땅한 사람에게도 친절하게 대한다.",
+      "text_en": "Am nice to people I should be angry at.",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "facet": "Forgiveness",
+      "keyed": "+"
+    },
+    {
+      "num": "125",
+      "text": "남을 용서하기가 어렵다.",
+      "text_en": "Find it hard to forgive others.",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "facet": "Forgiveness",
+      "keyed": "-"
+    },
+    {
+      "num": "126",
+      "text": "원한을 품는다.",
+      "text_en": "Hold a grudge.",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "facet": "Forgiveness",
+      "keyed": "-"
+    },
+    {
+      "num": "127",
+      "text": "나를 모욕한 사람에게 앙갚음한다.",
+      "text_en": "Get back at people who insult me.",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "facet": "Forgiveness",
+      "keyed": "-"
+    },
+    {
+      "num": "128",
+      "text": "남에게 당한 만큼 되갚아 준다.",
+      "text_en": "Get even with others.",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "facet": "Forgiveness",
+      "keyed": "-"
+    },
+    {
+      "num": "129",
+      "text": "사람을 잘 믿지 못한다.",
+      "text_en": "Distrust people.",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "facet": "Forgiveness",
+      "keyed": "-"
+    },
+    {
+      "num": "130",
+      "text": "대부분의 사람은 믿을 수 없다고 느낀다.",
+      "text_en": "Feel that most people can't be trusted.",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "facet": "Forgiveness",
+      "keyed": "-"
+    },
+    {
+      "num": "131",
+      "text": "좀처럼 불평하지 않는다.",
+      "text_en": "Rarely complain.",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "facet": "Gentleness",
+      "keyed": "+"
+    },
+    {
+      "num": "132",
+      "text": "일이 닥치는 대로 담담히 받아들인다.",
+      "text_en": "Take things as they come.",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "facet": "Gentleness",
+      "keyed": "+"
+    },
+    {
+      "num": "133",
+      "text": "사람들을 있는 그대로 받아들인다.",
+      "text_en": "Accept people as they are.",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "facet": "Gentleness",
+      "keyed": "+"
+    },
+    {
+      "num": "134",
+      "text": "누구에 대해서든 좋게 이야기한다.",
+      "text_en": "Have a good word for everyone.",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "facet": "Gentleness",
+      "keyed": "+"
+    },
+    {
+      "num": "135",
+      "text": "남들이 내 기대에 미치지 못하면 답답하고 화가 난다.",
+      "text_en": "Become frustrated and angry with people when they don't live up to my expectations.",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "facet": "Gentleness",
+      "keyed": "-"
+    },
+    {
+      "num": "136",
+      "text": "남을 성급하게 판단한다.",
+      "text_en": "Am quick to judge others.",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "facet": "Gentleness",
+      "keyed": "-"
+    },
+    {
+      "num": "137",
+      "text": "무엇이든 흠을 잡는다.",
+      "text_en": "Find fault with everything.",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "facet": "Gentleness",
+      "keyed": "-"
+    },
+    {
+      "num": "138",
+      "text": "남을 험담한다.",
+      "text_en": "Speak ill of others.",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "facet": "Gentleness",
+      "keyed": "-"
+    },
+    {
+      "num": "139",
+      "text": "말투가 신랄하다.",
+      "text_en": "Have a sharp tongue.",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "facet": "Gentleness",
+      "keyed": "-"
+    },
+    {
+      "num": "140",
+      "text": "남의 단점을 비판한다.",
+      "text_en": "Criticize others' shortcomings.",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "facet": "Gentleness",
+      "keyed": "-"
+    },
+    {
+      "num": "141",
+      "text": "쉽게 적응한다.",
+      "text_en": "Adjust easily.",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "facet": "Flexibility",
+      "keyed": "+"
+    },
+    {
+      "num": "142",
+      "text": "남의 조언을 잘 받아들인다.",
+      "text_en": "Am good at taking advice.",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "facet": "Flexibility",
+      "keyed": "+"
+    },
+    {
+      "num": "143",
+      "text": "여러 사람과 함께 있을 때 그중 적어도 한 명은 거슬릴 때가 많다.",
+      "text_en": "When interacting with a group of people, am often bothered by at least one of them.",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "facet": "Flexibility",
+      "keyed": "-"
+    },
+    {
+      "num": "144",
+      "text": "비판에 강하게 반응한다.",
+      "text_en": "React strongly to criticism.",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "facet": "Flexibility",
+      "keyed": "-"
+    },
+    {
+      "num": "145",
+      "text": "내가 정리해 둔 방식을 남이 바꾸면 언짢아진다.",
+      "text_en": "Get upset if others change the way that I have arranged things.",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "facet": "Flexibility",
+      "keyed": "-"
+    },
+    {
+      "num": "146",
+      "text": "좀처럼 설득되지 않는다.",
+      "text_en": "Am hard to convince.",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "facet": "Flexibility",
+      "keyed": "-"
+    },
+    {
+      "num": "147",
+      "text": "남의 실수에 짜증이 난다.",
+      "text_en": "Am annoyed by others' mistakes.",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "facet": "Flexibility",
+      "keyed": "-"
+    },
+    {
+      "num": "148",
+      "text": "반박당하는 것을 참지 못한다.",
+      "text_en": "Can't stand being contradicted.",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "facet": "Flexibility",
+      "keyed": "-"
+    },
+    {
+      "num": "149",
+      "text": "나를 만족시키기가 어렵다.",
+      "text_en": "Am hard to satisfy.",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "facet": "Flexibility",
+      "keyed": "-"
+    },
+    {
+      "num": "150",
+      "text": "나와는 도무지 말이 통하지 않는다.",
+      "text_en": "Am hard to reason with.",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "facet": "Flexibility",
+      "keyed": "-"
+    },
+    {
+      "num": "151",
+      "text": "누군가에게 화가 나기까지는 꽤 많은 일이 있어야 한다.",
+      "text_en": "Find that it takes a lot to make me feel angry at someone.",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "facet": "Patience",
+      "keyed": "+"
+    },
+    {
+      "num": "152",
+      "text": "좀처럼 사람들에게 화가 나지 않는다.",
+      "text_en": "Rarely feel angry with people.",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "facet": "Patience",
+      "keyed": "+"
+    },
+    {
+      "num": "153",
+      "text": "대체로 인내심이 있는 사람이다.",
+      "text_en": "Am usually a patient person.",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "facet": "Patience",
+      "keyed": "+"
+    },
+    {
+      "num": "154",
+      "text": "좀처럼 짜증이 나지 않는다.",
+      "text_en": "Rarely get irritated.",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "facet": "Patience",
+      "keyed": "+"
+    },
+    {
+      "num": "155",
+      "text": "좀처럼 화를 내지 않는다.",
+      "text_en": "Seldom get mad.",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "facet": "Patience",
+      "keyed": "+"
+    },
+    {
+      "num": "156",
+      "text": "쉽게 짜증이 난다.",
+      "text_en": "Am easily annoyed.",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "facet": "Patience",
+      "keyed": "-"
+    },
+    {
+      "num": "157",
+      "text": "쉽게 화를 낸다.",
+      "text_en": "Get angry easily.",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "facet": "Patience",
+      "keyed": "-"
+    },
+    {
+      "num": "158",
+      "text": "사소한 일에도 금방 짜증이 난다.",
+      "text_en": "Get irritated easily.",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "facet": "Patience",
+      "keyed": "-"
+    },
+    {
+      "num": "159",
+      "text": "벌컥 화를 낸다.",
+      "text_en": "Lose my temper.",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "facet": "Patience",
+      "keyed": "-"
+    },
+    {
+      "num": "160",
+      "text": "쉽게 언짢아진다.",
+      "text_en": "Get upset easily.",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "facet": "Patience",
+      "keyed": "-"
+    },
+    {
+      "num": "161",
+      "text": "물건을 깔끔하게 정돈해 둔다.",
+      "text_en": "Keep things tidy.",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "facet": "Organization",
+      "keyed": "+"
+    },
+    {
+      "num": "162",
+      "text": "집안일을 바로바로 해치운다.",
+      "text_en": "Get chores done right away.",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "facet": "Organization",
+      "keyed": "+"
+    },
+    {
+      "num": "163",
+      "text": "질서 있는 것을 좋아한다.",
+      "text_en": "Like order.",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "facet": "Organization",
+      "keyed": "+"
+    },
+    {
+      "num": "164",
+      "text": "정리하는 것을 좋아한다.",
+      "text_en": "Like to tidy up.",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "facet": "Organization",
+      "keyed": "+"
+    },
+    {
+      "num": "165",
+      "text": "모든 것이 \"딱 맞게\" 되어 있기를 바란다.",
+      "text_en": "Want everything to be \"just right.\"",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "facet": "Organization",
+      "keyed": "+"
+    },
+    {
+      "num": "166",
+      "text": "내 방을 어질러 둔다.",
+      "text_en": "Leave a mess in my room.",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "facet": "Organization",
+      "keyed": "-"
+    },
+    {
+      "num": "167",
+      "text": "내 물건을 아무 데나 늘어놓는다.",
+      "text_en": "Leave my belongings around.",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "facet": "Organization",
+      "keyed": "-"
+    },
+    {
+      "num": "168",
+      "text": "시작한 일을 끝맺지 않는다.",
+      "text_en": "Don't finish the things that I start.",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "facet": "Organization",
+      "keyed": "-"
+    },
+    {
+      "num": "169",
+      "text": "물건을 제자리에 도로 놓는 것을 자주 잊는다.",
+      "text_en": "Often forget to put things back in their proper place.",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "facet": "Organization",
+      "keyed": "-"
+    },
+    {
+      "num": "170",
+      "text": "어질러져 있어도 개의치 않는다.",
+      "text_en": "Am not bothered by disorder.",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "facet": "Organization",
+      "keyed": "-"
+    },
+    {
+      "num": "171",
+      "text": "성공하기 위해 나 자신을 몹시 몰아붙인다.",
+      "text_en": "Push myself very hard to succeed.",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "facet": "Diligence",
+      "keyed": "+"
+    },
+    {
+      "num": "172",
+      "text": "일을 빨리 착수한다.",
+      "text_en": "Get started quickly on doing a job.",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "facet": "Diligence",
+      "keyed": "+"
+    },
+    {
+      "num": "173",
+      "text": "내 일에 대해 꼼꼼하고 엄격하다.",
+      "text_en": "Am exacting in my work.",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "facet": "Diligence",
+      "keyed": "+"
+    },
+    {
+      "num": "174",
+      "text": "열심히 일한다.",
+      "text_en": "Work hard.",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "facet": "Diligence",
+      "keyed": "+"
+    },
+    {
+      "num": "175",
+      "text": "맡은 일을 성공적으로 완수한다.",
+      "text_en": "Complete tasks successfully.",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "facet": "Diligence",
+      "keyed": "+"
+    },
+    {
+      "num": "176",
+      "text": "그럭저럭 넘어갈 만큼만 일한다.",
+      "text_en": "Do just enough work to get by.",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "facet": "Diligence",
+      "keyed": "-"
+    },
+    {
+      "num": "177",
+      "text": "일이 너무 어려워지면 그만둔다.",
+      "text_en": "Stop when work becomes too difficult.",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "facet": "Diligence",
+      "keyed": "-"
+    },
+    {
+      "num": "178",
+      "text": "일을 너무 적게 한다.",
+      "text_en": "Do too little work.",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "facet": "Diligence",
+      "keyed": "-"
+    },
+    {
+      "num": "179",
+      "text": "아무것도 안 하고 빈둥거린다.",
+      "text_en": "Hang around doing nothing.",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "facet": "Diligence",
+      "keyed": "-"
+    },
+    {
+      "num": "180",
+      "text": "시작한 일에 금방 흥미를 잃는다.",
+      "text_en": "Quickly lose interest in the tasks I start.",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "facet": "Diligence",
+      "keyed": "-"
+    },
+    {
+      "num": "181",
+      "text": "세부 사항에 주의를 기울인다.",
+      "text_en": "Pay attention to details.",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "facet": "Perfectionism",
+      "keyed": "+"
+    },
+    {
+      "num": "182",
+      "text": "모든 것이 완벽해질 때까지 계속한다.",
+      "text_en": "Continue until everything is perfect.",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "facet": "Perfectionism",
+      "keyed": "+"
+    },
+    {
+      "num": "183",
+      "text": "세세한 부분을 잘 알아본다.",
+      "text_en": "Have an eye for detail.",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "facet": "Perfectionism",
+      "keyed": "+"
+    },
+    {
+      "num": "184",
+      "text": "모든 세부 사항이 빠짐없이 처리되기를 바란다.",
+      "text_en": "Want every detail taken care of.",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "facet": "Perfectionism",
+      "keyed": "+"
+    },
+    {
+      "num": "185",
+      "text": "불완전한 결과물을 싫어한다.",
+      "text_en": "Dislike imperfect work.",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "facet": "Perfectionism",
+      "keyed": "+"
+    },
+    {
+      "num": "186",
+      "text": "모든 것이 완벽하게 들어맞기를 바란다.",
+      "text_en": "Want everything to add up perfectly.",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "facet": "Perfectionism",
+      "keyed": "+"
+    },
+    {
+      "num": "187",
+      "text": "실수를 잘 찾아낸다.",
+      "text_en": "Detect mistakes.",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "facet": "Perfectionism",
+      "keyed": "+"
+    },
+    {
+      "num": "188",
+      "text": "높은 질을 요구한다.",
+      "text_en": "Demand quality.",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "facet": "Perfectionism",
+      "keyed": "+"
+    },
+    {
+      "num": "189",
+      "text": "세부 사항에 주의를 너무 기울이지 않는다.",
+      "text_en": "Pay too little attention to details.",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "facet": "Perfectionism",
+      "keyed": "-"
+    },
+    {
+      "num": "190",
+      "text": "그냥 일이 되어 가는 대로 두는 편을 선호한다.",
+      "text_en": "Prefer to just let things happen.",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "facet": "Perfectionism",
+      "keyed": "-"
+    },
+    {
+      "num": "191",
+      "text": "실수를 하지 않으려 조심한다.",
+      "text_en": "Avoid mistakes.",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "facet": "Prudence",
+      "keyed": "+"
+    },
+    {
+      "num": "192",
+      "text": "계획을 세우고 그것을 지킨다.",
+      "text_en": "Make plans and stick to them.",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "facet": "Prudence",
+      "keyed": "+"
+    },
+    {
+      "num": "193",
+      "text": "계획에 따라 일을 한다.",
+      "text_en": "Do things according to a plan.",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "facet": "Prudence",
+      "keyed": "+"
+    },
+    {
+      "num": "194",
+      "text": "생각 없이 일에 뛰어든다.",
+      "text_en": "Jump into things without thinking.",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "facet": "Prudence",
+      "keyed": "-"
+    },
+    {
+      "num": "195",
+      "text": "결과를 생각하지 않고 행동한다.",
+      "text_en": "Do things without thinking of the consequences.",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "facet": "Prudence",
+      "keyed": "-"
+    },
+    {
+      "num": "196",
+      "text": "성급하게 결정을 내린다.",
+      "text_en": "Make rash decisions.",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "facet": "Prudence",
+      "keyed": "-"
+    },
+    {
+      "num": "197",
+      "text": "무언가 마음에 걸릴 때 충동적으로 행동한다.",
+      "text_en": "Act impulsively when something is bothering me.",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "facet": "Prudence",
+      "keyed": "-"
+    },
+    {
+      "num": "198",
+      "text": "부주의한 실수를 저지른다.",
+      "text_en": "Make careless mistakes.",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "facet": "Prudence",
+      "keyed": "-"
+    },
+    {
+      "num": "199",
+      "text": "내가 하는 행동 중 일부는 왜 그러는지 나도 모른다.",
+      "text_en": "Don't know why I do some of the things I do.",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "facet": "Prudence",
+      "keyed": "-"
+    },
+    {
+      "num": "200",
+      "text": "남들 앞에서 바보 같은 짓을 한다.",
+      "text_en": "Make a fool of myself.",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "facet": "Prudence",
+      "keyed": "-"
+    },
+    {
+      "num": "201",
+      "text": "예술의 중요성을 믿는다.",
+      "text_en": "Believe in the importance of art.",
+      "language": "ko",
+      "factor": "Openness to Experience",
+      "facet": "Aesthetic Appreciation",
+      "keyed": "+"
+    },
+    {
+      "num": "202",
+      "text": "음악에 깊이 빠져든다.",
+      "text_en": "Get deeply immersed in music.",
+      "language": "ko",
+      "factor": "Openness to Experience",
+      "facet": "Aesthetic Appreciation",
+      "keyed": "+"
+    },
+    {
+      "num": "203",
+      "text": "남들이 미처 알아차리지 못하는 것에서 아름다움을 발견한다.",
+      "text_en": "See beauty in things that others might not notice.",
+      "language": "ko",
+      "factor": "Openness to Experience",
+      "facet": "Aesthetic Appreciation",
+      "keyed": "+"
+    },
+    {
+      "num": "204",
+      "text": "\"자연과 하나 된\" 느낌을 즐긴다.",
+      "text_en": "Enjoy feeling \"close to the earth.\"",
+      "language": "ko",
+      "factor": "Openness to Experience",
+      "facet": "Aesthetic Appreciation",
+      "keyed": "+"
+    },
+    {
+      "num": "205",
+      "text": "위대한 문학 고전들을 읽어 왔다.",
+      "text_en": "Have read the great literary classics.",
+      "language": "ko",
+      "factor": "Openness to Experience",
+      "facet": "Aesthetic Appreciation",
+      "keyed": "+"
+    },
+    {
+      "num": "206",
+      "text": "예술을 좋아하지 않는다.",
+      "text_en": "Do not like art.",
+      "language": "ko",
+      "factor": "Openness to Experience",
+      "facet": "Aesthetic Appreciation",
+      "keyed": "-"
+    },
+    {
+      "num": "207",
+      "text": "그림이나 사진의 정서적인 면을 좀처럼 알아차리지 못한다.",
+      "text_en": "Seldom notice the emotional aspects of paintings and pictures.",
+      "language": "ko",
+      "factor": "Openness to Experience",
+      "facet": "Aesthetic Appreciation",
+      "keyed": "-"
+    },
+    {
+      "num": "208",
+      "text": "시를 좋아하지 않는다.",
+      "text_en": "Do not like poetry.",
+      "language": "ko",
+      "factor": "Openness to Experience",
+      "facet": "Aesthetic Appreciation",
+      "keyed": "-"
+    },
+    {
+      "num": "209",
+      "text": "콘서트를 좋아하지 않는다.",
+      "text_en": "Do not like concerts.",
+      "language": "ko",
+      "factor": "Openness to Experience",
+      "facet": "Aesthetic Appreciation",
+      "keyed": "-"
+    },
+    {
+      "num": "210",
+      "text": "무용 공연을 보는 것을 즐기지 않는다.",
+      "text_en": "Do not enjoy watching dance performances.",
+      "language": "ko",
+      "factor": "Openness to Experience",
+      "facet": "Aesthetic Appreciation",
+      "keyed": "-"
+    },
+    {
+      "num": "211",
+      "text": "과학에 관심이 있다.",
+      "text_en": "Am interested in science.",
+      "language": "ko",
+      "factor": "Openness to Experience",
+      "facet": "Inquisitiveness",
+      "keyed": "+"
+    },
+    {
+      "num": "212",
+      "text": "낯선 곳을 탐험해 보고 싶다.",
+      "text_en": "Would love to explore strange places.",
+      "language": "ko",
+      "factor": "Openness to Experience",
+      "facet": "Inquisitiveness",
+      "keyed": "+"
+    },
+    {
+      "num": "213",
+      "text": "지적인 게임을 즐긴다.",
+      "text_en": "Enjoy intellectual games.",
+      "language": "ko",
+      "factor": "Openness to Experience",
+      "facet": "Inquisitiveness",
+      "keyed": "+"
+    },
+    {
+      "num": "214",
+      "text": "어려운 글을 읽는 것을 아주 좋아한다.",
+      "text_en": "Love to read challenging material.",
+      "language": "ko",
+      "factor": "Openness to Experience",
+      "facet": "Inquisitiveness",
+      "keyed": "+"
+    },
+    {
+      "num": "215",
+      "text": "정치 토론이 흥미롭다.",
+      "text_en": "Find political discussions interesting.",
+      "language": "ko",
+      "factor": "Openness to Experience",
+      "facet": "Inquisitiveness",
+      "keyed": "+"
+    },
+    {
+      "num": "216",
+      "text": "어휘가 풍부하다.",
+      "text_en": "Have a rich vocabulary.",
+      "language": "ko",
+      "factor": "Openness to Experience",
+      "facet": "Inquisitiveness",
+      "keyed": "+"
+    },
+    {
+      "num": "217",
+      "text": "역사에 대해 잘 알지 못한다.",
+      "text_en": "Don't know much about history.",
+      "language": "ko",
+      "factor": "Openness to Experience",
+      "facet": "Inquisitiveness",
+      "keyed": "-"
+    },
+    {
+      "num": "218",
+      "text": "어려운 읽을거리를 피한다.",
+      "text_en": "Avoid difficult reading material.",
+      "language": "ko",
+      "factor": "Openness to Experience",
+      "facet": "Inquisitiveness",
+      "keyed": "-"
+    },
+    {
+      "num": "219",
+      "text": "정치·사회 문제에 대해 굳이 신경 쓰지 않는다.",
+      "text_en": "Don't bother worrying about political and social problems.",
+      "language": "ko",
+      "factor": "Openness to Experience",
+      "facet": "Inquisitiveness",
+      "keyed": "-"
+    },
+    {
+      "num": "220",
+      "text": "어떤 주제를 깊이 파고들지 않는다.",
+      "text_en": "Will not probe deeply into a subject.",
+      "language": "ko",
+      "factor": "Openness to Experience",
+      "facet": "Inquisitiveness",
+      "keyed": "-"
+    },
+    {
+      "num": "221",
+      "text": "상상력이 풍부하다.",
+      "text_en": "Have a vivid imagination.",
+      "language": "ko",
+      "factor": "Openness to Experience",
+      "facet": "Creativity",
+      "keyed": "+"
+    },
+    {
+      "num": "222",
+      "text": "새로운 것을 떠올려 낸다.",
+      "text_en": "Come up with something new.",
+      "language": "ko",
+      "factor": "Openness to Experience",
+      "facet": "Creativity",
+      "keyed": "+"
+    },
+    {
+      "num": "223",
+      "text": "대화를 더 수준 높은 방향으로 이끌어 간다.",
+      "text_en": "Carry the conversation to a higher level.",
+      "language": "ko",
+      "factor": "Openness to Experience",
+      "facet": "Creativity",
+      "keyed": "+"
+    },
+    {
+      "num": "224",
+      "text": "아이디어가 넘친다.",
+      "text_en": "Am full of ideas.",
+      "language": "ko",
+      "factor": "Openness to Experience",
+      "facet": "Creativity",
+      "keyed": "+"
+    },
+    {
+      "num": "225",
+      "text": "무언가를 하는 새로운 방법을 궁리해 내기를 아주 좋아한다.",
+      "text_en": "Love to think up new ways of doing things.",
+      "language": "ko",
+      "factor": "Openness to Experience",
+      "facet": "Creativity",
+      "keyed": "+"
+    },
+    {
+      "num": "226",
+      "text": "훌륭한 아이디어를 낸다.",
+      "text_en": "Have excellent ideas.",
+      "language": "ko",
+      "factor": "Openness to Experience",
+      "facet": "Creativity",
+      "keyed": "+"
+    },
+    {
+      "num": "227",
+      "text": "상상력이 좋지 않다.",
+      "text_en": "Do not have a good imagination.",
+      "language": "ko",
+      "factor": "Openness to Experience",
+      "facet": "Creativity",
+      "keyed": "-"
+    },
+    {
+      "num": "228",
+      "text": "무언가를 상상하는 것을 어려워한다.",
+      "text_en": "Have difficulty imagining things.",
+      "language": "ko",
+      "factor": "Openness to Experience",
+      "facet": "Creativity",
+      "keyed": "-"
+    },
+    {
+      "num": "229",
+      "text": "남들이 어떻게 반응할지 짐작하기 어려워한다.",
+      "text_en": "Have trouble guessing how others will react.",
+      "language": "ko",
+      "factor": "Openness to Experience",
+      "facet": "Creativity",
+      "keyed": "-"
+    },
+    {
+      "num": "230",
+      "text": "갑작스러운 직관적 통찰을 좀처럼 경험하지 못한다.",
+      "text_en": "Seldom experience sudden intuitive insights.",
+      "language": "ko",
+      "factor": "Openness to Experience",
+      "facet": "Creativity",
+      "keyed": "-"
+    },
+    {
+      "num": "231",
+      "text": "다소 별난 사람으로 여겨진다.",
+      "text_en": "Am considered to be kind of eccentric.",
+      "language": "ko",
+      "factor": "Openness to Experience",
+      "facet": "Unconventionality",
+      "keyed": "+"
+    },
+    {
+      "num": "232",
+      "text": "내 생각이 때때로 남들을 놀라게 한다는 것을 안다.",
+      "text_en": "Know that my ideas sometimes surprise people.",
+      "language": "ko",
+      "factor": "Openness to Experience",
+      "facet": "Unconventionality",
+      "keyed": "+"
+    },
+    {
+      "num": "233",
+      "text": "남들이 이상하게 여기는 행동을 한다.",
+      "text_en": "Do things that others find strange.",
+      "language": "ko",
+      "factor": "Openness to Experience",
+      "facet": "Unconventionality",
+      "keyed": "+"
+    },
+    {
+      "num": "234",
+      "text": "권위에 반항한다.",
+      "text_en": "Rebel against authority.",
+      "language": "ko",
+      "factor": "Openness to Experience",
+      "facet": "Unconventionality",
+      "keyed": "+"
+    },
+    {
+      "num": "235",
+      "text": "세상의 흐름을 거슬러 나아간다.",
+      "text_en": "Swim against the current.",
+      "language": "ko",
+      "factor": "Openness to Experience",
+      "facet": "Unconventionality",
+      "keyed": "+"
+    },
+    {
+      "num": "236",
+      "text": "별나거나 이상한 사람으로 여겨지는 것을 몹시 싫어할 것이다.",
+      "text_en": "Would hate to be considered odd or strange.",
+      "language": "ko",
+      "factor": "Openness to Experience",
+      "facet": "Unconventionality",
+      "keyed": "-"
+    },
+    {
+      "num": "237",
+      "text": "평범한 \"주류\" 사람으로 여겨지는 것을 즐긴다.",
+      "text_en": "Enjoy being thought of as a normal \"mainstream\" person.",
+      "language": "ko",
+      "factor": "Openness to Experience",
+      "facet": "Unconventionality",
+      "keyed": "-"
+    },
+    {
+      "num": "238",
+      "text": "반듯하고 관습적인 사람으로 비치기를 좋아한다.",
+      "text_en": "Like to be viewed as proper and conventional.",
+      "language": "ko",
+      "factor": "Openness to Experience",
+      "facet": "Unconventionality",
+      "keyed": "-"
+    },
+    {
+      "num": "239",
+      "text": "평범한 부류의 사람으로 여겨지기를 좋아한다.",
+      "text_en": "Like to be thought of as a normal kind of person.",
+      "language": "ko",
+      "factor": "Openness to Experience",
+      "facet": "Unconventionality",
+      "keyed": "-"
+    },
+    {
+      "num": "240",
+      "text": "복잡한 사람들을 피하려 한다.",
+      "text_en": "Try to avoid complex people.",
+      "language": "ko",
+      "factor": "Openness to Experience",
+      "facet": "Unconventionality",
+      "keyed": "-"
+    }
+  ]
+}

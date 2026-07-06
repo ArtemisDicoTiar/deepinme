@@ -1,0 +1,132 @@
+{
+  "_meta": {
+    "kind": "reference — Korean terminology",
+    "safe_for_commercial_reuse": true,
+    "note": "16유형 한글 명칭은 통용 번역이며 공식 MBTI 명칭이 아님(어세스타 공식판은 독점). 용어 참고용.",
+    "verified": "adversarially fact-checked by a second agent against primary sources (deepinme research workflow, 2026-07)",
+    "license_class": "factual_reference",
+    "safe_for_noncommercial_reuse": true,
+    "attribution": "Korean MBTI terminology — reference; 16유형 한글명은 통용 번역(공식 아님).",
+    "source": "see reference/sources.md and _meta of related item files",
+    "sources": [
+      {
+        "title": "See aggregated sources",
+        "url": "reference/sources.md",
+        "license": "mixed — see file"
+      }
+    ]
+  },
+  "mbti": {
+    "지표_설명": "MBTI는 4개의 선호 지표(dichotomy)의 조합으로 16유형을 설명한다. 각 지표는 서로 반대되는 두 선호 경향의 연속선이다.",
+    "4개_지표": [
+      {
+        "코드": "E / I",
+        "한글": "외향(外向, Extraversion) / 내향(內向, Introversion)",
+        "무엇을_보는가": "에너지의 방향과 주의 초점",
+        "설명": "E는 바깥 세상·사람·활동에서 에너지를 얻고, I는 내면·생각·소수와의 깊은 교류에서 에너지를 얻음"
+      },
+      {
+        "코드": "S / N",
+        "한글": "감각(感覺, Sensing) / 직관(直觀, iNtuition)",
+        "무엇을_보는가": "정보를 인식·수집하는 방식",
+        "설명": "S는 오감으로 지금의 사실·구체적 정보를 중시, N은 패턴·의미·가능성·미래를 중시"
+      },
+      {
+        "코드": "T / F",
+        "한글": "사고(思考, Thinking) / 감정(感情, Feeling)",
+        "무엇을_보는가": "판단·의사결정의 기준",
+        "설명": "T는 논리·객관·인과, F는 사람·가치·관계의 조화를 기준으로 결정"
+      },
+      {
+        "코드": "J / P",
+        "한글": "판단(判斷, Judging) / 인식(認識, Perceiving)",
+        "무엇을_보는가": "외부 세계에 대응하는 생활양식",
+        "설명": "J는 계획·체계·마무리를 선호, P는 유연·개방·즉흥·과정 자체를 선호"
+      }
+    ],
+    "16유형_코드": [
+      "ISTJ",
+      "ISFJ",
+      "INFJ",
+      "INTJ",
+      "ISTP",
+      "ISFP",
+      "INFP",
+      "INTP",
+      "ESTP",
+      "ESFP",
+      "ENFP",
+      "ENTP",
+      "ESTJ",
+      "ESFJ",
+      "ENFJ",
+      "ENTJ"
+    ],
+    "16유형_명칭_주의": "16유형의 '한글 통용 별칭'은 대부분 특정 회사의 상표·저작물이다. (1) 어세스타/한국MBTI연구소(공식 MBTI)의 유형 명칭·해설, (2) 16Personalities(NERIS Analytics)의 역할 별칭(예: '옹호자','논리술사','선구자' 등)은 모두 독점 콘텐츠이므로 자사 제품에 복제 금지. 제품에서는 위 4글자 코드(공지식, 비저작물)만 자유롭게 쓰고, 유형 설명은 자체적으로 새로 집필할 것.",
+    "인지기능_8가지": [
+      {
+        "코드": "Ne",
+        "한글": "외향 직관(외향적 직관)",
+        "영문": "Extraverted Intuition"
+      },
+      {
+        "코드": "Ni",
+        "한글": "내향 직관(내향적 직관)",
+        "영문": "Introverted Intuition"
+      },
+      {
+        "코드": "Se",
+        "한글": "외향 감각(외향적 감각)",
+        "영문": "Extraverted Sensing"
+      },
+      {
+        "코드": "Si",
+        "한글": "내향 감각(내향적 감각)",
+        "영문": "Introverted Sensing"
+      },
+      {
+        "코드": "Te",
+        "한글": "외향 사고(외향적 사고)",
+        "영문": "Extraverted Thinking"
+      },
+      {
+        "코드": "Ti",
+        "한글": "내향 사고(내향적 사고)",
+        "영문": "Introverted Thinking"
+      },
+      {
+        "코드": "Fe",
+        "한글": "외향 감정(외향적 감정)",
+        "영문": "Extraverted Feeling"
+      },
+      {
+        "코드": "Fi",
+        "한글": "내향 감정(내향적 감정)",
+        "영문": "Introverted Feeling"
+      }
+    ],
+    "기능_위계_한글": [
+      {
+        "코드": "주기능",
+        "영문": "Dominant",
+        "설명": "가장 잘 발달하고 주도적으로 쓰는 기능"
+      },
+      {
+        "코드": "부기능",
+        "영문": "Auxiliary",
+        "설명": "주기능을 보조하고 균형을 잡는 기능"
+      },
+      {
+        "코드": "3차기능",
+        "영문": "Tertiary",
+        "설명": "상대적으로 덜 발달, 성장하며 계발되는 기능"
+      },
+      {
+        "코드": "열등기능",
+        "영문": "Inferior",
+        "설명": "가장 미숙하고 무의식적, 스트레스 상황에서 미숙하게 튀어나오는 기능"
+      }
+    ],
+    "출처_주의": "융(Jung)의 심리유형론에 기반한 개념 자체와 위 용어는 공지식이나, 유형별 인지기능 '스택'을 활용한 상세 해설 콘텐츠를 만들 때도 특정 저작물을 옮기지 말고 직접 집필할 것."
+  }
+}

@@ -1,0 +1,398 @@
+{
+  "_meta": {
+    "instrument": "BFI",
+    "full_name": "Big Five Inventory (BFI-44), John & Srivastava 1999",
+    "source_url": "https://db.arabpsychology.com/scales/big-five-inventory-bfi/",
+    "license": "Copyright Oliver P. John (BFI originally John, Donahue, & Kentle, 1991; John & Srivastava, 1999). Not public domain, but made freely available by the Berkeley Personality Lab for non-commercial research, teaching, and personal use; commercial use requires permission.",
+    "license_class": "free_research_noncommercial",
+    "safe_for_noncommercial_reuse": true,
+    "safe_for_commercial_reuse": false,
+    "attribution": "John, O. P., & Srivastava, S. (1999). The Big Five trait taxonomy: History, measurement, and theoretical perspectives. In L. A. Pervin & O. P. John (Eds.), Handbook of Personality: Theory and Research (2nd ed., pp. 102-138). New York: Guilford Press. Instrument originally: John, O. P., Donahue, E. M., & Kentle, R. L. (1991). The Big Five Inventory - Versions 4a and 54. Berkeley: University of California, Berkeley, Institute of Personality and Social Research. Distributed by the Berkeley Personality Lab.",
+    "scoring_notes": "44 items, each rated 1 (Disagree strongly) to 5 (Agree strongly), all sharing the stem \"I see myself as someone who ...\". Item texts here are stored as the phrase that follows that stem, in the instrument's lowercase form (e.g., item 1 reads \"I see myself as someone who is talkative\"). Reverse-keyed items (keyed=minus) are recoded as 6 minus the raw response, then each scale is the mean of its items. Canonical scoring key (R = reverse): Extraversion 1, 6R, 11, 16, 21R, 26, 31R, 36 (8 items); Agreeableness 2R, 7, 12R, 17, 22, 27R, 32, 37R, 42 (9 items); Conscientiousness 3, 8R, 13, 18R, 23R, 28, 33, 38, 43R (9 items); Neuroticism 4, 9R, 14, 19, 24R, 29, 34R, 39 (8 items); Openness 5, 10, 15, 20, 25, 30, 35R, 40, 41R, 44 (10 items). Total 44. The BFI-44 has no facet subscales (facets are a feature of the later BFI-2), so facet is left blank. Keying and item-to-factor mapping were taken verbatim from the Wisconsin ARC / Berkeley scoring key.",
+    "cautions": "Item text was fetched verbatim from db.arabpsychology.com (a psychological-scales reproduction of the BFI-44); its wording matches the canonical John & Srivastava (1999) instrument and was independently corroborated by search snippets for items 28 (\"perseveres until the task is finished\"), 35 (\"prefers work that is routine\"), and 44 (\"is sophisticated in art, music, or literature\"). The original Berkeley Personality Lab (ocf.berkeley.edu/~johnlab) now gates the questionnaire .doc behind a post-survey download and its page could not be scraped directly; the ResearchGate PDF returned HTTP 403. The scoring/keying was confirmed from the University of Wisconsin ARC self-report page (arc.psych.wisc.edu), which reproduces the standard Berkeley key. Source list-formatting capitalized each item's first letter (e.g., \"Is talkative\"); these were normalized to the instrument's lowercase form (\"is talkative\") to read correctly after the shared stem - a formatting normalization only, no wording changed. This is the BFI-44 (John & Srivastava, 1999), distinct from the newer 60-item BFI-2 and the short BFI-10/BFI-S versions. License: copyrighted by Oliver P. John but freely usable for non-commercial research/teaching/personal use, so safe for this stage-1 non-commercial corpus; commercial use would require permission from the copyright holder.",
+    "corrections_applied": [],
+    "verification": {
+      "fabrication_risk": "none",
+      "item_count_plausible": true,
+      "license_correct_asreported": true,
+      "summary": "adversarially fact-checked by a second agent vs primary sources (deepinme wide-collection workflow, 2026-07)"
+    },
+    "sources": [
+      {
+        "title": "Big Five Inventory (BFI) - Psychological Scales & Instruments Database (verbatim 44 item texts)",
+        "url": "https://db.arabpsychology.com/scales/big-five-inventory-bfi/",
+        "license": "Reproduction of copyrighted BFI (Oliver P. John); free for non-commercial research"
+      },
+      {
+        "title": "Big Five Inventory (BFI) - University of Wisconsin Affective Research Cognition (scoring key & reverse-keying)",
+        "url": "https://arc.psych.wisc.edu/self-report/big-five-inventory-bfi/",
+        "license": "Free for non-commercial research; hosts do not hold copyright"
+      },
+      {
+        "title": "Big Five Inventory - Berkeley Personality Lab (canonical distributor / license statement)",
+        "url": "https://www.ocf.berkeley.edu/~johnlab/bfi.html",
+        "license": "Copyright Oliver P. John & colleagues; freely available for non-commercial research"
+      },
+      {
+        "title": "A Brief Version of the Big Five Personality Inventory (BFI-10 PDF, confirms stem/response format) - University at Buffalo",
+        "url": "https://socialwork.buffalo.edu/content/dam/socialwork/home/self-care-kit/brief-big-five-personality-inventory.pdf",
+        "license": "Adapted from Rammstedt & John (2007); non-commercial research use"
+      }
+    ]
+  },
+  "count": 44,
+  "items": [
+    {
+      "num": "1",
+      "text": "is talkative",
+      "language": "en",
+      "factor": "Extraversion",
+      "facet": "",
+      "keyed": "plus"
+    },
+    {
+      "num": "2",
+      "text": "tends to find fault with others",
+      "language": "en",
+      "factor": "Agreeableness",
+      "facet": "",
+      "keyed": "minus"
+    },
+    {
+      "num": "3",
+      "text": "does a thorough job",
+      "language": "en",
+      "factor": "Conscientiousness",
+      "facet": "",
+      "keyed": "plus"
+    },
+    {
+      "num": "4",
+      "text": "is depressed, blue",
+      "language": "en",
+      "factor": "Neuroticism",
+      "facet": "",
+      "keyed": "plus"
+    },
+    {
+      "num": "5",
+      "text": "is original, comes up with new ideas",
+      "language": "en",
+      "factor": "Openness",
+      "facet": "",
+      "keyed": "plus"
+    },
+    {
+      "num": "6",
+      "text": "is reserved",
+      "language": "en",
+      "factor": "Extraversion",
+      "facet": "",
+      "keyed": "minus"
+    },
+    {
+      "num": "7",
+      "text": "is helpful and unselfish with others",
+      "language": "en",
+      "factor": "Agreeableness",
+      "facet": "",
+      "keyed": "plus"
+    },
+    {
+      "num": "8",
+      "text": "can be somewhat careless",
+      "language": "en",
+      "factor": "Conscientiousness",
+      "facet": "",
+      "keyed": "minus"
+    },
+    {
+      "num": "9",
+      "text": "is relaxed, handles stress well",
+      "language": "en",
+      "factor": "Neuroticism",
+      "facet": "",
+      "keyed": "minus"
+    },
+    {
+      "num": "10",
+      "text": "is curious about many different things",
+      "language": "en",
+      "factor": "Openness",
+      "facet": "",
+      "keyed": "plus"
+    },
+    {
+      "num": "11",
+      "text": "is full of energy",
+      "language": "en",
+      "factor": "Extraversion",
+      "facet": "",
+      "keyed": "plus"
+    },
+    {
+      "num": "12",
+      "text": "starts quarrels with others",
+      "language": "en",
+      "factor": "Agreeableness",
+      "facet": "",
+      "keyed": "minus"
+    },
+    {
+      "num": "13",
+      "text": "is a reliable worker",
+      "language": "en",
+      "factor": "Conscientiousness",
+      "facet": "",
+      "keyed": "plus"
+    },
+    {
+      "num": "14",
+      "text": "can be tense",
+      "language": "en",
+      "factor": "Neuroticism",
+      "facet": "",
+      "keyed": "plus"
+    },
+    {
+      "num": "15",
+      "text": "is ingenious, a deep thinker",
+      "language": "en",
+      "factor": "Openness",
+      "facet": "",
+      "keyed": "plus"
+    },
+    {
+      "num": "16",
+      "text": "generates a lot of enthusiasm",
+      "language": "en",
+      "factor": "Extraversion",
+      "facet": "",
+      "keyed": "plus"
+    },
+    {
+      "num": "17",
+      "text": "has a forgiving nature",
+      "language": "en",
+      "factor": "Agreeableness",
+      "facet": "",
+      "keyed": "plus"
+    },
+    {
+      "num": "18",
+      "text": "tends to be disorganized",
+      "language": "en",
+      "factor": "Conscientiousness",
+      "facet": "",
+      "keyed": "minus"
+    },
+    {
+      "num": "19",
+      "text": "worries a lot",
+      "language": "en",
+      "factor": "Neuroticism",
+      "facet": "",
+      "keyed": "plus"
+    },
+    {
+      "num": "20",
+      "text": "has an active imagination",
+      "language": "en",
+      "factor": "Openness",
+      "facet": "",
+      "keyed": "plus"
+    },
+    {
+      "num": "21",
+      "text": "tends to be quiet",
+      "language": "en",
+      "factor": "Extraversion",
+      "facet": "",
+      "keyed": "minus"
+    },
+    {
+      "num": "22",
+      "text": "is generally trusting",
+      "language": "en",
+      "factor": "Agreeableness",
+      "facet": "",
+      "keyed": "plus"
+    },
+    {
+      "num": "23",
+      "text": "tends to be lazy",
+      "language": "en",
+      "factor": "Conscientiousness",
+      "facet": "",
+      "keyed": "minus"
+    },
+    {
+      "num": "24",
+      "text": "is emotionally stable, not easily upset",
+      "language": "en",
+      "factor": "Neuroticism",
+      "facet": "",
+      "keyed": "minus"
+    },
+    {
+      "num": "25",
+      "text": "is inventive",
+      "language": "en",
+      "factor": "Openness",
+      "facet": "",
+      "keyed": "plus"
+    },
+    {
+      "num": "26",
+      "text": "has an assertive personality",
+      "language": "en",
+      "factor": "Extraversion",
+      "facet": "",
+      "keyed": "plus"
+    },
+    {
+      "num": "27",
+      "text": "can be cold and aloof",
+      "language": "en",
+      "factor": "Agreeableness",
+      "facet": "",
+      "keyed": "minus"
+    },
+    {
+      "num": "28",
+      "text": "perseveres until the task is finished",
+      "language": "en",
+      "factor": "Conscientiousness",
+      "facet": "",
+      "keyed": "plus"
+    },
+    {
+      "num": "29",
+      "text": "can be moody",
+      "language": "en",
+      "factor": "Neuroticism",
+      "facet": "",
+      "keyed": "plus"
+    },
+    {
+      "num": "30",
+      "text": "values artistic, aesthetic experiences",
+      "language": "en",
+      "factor": "Openness",
+      "facet": "",
+      "keyed": "plus"
+    },
+    {
+      "num": "31",
+      "text": "is sometimes shy, inhibited",
+      "language": "en",
+      "factor": "Extraversion",
+      "facet": "",
+      "keyed": "minus"
+    },
+    {
+      "num": "32",
+      "text": "is considerate and kind to almost everyone",
+      "language": "en",
+      "factor": "Agreeableness",
+      "facet": "",
+      "keyed": "plus"
+    },
+    {
+      "num": "33",
+      "text": "does things efficiently",
+      "language": "en",
+      "factor": "Conscientiousness",
+      "facet": "",
+      "keyed": "plus"
+    },
+    {
+      "num": "34",
+      "text": "remains calm in tense situations",
+      "language": "en",
+      "factor": "Neuroticism",
+      "facet": "",
+      "keyed": "minus"
+    },
+    {
+      "num": "35",
+      "text": "prefers work that is routine",
+      "language": "en",
+      "factor": "Openness",
+      "facet": "",
+      "keyed": "minus"
+    },
+    {
+      "num": "36",
+      "text": "is outgoing, sociable",
+      "language": "en",
+      "factor": "Extraversion",
+      "facet": "",
+      "keyed": "plus"
+    },
+    {
+      "num": "37",
+      "text": "is sometimes rude to others",
+      "language": "en",
+      "factor": "Agreeableness",
+      "facet": "",
+      "keyed": "minus"
+    },
+    {
+      "num": "38",
+      "text": "makes plans and follows through with them",
+      "language": "en",
+      "factor": "Conscientiousness",
+      "facet": "",
+      "keyed": "plus"
+    },
+    {
+      "num": "39",
+      "text": "gets nervous easily",
+      "language": "en",
+      "factor": "Neuroticism",
+      "facet": "",
+      "keyed": "plus"
+    },
+    {
+      "num": "40",
+      "text": "likes to reflect, play with ideas",
+      "language": "en",
+      "factor": "Openness",
+      "facet": "",
+      "keyed": "plus"
+    },
+    {
+      "num": "41",
+      "text": "has few artistic interests",
+      "language": "en",
+      "factor": "Openness",
+      "facet": "",
+      "keyed": "minus"
+    },
+    {
+      "num": "42",
+      "text": "likes to cooperate with others",
+      "language": "en",
+      "factor": "Agreeableness",
+      "facet": "",
+      "keyed": "plus"
+    },
+    {
+      "num": "43",
+      "text": "is easily distracted",
+      "language": "en",
+      "factor": "Conscientiousness",
+      "facet": "",
+      "keyed": "minus"
+    },
+    {
+      "num": "44",
+      "text": "is sophisticated in art, music, or literature",
+      "language": "en",
+      "factor": "Openness",
+      "facet": "",
+      "keyed": "plus"
+    }
+  ]
+}

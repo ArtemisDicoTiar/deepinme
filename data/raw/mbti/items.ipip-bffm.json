@@ -1,0 +1,392 @@
+{
+  "_meta": {
+    "instrument": "IPIP Big-Five Factor Markers (50-item, Goldberg 1992) — 40 MBTI-relevant items",
+    "full_name": "IPIP Big-Five Factor Markers (50-item, Goldberg 1992) — 40 MBTI-relevant items",
+    "source_url": "https://ipip.ori.org/",
+    "license": "PUBLIC DOMAIN — 'copy, edit, translate, or use for any purpose without asking permission and without paying a fee'",
+    "license_class": "public_domain",
+    "safe_for_noncommercial_reuse": true,
+    "safe_for_commercial_reuse": true,
+    "attribution": "IPIP Big-Five Factor Markers (Goldberg, 1992). International Personality Item Pool, ipip.ori.org. Public domain.",
+    "cautions": "SAFE to reproduce, rewrite into plain language, and use commercially. These map Big Five factors onto MBTI-like dichotomies (Extraversion->E/I, Openness/Intellect->S/N, Agreeableness->T/F, Conscientiousness->J/P). Big Five != MBTI, but this is the safest open base for authoring plain-language dichotomy items.",
+    "verification": {
+      "summary": "adversarially fact-checked by a second agent against primary sources (deepinme research workflow, 2026-07) — 40/40 items trace to IPIP source, none fabricated",
+      "fabrication_risk": "low"
+    },
+    "sources": [
+      {
+        "title": "IPIP Big-Five Factor Markers (50-item, Goldberg 1992)",
+        "url": "https://ipip.ori.org/New_IPIP-50-item-scale.htm",
+        "license": "Public domain"
+      },
+      {
+        "title": "International Personality Item Pool",
+        "url": "https://ipip.ori.org/",
+        "license": "Public domain"
+      }
+    ]
+  },
+  "count": 40,
+  "items": [
+    {
+      "instrument": "IPIP Big-Five Factor Markers (50-item, Goldberg 1992)",
+      "text": "Am the life of the party",
+      "language": "en",
+      "dimension": "E/I (Extraversion–Introversion)",
+      "keyed": "IPIP item 1, Extraversion +; MBTI pole: E (extraversion)",
+      "source": "https://ipip.ori.org/New_IPIP-50-item-scale.htm",
+      "license": "Public domain"
+    },
+    {
+      "instrument": "IPIP Big-Five Factor Markers (50-item, Goldberg 1992)",
+      "text": "Don't talk a lot",
+      "language": "en",
+      "dimension": "E/I (Extraversion–Introversion)",
+      "keyed": "IPIP item 6, Extraversion −; MBTI pole: I (introversion)",
+      "source": "https://ipip.ori.org/New_IPIP-50-item-scale.htm",
+      "license": "Public domain"
+    },
+    {
+      "instrument": "IPIP Big-Five Factor Markers (50-item, Goldberg 1992)",
+      "text": "Feel comfortable around people",
+      "language": "en",
+      "dimension": "E/I (Extraversion–Introversion)",
+      "keyed": "IPIP item 11, Extraversion +; MBTI pole: E",
+      "source": "https://ipip.ori.org/New_IPIP-50-item-scale.htm",
+      "license": "Public domain"
+    },
+    {
+      "instrument": "IPIP Big-Five Factor Markers (50-item, Goldberg 1992)",
+      "text": "Keep in the background",
+      "language": "en",
+      "dimension": "E/I (Extraversion–Introversion)",
+      "keyed": "IPIP item 16, Extraversion −; MBTI pole: I",
+      "source": "https://ipip.ori.org/New_IPIP-50-item-scale.htm",
+      "license": "Public domain"
+    },
+    {
+      "instrument": "IPIP Big-Five Factor Markers (50-item, Goldberg 1992)",
+      "text": "Start conversations",
+      "language": "en",
+      "dimension": "E/I (Extraversion–Introversion)",
+      "keyed": "IPIP item 21, Extraversion +; MBTI pole: E",
+      "source": "https://ipip.ori.org/New_IPIP-50-item-scale.htm",
+      "license": "Public domain"
+    },
+    {
+      "instrument": "IPIP Big-Five Factor Markers (50-item, Goldberg 1992)",
+      "text": "Have little to say",
+      "language": "en",
+      "dimension": "E/I (Extraversion–Introversion)",
+      "keyed": "IPIP item 26, Extraversion −; MBTI pole: I",
+      "source": "https://ipip.ori.org/New_IPIP-50-item-scale.htm",
+      "license": "Public domain"
+    },
+    {
+      "instrument": "IPIP Big-Five Factor Markers (50-item, Goldberg 1992)",
+      "text": "Talk to a lot of different people at parties",
+      "language": "en",
+      "dimension": "E/I (Extraversion–Introversion)",
+      "keyed": "IPIP item 31, Extraversion +; MBTI pole: E",
+      "source": "https://ipip.ori.org/New_IPIP-50-item-scale.htm",
+      "license": "Public domain"
+    },
+    {
+      "instrument": "IPIP Big-Five Factor Markers (50-item, Goldberg 1992)",
+      "text": "Don't like to draw attention to myself",
+      "language": "en",
+      "dimension": "E/I (Extraversion–Introversion)",
+      "keyed": "IPIP item 36, Extraversion −; MBTI pole: I",
+      "source": "https://ipip.ori.org/New_IPIP-50-item-scale.htm",
+      "license": "Public domain"
+    },
+    {
+      "instrument": "IPIP Big-Five Factor Markers (50-item, Goldberg 1992)",
+      "text": "Don't mind being the center of attention",
+      "language": "en",
+      "dimension": "E/I (Extraversion–Introversion)",
+      "keyed": "IPIP item 41, Extraversion +; MBTI pole: E",
+      "source": "https://ipip.ori.org/New_IPIP-50-item-scale.htm",
+      "license": "Public domain"
+    },
+    {
+      "instrument": "IPIP Big-Five Factor Markers (50-item, Goldberg 1992)",
+      "text": "Am quiet around strangers",
+      "language": "en",
+      "dimension": "E/I (Extraversion–Introversion)",
+      "keyed": "IPIP item 46, Extraversion −; MBTI pole: I",
+      "source": "https://ipip.ori.org/New_IPIP-50-item-scale.htm",
+      "license": "Public domain"
+    },
+    {
+      "instrument": "IPIP Big-Five Factor Markers (50-item, Goldberg 1992)",
+      "text": "Feel little concern for others",
+      "language": "en",
+      "dimension": "T/F (Thinking–Feeling)",
+      "keyed": "IPIP item 2, Agreeableness −; MBTI pole: T (thinking)",
+      "source": "https://ipip.ori.org/New_IPIP-50-item-scale.htm",
+      "license": "Public domain"
+    },
+    {
+      "instrument": "IPIP Big-Five Factor Markers (50-item, Goldberg 1992)",
+      "text": "Am interested in people",
+      "language": "en",
+      "dimension": "T/F (Thinking–Feeling)",
+      "keyed": "IPIP item 7, Agreeableness +; MBTI pole: F (feeling)",
+      "source": "https://ipip.ori.org/New_IPIP-50-item-scale.htm",
+      "license": "Public domain"
+    },
+    {
+      "instrument": "IPIP Big-Five Factor Markers (50-item, Goldberg 1992)",
+      "text": "Insult people",
+      "language": "en",
+      "dimension": "T/F (Thinking–Feeling)",
+      "keyed": "IPIP item 12, Agreeableness −; MBTI pole: T",
+      "source": "https://ipip.ori.org/New_IPIP-50-item-scale.htm",
+      "license": "Public domain"
+    },
+    {
+      "instrument": "IPIP Big-Five Factor Markers (50-item, Goldberg 1992)",
+      "text": "Sympathize with others' feelings",
+      "language": "en",
+      "dimension": "T/F (Thinking–Feeling)",
+      "keyed": "IPIP item 17, Agreeableness +; MBTI pole: F",
+      "source": "https://ipip.ori.org/New_IPIP-50-item-scale.htm",
+      "license": "Public domain"
+    },
+    {
+      "instrument": "IPIP Big-Five Factor Markers (50-item, Goldberg 1992)",
+      "text": "Am not interested in other people's problems",
+      "language": "en",
+      "dimension": "T/F (Thinking–Feeling)",
+      "keyed": "IPIP item 22, Agreeableness −; MBTI pole: T",
+      "source": "https://ipip.ori.org/New_IPIP-50-item-scale.htm",
+      "license": "Public domain"
+    },
+    {
+      "instrument": "IPIP Big-Five Factor Markers (50-item, Goldberg 1992)",
+      "text": "Have a soft heart",
+      "language": "en",
+      "dimension": "T/F (Thinking–Feeling)",
+      "keyed": "IPIP item 27, Agreeableness +; MBTI pole: F",
+      "source": "https://ipip.ori.org/New_IPIP-50-item-scale.htm",
+      "license": "Public domain"
+    },
+    {
+      "instrument": "IPIP Big-Five Factor Markers (50-item, Goldberg 1992)",
+      "text": "Am not really interested in others",
+      "language": "en",
+      "dimension": "T/F (Thinking–Feeling)",
+      "keyed": "IPIP item 32, Agreeableness −; MBTI pole: T",
+      "source": "https://ipip.ori.org/New_IPIP-50-item-scale.htm",
+      "license": "Public domain"
+    },
+    {
+      "instrument": "IPIP Big-Five Factor Markers (50-item, Goldberg 1992)",
+      "text": "Take time out for others",
+      "language": "en",
+      "dimension": "T/F (Thinking–Feeling)",
+      "keyed": "IPIP item 37, Agreeableness +; MBTI pole: F",
+      "source": "https://ipip.ori.org/New_IPIP-50-item-scale.htm",
+      "license": "Public domain"
+    },
+    {
+      "instrument": "IPIP Big-Five Factor Markers (50-item, Goldberg 1992)",
+      "text": "Feel others' emotions",
+      "language": "en",
+      "dimension": "T/F (Thinking–Feeling)",
+      "keyed": "IPIP item 42, Agreeableness +; MBTI pole: F",
+      "source": "https://ipip.ori.org/New_IPIP-50-item-scale.htm",
+      "license": "Public domain"
+    },
+    {
+      "instrument": "IPIP Big-Five Factor Markers (50-item, Goldberg 1992)",
+      "text": "Make people feel at ease",
+      "language": "en",
+      "dimension": "T/F (Thinking–Feeling)",
+      "keyed": "IPIP item 47, Agreeableness +; MBTI pole: F",
+      "source": "https://ipip.ori.org/New_IPIP-50-item-scale.htm",
+      "license": "Public domain"
+    },
+    {
+      "instrument": "IPIP Big-Five Factor Markers (50-item, Goldberg 1992)",
+      "text": "Am always prepared",
+      "language": "en",
+      "dimension": "J/P (Judging–Perceiving)",
+      "keyed": "IPIP item 3, Conscientiousness +; MBTI pole: J (judging)",
+      "source": "https://ipip.ori.org/New_IPIP-50-item-scale.htm",
+      "license": "Public domain"
+    },
+    {
+      "instrument": "IPIP Big-Five Factor Markers (50-item, Goldberg 1992)",
+      "text": "Leave my belongings around",
+      "language": "en",
+      "dimension": "J/P (Judging–Perceiving)",
+      "keyed": "IPIP item 8, Conscientiousness −; MBTI pole: P (perceiving)",
+      "source": "https://ipip.ori.org/New_IPIP-50-item-scale.htm",
+      "license": "Public domain"
+    },
+    {
+      "instrument": "IPIP Big-Five Factor Markers (50-item, Goldberg 1992)",
+      "text": "Pay attention to details",
+      "language": "en",
+      "dimension": "J/P (Judging–Perceiving)",
+      "keyed": "IPIP item 13, Conscientiousness +; MBTI pole: J",
+      "source": "https://ipip.ori.org/New_IPIP-50-item-scale.htm",
+      "license": "Public domain"
+    },
+    {
+      "instrument": "IPIP Big-Five Factor Markers (50-item, Goldberg 1992)",
+      "text": "Make a mess of things",
+      "language": "en",
+      "dimension": "J/P (Judging–Perceiving)",
+      "keyed": "IPIP item 18, Conscientiousness −; MBTI pole: P",
+      "source": "https://ipip.ori.org/New_IPIP-50-item-scale.htm",
+      "license": "Public domain"
+    },
+    {
+      "instrument": "IPIP Big-Five Factor Markers (50-item, Goldberg 1992)",
+      "text": "Get chores done right away",
+      "language": "en",
+      "dimension": "J/P (Judging–Perceiving)",
+      "keyed": "IPIP item 23, Conscientiousness +; MBTI pole: J",
+      "source": "https://ipip.ori.org/New_IPIP-50-item-scale.htm",
+      "license": "Public domain"
+    },
+    {
+      "instrument": "IPIP Big-Five Factor Markers (50-item, Goldberg 1992)",
+      "text": "Often forget to put things back in their proper place",
+      "language": "en",
+      "dimension": "J/P (Judging–Perceiving)",
+      "keyed": "IPIP item 28, Conscientiousness −; MBTI pole: P",
+      "source": "https://ipip.ori.org/New_IPIP-50-item-scale.htm",
+      "license": "Public domain"
+    },
+    {
+      "instrument": "IPIP Big-Five Factor Markers (50-item, Goldberg 1992)",
+      "text": "Like order",
+      "language": "en",
+      "dimension": "J/P (Judging–Perceiving)",
+      "keyed": "IPIP item 33, Conscientiousness +; MBTI pole: J",
+      "source": "https://ipip.ori.org/New_IPIP-50-item-scale.htm",
+      "license": "Public domain"
+    },
+    {
+      "instrument": "IPIP Big-Five Factor Markers (50-item, Goldberg 1992)",
+      "text": "Shirk my duties",
+      "language": "en",
+      "dimension": "J/P (Judging–Perceiving)",
+      "keyed": "IPIP item 38, Conscientiousness −; MBTI pole: P",
+      "source": "https://ipip.ori.org/New_IPIP-50-item-scale.htm",
+      "license": "Public domain"
+    },
+    {
+      "instrument": "IPIP Big-Five Factor Markers (50-item, Goldberg 1992)",
+      "text": "Follow a schedule",
+      "language": "en",
+      "dimension": "J/P (Judging–Perceiving)",
+      "keyed": "IPIP item 43, Conscientiousness +; MBTI pole: J",
+      "source": "https://ipip.ori.org/New_IPIP-50-item-scale.htm",
+      "license": "Public domain"
+    },
+    {
+      "instrument": "IPIP Big-Five Factor Markers (50-item, Goldberg 1992)",
+      "text": "Am exacting in my work",
+      "language": "en",
+      "dimension": "J/P (Judging–Perceiving)",
+      "keyed": "IPIP item 48, Conscientiousness +; MBTI pole: J",
+      "source": "https://ipip.ori.org/New_IPIP-50-item-scale.htm",
+      "license": "Public domain"
+    },
+    {
+      "instrument": "IPIP Big-Five Factor Markers (50-item, Goldberg 1992)",
+      "text": "Have a rich vocabulary",
+      "language": "en",
+      "dimension": "S/N (Sensing–Intuition)",
+      "keyed": "IPIP item 5, Intellect/Openness +; MBTI pole: N (intuition)",
+      "source": "https://ipip.ori.org/New_IPIP-50-item-scale.htm",
+      "license": "Public domain"
+    },
+    {
+      "instrument": "IPIP Big-Five Factor Markers (50-item, Goldberg 1992)",
+      "text": "Have difficulty understanding abstract ideas",
+      "language": "en",
+      "dimension": "S/N (Sensing–Intuition)",
+      "keyed": "IPIP item 10, Intellect/Openness −; MBTI pole: S (sensing)",
+      "source": "https://ipip.ori.org/New_IPIP-50-item-scale.htm",
+      "license": "Public domain"
+    },
+    {
+      "instrument": "IPIP Big-Five Factor Markers (50-item, Goldberg 1992)",
+      "text": "Have a vivid imagination",
+      "language": "en",
+      "dimension": "S/N (Sensing–Intuition)",
+      "keyed": "IPIP item 15, Intellect/Openness +; MBTI pole: N",
+      "source": "https://ipip.ori.org/New_IPIP-50-item-scale.htm",
+      "license": "Public domain"
+    },
+    {
+      "instrument": "IPIP Big-Five Factor Markers (50-item, Goldberg 1992)",
+      "text": "Am not interested in abstract ideas",
+      "language": "en",
+      "dimension": "S/N (Sensing–Intuition)",
+      "keyed": "IPIP item 20, Intellect/Openness −; MBTI pole: S",
+      "source": "https://ipip.ori.org/New_IPIP-50-item-scale.htm",
+      "license": "Public domain"
+    },
+    {
+      "instrument": "IPIP Big-Five Factor Markers (50-item, Goldberg 1992)",
+      "text": "Have excellent ideas",
+      "language": "en",
+      "dimension": "S/N (Sensing–Intuition)",
+      "keyed": "IPIP item 25, Intellect/Openness +; MBTI pole: N",
+      "source": "https://ipip.ori.org/New_IPIP-50-item-scale.htm",
+      "license": "Public domain"
+    },
+    {
+      "instrument": "IPIP Big-Five Factor Markers (50-item, Goldberg 1992)",
+      "text": "Do not have a good imagination",
+      "language": "en",
+      "dimension": "S/N (Sensing–Intuition)",
+      "keyed": "IPIP item 30, Intellect/Openness −; MBTI pole: S",
+      "source": "https://ipip.ori.org/New_IPIP-50-item-scale.htm",
+      "license": "Public domain"
+    },
+    {
+      "instrument": "IPIP Big-Five Factor Markers (50-item, Goldberg 1992)",
+      "text": "Am quick to understand things",
+      "language": "en",
+      "dimension": "S/N (Sensing–Intuition)",
+      "keyed": "IPIP item 35, Intellect/Openness +; MBTI pole: N",
+      "source": "https://ipip.ori.org/New_IPIP-50-item-scale.htm",
+      "license": "Public domain"
+    },
+    {
+      "instrument": "IPIP Big-Five Factor Markers (50-item, Goldberg 1992)",
+      "text": "Use difficult words",
+      "language": "en",
+      "dimension": "S/N (Sensing–Intuition)",
+      "keyed": "IPIP item 40, Intellect/Openness +; MBTI pole: N",
+      "source": "https://ipip.ori.org/New_IPIP-50-item-scale.htm",
+      "license": "Public domain"
+    },
+    {
+      "instrument": "IPIP Big-Five Factor Markers (50-item, Goldberg 1992)",
+      "text": "Spend time reflecting on things",
+      "language": "en",
+      "dimension": "S/N (Sensing–Intuition)",
+      "keyed": "IPIP item 45, Intellect/Openness +; MBTI pole: N",
+      "source": "https://ipip.ori.org/New_IPIP-50-item-scale.htm",
+      "license": "Public domain"
+    },
+    {
+      "instrument": "IPIP Big-Five Factor Markers (50-item, Goldberg 1992)",
+      "text": "Am full of ideas",
+      "language": "en",
+      "dimension": "S/N (Sensing–Intuition)",
+      "keyed": "IPIP item 50, Intellect/Openness +; MBTI pole: N",
+      "source": "https://ipip.ori.org/New_IPIP-50-item-scale.htm",
+      "license": "Public domain"
+    }
+  ]
+}

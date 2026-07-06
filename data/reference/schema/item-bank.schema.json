@@ -1,0 +1,254 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://deepinme/data/reference/schema/item-bank.schema.json",
+  "title": "deepinme item bank",
+  "description": "One psychological-test item bank: a set of questionnaire items plus provenance/licensing metadata. Every data/**/items.*.json file conforms to this.",
+  "type": "object",
+  "required": [
+    "_meta",
+    "count",
+    "items"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "_meta": {
+      "$ref": "#/$defs/meta"
+    },
+    "count": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Number of items; must equal items.length."
+    },
+    "items": {
+      "type": "array",
+      "minItems": 0,
+      "items": {
+        "$ref": "#/$defs/item"
+      }
+    }
+  },
+  "$defs": {
+    "meta": {
+      "type": "object",
+      "description": "Provenance, licensing, and verification metadata for the bank.",
+      "required": [
+        "instrument",
+        "full_name",
+        "source_url",
+        "license",
+        "license_class",
+        "safe_for_noncommercial_reuse",
+        "safe_for_commercial_reuse",
+        "attribution",
+        "verification",
+        "sources"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "instrument": {
+          "type": "string",
+          "description": "Short instrument id/name."
+        },
+        "full_name": {
+          "type": "string",
+          "description": "Full instrument name + citation."
+        },
+        "source_url": {
+          "type": "string",
+          "description": "Primary URL the items were fetched from."
+        },
+        "license": {
+          "type": "string",
+          "description": "Human-readable license statement."
+        },
+        "license_class": {
+          "enum": [
+            "public_domain",
+            "cc",
+            "free_research_noncommercial",
+            "proprietary",
+            "unknown"
+          ],
+          "description": "Machine-filterable license bucket."
+        },
+        "safe_for_noncommercial_reuse": {
+          "type": "boolean"
+        },
+        "safe_for_commercial_reuse": {
+          "type": "boolean"
+        },
+        "reuse_notes": {
+          "type": "string",
+          "description": "Caveats on reuse beyond the boolean flags."
+        },
+        "attribution": {
+          "type": "string",
+          "description": "Required attribution text."
+        },
+        "scoring_notes": {
+          "type": "string"
+        },
+        "scoring_key": {
+          "type": "object",
+          "description": "Optional per-scale scoring key.",
+          "additionalProperties": true
+        },
+        "mbti_mapping": {
+          "type": "object",
+          "description": "Optional Big-Five -> MBTI dichotomy mapping.",
+          "additionalProperties": true
+        },
+        "cautions": {
+          "type": "string"
+        },
+        "corrections_applied": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "verification": {
+          "$ref": "#/$defs/verification"
+        },
+        "sources": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/source"
+          }
+        },
+        "translation": {
+          "type": "object",
+          "description": "Present on translated banks: translation provenance + QA.",
+          "required": [
+            "language",
+            "translated_from",
+            "status"
+          ],
+          "additionalProperties": true,
+          "properties": {
+            "language": {
+              "type": "string"
+            },
+            "translated_from": {
+              "type": "string",
+              "description": "Relative path of the source-language bank."
+            },
+            "method": {
+              "type": "string"
+            },
+            "status": {
+              "type": "string"
+            },
+            "qa": {
+              "type": "object",
+              "additionalProperties": true
+            }
+          }
+        }
+      }
+    },
+    "verification": {
+      "type": "object",
+      "description": "Result of the adversarial fact-check pass.",
+      "required": [
+        "summary"
+      ],
+      "additionalProperties": true,
+      "properties": {
+        "summary": {
+          "type": "string"
+        },
+        "fabrication_risk": {
+          "enum": [
+            "none",
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        "item_count_plausible": {
+          "type": "boolean"
+        },
+        "license_correct_asreported": {
+          "type": "boolean"
+        }
+      }
+    },
+    "source": {
+      "type": "object",
+      "required": [
+        "title",
+        "url"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string"
+        },
+        "license": {
+          "type": "string"
+        },
+        "notes": {
+          "type": "string"
+        }
+      }
+    },
+    "item": {
+      "type": "object",
+      "description": "A single questionnaire item (the test question).",
+      "required": [
+        "text",
+        "language"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "num": {
+          "type": "string",
+          "description": "Item number/position (string, source-defined)."
+        },
+        "text": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Verbatim item text — the question."
+        },
+        "text_en": {
+          "type": "string",
+          "description": "Source-language text (for translated banks); the English original."
+        },
+        "language": {
+          "type": "string",
+          "description": "BCP-ish tag or name, e.g. 'en', 'ko', 'English'."
+        },
+        "factor": {
+          "type": "string",
+          "description": "Big-Five/HEXACO factor, e.g. N/E/O/A/C/H."
+        },
+        "facet": {
+          "type": "string",
+          "description": "Facet within a factor, if any."
+        },
+        "dimension": {
+          "type": "string",
+          "description": "MBTI dichotomy or Enneagram type this item keys to."
+        },
+        "keyed": {
+          "type": "string",
+          "description": "Scoring direction (+/-) and/or notes."
+        },
+        "instrument": {
+          "type": "string"
+        },
+        "source": {
+          "type": "string"
+        },
+        "license": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,1961 @@
+{
+  "_meta": {
+    "instrument": "IPIP-HEXACO",
+    "full_name": "IPIP-HEXACO Scales — International Personality Item Pool representation of the HEXACO personality model (Ashton, Lee, & Goldberg, 2007)",
+    "source_url": "https://ipip.ori.org/newHEXACO_PI_key.htm",
+    "license": "Public domain. Per the official IPIP website (ipip.ori.org): \"The items and scales are in the public domain, which means that one can copy, edit, translate, or use them for any purpose without asking permission and without paying a fee.\" The IPIP was created by Lewis R. Goldberg with NIMH support; no permission or fee is required for any use, commercial or non-commercial.",
+    "license_class": "public_domain",
+    "safe_for_noncommercial_reuse": true,
+    "safe_for_commercial_reuse": true,
+    "attribution": "Items authored/compiled by Lewis R. Goldberg and the International Personality Item Pool (IPIP; https://ipip.ori.org). Scale construction: Ashton, M. C., Lee, K., & Goldberg, L. R. (2007). The IPIP-HEXACO scales: An alternative, public-domain measure of the personality constructs in the HEXACO model. Personality and Individual Differences, 42, 1515-1526. The IPIP representations were built to parallel the constructs of Lee & Ashton's (2004) HEXACO Personality Inventory. Recommended IPIP citation: Goldberg, L. R. (1999) and Goldberg et al. (2006), Journal of Research in Personality, 40, 84-96.",
+    "scoring_notes": "Structure: 6 HEXACO factors, each with 4 facet scales (24 facets total), each facet measured by exactly 10 items = 240 items. Factor -> facet map with IPIP abbreviations and Cronbach's alpha reported on the source key page (from Ashton, Lee, & Goldberg, 2007): HONESTY-HUMILITY {Sincerity (H:Sinc) a=.81, Fairness (H:Fair) a=.77, Greed Avoidance (H:Gree) a=.69, Modesty (H:Mode) a=.81}; EMOTIONALITY {Fearfulness (E:Fear) a=.84, Anxiety (E:Anxi) a=.85, Dependence (E:Depe) a=.73 (all 10 items +keyed), Sentimentality (E:Sent) a=.79}; EXTRAVERSION {Expressiveness (X:Expr) a=.84, Social Boldness (X:SocB) a=.86, Sociability (X:Soci) a=.85, Liveliness (X:Live) a=.82}; AGREEABLENESS {Forgiveness (A:Forg) a=.78, Gentleness (A:Gent) a=.81, Flexibility (A:Flex) a=.73, Patience (A:Pati) a=.88}; CONSCIENTIOUSNESS {Organization (C:Orga) a=.85, Diligence (C:Dili) a=.81, Perfectionism (C:Perf) a=.80, Prudence (C:Prud) a=.80}; OPENNESS TO EXPERIENCE {Aesthetic Appreciation (O:AesA) a=.83, Inquisitiveness (O:Inqu) a=.78, Creativity (O:Crea) a=.85, Unconventionality (O:Unco) a=.84}. Keying: keyed=\"+\" items score in the direction of the facet; keyed=\"-\" items are reverse-scored before summing. On the customary 5-point scale (1=Very Inaccurate ... 5=Very Accurate) reverse scoring is 5->1, 4->2, 3->3, 2->4, 1->5. Overall balance across the 240 items: 118 positively keyed, 122 negatively keyed. Items are first-person self-report statements administered with a standard IPIP instruction stem (\"Describe yourself as you generally are now... indicate how accurately each statement describes you\").",
+    "cautions": "1) This is the FULL 240-item facet-level IPIP-HEXACO (24 facet scales x 10 items), fetched verbatim from the official IPIP key page. The task cited \"the 100-item IPIP-HEXACO\" only as an example; the authoritative IPIP site hosts this complete 240-item facet version, so the entire coherent set was collected rather than a partial subset. All 240 items were captured (none omitted); a shorter 100-item or 60-item public-domain HEXACO subset can be derived from these same items if needed. 2) The \"num\" field is the sequential position within the source key listing (ordered factor -> facet -> +keyed then -keyed), NOT an official IPIP master-item identifier; IPIP assigns its own item IDs in its 3,000+ alphabetical item pool. 3) These public-domain IPIP items are an ALTERNATIVE proxy for the HEXACO constructs; they are NOT the copyrighted HEXACO-PI-R by Lee & Ashton. The proprietary HEXACO-PI-R (hosted at hexaco.org) was deliberately NOT reproduced here; only the public-domain IPIP representation was collected. 4) Reported alpha reliabilities are from the 2007 development sample and are provided on the source page for reference. 5) Item text is reproduced exactly as it appears on the IPIP key page (including punctuation and quotation marks); these are stage-1 raw items intended to be rewritten into plain language downstream.",
+    "corrections_applied": [],
+    "verification": {
+      "fabrication_risk": "none",
+      "item_count_plausible": true,
+      "license_correct_asreported": true,
+      "summary": "adversarially fact-checked by a second agent vs primary sources (deepinme wide-collection workflow, 2026-07)"
+    },
+    "sources": [
+      {
+        "title": "IPIP-HEXACO key page: The Items in the Preliminary IPIP Scales Measuring Constructs Similar to Those Included in Lee and Ashton's HEXACO Personality Inventory (official IPIP / Oregon Research Institute)",
+        "url": "https://ipip.ori.org/newHEXACO_PI_key.htm",
+        "license": "Public domain"
+      },
+      {
+        "title": "International Personality Item Pool (IPIP) home page — public-domain statement and site overview",
+        "url": "https://ipip.ori.org/",
+        "license": "Public domain"
+      },
+      {
+        "title": "Ashton, Lee, & Goldberg (2007), The IPIP-HEXACO scales: An alternative, public-domain measure of the personality constructs in the HEXACO model, Personality and Individual Differences, 42, 1515-1526 (author PDF)",
+        "url": "https://projects.ori.org/lrg/PDFs_papers/Ashton_Lee_Goldberg_2007_PAID.pdf",
+        "license": "Copyrighted article describing public-domain scales"
+      }
+    ]
+  },
+  "count": 240,
+  "items": [
+    {
+      "num": "1",
+      "factor": "Honesty-Humility",
+      "facet": "Sincerity",
+      "keyed": "+",
+      "text": "Don't pretend to be more than I am.",
+      "language": "en"
+    },
+    {
+      "num": "2",
+      "factor": "Honesty-Humility",
+      "facet": "Sincerity",
+      "keyed": "-",
+      "text": "Use flattery to get ahead.",
+      "language": "en"
+    },
+    {
+      "num": "3",
+      "factor": "Honesty-Humility",
+      "facet": "Sincerity",
+      "keyed": "-",
+      "text": "Tell other people what they want to hear so that they will do what I want them to do.",
+      "language": "en"
+    },
+    {
+      "num": "4",
+      "factor": "Honesty-Humility",
+      "facet": "Sincerity",
+      "keyed": "-",
+      "text": "Put on a show to impress people.",
+      "language": "en"
+    },
+    {
+      "num": "5",
+      "factor": "Honesty-Humility",
+      "facet": "Sincerity",
+      "keyed": "-",
+      "text": "Switch my loyalties when I feel like it.",
+      "language": "en"
+    },
+    {
+      "num": "6",
+      "factor": "Honesty-Humility",
+      "facet": "Sincerity",
+      "keyed": "-",
+      "text": "Play a role in order to impress people.",
+      "language": "en"
+    },
+    {
+      "num": "7",
+      "factor": "Honesty-Humility",
+      "facet": "Sincerity",
+      "keyed": "-",
+      "text": "Pretend to be concerned for others.",
+      "language": "en"
+    },
+    {
+      "num": "8",
+      "factor": "Honesty-Humility",
+      "facet": "Sincerity",
+      "keyed": "-",
+      "text": "Act like different people in different situations.",
+      "language": "en"
+    },
+    {
+      "num": "9",
+      "factor": "Honesty-Humility",
+      "facet": "Sincerity",
+      "keyed": "-",
+      "text": "Find it necessary to please the people who have power.",
+      "language": "en"
+    },
+    {
+      "num": "10",
+      "factor": "Honesty-Humility",
+      "facet": "Sincerity",
+      "keyed": "-",
+      "text": "Let people push me around to help them feel important.",
+      "language": "en"
+    },
+    {
+      "num": "11",
+      "factor": "Honesty-Humility",
+      "facet": "Fairness",
+      "keyed": "+",
+      "text": "Would never take things that aren't mine.",
+      "language": "en"
+    },
+    {
+      "num": "12",
+      "factor": "Honesty-Humility",
+      "facet": "Fairness",
+      "keyed": "+",
+      "text": "Would never cheat on my taxes.",
+      "language": "en"
+    },
+    {
+      "num": "13",
+      "factor": "Honesty-Humility",
+      "facet": "Fairness",
+      "keyed": "+",
+      "text": "Return extra change when a cashier makes a mistake.",
+      "language": "en"
+    },
+    {
+      "num": "14",
+      "factor": "Honesty-Humility",
+      "facet": "Fairness",
+      "keyed": "+",
+      "text": "Would feel very badly for a long time if I were to steal from someone.",
+      "language": "en"
+    },
+    {
+      "num": "15",
+      "factor": "Honesty-Humility",
+      "facet": "Fairness",
+      "keyed": "+",
+      "text": "Try to follow the rules.",
+      "language": "en"
+    },
+    {
+      "num": "16",
+      "factor": "Honesty-Humility",
+      "facet": "Fairness",
+      "keyed": "-",
+      "text": "Admire a really clever scam.",
+      "language": "en"
+    },
+    {
+      "num": "17",
+      "factor": "Honesty-Humility",
+      "facet": "Fairness",
+      "keyed": "-",
+      "text": "Cheat to get ahead.",
+      "language": "en"
+    },
+    {
+      "num": "18",
+      "factor": "Honesty-Humility",
+      "facet": "Fairness",
+      "keyed": "-",
+      "text": "Steal things.",
+      "language": "en"
+    },
+    {
+      "num": "19",
+      "factor": "Honesty-Humility",
+      "facet": "Fairness",
+      "keyed": "-",
+      "text": "Cheat on people who have trusted me.",
+      "language": "en"
+    },
+    {
+      "num": "20",
+      "factor": "Honesty-Humility",
+      "facet": "Fairness",
+      "keyed": "-",
+      "text": "Would not regret my behavior if I were to take advantage of someone impulsively.",
+      "language": "en"
+    },
+    {
+      "num": "21",
+      "factor": "Honesty-Humility",
+      "facet": "Greed Avoidance",
+      "keyed": "+",
+      "text": "Would not enjoy being a famous celebrity.",
+      "language": "en"
+    },
+    {
+      "num": "22",
+      "factor": "Honesty-Humility",
+      "facet": "Greed Avoidance",
+      "keyed": "+",
+      "text": "Don't strive for elegance in my appearance.",
+      "language": "en"
+    },
+    {
+      "num": "23",
+      "factor": "Honesty-Humility",
+      "facet": "Greed Avoidance",
+      "keyed": "-",
+      "text": "Love luxury.",
+      "language": "en"
+    },
+    {
+      "num": "24",
+      "factor": "Honesty-Humility",
+      "facet": "Greed Avoidance",
+      "keyed": "-",
+      "text": "Have a strong need for power.",
+      "language": "en"
+    },
+    {
+      "num": "25",
+      "factor": "Honesty-Humility",
+      "facet": "Greed Avoidance",
+      "keyed": "-",
+      "text": "Seek status.",
+      "language": "en"
+    },
+    {
+      "num": "26",
+      "factor": "Honesty-Humility",
+      "facet": "Greed Avoidance",
+      "keyed": "-",
+      "text": "Am mainly interested in money.",
+      "language": "en"
+    },
+    {
+      "num": "27",
+      "factor": "Honesty-Humility",
+      "facet": "Greed Avoidance",
+      "keyed": "-",
+      "text": "Wish to stay young forever.",
+      "language": "en"
+    },
+    {
+      "num": "28",
+      "factor": "Honesty-Humility",
+      "facet": "Greed Avoidance",
+      "keyed": "-",
+      "text": "Try to impress others.",
+      "language": "en"
+    },
+    {
+      "num": "29",
+      "factor": "Honesty-Humility",
+      "facet": "Greed Avoidance",
+      "keyed": "-",
+      "text": "Prefer to eat at expensive restaurants.",
+      "language": "en"
+    },
+    {
+      "num": "30",
+      "factor": "Honesty-Humility",
+      "facet": "Greed Avoidance",
+      "keyed": "-",
+      "text": "Am out for my own personal gain.",
+      "language": "en"
+    },
+    {
+      "num": "31",
+      "factor": "Honesty-Humility",
+      "facet": "Modesty",
+      "keyed": "+",
+      "text": "Don't think that I'm better than other people.",
+      "language": "en"
+    },
+    {
+      "num": "32",
+      "factor": "Honesty-Humility",
+      "facet": "Modesty",
+      "keyed": "+",
+      "text": "See myself as an average person.",
+      "language": "en"
+    },
+    {
+      "num": "33",
+      "factor": "Honesty-Humility",
+      "facet": "Modesty",
+      "keyed": "+",
+      "text": "Am just an ordinary person.",
+      "language": "en"
+    },
+    {
+      "num": "34",
+      "factor": "Honesty-Humility",
+      "facet": "Modesty",
+      "keyed": "+",
+      "text": "Consider myself an average person.",
+      "language": "en"
+    },
+    {
+      "num": "35",
+      "factor": "Honesty-Humility",
+      "facet": "Modesty",
+      "keyed": "-",
+      "text": "Would like to have more power than other people.",
+      "language": "en"
+    },
+    {
+      "num": "36",
+      "factor": "Honesty-Humility",
+      "facet": "Modesty",
+      "keyed": "-",
+      "text": "Believe that I am better than others.",
+      "language": "en"
+    },
+    {
+      "num": "37",
+      "factor": "Honesty-Humility",
+      "facet": "Modesty",
+      "keyed": "-",
+      "text": "Like to attract attention.",
+      "language": "en"
+    },
+    {
+      "num": "38",
+      "factor": "Honesty-Humility",
+      "facet": "Modesty",
+      "keyed": "-",
+      "text": "Am more capable than most others.",
+      "language": "en"
+    },
+    {
+      "num": "39",
+      "factor": "Honesty-Humility",
+      "facet": "Modesty",
+      "keyed": "-",
+      "text": "Am likely to show off if I get the chance.",
+      "language": "en"
+    },
+    {
+      "num": "40",
+      "factor": "Honesty-Humility",
+      "facet": "Modesty",
+      "keyed": "-",
+      "text": "Boast about my virtues.",
+      "language": "en"
+    },
+    {
+      "num": "41",
+      "factor": "Emotionality",
+      "facet": "Fearfulness",
+      "keyed": "+",
+      "text": "Am a physical coward.",
+      "language": "en"
+    },
+    {
+      "num": "42",
+      "factor": "Emotionality",
+      "facet": "Fearfulness",
+      "keyed": "+",
+      "text": "Begin to panic when there is danger.",
+      "language": "en"
+    },
+    {
+      "num": "43",
+      "factor": "Emotionality",
+      "facet": "Fearfulness",
+      "keyed": "+",
+      "text": "Would fear walking in a high-crime part of a city.",
+      "language": "en"
+    },
+    {
+      "num": "44",
+      "factor": "Emotionality",
+      "facet": "Fearfulness",
+      "keyed": "+",
+      "text": "Tremble in dangerous situations.",
+      "language": "en"
+    },
+    {
+      "num": "45",
+      "factor": "Emotionality",
+      "facet": "Fearfulness",
+      "keyed": "+",
+      "text": "Would never go riding down a stretch of rapids in a canoe.",
+      "language": "en"
+    },
+    {
+      "num": "46",
+      "factor": "Emotionality",
+      "facet": "Fearfulness",
+      "keyed": "-",
+      "text": "Like to do frightening things.",
+      "language": "en"
+    },
+    {
+      "num": "47",
+      "factor": "Emotionality",
+      "facet": "Fearfulness",
+      "keyed": "-",
+      "text": "Face danger confidently.",
+      "language": "en"
+    },
+    {
+      "num": "48",
+      "factor": "Emotionality",
+      "facet": "Fearfulness",
+      "keyed": "-",
+      "text": "Love dangerous situations.",
+      "language": "en"
+    },
+    {
+      "num": "49",
+      "factor": "Emotionality",
+      "facet": "Fearfulness",
+      "keyed": "-",
+      "text": "Would be good at rescuing people from a burning building.",
+      "language": "en"
+    },
+    {
+      "num": "50",
+      "factor": "Emotionality",
+      "facet": "Fearfulness",
+      "keyed": "-",
+      "text": "Am willing to take risks.",
+      "language": "en"
+    },
+    {
+      "num": "51",
+      "factor": "Emotionality",
+      "facet": "Anxiety",
+      "keyed": "+",
+      "text": "Often worry about things that turn out to be unimportant.",
+      "language": "en"
+    },
+    {
+      "num": "52",
+      "factor": "Emotionality",
+      "facet": "Anxiety",
+      "keyed": "+",
+      "text": "Worry about things.",
+      "language": "en"
+    },
+    {
+      "num": "53",
+      "factor": "Emotionality",
+      "facet": "Anxiety",
+      "keyed": "+",
+      "text": "Get stressed out easily.",
+      "language": "en"
+    },
+    {
+      "num": "54",
+      "factor": "Emotionality",
+      "facet": "Anxiety",
+      "keyed": "+",
+      "text": "Get upset by unpleasant thoughts that come into my mind.",
+      "language": "en"
+    },
+    {
+      "num": "55",
+      "factor": "Emotionality",
+      "facet": "Anxiety",
+      "keyed": "+",
+      "text": "Panic easily.",
+      "language": "en"
+    },
+    {
+      "num": "56",
+      "factor": "Emotionality",
+      "facet": "Anxiety",
+      "keyed": "-",
+      "text": "Rarely worry.",
+      "language": "en"
+    },
+    {
+      "num": "57",
+      "factor": "Emotionality",
+      "facet": "Anxiety",
+      "keyed": "-",
+      "text": "Rarely feel depressed.",
+      "language": "en"
+    },
+    {
+      "num": "58",
+      "factor": "Emotionality",
+      "facet": "Anxiety",
+      "keyed": "-",
+      "text": "Am not easily disturbed by events.",
+      "language": "en"
+    },
+    {
+      "num": "59",
+      "factor": "Emotionality",
+      "facet": "Anxiety",
+      "keyed": "-",
+      "text": "Remain calm under pressure.",
+      "language": "en"
+    },
+    {
+      "num": "60",
+      "factor": "Emotionality",
+      "facet": "Anxiety",
+      "keyed": "-",
+      "text": "Don't worry about things that have already happened.",
+      "language": "en"
+    },
+    {
+      "num": "61",
+      "factor": "Emotionality",
+      "facet": "Dependence",
+      "keyed": "+",
+      "text": "Need reassurance.",
+      "language": "en"
+    },
+    {
+      "num": "62",
+      "factor": "Emotionality",
+      "facet": "Dependence",
+      "keyed": "+",
+      "text": "Let myself be influenced by others.",
+      "language": "en"
+    },
+    {
+      "num": "63",
+      "factor": "Emotionality",
+      "facet": "Dependence",
+      "keyed": "+",
+      "text": "Need the approval of others.",
+      "language": "en"
+    },
+    {
+      "num": "64",
+      "factor": "Emotionality",
+      "facet": "Dependence",
+      "keyed": "+",
+      "text": "Need protection.",
+      "language": "en"
+    },
+    {
+      "num": "65",
+      "factor": "Emotionality",
+      "facet": "Dependence",
+      "keyed": "+",
+      "text": "Often need help.",
+      "language": "en"
+    },
+    {
+      "num": "66",
+      "factor": "Emotionality",
+      "facet": "Dependence",
+      "keyed": "+",
+      "text": "Show my sadness.",
+      "language": "en"
+    },
+    {
+      "num": "67",
+      "factor": "Emotionality",
+      "facet": "Dependence",
+      "keyed": "+",
+      "text": "Suspect that my facial expressions give me away when I feel sad.",
+      "language": "en"
+    },
+    {
+      "num": "68",
+      "factor": "Emotionality",
+      "facet": "Dependence",
+      "keyed": "+",
+      "text": "Seek support.",
+      "language": "en"
+    },
+    {
+      "num": "69",
+      "factor": "Emotionality",
+      "facet": "Dependence",
+      "keyed": "+",
+      "text": "Can't do without the company of others.",
+      "language": "en"
+    },
+    {
+      "num": "70",
+      "factor": "Emotionality",
+      "facet": "Dependence",
+      "keyed": "+",
+      "text": "Want to be liked.",
+      "language": "en"
+    },
+    {
+      "num": "71",
+      "factor": "Emotionality",
+      "facet": "Sentimentality",
+      "keyed": "+",
+      "text": "Feel others' emotions.",
+      "language": "en"
+    },
+    {
+      "num": "72",
+      "factor": "Emotionality",
+      "facet": "Sentimentality",
+      "keyed": "+",
+      "text": "Immediately feel sad when hearing of an unhappy event.",
+      "language": "en"
+    },
+    {
+      "num": "73",
+      "factor": "Emotionality",
+      "facet": "Sentimentality",
+      "keyed": "+",
+      "text": "Cry during movies.",
+      "language": "en"
+    },
+    {
+      "num": "74",
+      "factor": "Emotionality",
+      "facet": "Sentimentality",
+      "keyed": "+",
+      "text": "Am sensitive to the needs of others.",
+      "language": "en"
+    },
+    {
+      "num": "75",
+      "factor": "Emotionality",
+      "facet": "Sentimentality",
+      "keyed": "+",
+      "text": "Am deeply moved by others' misfortunes.",
+      "language": "en"
+    },
+    {
+      "num": "76",
+      "factor": "Emotionality",
+      "facet": "Sentimentality",
+      "keyed": "-",
+      "text": "Rarely cry during sad movies.",
+      "language": "en"
+    },
+    {
+      "num": "77",
+      "factor": "Emotionality",
+      "facet": "Sentimentality",
+      "keyed": "-",
+      "text": "Seldom feel weepy while reading the sad part of a story.",
+      "language": "en"
+    },
+    {
+      "num": "78",
+      "factor": "Emotionality",
+      "facet": "Sentimentality",
+      "keyed": "-",
+      "text": "Am seldom bothered by the apparent suffering of strangers.",
+      "language": "en"
+    },
+    {
+      "num": "79",
+      "factor": "Emotionality",
+      "facet": "Sentimentality",
+      "keyed": "-",
+      "text": "Don't understand people who get emotional.",
+      "language": "en"
+    },
+    {
+      "num": "80",
+      "factor": "Emotionality",
+      "facet": "Sentimentality",
+      "keyed": "-",
+      "text": "Seldom get emotional.",
+      "language": "en"
+    },
+    {
+      "num": "81",
+      "factor": "Extraversion",
+      "facet": "Expressiveness",
+      "keyed": "+",
+      "text": "Talk a lot.",
+      "language": "en"
+    },
+    {
+      "num": "82",
+      "factor": "Extraversion",
+      "facet": "Expressiveness",
+      "keyed": "+",
+      "text": "Am never at a loss for words.",
+      "language": "en"
+    },
+    {
+      "num": "83",
+      "factor": "Extraversion",
+      "facet": "Expressiveness",
+      "keyed": "+",
+      "text": "Am the life of the party.",
+      "language": "en"
+    },
+    {
+      "num": "84",
+      "factor": "Extraversion",
+      "facet": "Expressiveness",
+      "keyed": "+",
+      "text": "Tell people about it when I'm irritated.",
+      "language": "en"
+    },
+    {
+      "num": "85",
+      "factor": "Extraversion",
+      "facet": "Expressiveness",
+      "keyed": "+",
+      "text": "Have an intense, boisterous laugh.",
+      "language": "en"
+    },
+    {
+      "num": "86",
+      "factor": "Extraversion",
+      "facet": "Expressiveness",
+      "keyed": "-",
+      "text": "Don't talk a lot.",
+      "language": "en"
+    },
+    {
+      "num": "87",
+      "factor": "Extraversion",
+      "facet": "Expressiveness",
+      "keyed": "-",
+      "text": "Don't like to draw attention to myself.",
+      "language": "en"
+    },
+    {
+      "num": "88",
+      "factor": "Extraversion",
+      "facet": "Expressiveness",
+      "keyed": "-",
+      "text": "Say little.",
+      "language": "en"
+    },
+    {
+      "num": "89",
+      "factor": "Extraversion",
+      "facet": "Expressiveness",
+      "keyed": "-",
+      "text": "Bottle up my feelings.",
+      "language": "en"
+    },
+    {
+      "num": "90",
+      "factor": "Extraversion",
+      "facet": "Expressiveness",
+      "keyed": "-",
+      "text": "Speak softly.",
+      "language": "en"
+    },
+    {
+      "num": "91",
+      "factor": "Extraversion",
+      "facet": "Social Boldness",
+      "keyed": "+",
+      "text": "Am good at making impromptu speeches.",
+      "language": "en"
+    },
+    {
+      "num": "92",
+      "factor": "Extraversion",
+      "facet": "Social Boldness",
+      "keyed": "+",
+      "text": "Don't mind being the center of attention.",
+      "language": "en"
+    },
+    {
+      "num": "93",
+      "factor": "Extraversion",
+      "facet": "Social Boldness",
+      "keyed": "+",
+      "text": "Feel comfortable around people.",
+      "language": "en"
+    },
+    {
+      "num": "94",
+      "factor": "Extraversion",
+      "facet": "Social Boldness",
+      "keyed": "+",
+      "text": "Have leadership abilities.",
+      "language": "en"
+    },
+    {
+      "num": "95",
+      "factor": "Extraversion",
+      "facet": "Social Boldness",
+      "keyed": "+",
+      "text": "Have a strong personality.",
+      "language": "en"
+    },
+    {
+      "num": "96",
+      "factor": "Extraversion",
+      "facet": "Social Boldness",
+      "keyed": "-",
+      "text": "Would be afraid to give a speech in public.",
+      "language": "en"
+    },
+    {
+      "num": "97",
+      "factor": "Extraversion",
+      "facet": "Social Boldness",
+      "keyed": "-",
+      "text": "Keep in the background.",
+      "language": "en"
+    },
+    {
+      "num": "98",
+      "factor": "Extraversion",
+      "facet": "Social Boldness",
+      "keyed": "-",
+      "text": "Find it difficult to approach others.",
+      "language": "en"
+    },
+    {
+      "num": "99",
+      "factor": "Extraversion",
+      "facet": "Social Boldness",
+      "keyed": "-",
+      "text": "Hate being the center of attention.",
+      "language": "en"
+    },
+    {
+      "num": "100",
+      "factor": "Extraversion",
+      "facet": "Social Boldness",
+      "keyed": "-",
+      "text": "Have little to say.",
+      "language": "en"
+    },
+    {
+      "num": "101",
+      "factor": "Extraversion",
+      "facet": "Sociability",
+      "keyed": "+",
+      "text": "Usually like to spend my free time with people.",
+      "language": "en"
+    },
+    {
+      "num": "102",
+      "factor": "Extraversion",
+      "facet": "Sociability",
+      "keyed": "+",
+      "text": "Talk to a lot of different people at parties.",
+      "language": "en"
+    },
+    {
+      "num": "103",
+      "factor": "Extraversion",
+      "facet": "Sociability",
+      "keyed": "+",
+      "text": "Love to chat.",
+      "language": "en"
+    },
+    {
+      "num": "104",
+      "factor": "Extraversion",
+      "facet": "Sociability",
+      "keyed": "+",
+      "text": "Make friends easily.",
+      "language": "en"
+    },
+    {
+      "num": "105",
+      "factor": "Extraversion",
+      "facet": "Sociability",
+      "keyed": "+",
+      "text": "Enjoy being part of a group.",
+      "language": "en"
+    },
+    {
+      "num": "106",
+      "factor": "Extraversion",
+      "facet": "Sociability",
+      "keyed": "-",
+      "text": "Seem to derive less enjoyment from interacting with people than others do.",
+      "language": "en"
+    },
+    {
+      "num": "107",
+      "factor": "Extraversion",
+      "facet": "Sociability",
+      "keyed": "-",
+      "text": "Rarely enjoy being with people.",
+      "language": "en"
+    },
+    {
+      "num": "108",
+      "factor": "Extraversion",
+      "facet": "Sociability",
+      "keyed": "-",
+      "text": "Would not enjoy a job that involves a lot of social interaction.",
+      "language": "en"
+    },
+    {
+      "num": "109",
+      "factor": "Extraversion",
+      "facet": "Sociability",
+      "keyed": "-",
+      "text": "Am hard to get to know.",
+      "language": "en"
+    },
+    {
+      "num": "110",
+      "factor": "Extraversion",
+      "facet": "Sociability",
+      "keyed": "-",
+      "text": "Keep others at a distance.",
+      "language": "en"
+    },
+    {
+      "num": "111",
+      "factor": "Extraversion",
+      "facet": "Liveliness",
+      "keyed": "+",
+      "text": "Maintain high energy throughout the day.",
+      "language": "en"
+    },
+    {
+      "num": "112",
+      "factor": "Extraversion",
+      "facet": "Liveliness",
+      "keyed": "+",
+      "text": "Have great stamina.",
+      "language": "en"
+    },
+    {
+      "num": "113",
+      "factor": "Extraversion",
+      "facet": "Liveliness",
+      "keyed": "+",
+      "text": "Am usually active and full of energy.",
+      "language": "en"
+    },
+    {
+      "num": "114",
+      "factor": "Extraversion",
+      "facet": "Liveliness",
+      "keyed": "+",
+      "text": "Smile a lot.",
+      "language": "en"
+    },
+    {
+      "num": "115",
+      "factor": "Extraversion",
+      "facet": "Liveliness",
+      "keyed": "+",
+      "text": "Feel healthy and vibrant most of the time.",
+      "language": "en"
+    },
+    {
+      "num": "116",
+      "factor": "Extraversion",
+      "facet": "Liveliness",
+      "keyed": "+",
+      "text": "Laugh a lot.",
+      "language": "en"
+    },
+    {
+      "num": "117",
+      "factor": "Extraversion",
+      "facet": "Liveliness",
+      "keyed": "+",
+      "text": "Feel that I have a lot of inner strength.",
+      "language": "en"
+    },
+    {
+      "num": "118",
+      "factor": "Extraversion",
+      "facet": "Liveliness",
+      "keyed": "+",
+      "text": "Have a lot of fun.",
+      "language": "en"
+    },
+    {
+      "num": "119",
+      "factor": "Extraversion",
+      "facet": "Liveliness",
+      "keyed": "-",
+      "text": "Tire out quickly.",
+      "language": "en"
+    },
+    {
+      "num": "120",
+      "factor": "Extraversion",
+      "facet": "Liveliness",
+      "keyed": "-",
+      "text": "Often feel blue.",
+      "language": "en"
+    },
+    {
+      "num": "121",
+      "factor": "Agreeableness",
+      "facet": "Forgiveness",
+      "keyed": "+",
+      "text": "Love my enemies.",
+      "language": "en"
+    },
+    {
+      "num": "122",
+      "factor": "Agreeableness",
+      "facet": "Forgiveness",
+      "keyed": "+",
+      "text": "Try to forgive and forget.",
+      "language": "en"
+    },
+    {
+      "num": "123",
+      "factor": "Agreeableness",
+      "facet": "Forgiveness",
+      "keyed": "+",
+      "text": "Am inclined to forgive others.",
+      "language": "en"
+    },
+    {
+      "num": "124",
+      "factor": "Agreeableness",
+      "facet": "Forgiveness",
+      "keyed": "+",
+      "text": "Am nice to people I should be angry at.",
+      "language": "en"
+    },
+    {
+      "num": "125",
+      "factor": "Agreeableness",
+      "facet": "Forgiveness",
+      "keyed": "-",
+      "text": "Find it hard to forgive others.",
+      "language": "en"
+    },
+    {
+      "num": "126",
+      "factor": "Agreeableness",
+      "facet": "Forgiveness",
+      "keyed": "-",
+      "text": "Hold a grudge.",
+      "language": "en"
+    },
+    {
+      "num": "127",
+      "factor": "Agreeableness",
+      "facet": "Forgiveness",
+      "keyed": "-",
+      "text": "Get back at people who insult me.",
+      "language": "en"
+    },
+    {
+      "num": "128",
+      "factor": "Agreeableness",
+      "facet": "Forgiveness",
+      "keyed": "-",
+      "text": "Get even with others.",
+      "language": "en"
+    },
+    {
+      "num": "129",
+      "factor": "Agreeableness",
+      "facet": "Forgiveness",
+      "keyed": "-",
+      "text": "Distrust people.",
+      "language": "en"
+    },
+    {
+      "num": "130",
+      "factor": "Agreeableness",
+      "facet": "Forgiveness",
+      "keyed": "-",
+      "text": "Feel that most people can't be trusted.",
+      "language": "en"
+    },
+    {
+      "num": "131",
+      "factor": "Agreeableness",
+      "facet": "Gentleness",
+      "keyed": "+",
+      "text": "Rarely complain.",
+      "language": "en"
+    },
+    {
+      "num": "132",
+      "factor": "Agreeableness",
+      "facet": "Gentleness",
+      "keyed": "+",
+      "text": "Take things as they come.",
+      "language": "en"
+    },
+    {
+      "num": "133",
+      "factor": "Agreeableness",
+      "facet": "Gentleness",
+      "keyed": "+",
+      "text": "Accept people as they are.",
+      "language": "en"
+    },
+    {
+      "num": "134",
+      "factor": "Agreeableness",
+      "facet": "Gentleness",
+      "keyed": "+",
+      "text": "Have a good word for everyone.",
+      "language": "en"
+    },
+    {
+      "num": "135",
+      "factor": "Agreeableness",
+      "facet": "Gentleness",
+      "keyed": "-",
+      "text": "Become frustrated and angry with people when they don't live up to my expectations.",
+      "language": "en"
+    },
+    {
+      "num": "136",
+      "factor": "Agreeableness",
+      "facet": "Gentleness",
+      "keyed": "-",
+      "text": "Am quick to judge others.",
+      "language": "en"
+    },
+    {
+      "num": "137",
+      "factor": "Agreeableness",
+      "facet": "Gentleness",
+      "keyed": "-",
+      "text": "Find fault with everything.",
+      "language": "en"
+    },
+    {
+      "num": "138",
+      "factor": "Agreeableness",
+      "facet": "Gentleness",
+      "keyed": "-",
+      "text": "Speak ill of others.",
+      "language": "en"
+    },
+    {
+      "num": "139",
+      "factor": "Agreeableness",
+      "facet": "Gentleness",
+      "keyed": "-",
+      "text": "Have a sharp tongue.",
+      "language": "en"
+    },
+    {
+      "num": "140",
+      "factor": "Agreeableness",
+      "facet": "Gentleness",
+      "keyed": "-",
+      "text": "Criticize others' shortcomings.",
+      "language": "en"
+    },
+    {
+      "num": "141",
+      "factor": "Agreeableness",
+      "facet": "Flexibility",
+      "keyed": "+",
+      "text": "Adjust easily.",
+      "language": "en"
+    },
+    {
+      "num": "142",
+      "factor": "Agreeableness",
+      "facet": "Flexibility",
+      "keyed": "+",
+      "text": "Am good at taking advice.",
+      "language": "en"
+    },
+    {
+      "num": "143",
+      "factor": "Agreeableness",
+      "facet": "Flexibility",
+      "keyed": "-",
+      "text": "When interacting with a group of people, am often bothered by at least one of them.",
+      "language": "en"
+    },
+    {
+      "num": "144",
+      "factor": "Agreeableness",
+      "facet": "Flexibility",
+      "keyed": "-",
+      "text": "React strongly to criticism.",
+      "language": "en"
+    },
+    {
+      "num": "145",
+      "factor": "Agreeableness",
+      "facet": "Flexibility",
+      "keyed": "-",
+      "text": "Get upset if others change the way that I have arranged things.",
+      "language": "en"
+    },
+    {
+      "num": "146",
+      "factor": "Agreeableness",
+      "facet": "Flexibility",
+      "keyed": "-",
+      "text": "Am hard to convince.",
+      "language": "en"
+    },
+    {
+      "num": "147",
+      "factor": "Agreeableness",
+      "facet": "Flexibility",
+      "keyed": "-",
+      "text": "Am annoyed by others' mistakes.",
+      "language": "en"
+    },
+    {
+      "num": "148",
+      "factor": "Agreeableness",
+      "facet": "Flexibility",
+      "keyed": "-",
+      "text": "Can't stand being contradicted.",
+      "language": "en"
+    },
+    {
+      "num": "149",
+      "factor": "Agreeableness",
+      "facet": "Flexibility",
+      "keyed": "-",
+      "text": "Am hard to satisfy.",
+      "language": "en"
+    },
+    {
+      "num": "150",
+      "factor": "Agreeableness",
+      "facet": "Flexibility",
+      "keyed": "-",
+      "text": "Am hard to reason with.",
+      "language": "en"
+    },
+    {
+      "num": "151",
+      "factor": "Agreeableness",
+      "facet": "Patience",
+      "keyed": "+",
+      "text": "Find that it takes a lot to make me feel angry at someone.",
+      "language": "en"
+    },
+    {
+      "num": "152",
+      "factor": "Agreeableness",
+      "facet": "Patience",
+      "keyed": "+",
+      "text": "Rarely feel angry with people.",
+      "language": "en"
+    },
+    {
+      "num": "153",
+      "factor": "Agreeableness",
+      "facet": "Patience",
+      "keyed": "+",
+      "text": "Am usually a patient person.",
+      "language": "en"
+    },
+    {
+      "num": "154",
+      "factor": "Agreeableness",
+      "facet": "Patience",
+      "keyed": "+",
+      "text": "Rarely get irritated.",
+      "language": "en"
+    },
+    {
+      "num": "155",
+      "factor": "Agreeableness",
+      "facet": "Patience",
+      "keyed": "+",
+      "text": "Seldom get mad.",
+      "language": "en"
+    },
+    {
+      "num": "156",
+      "factor": "Agreeableness",
+      "facet": "Patience",
+      "keyed": "-",
+      "text": "Am easily annoyed.",
+      "language": "en"
+    },
+    {
+      "num": "157",
+      "factor": "Agreeableness",
+      "facet": "Patience",
+      "keyed": "-",
+      "text": "Get angry easily.",
+      "language": "en"
+    },
+    {
+      "num": "158",
+      "factor": "Agreeableness",
+      "facet": "Patience",
+      "keyed": "-",
+      "text": "Get irritated easily.",
+      "language": "en"
+    },
+    {
+      "num": "159",
+      "factor": "Agreeableness",
+      "facet": "Patience",
+      "keyed": "-",
+      "text": "Lose my temper.",
+      "language": "en"
+    },
+    {
+      "num": "160",
+      "factor": "Agreeableness",
+      "facet": "Patience",
+      "keyed": "-",
+      "text": "Get upset easily.",
+      "language": "en"
+    },
+    {
+      "num": "161",
+      "factor": "Conscientiousness",
+      "facet": "Organization",
+      "keyed": "+",
+      "text": "Keep things tidy.",
+      "language": "en"
+    },
+    {
+      "num": "162",
+      "factor": "Conscientiousness",
+      "facet": "Organization",
+      "keyed": "+",
+      "text": "Get chores done right away.",
+      "language": "en"
+    },
+    {
+      "num": "163",
+      "factor": "Conscientiousness",
+      "facet": "Organization",
+      "keyed": "+",
+      "text": "Like order.",
+      "language": "en"
+    },
+    {
+      "num": "164",
+      "factor": "Conscientiousness",
+      "facet": "Organization",
+      "keyed": "+",
+      "text": "Like to tidy up.",
+      "language": "en"
+    },
+    {
+      "num": "165",
+      "factor": "Conscientiousness",
+      "facet": "Organization",
+      "keyed": "+",
+      "text": "Want everything to be \"just right.\"",
+      "language": "en"
+    },
+    {
+      "num": "166",
+      "factor": "Conscientiousness",
+      "facet": "Organization",
+      "keyed": "-",
+      "text": "Leave a mess in my room.",
+      "language": "en"
+    },
+    {
+      "num": "167",
+      "factor": "Conscientiousness",
+      "facet": "Organization",
+      "keyed": "-",
+      "text": "Leave my belongings around.",
+      "language": "en"
+    },
+    {
+      "num": "168",
+      "factor": "Conscientiousness",
+      "facet": "Organization",
+      "keyed": "-",
+      "text": "Don't finish the things that I start.",
+      "language": "en"
+    },
+    {
+      "num": "169",
+      "factor": "Conscientiousness",
+      "facet": "Organization",
+      "keyed": "-",
+      "text": "Often forget to put things back in their proper place.",
+      "language": "en"
+    },
+    {
+      "num": "170",
+      "factor": "Conscientiousness",
+      "facet": "Organization",
+      "keyed": "-",
+      "text": "Am not bothered by disorder.",
+      "language": "en"
+    },
+    {
+      "num": "171",
+      "factor": "Conscientiousness",
+      "facet": "Diligence",
+      "keyed": "+",
+      "text": "Push myself very hard to succeed.",
+      "language": "en"
+    },
+    {
+      "num": "172",
+      "factor": "Conscientiousness",
+      "facet": "Diligence",
+      "keyed": "+",
+      "text": "Get started quickly on doing a job.",
+      "language": "en"
+    },
+    {
+      "num": "173",
+      "factor": "Conscientiousness",
+      "facet": "Diligence",
+      "keyed": "+",
+      "text": "Am exacting in my work.",
+      "language": "en"
+    },
+    {
+      "num": "174",
+      "factor": "Conscientiousness",
+      "facet": "Diligence",
+      "keyed": "+",
+      "text": "Work hard.",
+      "language": "en"
+    },
+    {
+      "num": "175",
+      "factor": "Conscientiousness",
+      "facet": "Diligence",
+      "keyed": "+",
+      "text": "Complete tasks successfully.",
+      "language": "en"
+    },
+    {
+      "num": "176",
+      "factor": "Conscientiousness",
+      "facet": "Diligence",
+      "keyed": "-",
+      "text": "Do just enough work to get by.",
+      "language": "en"
+    },
+    {
+      "num": "177",
+      "factor": "Conscientiousness",
+      "facet": "Diligence",
+      "keyed": "-",
+      "text": "Stop when work becomes too difficult.",
+      "language": "en"
+    },
+    {
+      "num": "178",
+      "factor": "Conscientiousness",
+      "facet": "Diligence",
+      "keyed": "-",
+      "text": "Do too little work.",
+      "language": "en"
+    },
+    {
+      "num": "179",
+      "factor": "Conscientiousness",
+      "facet": "Diligence",
+      "keyed": "-",
+      "text": "Hang around doing nothing.",
+      "language": "en"
+    },
+    {
+      "num": "180",
+      "factor": "Conscientiousness",
+      "facet": "Diligence",
+      "keyed": "-",
+      "text": "Quickly lose interest in the tasks I start.",
+      "language": "en"
+    },
+    {
+      "num": "181",
+      "factor": "Conscientiousness",
+      "facet": "Perfectionism",
+      "keyed": "+",
+      "text": "Pay attention to details.",
+      "language": "en"
+    },
+    {
+      "num": "182",
+      "factor": "Conscientiousness",
+      "facet": "Perfectionism",
+      "keyed": "+",
+      "text": "Continue until everything is perfect.",
+      "language": "en"
+    },
+    {
+      "num": "183",
+      "factor": "Conscientiousness",
+      "facet": "Perfectionism",
+      "keyed": "+",
+      "text": "Have an eye for detail.",
+      "language": "en"
+    },
+    {
+      "num": "184",
+      "factor": "Conscientiousness",
+      "facet": "Perfectionism",
+      "keyed": "+",
+      "text": "Want every detail taken care of.",
+      "language": "en"
+    },
+    {
+      "num": "185",
+      "factor": "Conscientiousness",
+      "facet": "Perfectionism",
+      "keyed": "+",
+      "text": "Dislike imperfect work.",
+      "language": "en"
+    },
+    {
+      "num": "186",
+      "factor": "Conscientiousness",
+      "facet": "Perfectionism",
+      "keyed": "+",
+      "text": "Want everything to add up perfectly.",
+      "language": "en"
+    },
+    {
+      "num": "187",
+      "factor": "Conscientiousness",
+      "facet": "Perfectionism",
+      "keyed": "+",
+      "text": "Detect mistakes.",
+      "language": "en"
+    },
+    {
+      "num": "188",
+      "factor": "Conscientiousness",
+      "facet": "Perfectionism",
+      "keyed": "+",
+      "text": "Demand quality.",
+      "language": "en"
+    },
+    {
+      "num": "189",
+      "factor": "Conscientiousness",
+      "facet": "Perfectionism",
+      "keyed": "-",
+      "text": "Pay too little attention to details.",
+      "language": "en"
+    },
+    {
+      "num": "190",
+      "factor": "Conscientiousness",
+      "facet": "Perfectionism",
+      "keyed": "-",
+      "text": "Prefer to just let things happen.",
+      "language": "en"
+    },
+    {
+      "num": "191",
+      "factor": "Conscientiousness",
+      "facet": "Prudence",
+      "keyed": "+",
+      "text": "Avoid mistakes.",
+      "language": "en"
+    },
+    {
+      "num": "192",
+      "factor": "Conscientiousness",
+      "facet": "Prudence",
+      "keyed": "+",
+      "text": "Make plans and stick to them.",
+      "language": "en"
+    },
+    {
+      "num": "193",
+      "factor": "Conscientiousness",
+      "facet": "Prudence",
+      "keyed": "+",
+      "text": "Do things according to a plan.",
+      "language": "en"
+    },
+    {
+      "num": "194",
+      "factor": "Conscientiousness",
+      "facet": "Prudence",
+      "keyed": "-",
+      "text": "Jump into things without thinking.",
+      "language": "en"
+    },
+    {
+      "num": "195",
+      "factor": "Conscientiousness",
+      "facet": "Prudence",
+      "keyed": "-",
+      "text": "Do things without thinking of the consequences.",
+      "language": "en"
+    },
+    {
+      "num": "196",
+      "factor": "Conscientiousness",
+      "facet": "Prudence",
+      "keyed": "-",
+      "text": "Make rash decisions.",
+      "language": "en"
+    },
+    {
+      "num": "197",
+      "factor": "Conscientiousness",
+      "facet": "Prudence",
+      "keyed": "-",
+      "text": "Act impulsively when something is bothering me.",
+      "language": "en"
+    },
+    {
+      "num": "198",
+      "factor": "Conscientiousness",
+      "facet": "Prudence",
+      "keyed": "-",
+      "text": "Make careless mistakes.",
+      "language": "en"
+    },
+    {
+      "num": "199",
+      "factor": "Conscientiousness",
+      "facet": "Prudence",
+      "keyed": "-",
+      "text": "Don't know why I do some of the things I do.",
+      "language": "en"
+    },
+    {
+      "num": "200",
+      "factor": "Conscientiousness",
+      "facet": "Prudence",
+      "keyed": "-",
+      "text": "Make a fool of myself.",
+      "language": "en"
+    },
+    {
+      "num": "201",
+      "factor": "Openness to Experience",
+      "facet": "Aesthetic Appreciation",
+      "keyed": "+",
+      "text": "Believe in the importance of art.",
+      "language": "en"
+    },
+    {
+      "num": "202",
+      "factor": "Openness to Experience",
+      "facet": "Aesthetic Appreciation",
+      "keyed": "+",
+      "text": "Get deeply immersed in music.",
+      "language": "en"
+    },
+    {
+      "num": "203",
+      "factor": "Openness to Experience",
+      "facet": "Aesthetic Appreciation",
+      "keyed": "+",
+      "text": "See beauty in things that others might not notice.",
+      "language": "en"
+    },
+    {
+      "num": "204",
+      "factor": "Openness to Experience",
+      "facet": "Aesthetic Appreciation",
+      "keyed": "+",
+      "text": "Enjoy feeling \"close to the earth.\"",
+      "language": "en"
+    },
+    {
+      "num": "205",
+      "factor": "Openness to Experience",
+      "facet": "Aesthetic Appreciation",
+      "keyed": "+",
+      "text": "Have read the great literary classics.",
+      "language": "en"
+    },
+    {
+      "num": "206",
+      "factor": "Openness to Experience",
+      "facet": "Aesthetic Appreciation",
+      "keyed": "-",
+      "text": "Do not like art.",
+      "language": "en"
+    },
+    {
+      "num": "207",
+      "factor": "Openness to Experience",
+      "facet": "Aesthetic Appreciation",
+      "keyed": "-",
+      "text": "Seldom notice the emotional aspects of paintings and pictures.",
+      "language": "en"
+    },
+    {
+      "num": "208",
+      "factor": "Openness to Experience",
+      "facet": "Aesthetic Appreciation",
+      "keyed": "-",
+      "text": "Do not like poetry.",
+      "language": "en"
+    },
+    {
+      "num": "209",
+      "factor": "Openness to Experience",
+      "facet": "Aesthetic Appreciation",
+      "keyed": "-",
+      "text": "Do not like concerts.",
+      "language": "en"
+    },
+    {
+      "num": "210",
+      "factor": "Openness to Experience",
+      "facet": "Aesthetic Appreciation",
+      "keyed": "-",
+      "text": "Do not enjoy watching dance performances.",
+      "language": "en"
+    },
+    {
+      "num": "211",
+      "factor": "Openness to Experience",
+      "facet": "Inquisitiveness",
+      "keyed": "+",
+      "text": "Am interested in science.",
+      "language": "en"
+    },
+    {
+      "num": "212",
+      "factor": "Openness to Experience",
+      "facet": "Inquisitiveness",
+      "keyed": "+",
+      "text": "Would love to explore strange places.",
+      "language": "en"
+    },
+    {
+      "num": "213",
+      "factor": "Openness to Experience",
+      "facet": "Inquisitiveness",
+      "keyed": "+",
+      "text": "Enjoy intellectual games.",
+      "language": "en"
+    },
+    {
+      "num": "214",
+      "factor": "Openness to Experience",
+      "facet": "Inquisitiveness",
+      "keyed": "+",
+      "text": "Love to read challenging material.",
+      "language": "en"
+    },
+    {
+      "num": "215",
+      "factor": "Openness to Experience",
+      "facet": "Inquisitiveness",
+      "keyed": "+",
+      "text": "Find political discussions interesting.",
+      "language": "en"
+    },
+    {
+      "num": "216",
+      "factor": "Openness to Experience",
+      "facet": "Inquisitiveness",
+      "keyed": "+",
+      "text": "Have a rich vocabulary.",
+      "language": "en"
+    },
+    {
+      "num": "217",
+      "factor": "Openness to Experience",
+      "facet": "Inquisitiveness",
+      "keyed": "-",
+      "text": "Don't know much about history.",
+      "language": "en"
+    },
+    {
+      "num": "218",
+      "factor": "Openness to Experience",
+      "facet": "Inquisitiveness",
+      "keyed": "-",
+      "text": "Avoid difficult reading material.",
+      "language": "en"
+    },
+    {
+      "num": "219",
+      "factor": "Openness to Experience",
+      "facet": "Inquisitiveness",
+      "keyed": "-",
+      "text": "Don't bother worrying about political and social problems.",
+      "language": "en"
+    },
+    {
+      "num": "220",
+      "factor": "Openness to Experience",
+      "facet": "Inquisitiveness",
+      "keyed": "-",
+      "text": "Will not probe deeply into a subject.",
+      "language": "en"
+    },
+    {
+      "num": "221",
+      "factor": "Openness to Experience",
+      "facet": "Creativity",
+      "keyed": "+",
+      "text": "Have a vivid imagination.",
+      "language": "en"
+    },
+    {
+      "num": "222",
+      "factor": "Openness to Experience",
+      "facet": "Creativity",
+      "keyed": "+",
+      "text": "Come up with something new.",
+      "language": "en"
+    },
+    {
+      "num": "223",
+      "factor": "Openness to Experience",
+      "facet": "Creativity",
+      "keyed": "+",
+      "text": "Carry the conversation to a higher level.",
+      "language": "en"
+    },
+    {
+      "num": "224",
+      "factor": "Openness to Experience",
+      "facet": "Creativity",
+      "keyed": "+",
+      "text": "Am full of ideas.",
+      "language": "en"
+    },
+    {
+      "num": "225",
+      "factor": "Openness to Experience",
+      "facet": "Creativity",
+      "keyed": "+",
+      "text": "Love to think up new ways of doing things.",
+      "language": "en"
+    },
+    {
+      "num": "226",
+      "factor": "Openness to Experience",
+      "facet": "Creativity",
+      "keyed": "+",
+      "text": "Have excellent ideas.",
+      "language": "en"
+    },
+    {
+      "num": "227",
+      "factor": "Openness to Experience",
+      "facet": "Creativity",
+      "keyed": "-",
+      "text": "Do not have a good imagination.",
+      "language": "en"
+    },
+    {
+      "num": "228",
+      "factor": "Openness to Experience",
+      "facet": "Creativity",
+      "keyed": "-",
+      "text": "Have difficulty imagining things.",
+      "language": "en"
+    },
+    {
+      "num": "229",
+      "factor": "Openness to Experience",
+      "facet": "Creativity",
+      "keyed": "-",
+      "text": "Have trouble guessing how others will react.",
+      "language": "en"
+    },
+    {
+      "num": "230",
+      "factor": "Openness to Experience",
+      "facet": "Creativity",
+      "keyed": "-",
+      "text": "Seldom experience sudden intuitive insights.",
+      "language": "en"
+    },
+    {
+      "num": "231",
+      "factor": "Openness to Experience",
+      "facet": "Unconventionality",
+      "keyed": "+",
+      "text": "Am considered to be kind of eccentric.",
+      "language": "en"
+    },
+    {
+      "num": "232",
+      "factor": "Openness to Experience",
+      "facet": "Unconventionality",
+      "keyed": "+",
+      "text": "Know that my ideas sometimes surprise people.",
+      "language": "en"
+    },
+    {
+      "num": "233",
+      "factor": "Openness to Experience",
+      "facet": "Unconventionality",
+      "keyed": "+",
+      "text": "Do things that others find strange.",
+      "language": "en"
+    },
+    {
+      "num": "234",
+      "factor": "Openness to Experience",
+      "facet": "Unconventionality",
+      "keyed": "+",
+      "text": "Rebel against authority.",
+      "language": "en"
+    },
+    {
+      "num": "235",
+      "factor": "Openness to Experience",
+      "facet": "Unconventionality",
+      "keyed": "+",
+      "text": "Swim against the current.",
+      "language": "en"
+    },
+    {
+      "num": "236",
+      "factor": "Openness to Experience",
+      "facet": "Unconventionality",
+      "keyed": "-",
+      "text": "Would hate to be considered odd or strange.",
+      "language": "en"
+    },
+    {
+      "num": "237",
+      "factor": "Openness to Experience",
+      "facet": "Unconventionality",
+      "keyed": "-",
+      "text": "Enjoy being thought of as a normal \"mainstream\" person.",
+      "language": "en"
+    },
+    {
+      "num": "238",
+      "factor": "Openness to Experience",
+      "facet": "Unconventionality",
+      "keyed": "-",
+      "text": "Like to be viewed as proper and conventional.",
+      "language": "en"
+    },
+    {
+      "num": "239",
+      "factor": "Openness to Experience",
+      "facet": "Unconventionality",
+      "keyed": "-",
+      "text": "Like to be thought of as a normal kind of person.",
+      "language": "en"
+    },
+    {
+      "num": "240",
+      "factor": "Openness to Experience",
+      "facet": "Unconventionality",
+      "keyed": "-",
+      "text": "Try to avoid complex people.",
+      "language": "en"
+    }
+  ]
+}

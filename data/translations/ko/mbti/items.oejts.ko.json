@@ -1,0 +1,377 @@
+{
+  "_meta": {
+    "instrument": "Open Extended Jungian Type Scales (OEJTS 1.2), Eric Jorgenson — 한국어 번역",
+    "full_name": "Open Extended Jungian Type Scales (OEJTS 1.2), Eric Jorgenson (Korean translation)",
+    "source_url": "https://openpsychometrics.org/tests/OJTS/development/OEJTS1.2.pdf",
+    "license": "CC BY-NC-SA 4.0 (NonCommercial + ShareAlike)",
+    "license_class": "cc",
+    "safe_for_noncommercial_reuse": true,
+    "safe_for_commercial_reuse": false,
+    "reuse_notes": "한국어 번역(파생물). 비상업 1단계용. LLM 번역이며 검증된 한국어 표준검사가 아님 — 실사용 전 재검수 권장. 라이선스는 원본을 따르되 번역은 파생물이므로 CC-SA/연구용 조건이 그대로 적용됨.",
+    "attribution": "Open Extended Jungian Type Scales (OEJTS 1.2), Eric Jorgenson via openpsychometrics.org. CC BY-NC-SA 4.0 (attribution + non-commercial + share-alike). · 한국어 번역: deepinme 번역 워크플로우(2026-07, LLM).",
+    "cautions": "REFERENCE ONLY. The OEJTS *items* are CC BY-NC-SA 4.0 (only openpsychometrics' raw response DATASETS are public domain, NOT the items). NonCommercial + ShareAlike make these UNSAFE to reproduce or rewrite in a commercial product without permission. Kept here for study of a directly-MBTI-mapped bipolar item design. For commercial authoring, base work on the public-domain IPIP set instead. | Design: 32 bipolar 5-point items; 8 per dichotomy; scored by summing per-dichotomy equations against thresholds. | 번역본: 문항 순서·채점방향(keyed)·factor/facet은 원본과 동일. text_en에 원문 병기.",
+    "translation": {
+      "language": "ko",
+      "translated_from": "raw/mbti/items.oejts.json",
+      "method": "LLM faithful translation (deepinme workflow, 2026-07) — 충실 번역이며 '쉬운말 리라이팅'은 별도 단계",
+      "status": "working draft — NOT a validated Korean instrument",
+      "qa": {
+        "fidelity": "high",
+        "naturalness": "natural",
+        "count_match": true,
+        "reviewer_overall": "A clean, high-quality set. All 32 items are present (ids 0-31), each preserving both poles of the bipolar construct and the self-report framing (statements in ~한다/~다 form). Fidelity is high across the board, including the trickier items (5 mechanical mind, 19 what-happened vs what-it-meant, 25 justice vs compassion, 26 yelling, 31 who/what/when vs why). Korean reads natural and idiomatic (미리미리, 바로바로 해치운다, 막판에, 신이 난다, 무던하다, 느긋하다) with no 번역투. The only notes are two very minor polish points (id 3 parallelism, id 30 'perform' nuance) that do not affect what the items measure. Recommend accept as-is or with the two optional touch-ups.",
+        "issues": [
+          {
+            "id": "3",
+            "problem": "First pole adds \"세상을\" (the world) while the second pole uses \"지금 상태\" (current state); the English keeps \"things\"/\"the way things are\" parallel across both poles, so the referent drifts slightly between the two sides. Meaning is preserved but the parallelism is lost.",
+            "suggestion": "있는 그대로 받아들인다 ↔ 지금 상태에 만족하지 못한다 (drop 세상을 so both poles reference the same subject)"
+          },
+          {
+            "id": "30",
+            "problem": "\"likes to perform in front of other people\" is rendered as \"사람들 앞에서 나서는 것을 좋아한다\" (likes to put oneself forward/step up), which broadens away from the on-stage/entertain nuance of \"perform.\" Fine for an extraversion item but slightly generic.",
+            "suggestion": "사람들 앞에서 공연하거나 나서는 것을 좋아한다 ↔ 사람들 앞에서 말하는 것을 피한다 (optional; only if the performing nuance matters)"
+          }
+        ]
+      }
+    },
+    "verification": {
+      "summary": "번역 QA(2차 에이전트): fidelity=high, naturalness=natural, count_match=True, issues=2",
+      "fabrication_risk": "none"
+    },
+    "sources": [
+      {
+        "title": "OEJTS 1.2 (Open Extended Jungian Type Scales)",
+        "url": "https://openpsychometrics.org/tests/OJTS/development/OEJTS1.2.pdf",
+        "license": "CC BY-NC-SA 4.0"
+      },
+      {
+        "title": "Korean translation (deepinme workflow)",
+        "url": "https://openpsychometrics.org/tests/OJTS/development/OEJTS1.2.pdf",
+        "license": "translation is a derivative; see reuse_notes"
+      }
+    ]
+  },
+  "count": 32,
+  "items": [
+    {
+      "text": "목록을 작성한다 ↔ 기억에 의존한다",
+      "text_en": "makes lists ↔ relies on memory",
+      "language": "ko",
+      "dimension": "J/P (Judging–Perceiving)",
+      "keyed": "Q1, + in JP equation: left 'makes lists' = J, right 'relies on memory' = P",
+      "instrument": "OEJTS 1.2 (Open Extended Jungian Type Scales)",
+      "source": "https://openpsychometrics.org/tests/OJTS/development/OEJTS1.2.pdf",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "text": "회의적이다 ↔ 믿고 싶어 한다",
+      "text_en": "sceptical ↔ wants to believe",
+      "language": "ko",
+      "dimension": "T/F (Thinking–Feeling)",
+      "keyed": "Q2, − in FT equation: left 'sceptical' = T, right 'wants to believe' = F",
+      "instrument": "OEJTS 1.2 (Open Extended Jungian Type Scales)",
+      "source": "https://openpsychometrics.org/tests/OJTS/development/OEJTS1.2.pdf",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "text": "혼자 있는 시간을 지루해한다 ↔ 혼자 있는 시간이 필요하다",
+      "text_en": "bored by time alone ↔ needs time alone",
+      "language": "ko",
+      "dimension": "E/I (Extraversion–Introversion)",
+      "keyed": "Q3, − in IE equation: left 'bored by time alone' = E, right 'needs time alone' = I",
+      "instrument": "OEJTS 1.2 (Open Extended Jungian Type Scales)",
+      "source": "https://openpsychometrics.org/tests/OJTS/development/OEJTS1.2.pdf",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "text": "세상을 있는 그대로 받아들인다 ↔ 지금 상태에 만족하지 못한다",
+      "text_en": "accepts things as they are ↔ unsatisfied with the ways things are",
+      "language": "ko",
+      "dimension": "S/N (Sensing–Intuition)",
+      "keyed": "Q4, + in SN equation: left 'accepts things as they are' = S, right 'unsatisfied with the ways things are' = N",
+      "instrument": "OEJTS 1.2 (Open Extended Jungian Type Scales)",
+      "source": "https://openpsychometrics.org/tests/OJTS/development/OEJTS1.2.pdf",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "text": "방을 깨끗하게 유지한다 ↔ 물건을 아무 데나 둔다",
+      "text_en": "keeps a clean room ↔ just puts stuff where ever",
+      "language": "ko",
+      "dimension": "J/P (Judging–Perceiving)",
+      "keyed": "Q5, + in JP equation: left 'keeps a clean room' = J, right 'just puts stuff where ever' = P",
+      "instrument": "OEJTS 1.2 (Open Extended Jungian Type Scales)",
+      "source": "https://openpsychometrics.org/tests/OJTS/development/OEJTS1.2.pdf",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "text": "'로봇 같다'는 말을 모욕으로 여긴다 ↔ 기계처럼 사고하려고 애쓴다",
+      "text_en": "thinks \"robotic\" is an insult ↔ strives to have a mechanical mind",
+      "language": "ko",
+      "dimension": "T/F (Thinking–Feeling)",
+      "keyed": "Q6, + in FT equation: left 'thinks robotic is an insult' = F, right 'strives to have a mechanical mind' = T",
+      "instrument": "OEJTS 1.2 (Open Extended Jungian Type Scales)",
+      "source": "https://openpsychometrics.org/tests/OJTS/development/OEJTS1.2.pdf",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "text": "활기차다 ↔ 느긋하다",
+      "text_en": "energetic ↔ mellow",
+      "language": "ko",
+      "dimension": "E/I (Extraversion–Introversion)",
+      "keyed": "Q7, − in IE equation: left 'energetic' = E, right 'mellow' = I",
+      "instrument": "OEJTS 1.2 (Open Extended Jungian Type Scales)",
+      "source": "https://openpsychometrics.org/tests/OJTS/development/OEJTS1.2.pdf",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "text": "객관식 시험을 선호한다 ↔ 서술형 답안을 선호한다",
+      "text_en": "prefer to take multiple choice test ↔ prefer essay answers",
+      "language": "ko",
+      "dimension": "S/N (Sensing–Intuition)",
+      "keyed": "Q8, + in SN equation: left 'prefer multiple choice test' = S, right 'prefer essay answers' = N",
+      "instrument": "OEJTS 1.2 (Open Extended Jungian Type Scales)",
+      "source": "https://openpsychometrics.org/tests/OJTS/development/OEJTS1.2.pdf",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "text": "무질서하다 ↔ 체계적이다",
+      "text_en": "chaotic ↔ organized",
+      "language": "ko",
+      "dimension": "J/P (Judging–Perceiving)",
+      "keyed": "Q9, − in JP equation: left 'chaotic' = P, right 'organized' = J",
+      "instrument": "OEJTS 1.2 (Open Extended Jungian Type Scales)",
+      "source": "https://openpsychometrics.org/tests/OJTS/development/OEJTS1.2.pdf",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "text": "쉽게 상처받는다 ↔ 무던하다",
+      "text_en": "easily hurt ↔ thick-skinned",
+      "language": "ko",
+      "dimension": "T/F (Thinking–Feeling)",
+      "keyed": "Q10, + in FT equation: left 'easily hurt' = F, right 'thick-skinned' = T",
+      "instrument": "OEJTS 1.2 (Open Extended Jungian Type Scales)",
+      "source": "https://openpsychometrics.org/tests/OJTS/development/OEJTS1.2.pdf",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "text": "여럿이 함께할 때 가장 능률이 오른다 ↔ 혼자일 때 가장 능률이 오른다",
+      "text_en": "works best in groups ↔ works best alone",
+      "language": "ko",
+      "dimension": "E/I (Extraversion–Introversion)",
+      "keyed": "Q11, − in IE equation: left 'works best in groups' = E, right 'works best alone' = I",
+      "instrument": "OEJTS 1.2 (Open Extended Jungian Type Scales)",
+      "source": "https://openpsychometrics.org/tests/OJTS/development/OEJTS1.2.pdf",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "text": "현재에 집중한다 ↔ 미래에 집중한다",
+      "text_en": "focused on the present ↔ focused on the future",
+      "language": "ko",
+      "dimension": "S/N (Sensing–Intuition)",
+      "keyed": "Q12, + in SN equation: left 'focused on the present' = S, right 'focused on the future' = N",
+      "instrument": "OEJTS 1.2 (Open Extended Jungian Type Scales)",
+      "source": "https://openpsychometrics.org/tests/OJTS/development/OEJTS1.2.pdf",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "text": "미리미리 계획한다 ↔ 막판에 계획한다",
+      "text_en": "plans far ahead ↔ plans at the last minute",
+      "language": "ko",
+      "dimension": "J/P (Judging–Perceiving)",
+      "keyed": "Q13, + in JP equation: left 'plans far ahead' = J, right 'plans at the last minute' = P",
+      "instrument": "OEJTS 1.2 (Open Extended Jungian Type Scales)",
+      "source": "https://openpsychometrics.org/tests/OJTS/development/OEJTS1.2.pdf",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "text": "사람들의 존경을 원한다 ↔ 사람들의 사랑을 원한다",
+      "text_en": "wants people's respect ↔ wants their love",
+      "language": "ko",
+      "dimension": "T/F (Thinking–Feeling)",
+      "keyed": "Q14, − in FT equation: left 'wants people's respect' = T, right 'wants their love' = F",
+      "instrument": "OEJTS 1.2 (Open Extended Jungian Type Scales)",
+      "source": "https://openpsychometrics.org/tests/OJTS/development/OEJTS1.2.pdf",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "text": "파티에 가면 지친다 ↔ 파티에 가면 신이 난다",
+      "text_en": "gets worn out by parties ↔ gets fired up by parties",
+      "language": "ko",
+      "dimension": "E/I (Extraversion–Introversion)",
+      "keyed": "Q15, + in IE equation: left 'gets worn out by parties' = I, right 'gets fired up by parties' = E",
+      "instrument": "OEJTS 1.2 (Open Extended Jungian Type Scales)",
+      "source": "https://openpsychometrics.org/tests/OJTS/development/OEJTS1.2.pdf",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "text": "무리에 잘 어우러진다 ↔ 눈에 띈다",
+      "text_en": "fits in ↔ stands out",
+      "language": "ko",
+      "dimension": "S/N (Sensing–Intuition)",
+      "keyed": "Q16, + in SN equation: left 'fits in' = S, right 'stands out' = N",
+      "instrument": "OEJTS 1.2 (Open Extended Jungian Type Scales)",
+      "source": "https://openpsychometrics.org/tests/OJTS/development/OEJTS1.2.pdf",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "text": "선택지를 열어 둔다 ↔ 하나에 전념한다",
+      "text_en": "keeps options open ↔ commits",
+      "language": "ko",
+      "dimension": "J/P (Judging–Perceiving)",
+      "keyed": "Q17, − in JP equation: left 'keeps options open' = P, right 'commits' = J",
+      "instrument": "OEJTS 1.2 (Open Extended Jungian Type Scales)",
+      "source": "https://openpsychometrics.org/tests/OJTS/development/OEJTS1.2.pdf",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "text": "물건을 잘 고치는 사람이 되고 싶다 ↔ 사람을 잘 고쳐 주는 사람이 되고 싶다",
+      "text_en": "wants to be good at fixing things ↔ wants to be good at fixing people",
+      "language": "ko",
+      "dimension": "T/F (Thinking–Feeling)",
+      "keyed": "Q18, − in FT equation: left 'fixing things' = T, right 'fixing people' = F",
+      "instrument": "OEJTS 1.2 (Open Extended Jungian Type Scales)",
+      "source": "https://openpsychometrics.org/tests/OJTS/development/OEJTS1.2.pdf",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "text": "말을 더 많이 한다 ↔ 더 많이 듣는다",
+      "text_en": "talks more ↔ listens more",
+      "language": "ko",
+      "dimension": "E/I (Extraversion–Introversion)",
+      "keyed": "Q19, − in IE equation: left 'talks more' = E, right 'listens more' = I",
+      "instrument": "OEJTS 1.2 (Open Extended Jungian Type Scales)",
+      "source": "https://openpsychometrics.org/tests/OJTS/development/OEJTS1.2.pdf",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "text": "어떤 일을 이야기할 때 무슨 일이 있었는지를 전한다 ↔ 어떤 일을 이야기할 때 그 일이 어떤 의미였는지를 전한다",
+      "text_en": "when describing an event, will tell people what happened ↔ when describing an event, will tell people what it meant",
+      "language": "ko",
+      "dimension": "S/N (Sensing–Intuition)",
+      "keyed": "Q20, + in SN equation: left 'tell what happened' = S, right 'tell what it meant' = N",
+      "instrument": "OEJTS 1.2 (Open Extended Jungian Type Scales)",
+      "source": "https://openpsychometrics.org/tests/OJTS/development/OEJTS1.2.pdf",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "text": "할 일을 바로바로 해치운다 ↔ 일을 미룬다",
+      "text_en": "gets work done right away ↔ procrastinates",
+      "language": "ko",
+      "dimension": "J/P (Judging–Perceiving)",
+      "keyed": "Q21, + in JP equation: left 'gets work done right away' = J, right 'procrastinates' = P",
+      "instrument": "OEJTS 1.2 (Open Extended Jungian Type Scales)",
+      "source": "https://openpsychometrics.org/tests/OJTS/development/OEJTS1.2.pdf",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "text": "가슴이 시키는 대로 한다 ↔ 머리가 시키는 대로 한다",
+      "text_en": "follows the heart ↔ follows the head",
+      "language": "ko",
+      "dimension": "T/F (Thinking–Feeling)",
+      "keyed": "Q22, + in FT equation: left 'follows the heart' = F, right 'follows the head' = T",
+      "instrument": "OEJTS 1.2 (Open Extended Jungian Type Scales)",
+      "source": "https://openpsychometrics.org/tests/OJTS/development/OEJTS1.2.pdf",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "text": "집에 머문다 ↔ 밖으로 나가 논다",
+      "text_en": "stays at home ↔ goes out on the town",
+      "language": "ko",
+      "dimension": "E/I (Extraversion–Introversion)",
+      "keyed": "Q23, + in IE equation: left 'stays at home' = I, right 'goes out on the town' = E",
+      "instrument": "OEJTS 1.2 (Open Extended Jungian Type Scales)",
+      "source": "https://openpsychometrics.org/tests/OJTS/development/OEJTS1.2.pdf",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "text": "큰 그림을 보고 싶어 한다 ↔ 세부 사항을 알고 싶어 한다",
+      "text_en": "wants the big picture ↔ wants the details",
+      "language": "ko",
+      "dimension": "S/N (Sensing–Intuition)",
+      "keyed": "Q24, − in SN equation: left 'wants the big picture' = N, right 'wants the details' = S",
+      "instrument": "OEJTS 1.2 (Open Extended Jungian Type Scales)",
+      "source": "https://openpsychometrics.org/tests/OJTS/development/OEJTS1.2.pdf",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "text": "즉흥적으로 한다 ↔ 미리 준비한다",
+      "text_en": "improvises ↔ prepares",
+      "language": "ko",
+      "dimension": "J/P (Judging–Perceiving)",
+      "keyed": "Q25, − in JP equation: left 'improvises' = P, right 'prepares' = J",
+      "instrument": "OEJTS 1.2 (Open Extended Jungian Type Scales)",
+      "source": "https://openpsychometrics.org/tests/OJTS/development/OEJTS1.2.pdf",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "text": "도덕의 기준을 정의에 둔다 ↔ 도덕의 기준을 연민에 둔다",
+      "text_en": "bases morality on justice ↔ bases morality on compassion",
+      "language": "ko",
+      "dimension": "T/F (Thinking–Feeling)",
+      "keyed": "Q26, − in FT equation: left 'bases morality on justice' = T, right 'bases morality on compassion' = F",
+      "instrument": "OEJTS 1.2 (Open Extended Jungian Type Scales)",
+      "source": "https://openpsychometrics.org/tests/OJTS/development/OEJTS1.2.pdf",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "text": "크게 소리치는 것을 어려워한다 ↔ 멀리 있는 사람을 큰 소리로 부르는 것이 자연스럽다",
+      "text_en": "finds it difficult to yell very loudly ↔ yelling to others when they are far away comes naturally",
+      "language": "ko",
+      "dimension": "E/I (Extraversion–Introversion)",
+      "keyed": "Q27, + in IE equation: left 'finds it difficult to yell' = I, right 'yelling comes naturally' = E",
+      "instrument": "OEJTS 1.2 (Open Extended Jungian Type Scales)",
+      "source": "https://openpsychometrics.org/tests/OJTS/development/OEJTS1.2.pdf",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "text": "이론적이다 ↔ 경험적이다",
+      "text_en": "theoretical ↔ empirical",
+      "language": "ko",
+      "dimension": "S/N (Sensing–Intuition)",
+      "keyed": "Q28, − in SN equation: left 'theoretical' = N, right 'empirical' = S",
+      "instrument": "OEJTS 1.2 (Open Extended Jungian Type Scales)",
+      "source": "https://openpsychometrics.org/tests/OJTS/development/OEJTS1.2.pdf",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "text": "열심히 일한다 ↔ 열심히 논다",
+      "text_en": "works hard ↔ plays hard",
+      "language": "ko",
+      "dimension": "J/P (Judging–Perceiving)",
+      "keyed": "Q29, + in JP equation: left 'works hard' = J, right 'plays hard' = P",
+      "instrument": "OEJTS 1.2 (Open Extended Jungian Type Scales)",
+      "source": "https://openpsychometrics.org/tests/OJTS/development/OEJTS1.2.pdf",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "text": "감정을 불편해한다 ↔ 감정을 소중히 여긴다",
+      "text_en": "uncomfortable with emotions ↔ values emotions",
+      "language": "ko",
+      "dimension": "T/F (Thinking–Feeling)",
+      "keyed": "Q30, − in FT equation: left 'uncomfortable with emotions' = T, right 'values emotions' = F",
+      "instrument": "OEJTS 1.2 (Open Extended Jungian Type Scales)",
+      "source": "https://openpsychometrics.org/tests/OJTS/development/OEJTS1.2.pdf",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "text": "사람들 앞에서 나서는 것을 좋아한다 ↔ 사람들 앞에서 말하는 것을 피한다",
+      "text_en": "likes to perform in front of other people ↔ avoids public speaking",
+      "language": "ko",
+      "dimension": "E/I (Extraversion–Introversion)",
+      "keyed": "Q31, − in IE equation: left 'likes to perform' = E, right 'avoids public speaking' = I",
+      "instrument": "OEJTS 1.2 (Open Extended Jungian Type Scales)",
+      "source": "https://openpsychometrics.org/tests/OJTS/development/OEJTS1.2.pdf",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "text": "'누가?', '무엇을?', '언제?'를 알고 싶어 한다 ↔ '왜?'를 알고 싶어 한다",
+      "text_en": "likes to know \"who?\", \"what?\", \"when?\" ↔ likes to know \"why?\"",
+      "language": "ko",
+      "dimension": "S/N (Sensing–Intuition)",
+      "keyed": "Q32, + in SN equation: left 'likes to know who/what/when' = S, right 'likes to know why' = N",
+      "instrument": "OEJTS 1.2 (Open Extended Jungian Type Scales)",
+      "source": "https://openpsychometrics.org/tests/OJTS/development/OEJTS1.2.pdf",
+      "license": "CC BY-NC-SA 4.0"
+    }
+  ]
+}

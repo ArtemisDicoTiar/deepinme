@@ -1,0 +1,315 @@
+{
+  "_meta": {
+    "instrument": "Open Extended Jungian Type Scales (OEJTS 1.2), Eric Jorgenson",
+    "full_name": "Open Extended Jungian Type Scales (OEJTS 1.2), Eric Jorgenson",
+    "source_url": "https://openpsychometrics.org/tests/OJTS/development/OEJTS1.2.pdf",
+    "license": "CC BY-NC-SA 4.0 (NonCommercial + ShareAlike)",
+    "license_class": "cc",
+    "safe_for_noncommercial_reuse": true,
+    "safe_for_commercial_reuse": false,
+    "attribution": "Open Extended Jungian Type Scales (OEJTS 1.2), Eric Jorgenson via openpsychometrics.org. CC BY-NC-SA 4.0 (attribution + non-commercial + share-alike).",
+    "cautions": "REFERENCE ONLY. The OEJTS *items* are CC BY-NC-SA 4.0 (only openpsychometrics' raw response DATASETS are public domain, NOT the items). NonCommercial + ShareAlike make these UNSAFE to reproduce or rewrite in a commercial product without permission. Kept here for study of a directly-MBTI-mapped bipolar item design. For commercial authoring, base work on the public-domain IPIP set instead. | Design: 32 bipolar 5-point items; 8 per dichotomy; scored by summing per-dichotomy equations against thresholds.",
+    "verification": {
+      "summary": "adversarially fact-checked by a second agent against primary sources (deepinme research workflow, 2026-07) — 32/32 items match official PDF; licence corrected from the task's public-domain premise to CC BY-NC-SA 4.0",
+      "fabrication_risk": "low"
+    },
+    "sources": [
+      {
+        "title": "OEJTS 1.2 (Open Extended Jungian Type Scales)",
+        "url": "https://openpsychometrics.org/tests/OJTS/development/OEJTS1.2.pdf",
+        "license": "CC BY-NC-SA 4.0"
+      }
+    ]
+  },
+  "count": 32,
+  "items": [
+    {
+      "instrument": "OEJTS 1.2 (Open Extended Jungian Type Scales)",
+      "text": "makes lists ↔ relies on memory",
+      "language": "en",
+      "dimension": "J/P (Judging–Perceiving)",
+      "keyed": "Q1, + in JP equation: left 'makes lists' = J, right 'relies on memory' = P",
+      "source": "https://openpsychometrics.org/tests/OJTS/development/OEJTS1.2.pdf",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "instrument": "OEJTS 1.2 (Open Extended Jungian Type Scales)",
+      "text": "sceptical ↔ wants to believe",
+      "language": "en",
+      "dimension": "T/F (Thinking–Feeling)",
+      "keyed": "Q2, − in FT equation: left 'sceptical' = T, right 'wants to believe' = F",
+      "source": "https://openpsychometrics.org/tests/OJTS/development/OEJTS1.2.pdf",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "instrument": "OEJTS 1.2 (Open Extended Jungian Type Scales)",
+      "text": "bored by time alone ↔ needs time alone",
+      "language": "en",
+      "dimension": "E/I (Extraversion–Introversion)",
+      "keyed": "Q3, − in IE equation: left 'bored by time alone' = E, right 'needs time alone' = I",
+      "source": "https://openpsychometrics.org/tests/OJTS/development/OEJTS1.2.pdf",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "instrument": "OEJTS 1.2 (Open Extended Jungian Type Scales)",
+      "text": "accepts things as they are ↔ unsatisfied with the ways things are",
+      "language": "en",
+      "dimension": "S/N (Sensing–Intuition)",
+      "keyed": "Q4, + in SN equation: left 'accepts things as they are' = S, right 'unsatisfied with the ways things are' = N",
+      "source": "https://openpsychometrics.org/tests/OJTS/development/OEJTS1.2.pdf",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "instrument": "OEJTS 1.2 (Open Extended Jungian Type Scales)",
+      "text": "keeps a clean room ↔ just puts stuff where ever",
+      "language": "en",
+      "dimension": "J/P (Judging–Perceiving)",
+      "keyed": "Q5, + in JP equation: left 'keeps a clean room' = J, right 'just puts stuff where ever' = P",
+      "source": "https://openpsychometrics.org/tests/OJTS/development/OEJTS1.2.pdf",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "instrument": "OEJTS 1.2 (Open Extended Jungian Type Scales)",
+      "text": "thinks \"robotic\" is an insult ↔ strives to have a mechanical mind",
+      "language": "en",
+      "dimension": "T/F (Thinking–Feeling)",
+      "keyed": "Q6, + in FT equation: left 'thinks robotic is an insult' = F, right 'strives to have a mechanical mind' = T",
+      "source": "https://openpsychometrics.org/tests/OJTS/development/OEJTS1.2.pdf",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "instrument": "OEJTS 1.2 (Open Extended Jungian Type Scales)",
+      "text": "energetic ↔ mellow",
+      "language": "en",
+      "dimension": "E/I (Extraversion–Introversion)",
+      "keyed": "Q7, − in IE equation: left 'energetic' = E, right 'mellow' = I",
+      "source": "https://openpsychometrics.org/tests/OJTS/development/OEJTS1.2.pdf",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "instrument": "OEJTS 1.2 (Open Extended Jungian Type Scales)",
+      "text": "prefer to take multiple choice test ↔ prefer essay answers",
+      "language": "en",
+      "dimension": "S/N (Sensing–Intuition)",
+      "keyed": "Q8, + in SN equation: left 'prefer multiple choice test' = S, right 'prefer essay answers' = N",
+      "source": "https://openpsychometrics.org/tests/OJTS/development/OEJTS1.2.pdf",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "instrument": "OEJTS 1.2 (Open Extended Jungian Type Scales)",
+      "text": "chaotic ↔ organized",
+      "language": "en",
+      "dimension": "J/P (Judging–Perceiving)",
+      "keyed": "Q9, − in JP equation: left 'chaotic' = P, right 'organized' = J",
+      "source": "https://openpsychometrics.org/tests/OJTS/development/OEJTS1.2.pdf",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "instrument": "OEJTS 1.2 (Open Extended Jungian Type Scales)",
+      "text": "easily hurt ↔ thick-skinned",
+      "language": "en",
+      "dimension": "T/F (Thinking–Feeling)",
+      "keyed": "Q10, + in FT equation: left 'easily hurt' = F, right 'thick-skinned' = T",
+      "source": "https://openpsychometrics.org/tests/OJTS/development/OEJTS1.2.pdf",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "instrument": "OEJTS 1.2 (Open Extended Jungian Type Scales)",
+      "text": "works best in groups ↔ works best alone",
+      "language": "en",
+      "dimension": "E/I (Extraversion–Introversion)",
+      "keyed": "Q11, − in IE equation: left 'works best in groups' = E, right 'works best alone' = I",
+      "source": "https://openpsychometrics.org/tests/OJTS/development/OEJTS1.2.pdf",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "instrument": "OEJTS 1.2 (Open Extended Jungian Type Scales)",
+      "text": "focused on the present ↔ focused on the future",
+      "language": "en",
+      "dimension": "S/N (Sensing–Intuition)",
+      "keyed": "Q12, + in SN equation: left 'focused on the present' = S, right 'focused on the future' = N",
+      "source": "https://openpsychometrics.org/tests/OJTS/development/OEJTS1.2.pdf",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "instrument": "OEJTS 1.2 (Open Extended Jungian Type Scales)",
+      "text": "plans far ahead ↔ plans at the last minute",
+      "language": "en",
+      "dimension": "J/P (Judging–Perceiving)",
+      "keyed": "Q13, + in JP equation: left 'plans far ahead' = J, right 'plans at the last minute' = P",
+      "source": "https://openpsychometrics.org/tests/OJTS/development/OEJTS1.2.pdf",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "instrument": "OEJTS 1.2 (Open Extended Jungian Type Scales)",
+      "text": "wants people's respect ↔ wants their love",
+      "language": "en",
+      "dimension": "T/F (Thinking–Feeling)",
+      "keyed": "Q14, − in FT equation: left 'wants people's respect' = T, right 'wants their love' = F",
+      "source": "https://openpsychometrics.org/tests/OJTS/development/OEJTS1.2.pdf",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "instrument": "OEJTS 1.2 (Open Extended Jungian Type Scales)",
+      "text": "gets worn out by parties ↔ gets fired up by parties",
+      "language": "en",
+      "dimension": "E/I (Extraversion–Introversion)",
+      "keyed": "Q15, + in IE equation: left 'gets worn out by parties' = I, right 'gets fired up by parties' = E",
+      "source": "https://openpsychometrics.org/tests/OJTS/development/OEJTS1.2.pdf",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "instrument": "OEJTS 1.2 (Open Extended Jungian Type Scales)",
+      "text": "fits in ↔ stands out",
+      "language": "en",
+      "dimension": "S/N (Sensing–Intuition)",
+      "keyed": "Q16, + in SN equation: left 'fits in' = S, right 'stands out' = N",
+      "source": "https://openpsychometrics.org/tests/OJTS/development/OEJTS1.2.pdf",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "instrument": "OEJTS 1.2 (Open Extended Jungian Type Scales)",
+      "text": "keeps options open ↔ commits",
+      "language": "en",
+      "dimension": "J/P (Judging–Perceiving)",
+      "keyed": "Q17, − in JP equation: left 'keeps options open' = P, right 'commits' = J",
+      "source": "https://openpsychometrics.org/tests/OJTS/development/OEJTS1.2.pdf",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "instrument": "OEJTS 1.2 (Open Extended Jungian Type Scales)",
+      "text": "wants to be good at fixing things ↔ wants to be good at fixing people",
+      "language": "en",
+      "dimension": "T/F (Thinking–Feeling)",
+      "keyed": "Q18, − in FT equation: left 'fixing things' = T, right 'fixing people' = F",
+      "source": "https://openpsychometrics.org/tests/OJTS/development/OEJTS1.2.pdf",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "instrument": "OEJTS 1.2 (Open Extended Jungian Type Scales)",
+      "text": "talks more ↔ listens more",
+      "language": "en",
+      "dimension": "E/I (Extraversion–Introversion)",
+      "keyed": "Q19, − in IE equation: left 'talks more' = E, right 'listens more' = I",
+      "source": "https://openpsychometrics.org/tests/OJTS/development/OEJTS1.2.pdf",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "instrument": "OEJTS 1.2 (Open Extended Jungian Type Scales)",
+      "text": "when describing an event, will tell people what happened ↔ when describing an event, will tell people what it meant",
+      "language": "en",
+      "dimension": "S/N (Sensing–Intuition)",
+      "keyed": "Q20, + in SN equation: left 'tell what happened' = S, right 'tell what it meant' = N",
+      "source": "https://openpsychometrics.org/tests/OJTS/development/OEJTS1.2.pdf",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "instrument": "OEJTS 1.2 (Open Extended Jungian Type Scales)",
+      "text": "gets work done right away ↔ procrastinates",
+      "language": "en",
+      "dimension": "J/P (Judging–Perceiving)",
+      "keyed": "Q21, + in JP equation: left 'gets work done right away' = J, right 'procrastinates' = P",
+      "source": "https://openpsychometrics.org/tests/OJTS/development/OEJTS1.2.pdf",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "instrument": "OEJTS 1.2 (Open Extended Jungian Type Scales)",
+      "text": "follows the heart ↔ follows the head",
+      "language": "en",
+      "dimension": "T/F (Thinking–Feeling)",
+      "keyed": "Q22, + in FT equation: left 'follows the heart' = F, right 'follows the head' = T",
+      "source": "https://openpsychometrics.org/tests/OJTS/development/OEJTS1.2.pdf",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "instrument": "OEJTS 1.2 (Open Extended Jungian Type Scales)",
+      "text": "stays at home ↔ goes out on the town",
+      "language": "en",
+      "dimension": "E/I (Extraversion–Introversion)",
+      "keyed": "Q23, + in IE equation: left 'stays at home' = I, right 'goes out on the town' = E",
+      "source": "https://openpsychometrics.org/tests/OJTS/development/OEJTS1.2.pdf",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "instrument": "OEJTS 1.2 (Open Extended Jungian Type Scales)",
+      "text": "wants the big picture ↔ wants the details",
+      "language": "en",
+      "dimension": "S/N (Sensing–Intuition)",
+      "keyed": "Q24, − in SN equation: left 'wants the big picture' = N, right 'wants the details' = S",
+      "source": "https://openpsychometrics.org/tests/OJTS/development/OEJTS1.2.pdf",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "instrument": "OEJTS 1.2 (Open Extended Jungian Type Scales)",
+      "text": "improvises ↔ prepares",
+      "language": "en",
+      "dimension": "J/P (Judging–Perceiving)",
+      "keyed": "Q25, − in JP equation: left 'improvises' = P, right 'prepares' = J",
+      "source": "https://openpsychometrics.org/tests/OJTS/development/OEJTS1.2.pdf",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "instrument": "OEJTS 1.2 (Open Extended Jungian Type Scales)",
+      "text": "bases morality on justice ↔ bases morality on compassion",
+      "language": "en",
+      "dimension": "T/F (Thinking–Feeling)",
+      "keyed": "Q26, − in FT equation: left 'bases morality on justice' = T, right 'bases morality on compassion' = F",
+      "source": "https://openpsychometrics.org/tests/OJTS/development/OEJTS1.2.pdf",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "instrument": "OEJTS 1.2 (Open Extended Jungian Type Scales)",
+      "text": "finds it difficult to yell very loudly ↔ yelling to others when they are far away comes naturally",
+      "language": "en",
+      "dimension": "E/I (Extraversion–Introversion)",
+      "keyed": "Q27, + in IE equation: left 'finds it difficult to yell' = I, right 'yelling comes naturally' = E",
+      "source": "https://openpsychometrics.org/tests/OJTS/development/OEJTS1.2.pdf",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "instrument": "OEJTS 1.2 (Open Extended Jungian Type Scales)",
+      "text": "theoretical ↔ empirical",
+      "language": "en",
+      "dimension": "S/N (Sensing–Intuition)",
+      "keyed": "Q28, − in SN equation: left 'theoretical' = N, right 'empirical' = S",
+      "source": "https://openpsychometrics.org/tests/OJTS/development/OEJTS1.2.pdf",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "instrument": "OEJTS 1.2 (Open Extended Jungian Type Scales)",
+      "text": "works hard ↔ plays hard",
+      "language": "en",
+      "dimension": "J/P (Judging–Perceiving)",
+      "keyed": "Q29, + in JP equation: left 'works hard' = J, right 'plays hard' = P",
+      "source": "https://openpsychometrics.org/tests/OJTS/development/OEJTS1.2.pdf",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "instrument": "OEJTS 1.2 (Open Extended Jungian Type Scales)",
+      "text": "uncomfortable with emotions ↔ values emotions",
+      "language": "en",
+      "dimension": "T/F (Thinking–Feeling)",
+      "keyed": "Q30, − in FT equation: left 'uncomfortable with emotions' = T, right 'values emotions' = F",
+      "source": "https://openpsychometrics.org/tests/OJTS/development/OEJTS1.2.pdf",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "instrument": "OEJTS 1.2 (Open Extended Jungian Type Scales)",
+      "text": "likes to perform in front of other people ↔ avoids public speaking",
+      "language": "en",
+      "dimension": "E/I (Extraversion–Introversion)",
+      "keyed": "Q31, − in IE equation: left 'likes to perform' = E, right 'avoids public speaking' = I",
+      "source": "https://openpsychometrics.org/tests/OJTS/development/OEJTS1.2.pdf",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "instrument": "OEJTS 1.2 (Open Extended Jungian Type Scales)",
+      "text": "likes to know \"who?\", \"what?\", \"when?\" ↔ likes to know \"why?\"",
+      "language": "en",
+      "dimension": "S/N (Sensing–Intuition)",
+      "keyed": "Q32, + in SN equation: left 'likes to know who/what/when' = S, right 'likes to know why' = N",
+      "source": "https://openpsychometrics.org/tests/OJTS/development/OEJTS1.2.pdf",
+      "license": "CC BY-NC-SA 4.0"
+    }
+  ]
+}

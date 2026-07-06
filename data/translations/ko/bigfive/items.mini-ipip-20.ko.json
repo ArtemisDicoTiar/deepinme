@@ -1,0 +1,253 @@
+{
+  "_meta": {
+    "instrument": "Mini-IPIP — 한국어 번역",
+    "full_name": "Mini-International Personality Item Pool (Mini-IPIP), 20-item short form of the 50-item IPIP Big-Five Factor Markers (Donnellan, Oswald, Baird, & Lucas, 2006) (Korean translation)",
+    "source_url": "https://ipip.ori.org/MiniIPIPKey.htm",
+    "license": "Public domain. Per the official IPIP site (ipip.ori.org): \"The items and scales are in the public domain, which means that one can copy, edit, translate, or use them for any purpose without asking permission and without paying a fee.\" The Mini-IPIP items are drawn from Goldberg's IPIP and are freely usable for commercial and non-commercial purposes.",
+    "license_class": "public_domain",
+    "safe_for_noncommercial_reuse": true,
+    "safe_for_commercial_reuse": true,
+    "reuse_notes": "한국어 번역(파생물). 비상업 1단계용. LLM 번역이며 검증된 한국어 표준검사가 아님 — 실사용 전 재검수 권장. 라이선스는 원본을 따르되 번역은 파생물이므로 CC-SA/연구용 조건이 그대로 적용됨.",
+    "attribution": "Items sourced from the International Personality Item Pool (Goldberg, L. R., et al.), https://ipip.ori.org. Scale developed and validated by Donnellan, M. B., Oswald, F. L., Baird, B. M., & Lucas, R. E. (2006). The Mini-IPIP scales: Tiny-yet-effective measures of the Big Five factors of personality. Psychological Assessment, 18(2), 192-203. Verbatim item text and keying taken from the official IPIP Mini-IPIP Scoring Key. · 한국어 번역: deepinme 번역 워크플로우(2026-07, LLM).",
+    "scoring_notes": "20 items, 4 per Big Five domain. Response scale is a 5-point accuracy scale (1 = Very Inaccurate, 2 = Moderately Inaccurate, 3 = Neither Inaccurate nor Accurate, 4 = Moderately Accurate, 5 = Very Accurate). Domain score = mean (or sum) of its 4 items after reverse-scoring negatively keyed items (reverse: 6 becomes new value = 6 - raw on the 1-5 scale). 11 of 20 items are negatively keyed (items 6, 7, 8, 9, 10, 15, 16, 17, 18, 19, 20 in the administration order below). IPIP-reported internal consistencies (alphas) on the official key: Extraversion .77, Agreeableness .70, Conscientiousness .69, Neuroticism .68, Intellect/Imagination .65. Each IPIP item is completed as a self-description with the implied stem \"I ...\" (e.g., \"[I] Am the life of the party.\").",
+    "cautions": "All 20 item texts and their +/- keying were fetched verbatim from the primary, public-domain IPIP Mini-IPIP Scoring Key (https://ipip.ori.org/MiniIPIPKey.htm), which groups items by factor and labels each \"+ Keyed\" or \"- Keyed\" but does NOT print a 1-20 item number. The numbered administration order (num 1-20) shown here was taken from a secondary source (PsychKit, https://psychkit.org/mini-ipip-big-five-20/); it reproduces the standard Donnellan et al. (2006) presentation order and is fully consistent with the primary source (identical item text, identical factor assignments, identical 11 reverse-keyed items). If exact original ordering is critical, verify against the Donnellan et al. (2006) article appendix. Factor V is labeled \"Intellect/Imagination\" on the IPIP key (following Goldberg); it corresponds to the Big Five \"Openness/Openness to Experience\" domain and some sources (including PsychKit) label it \"Openness\" — same construct. Note: a helper model twice refused to re-transcribe the IPIP key citing \"copyright,\" but this is incorrect — the IPIP is explicitly public domain; the item text used here is from the successful primary fetch. Mini-IPIP measures domain level only and has no facet structure, so facet is left blank for all items. | 번역본: 문항 순서·채점방향(keyed)·factor/facet은 원본과 동일. text_en에 원문 병기.",
+    "translation": {
+      "language": "ko",
+      "translated_from": "raw/bigfive/items.mini-ipip-20.json",
+      "method": "LLM faithful translation (deepinme workflow, 2026-07) — 충실 번역이며 '쉬운말 리라이팅'은 별도 단계",
+      "status": "working draft — NOT a validated Korean instrument",
+      "qa": {
+        "fidelity": "high",
+        "naturalness": "natural",
+        "count_match": true,
+        "reviewer_overall": "깨끗하고 완성도 높은 번역 세트입니다. 20개 항목이 원문과 1:1로 대응하며(count_match), 자기보고 문장 프레이밍(~편이다/~다)과 역채점 문항(6,7,8,10,15,16,17,18,19,20)의 방향성이 일관되게 유지됩니다. 영어에서 유사한 항목쌍(2 공감하다 vs 12 감정을 느끼다, 7 문제 vs 17 사람들, 5 vs 20 상상력)도 적절히 구분·대칭 처리되었습니다. 전반적으로 fidelity는 high, 표현은 자연스럽습니다. 실질 문제는 항목 11의 '여러 다양한' 중복 표현(경미한 어색함)과 항목 12의 '잘' 첨가로 인한 미세한 의미 강화 두 가지뿐이며, 항목 3의 'chores→해야 할 일' 일반화, 항목 9의 'most of the time→평소에'는 한국어 IPIP 관행상 수용 가능한 수준으로 구인을 훼손하지 않습니다.",
+        "issues": [
+          {
+            "id": "11",
+            "problem": "'여러 다양한 사람들'은 '여러'(many)와 '다양한'(various)이 의미상 중복되어 다소 어색합니다.",
+            "suggestion": "파티에서 다양한 사람들과 이야기를 나눈다."
+          },
+          {
+            "id": "12",
+            "problem": "원문 'Feel others' emotions.'에 없는 '잘'(well)이 추가되어 단순한 지각이 아닌 능력/강도 뉘앙스가 생깁니다. 경미하며 공감 구인상 허용 가능하나 원문보다 강해집니다.",
+            "suggestion": "다른 사람의 감정을 느끼는 편이다."
+          }
+        ]
+      }
+    },
+    "verification": {
+      "summary": "번역 QA(2차 에이전트): fidelity=high, naturalness=natural, count_match=True, issues=2",
+      "fabrication_risk": "none"
+    },
+    "sources": [
+      {
+        "title": "Mini-IPIP Scoring Key (official IPIP, primary source for verbatim items and keying)",
+        "url": "https://ipip.ori.org/MiniIPIPKey.htm",
+        "license": "Public domain"
+      },
+      {
+        "title": "ORI - IPIP Home (public-domain statement)",
+        "url": "https://ipip.ori.org/index.htm",
+        "license": "Public domain"
+      },
+      {
+        "title": "Mini-IPIP Big Five (20-item) - PsychKit (numbered administration order, corroborating source)",
+        "url": "https://psychkit.org/mini-ipip-big-five-20/",
+        "license": "Items public domain (IPIP)"
+      },
+      {
+        "title": "Donnellan, Oswald, Baird & Lucas (2006), The Mini-IPIP scales, Psychological Assessment 18(2):192-203 (PubMed)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/16768595/",
+        "license": "Article copyrighted; items public domain"
+      },
+      {
+        "title": "Korean translation (deepinme workflow)",
+        "url": "https://ipip.ori.org/MiniIPIPKey.htm",
+        "license": "translation is a derivative; see reuse_notes"
+      }
+    ]
+  },
+  "count": 20,
+  "items": [
+    {
+      "num": "1",
+      "text": "모임에서 분위기를 주도하는 편이다.",
+      "text_en": "Am the life of the party.",
+      "language": "ko",
+      "factor": "Extraversion",
+      "facet": "",
+      "keyed": "+"
+    },
+    {
+      "num": "2",
+      "text": "다른 사람의 감정에 공감하는 편이다.",
+      "text_en": "Sympathize with others' feelings.",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "facet": "",
+      "keyed": "+"
+    },
+    {
+      "num": "3",
+      "text": "해야 할 일을 곧바로 처리한다.",
+      "text_en": "Get chores done right away.",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "facet": "",
+      "keyed": "+"
+    },
+    {
+      "num": "4",
+      "text": "기분 변화가 잦은 편이다.",
+      "text_en": "Have frequent mood swings.",
+      "language": "ko",
+      "factor": "Neuroticism",
+      "facet": "",
+      "keyed": "+"
+    },
+    {
+      "num": "5",
+      "text": "상상력이 풍부하다.",
+      "text_en": "Have a vivid imagination.",
+      "language": "ko",
+      "factor": "Intellect/Imagination",
+      "facet": "",
+      "keyed": "+"
+    },
+    {
+      "num": "6",
+      "text": "말수가 적은 편이다.",
+      "text_en": "Don't talk a lot.",
+      "language": "ko",
+      "factor": "Extraversion",
+      "facet": "",
+      "keyed": "-"
+    },
+    {
+      "num": "7",
+      "text": "다른 사람의 문제에는 관심이 없다.",
+      "text_en": "Am not interested in other people's problems.",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "facet": "",
+      "keyed": "-"
+    },
+    {
+      "num": "8",
+      "text": "물건을 제자리에 두는 것을 자주 잊어버린다.",
+      "text_en": "Often forget to put things back in their proper place.",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "facet": "",
+      "keyed": "-"
+    },
+    {
+      "num": "9",
+      "text": "평소에 마음이 느긋한 편이다.",
+      "text_en": "Am relaxed most of the time.",
+      "language": "ko",
+      "factor": "Neuroticism",
+      "facet": "",
+      "keyed": "-"
+    },
+    {
+      "num": "10",
+      "text": "추상적인 개념을 이해하는 데 어려움을 느낀다.",
+      "text_en": "Have difficulty understanding abstract ideas.",
+      "language": "ko",
+      "factor": "Intellect/Imagination",
+      "facet": "",
+      "keyed": "-"
+    },
+    {
+      "num": "11",
+      "text": "파티에서 여러 다양한 사람들과 이야기를 나눈다.",
+      "text_en": "Talk to a lot of different people at parties.",
+      "language": "ko",
+      "factor": "Extraversion",
+      "facet": "",
+      "keyed": "+"
+    },
+    {
+      "num": "12",
+      "text": "다른 사람의 감정을 잘 느낀다.",
+      "text_en": "Feel others' emotions.",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "facet": "",
+      "keyed": "+"
+    },
+    {
+      "num": "13",
+      "text": "질서 있고 정돈된 것을 좋아한다.",
+      "text_en": "Like order.",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "facet": "",
+      "keyed": "+"
+    },
+    {
+      "num": "14",
+      "text": "쉽게 기분이 상한다.",
+      "text_en": "Get upset easily.",
+      "language": "ko",
+      "factor": "Neuroticism",
+      "facet": "",
+      "keyed": "+"
+    },
+    {
+      "num": "15",
+      "text": "추상적인 개념에는 관심이 없다.",
+      "text_en": "Am not interested in abstract ideas.",
+      "language": "ko",
+      "factor": "Intellect/Imagination",
+      "facet": "",
+      "keyed": "-"
+    },
+    {
+      "num": "16",
+      "text": "나서지 않고 뒤로 물러나 있는 편이다.",
+      "text_en": "Keep in the background.",
+      "language": "ko",
+      "factor": "Extraversion",
+      "facet": "",
+      "keyed": "-"
+    },
+    {
+      "num": "17",
+      "text": "다른 사람들에게 별로 관심이 없다.",
+      "text_en": "Am not really interested in others.",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "facet": "",
+      "keyed": "-"
+    },
+    {
+      "num": "18",
+      "text": "일을 엉망으로 만들곤 한다.",
+      "text_en": "Make a mess of things.",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "facet": "",
+      "keyed": "-"
+    },
+    {
+      "num": "19",
+      "text": "우울한 기분을 느끼는 일이 거의 없다.",
+      "text_en": "Seldom feel blue.",
+      "language": "ko",
+      "factor": "Neuroticism",
+      "facet": "",
+      "keyed": "-"
+    },
+    {
+      "num": "20",
+      "text": "상상력이 풍부하지 않다.",
+      "text_en": "Do not have a good imagination.",
+      "language": "ko",
+      "factor": "Intellect/Imagination",
+      "facet": "",
+      "keyed": "-"
+    }
+  ]
+}

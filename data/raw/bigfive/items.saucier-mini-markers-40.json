@@ -1,0 +1,326 @@
+{
+  "_meta": {
+    "instrument": "Saucier's Mini-Markers (1994)",
+    "full_name": "Mini-Markers: A Brief Version of Goldberg's Unipolar Big-Five Markers (40 trait-adjective Big Five markers)",
+    "source_url": "https://pages.uoregon.edu/gsaucier/gsau41.pdf",
+    "license": "Copyrighted instrument published in Saucier, G. (1994), Journal of Personality Assessment (Taylor & Francis). The author, Gerard Saucier, distributes the full instrument and scoring key free of charge on his University of Oregon faculty page for non-commercial research/educational use (the page also invites researchers to contact him for normative values). The Mini-Markers is a selected subset of Goldberg's (1992) Big-Five adjective markers, which follow the public-domain/IPIP tradition; the items themselves are single, common English trait adjectives that are not individually copyrightable. Free for non-commercial research and educational use; no commercial license is established.",
+    "license_class": "free_research_noncommercial",
+    "safe_for_noncommercial_reuse": true,
+    "safe_for_commercial_reuse": false,
+    "attribution": "Saucier, G. (1994). Mini-Markers: A brief version of Goldberg's unipolar Big-Five markers. Journal of Personality Assessment, 63(3), 506-516. Item list and scoring key (Table 3: Varimax-Rotated Factor Loadings of 40 Mini-Marker Scale Items, N = 636) retrieved verbatim from the author's University of Oregon faculty page: https://pages.uoregon.edu/gsaucier/gsau41.pdf",
+    "scoring_notes": "40 unipolar trait adjectives, 8 per Big-Five scale. Standard instruction (\"How Accurately Can You Describe Yourself?\") asks respondents to write a number indicating how accurately each trait describes them on a 9-point accuracy rating scale (1 = Extremely Inaccurate ... 9 = Extremely Accurate). Scoring per the author's key: negatively-loading (reverse-keyed) items are reflected (9->1, 8->2, ... 1->9) before summing; the author's preferred method reflects reverse items, sums each scale's 8 items, and divides by 8 for the scale mean. The \"keyed\" field gives the sign of each item's highest varimax loading on its assigned factor from Saucier's Table 3. Factor labels (Saucier): I = Extraversion, II = Agreeableness, III = Conscientiousness, IV = Emotional Stability, V = Intellect or Openness. For Factor IV (Emotional Stability), \"+\" keyed items (Unenvious, Relaxed) indicate emotional stability and \"-\" keyed items indicate neuroticism.",
+    "cautions": "All 40 items and their factor/keying were extracted verbatim from Saucier's own instrument PDF (form plus Table 3), not reconstructed from memory. Notes: (1) The 9-point rating-scale anchor legend was not present as extractable text in the PDF (it appears to have been a graphic); the 1-9 accuracy format is confirmed both by the instrument's own scoring instructions, which reference reflecting values \"[9-->1, 1-->9]\", and by the Saucier (1994) / Goldberg marker tradition. (2) In Table 3 the item is spelled \"Extroverted\" while the administered self-report form prints \"Extraverted\"; the verbatim item as administered is \"Extraverted\". (3) Factor IV is labeled \"Emotional Stability\" by Saucier; much secondary literature labels this pole \"Neuroticism\" and lists Moody/Jealous/etc. as positively keyed on Neuroticism -- keying here is expressed relative to Saucier's Emotional Stability pole (sign of the published loading). (4) This is the original 1994 U.S. Mini-Markers; the \"International English Mini-Markers\" (Thompson, 2008) is a separate, revised 40-item instrument and is NOT reproduced here. (5) \"facet\" is intentionally blank: the Mini-Markers is a domain-level measure with no facet structure.",
+    "corrections_applied": [],
+    "verification": {
+      "fabrication_risk": "none",
+      "item_count_plausible": true,
+      "license_correct_asreported": true,
+      "summary": "adversarially fact-checked by a second agent vs primary sources (deepinme wide-collection workflow, 2026-07)"
+    },
+    "sources": [
+      {
+        "title": "Mini-Markers instrument form and scoring key (Table 3: Varimax-Rotated Factor Loadings of 40 Mini-Marker Scale Items) — Gerard Saucier, University of Oregon",
+        "url": "https://pages.uoregon.edu/gsaucier/gsau41.pdf",
+        "license": "Author-distributed free for non-commercial research/educational use"
+      },
+      {
+        "title": "Saucier, G. (1994). Mini-Markers: A brief version of Goldberg's unipolar Big-Five markers — PubMed record",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/7844738/",
+        "license": "Bibliographic record (public)"
+      },
+      {
+        "title": "Mini-Markers: A Brief Version of Goldberg's Unipolar Big-Five Markers — Journal of Personality Assessment, 63(3) (publisher record)",
+        "url": "https://www.tandfonline.com/doi/abs/10.1207/s15327752jpa6303_8",
+        "license": "Copyrighted, Taylor & Francis"
+      },
+      {
+        "title": "List of Commonly-Used Scales (Saucier Mini-Markers item/factor listing) — Dr. Matt C. Howard",
+        "url": "https://mattchoward.com/list-of-scales/",
+        "license": "Secondary corroborating source"
+      }
+    ]
+  },
+  "count": 40,
+  "items": [
+    {
+      "num": "1",
+      "text": "Bashful",
+      "language": "en",
+      "factor": "Extraversion",
+      "keyed": "-"
+    },
+    {
+      "num": "2",
+      "text": "Bold",
+      "language": "en",
+      "factor": "Extraversion",
+      "keyed": "+"
+    },
+    {
+      "num": "3",
+      "text": "Careless",
+      "language": "en",
+      "factor": "Conscientiousness",
+      "keyed": "-"
+    },
+    {
+      "num": "4",
+      "text": "Cold",
+      "language": "en",
+      "factor": "Agreeableness",
+      "keyed": "-"
+    },
+    {
+      "num": "5",
+      "text": "Complex",
+      "language": "en",
+      "factor": "Intellect/Openness",
+      "keyed": "+"
+    },
+    {
+      "num": "6",
+      "text": "Cooperative",
+      "language": "en",
+      "factor": "Agreeableness",
+      "keyed": "+"
+    },
+    {
+      "num": "7",
+      "text": "Creative",
+      "language": "en",
+      "factor": "Intellect/Openness",
+      "keyed": "+"
+    },
+    {
+      "num": "8",
+      "text": "Deep",
+      "language": "en",
+      "factor": "Intellect/Openness",
+      "keyed": "+"
+    },
+    {
+      "num": "9",
+      "text": "Disorganized",
+      "language": "en",
+      "factor": "Conscientiousness",
+      "keyed": "-"
+    },
+    {
+      "num": "10",
+      "text": "Efficient",
+      "language": "en",
+      "factor": "Conscientiousness",
+      "keyed": "+"
+    },
+    {
+      "num": "11",
+      "text": "Energetic",
+      "language": "en",
+      "factor": "Extraversion",
+      "keyed": "+"
+    },
+    {
+      "num": "12",
+      "text": "Envious",
+      "language": "en",
+      "factor": "Emotional Stability",
+      "keyed": "-"
+    },
+    {
+      "num": "13",
+      "text": "Extraverted",
+      "language": "en",
+      "factor": "Extraversion",
+      "keyed": "+"
+    },
+    {
+      "num": "14",
+      "text": "Fretful",
+      "language": "en",
+      "factor": "Emotional Stability",
+      "keyed": "-"
+    },
+    {
+      "num": "15",
+      "text": "Harsh",
+      "language": "en",
+      "factor": "Agreeableness",
+      "keyed": "-"
+    },
+    {
+      "num": "16",
+      "text": "Imaginative",
+      "language": "en",
+      "factor": "Intellect/Openness",
+      "keyed": "+"
+    },
+    {
+      "num": "17",
+      "text": "Inefficient",
+      "language": "en",
+      "factor": "Conscientiousness",
+      "keyed": "-"
+    },
+    {
+      "num": "18",
+      "text": "Intellectual",
+      "language": "en",
+      "factor": "Intellect/Openness",
+      "keyed": "+"
+    },
+    {
+      "num": "19",
+      "text": "Jealous",
+      "language": "en",
+      "factor": "Emotional Stability",
+      "keyed": "-"
+    },
+    {
+      "num": "20",
+      "text": "Kind",
+      "language": "en",
+      "factor": "Agreeableness",
+      "keyed": "+"
+    },
+    {
+      "num": "21",
+      "text": "Moody",
+      "language": "en",
+      "factor": "Emotional Stability",
+      "keyed": "-"
+    },
+    {
+      "num": "22",
+      "text": "Organized",
+      "language": "en",
+      "factor": "Conscientiousness",
+      "keyed": "+"
+    },
+    {
+      "num": "23",
+      "text": "Philosophical",
+      "language": "en",
+      "factor": "Intellect/Openness",
+      "keyed": "+"
+    },
+    {
+      "num": "24",
+      "text": "Practical",
+      "language": "en",
+      "factor": "Conscientiousness",
+      "keyed": "+"
+    },
+    {
+      "num": "25",
+      "text": "Quiet",
+      "language": "en",
+      "factor": "Extraversion",
+      "keyed": "-"
+    },
+    {
+      "num": "26",
+      "text": "Relaxed",
+      "language": "en",
+      "factor": "Emotional Stability",
+      "keyed": "+"
+    },
+    {
+      "num": "27",
+      "text": "Rude",
+      "language": "en",
+      "factor": "Agreeableness",
+      "keyed": "-"
+    },
+    {
+      "num": "28",
+      "text": "Shy",
+      "language": "en",
+      "factor": "Extraversion",
+      "keyed": "-"
+    },
+    {
+      "num": "29",
+      "text": "Sloppy",
+      "language": "en",
+      "factor": "Conscientiousness",
+      "keyed": "-"
+    },
+    {
+      "num": "30",
+      "text": "Sympathetic",
+      "language": "en",
+      "factor": "Agreeableness",
+      "keyed": "+"
+    },
+    {
+      "num": "31",
+      "text": "Systematic",
+      "language": "en",
+      "factor": "Conscientiousness",
+      "keyed": "+"
+    },
+    {
+      "num": "32",
+      "text": "Talkative",
+      "language": "en",
+      "factor": "Extraversion",
+      "keyed": "+"
+    },
+    {
+      "num": "33",
+      "text": "Temperamental",
+      "language": "en",
+      "factor": "Emotional Stability",
+      "keyed": "-"
+    },
+    {
+      "num": "34",
+      "text": "Touchy",
+      "language": "en",
+      "factor": "Emotional Stability",
+      "keyed": "-"
+    },
+    {
+      "num": "35",
+      "text": "Uncreative",
+      "language": "en",
+      "factor": "Intellect/Openness",
+      "keyed": "-"
+    },
+    {
+      "num": "36",
+      "text": "Unenvious",
+      "language": "en",
+      "factor": "Emotional Stability",
+      "keyed": "+"
+    },
+    {
+      "num": "37",
+      "text": "Unintellectual",
+      "language": "en",
+      "factor": "Intellect/Openness",
+      "keyed": "-"
+    },
+    {
+      "num": "38",
+      "text": "Unsympathetic",
+      "language": "en",
+      "factor": "Agreeableness",
+      "keyed": "-"
+    },
+    {
+      "num": "39",
+      "text": "Warm",
+      "language": "en",
+      "factor": "Agreeableness",
+      "keyed": "+"
+    },
+    {
+      "num": "40",
+      "text": "Withdrawn",
+      "language": "en",
+      "factor": "Extraversion",
+      "keyed": "-"
+    }
+  ]
+}

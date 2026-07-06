@@ -1,0 +1,166 @@
+{
+  "_meta": {
+    "kind": "reference — ORIGINAL plain-language descriptions",
+    "authored": "Descriptions, core fear/desire, passion & virtue are ORIGINAL plain-language summaries written for deepinme (NOT copied from The Enneagram Institute). The English type nicknames (e.g. 'The Reformer') are the widely-used Riso-Hudson subtitles, attributed to The Enneagram Institute; the number->name mapping, centers, wings, and arrows are non-copyrightable facts / classical (Ichazo–Naranjo) tradition.",
+    "attribution": "Type nicknames © The Enneagram Institute (Riso-Hudson); reproduced as short attributed reference labels only.",
+    "safe_for_commercial_reuse": "descriptions=yes (original); nicknames=attributed reference",
+    "caveat": "The Enneagram — and especially arrow dynamics, Levels, and wings — is a widely-taught tradition, NOT empirically validated personality science (unlike Big Five). Present as self-reflection, not diagnosis.",
+    "verified": "adversarially fact-checked by a second agent against primary sources (deepinme research workflow, 2026-07) — arrows/centers/wings independently re-verified against Enneagram Institute; all 9 arrows correct (not reversed)",
+    "license_class": "mixed_original_plus_attributed",
+    "safe_for_noncommercial_reuse": true,
+    "source": "see reference/sources.md and _meta of related item files",
+    "sources": [
+      {
+        "title": "See aggregated sources",
+        "url": "reference/sources.md",
+        "license": "mixed — see file"
+      }
+    ]
+  },
+  "types": [
+    {
+      "type": 1,
+      "name_en": "The Reformer",
+      "name_ko": "개혁가",
+      "gist_ko": "옳고 그름과 원칙을 중시하며, 세상과 자신을 더 나은 상태로 바로잡으려 한다.",
+      "core_fear_ko": "결함이 있거나 나쁜/부패한 사람이 되는 것",
+      "core_desire_ko": "올바르고 정직하며 균형 잡힌 사람이 되는 것",
+      "passion_vice_ko": "분노(억눌린)",
+      "virtue_ko": "평온",
+      "wings": [
+        "1w9",
+        "1w2"
+      ],
+      "stress_arrow_to": 4,
+      "growth_arrow_to": 7
+    },
+    {
+      "type": 2,
+      "name_en": "The Helper",
+      "name_ko": "조력가",
+      "gist_ko": "타인의 필요를 먼저 알아채고 돌보며, 관계 속에서 사랑과 인정을 얻으려 한다.",
+      "core_fear_ko": "사랑받지 못하고 남에게 필요 없는 존재가 되는 것",
+      "core_desire_ko": "사랑받고 누군가에게 꼭 필요한 사람이 되는 것",
+      "passion_vice_ko": "교만",
+      "virtue_ko": "겸손",
+      "wings": [
+        "2w1",
+        "2w3"
+      ],
+      "stress_arrow_to": 8,
+      "growth_arrow_to": 4
+    },
+    {
+      "type": 3,
+      "name_en": "The Achiever",
+      "name_ko": "성취가",
+      "gist_ko": "목표와 성공을 향해 효율적으로 움직이며, 인정받는 이미지를 만들려 한다.",
+      "core_fear_ko": "가치 없거나 실패한 사람으로 보이는 것",
+      "core_desire_ko": "가치 있고 인정받을 만한 사람이 되는 것",
+      "passion_vice_ko": "기만(자기기만)",
+      "virtue_ko": "진실함",
+      "wings": [
+        "3w2",
+        "3w4"
+      ],
+      "stress_arrow_to": 9,
+      "growth_arrow_to": 6
+    },
+    {
+      "type": 4,
+      "name_en": "The Individualist",
+      "name_ko": "예술가(개인주의자)",
+      "gist_ko": "자신만의 정체성과 감정의 깊이를 중시하며, 특별하고 의미 있는 존재이길 원한다.",
+      "core_fear_ko": "정체성이나 의미가 없는 평범한 존재가 되는 것",
+      "core_desire_ko": "자기만의 정체성과 의미를 갖는 것",
+      "passion_vice_ko": "질투(선망)",
+      "virtue_ko": "평정심",
+      "wings": [
+        "4w3",
+        "4w5"
+      ],
+      "stress_arrow_to": 2,
+      "growth_arrow_to": 1
+    },
+    {
+      "type": 5,
+      "name_en": "The Investigator",
+      "name_ko": "탐구가",
+      "gist_ko": "지식과 이해로 세상을 파악하고, 스스로 충분한 역량을 갖춰 안전을 확보하려 한다.",
+      "core_fear_ko": "무능하거나 세상에 압도당하는 것",
+      "core_desire_ko": "유능하고 스스로 충분한 사람이 되는 것",
+      "passion_vice_ko": "탐욕(움켜쥠)",
+      "virtue_ko": "무집착(초연)",
+      "wings": [
+        "5w4",
+        "5w6"
+      ],
+      "stress_arrow_to": 7,
+      "growth_arrow_to": 8
+    },
+    {
+      "type": 6,
+      "name_en": "The Loyalist",
+      "name_ko": "충성가",
+      "gist_ko": "안전과 신뢰를 중시하며, 의지할 지지 기반과 확실함을 찾으려 한다.",
+      "core_fear_ko": "의지할 지지와 안전이 사라지는 것",
+      "core_desire_ko": "안전과 신뢰할 수 있는 지지를 얻는 것",
+      "passion_vice_ko": "두려움",
+      "virtue_ko": "용기",
+      "wings": [
+        "6w5",
+        "6w7"
+      ],
+      "stress_arrow_to": 3,
+      "growth_arrow_to": 9
+    },
+    {
+      "type": 7,
+      "name_en": "The Enthusiast",
+      "name_ko": "열정가",
+      "gist_ko": "즐거움과 가능성을 좇으며, 고통과 제약에서 벗어나 자유와 만족을 누리려 한다.",
+      "core_fear_ko": "고통에 갇히거나 결핍되는 것",
+      "core_desire_ko": "충분히 만족하고 자유로운 상태",
+      "passion_vice_ko": "탐닉(과함)",
+      "virtue_ko": "절제(만족)",
+      "wings": [
+        "7w6",
+        "7w8"
+      ],
+      "stress_arrow_to": 1,
+      "growth_arrow_to": 5
+    },
+    {
+      "type": 8,
+      "name_en": "The Challenger",
+      "name_ko": "도전가",
+      "gist_ko": "힘과 주도권을 중시하며, 자기 삶을 스스로 통제하고 약함으로부터 자신을 지키려 한다.",
+      "core_fear_ko": "타인에게 통제당하거나 해를 입는 것",
+      "core_desire_ko": "자기 삶을 스스로 지배하고 지키는 것",
+      "passion_vice_ko": "정욕(과잉·강렬함)",
+      "virtue_ko": "순수(열린 마음)",
+      "wings": [
+        "8w7",
+        "8w9"
+      ],
+      "stress_arrow_to": 5,
+      "growth_arrow_to": 2
+    },
+    {
+      "type": 9,
+      "name_en": "The Peacemaker",
+      "name_ko": "화합가",
+      "gist_ko": "내면의 평화와 조화를 중시하며, 갈등과 단절을 피해 안정을 유지하려 한다.",
+      "core_fear_ko": "단절과 갈등으로 자신을 잃는 것",
+      "core_desire_ko": "내면의 평화와 연결, 안정을 지키는 것",
+      "passion_vice_ko": "나태(자기망각)",
+      "virtue_ko": "행동(적극적 참여)",
+      "wings": [
+        "9w8",
+        "9w1"
+      ],
+      "stress_arrow_to": 6,
+      "growth_arrow_to": 3
+    }
+  ]
+}

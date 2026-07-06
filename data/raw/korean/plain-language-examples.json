@@ -1,0 +1,66 @@
+{
+  "_meta": {
+    "kind": "ORIGINAL authored examples + guidelines",
+    "note": "번역투 → 쉬운 일상어 리라이팅 예시와 원칙. 어떤 실제 검사에서도 복제하지 않은 순수 창작. deepinme의 핵심 차별점(문항 쉬운말 변환)을 위한 작성 지침.",
+    "safe_for_commercial_reuse": true,
+    "license_class": "original_authored",
+    "safe_for_noncommercial_reuse": true,
+    "attribution": "ORIGINAL authored examples & guidelines (deepinme) — not copied from any test.",
+    "source": "see reference/sources.md and _meta of related item files",
+    "sources": [
+      {
+        "title": "See aggregated sources",
+        "url": "reference/sources.md",
+        "license": "mixed — see file"
+      }
+    ],
+    "verified": "reference data checked in deepinme research workflow (2026-07)"
+  },
+  "examples": {
+    "설명": "아래는 '번역투/딱딱한 학술 문항'을 '쉬운 일상어'로 바꾸는 목표를 보여주기 위해 제가(작성자가) 직접 새로 지어낸 예시입니다. 어떤 실제 검사(MBTI/에니어그램/IPIP/BFI/HEXACO 등)에서도 문장을 베끼지 않았으며, 순수 창작 예시입니다. before는 피해야 할 번역투, after는 권장하는 일상어체입니다.",
+    "원본_여부": "ORIGINAL — 작성자 직접 창작(어떤 검사에서도 복제하지 않음)",
+    "examples": [
+      {
+        "dimension": "외향/에너지",
+        "before": "나는 사회적 상호작용을 통해 에너지를 획득하는 경향이 있다.",
+        "after": "사람들이랑 실컷 어울리고 나면 오히려 기운이 나요.",
+        "note": "'사회적 상호작용/획득' 같은 번역투 명사를 일상 동사로 풂"
+      },
+      {
+        "dimension": "성실성/정리",
+        "before": "나는 과업 수행 시 세부사항에 주의를 기울이는 편이다.",
+        "after": "일할 때 사소한 것도 잘 안 놓치고 챙기는 편이에요.",
+        "note": "'과업 수행/세부사항에 주의' -> 구체적 일상 장면"
+      },
+      {
+        "dimension": "우호성/공감",
+        "before": "나는 타인의 정서 상태에 대한 민감성이 높다.",
+        "after": "옆 사람 기분이 안 좋으면 금방 알아채는 편이에요.",
+        "note": "'정서 상태에 대한 민감성' 추상어 -> 눈에 보이는 행동"
+      },
+      {
+        "dimension": "정서안정/불안",
+        "before": "나는 예기치 못한 상황에서 정서적 동요를 경험한다.",
+        "after": "갑자기 일이 틀어지면 마음이 크게 흔들려요.",
+        "note": "'정서적 동요를 경험' -> 느낌으로 바로 와닿게"
+      },
+      {
+        "dimension": "판단/계획성",
+        "before": "나는 계획 수립 이후 이를 체계적으로 이행하는 경향이 있다.",
+        "after": "한번 계획을 세우면 그대로 차근차근 해나가는 편이에요.",
+        "note": "'수립/이행/체계적' 한자어 나열 -> 부드러운 구어체"
+      }
+    ]
+  },
+  "guidelines": {
+    "설명": "한국어 자기이해 제품용 문항 작성 원칙(작성자 정리)",
+    "원칙": [
+      "번역투 명사구(예: '~에 대한 민감성', '상호작용', '수행')를 동사·상황으로 풀기",
+      "한자어 나열보다 일상 구어체(예: '~하는 편이에요')를 쓰기",
+      "이중부정·수동태를 피하고 '나는 ~한다/~하는 편이다'의 1인칭 능동으로",
+      "한 문항에 한 가지 내용만(이중질문 금지)",
+      "구체적 장면·예시로 응답자가 자기 경험을 떠올리게 하기",
+      "리커트 척도 안내문도 쉬운 말로(예: '전혀 아니다 ~ 매우 그렇다')"
+    ]
+  }
+}

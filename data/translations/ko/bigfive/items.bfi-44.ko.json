@@ -1,0 +1,469 @@
+{
+  "_meta": {
+    "instrument": "BFI — 한국어 번역",
+    "full_name": "Big Five Inventory (BFI-44), John & Srivastava 1999 (Korean translation)",
+    "source_url": "https://db.arabpsychology.com/scales/big-five-inventory-bfi/",
+    "license": "Copyright Oliver P. John (BFI originally John, Donahue, & Kentle, 1991; John & Srivastava, 1999). Not public domain, but made freely available by the Berkeley Personality Lab for non-commercial research, teaching, and personal use; commercial use requires permission.",
+    "license_class": "free_research_noncommercial",
+    "safe_for_noncommercial_reuse": true,
+    "safe_for_commercial_reuse": false,
+    "reuse_notes": "한국어 번역(파생물). 비상업 1단계용. LLM 번역이며 검증된 한국어 표준검사가 아님 — 실사용 전 재검수 권장. 라이선스는 원본을 따르되 번역은 파생물이므로 CC-SA/연구용 조건이 그대로 적용됨.",
+    "attribution": "John, O. P., & Srivastava, S. (1999). The Big Five trait taxonomy: History, measurement, and theoretical perspectives. In L. A. Pervin & O. P. John (Eds.), Handbook of Personality: Theory and Research (2nd ed., pp. 102-138). New York: Guilford Press. Instrument originally: John, O. P., Donahue, E. M., & Kentle, R. L. (1991). The Big Five Inventory - Versions 4a and 54. Berkeley: University of California, Berkeley, Institute of Personality and Social Research. Distributed by the Berkeley Personality Lab. · 한국어 번역: deepinme 번역 워크플로우(2026-07, LLM).",
+    "scoring_notes": "44 items, each rated 1 (Disagree strongly) to 5 (Agree strongly), all sharing the stem \"I see myself as someone who ...\". Item texts here are stored as the phrase that follows that stem, in the instrument's lowercase form (e.g., item 1 reads \"I see myself as someone who is talkative\"). Reverse-keyed items (keyed=minus) are recoded as 6 minus the raw response, then each scale is the mean of its items. Canonical scoring key (R = reverse): Extraversion 1, 6R, 11, 16, 21R, 26, 31R, 36 (8 items); Agreeableness 2R, 7, 12R, 17, 22, 27R, 32, 37R, 42 (9 items); Conscientiousness 3, 8R, 13, 18R, 23R, 28, 33, 38, 43R (9 items); Neuroticism 4, 9R, 14, 19, 24R, 29, 34R, 39 (8 items); Openness 5, 10, 15, 20, 25, 30, 35R, 40, 41R, 44 (10 items). Total 44. The BFI-44 has no facet subscales (facets are a feature of the later BFI-2), so facet is left blank. Keying and item-to-factor mapping were taken verbatim from the Wisconsin ARC / Berkeley scoring key.",
+    "cautions": "Item text was fetched verbatim from db.arabpsychology.com (a psychological-scales reproduction of the BFI-44); its wording matches the canonical John & Srivastava (1999) instrument and was independently corroborated by search snippets for items 28 (\"perseveres until the task is finished\"), 35 (\"prefers work that is routine\"), and 44 (\"is sophisticated in art, music, or literature\"). The original Berkeley Personality Lab (ocf.berkeley.edu/~johnlab) now gates the questionnaire .doc behind a post-survey download and its page could not be scraped directly; the ResearchGate PDF returned HTTP 403. The scoring/keying was confirmed from the University of Wisconsin ARC self-report page (arc.psych.wisc.edu), which reproduces the standard Berkeley key. Source list-formatting capitalized each item's first letter (e.g., \"Is talkative\"); these were normalized to the instrument's lowercase form (\"is talkative\") to read correctly after the shared stem - a formatting normalization only, no wording changed. This is the BFI-44 (John & Srivastava, 1999), distinct from the newer 60-item BFI-2 and the short BFI-10/BFI-S versions. License: copyrighted by Oliver P. John but freely usable for non-commercial research/teaching/personal use, so safe for this stage-1 non-commercial corpus; commercial use would require permission from the copyright holder. | 번역본: 문항 순서·채점방향(keyed)·factor/facet은 원본과 동일. text_en에 원문 병기.",
+    "translation": {
+      "language": "ko",
+      "translated_from": "raw/bigfive/items.bfi-44.json",
+      "method": "LLM faithful translation (deepinme workflow, 2026-07) — 충실 번역이며 '쉬운말 리라이팅'은 별도 단계",
+      "status": "working draft — NOT a validated Korean instrument",
+      "qa": {
+        "fidelity": "high",
+        "naturalness": "natural",
+        "count_match": true,
+        "reviewer_overall": "Clean, high-quality set of 44 translations (ids 1–44 complete, no duplicates). All items preserve the BFI-44 construct meaning, keying direction, and self-report framing, with consistent idiomatic declarative style (~다/~편이다) and no translationese. Reverse-scored items (6, 8, 18, 21, 23, 35, 41, 43) are correctly non-negated. Several renderings are especially good (6, 13, 40, 44). Only two minor nuance losses noted (id 15 'ingenious', id 27 'aloof'), both low-severity and not construct-altering. Minor defensible additions (id 12 자주, id 16 주변에 활기를 불어넣는다) are consistent with trait framing and were not flagged as errors.",
+        "issues": [
+          {
+            "id": "15",
+            "problem": "'ingenious' is rendered as 영리하고(clever/bright), which underplays the inventive/original nuance of 'ingenious'.",
+            "suggestion": "기발하고 생각이 깊다 (or 재기 있고 생각이 깊다) to better capture 'ingenious'."
+          },
+          {
+            "id": "27",
+            "problem": "'aloof' (distant/detached) is translated as 쌀쌀맞게, which reinforces 'cold' (already carried by 차갑다) and loses the 'detached/standoffish' sense.",
+            "suggestion": "차갑고 무심하게(거리를 두고) 굴 때가 있다 to preserve the aloof/detached nuance."
+          }
+        ]
+      }
+    },
+    "verification": {
+      "summary": "번역 QA(2차 에이전트): fidelity=high, naturalness=natural, count_match=True, issues=2",
+      "fabrication_risk": "none"
+    },
+    "sources": [
+      {
+        "title": "Big Five Inventory (BFI) - Psychological Scales & Instruments Database (verbatim 44 item texts)",
+        "url": "https://db.arabpsychology.com/scales/big-five-inventory-bfi/",
+        "license": "Reproduction of copyrighted BFI (Oliver P. John); free for non-commercial research"
+      },
+      {
+        "title": "Big Five Inventory (BFI) - University of Wisconsin Affective Research Cognition (scoring key & reverse-keying)",
+        "url": "https://arc.psych.wisc.edu/self-report/big-five-inventory-bfi/",
+        "license": "Free for non-commercial research; hosts do not hold copyright"
+      },
+      {
+        "title": "Big Five Inventory - Berkeley Personality Lab (canonical distributor / license statement)",
+        "url": "https://www.ocf.berkeley.edu/~johnlab/bfi.html",
+        "license": "Copyright Oliver P. John & colleagues; freely available for non-commercial research"
+      },
+      {
+        "title": "A Brief Version of the Big Five Personality Inventory (BFI-10 PDF, confirms stem/response format) - University at Buffalo",
+        "url": "https://socialwork.buffalo.edu/content/dam/socialwork/home/self-care-kit/brief-big-five-personality-inventory.pdf",
+        "license": "Adapted from Rammstedt & John (2007); non-commercial research use"
+      },
+      {
+        "title": "Korean translation (deepinme workflow)",
+        "url": "https://db.arabpsychology.com/scales/big-five-inventory-bfi/",
+        "license": "translation is a derivative; see reuse_notes"
+      }
+    ]
+  },
+  "count": 44,
+  "items": [
+    {
+      "num": "1",
+      "text": "말이 많은 편이다",
+      "text_en": "is talkative",
+      "language": "ko",
+      "factor": "Extraversion",
+      "facet": "",
+      "keyed": "plus"
+    },
+    {
+      "num": "2",
+      "text": "다른 사람의 흠을 잘 잡는 편이다",
+      "text_en": "tends to find fault with others",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "facet": "",
+      "keyed": "minus"
+    },
+    {
+      "num": "3",
+      "text": "일을 빈틈없이 꼼꼼하게 처리한다",
+      "text_en": "does a thorough job",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "facet": "",
+      "keyed": "plus"
+    },
+    {
+      "num": "4",
+      "text": "우울하고 기분이 가라앉아 있다",
+      "text_en": "is depressed, blue",
+      "language": "ko",
+      "factor": "Neuroticism",
+      "facet": "",
+      "keyed": "plus"
+    },
+    {
+      "num": "5",
+      "text": "독창적이며 새로운 아이디어를 잘 떠올린다",
+      "text_en": "is original, comes up with new ideas",
+      "language": "ko",
+      "factor": "Openness",
+      "facet": "",
+      "keyed": "plus"
+    },
+    {
+      "num": "6",
+      "text": "말수가 적고 속마음을 잘 드러내지 않는 편이다",
+      "text_en": "is reserved",
+      "language": "ko",
+      "factor": "Extraversion",
+      "facet": "",
+      "keyed": "minus"
+    },
+    {
+      "num": "7",
+      "text": "다른 사람을 잘 돕고 이타적이다",
+      "text_en": "is helpful and unselfish with others",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "facet": "",
+      "keyed": "plus"
+    },
+    {
+      "num": "8",
+      "text": "다소 부주의한 편이다",
+      "text_en": "can be somewhat careless",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "facet": "",
+      "keyed": "minus"
+    },
+    {
+      "num": "9",
+      "text": "느긋하며 스트레스에 잘 대처한다",
+      "text_en": "is relaxed, handles stress well",
+      "language": "ko",
+      "factor": "Neuroticism",
+      "facet": "",
+      "keyed": "minus"
+    },
+    {
+      "num": "10",
+      "text": "여러 가지 일에 호기심이 많다",
+      "text_en": "is curious about many different things",
+      "language": "ko",
+      "factor": "Openness",
+      "facet": "",
+      "keyed": "plus"
+    },
+    {
+      "num": "11",
+      "text": "활력이 넘친다",
+      "text_en": "is full of energy",
+      "language": "ko",
+      "factor": "Extraversion",
+      "facet": "",
+      "keyed": "plus"
+    },
+    {
+      "num": "12",
+      "text": "다른 사람과 자주 다툼을 일으킨다",
+      "text_en": "starts quarrels with others",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "facet": "",
+      "keyed": "minus"
+    },
+    {
+      "num": "13",
+      "text": "믿고 일을 맡길 수 있는 사람이다",
+      "text_en": "is a reliable worker",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "facet": "",
+      "keyed": "plus"
+    },
+    {
+      "num": "14",
+      "text": "긴장을 잘 하는 편이다",
+      "text_en": "can be tense",
+      "language": "ko",
+      "factor": "Neuroticism",
+      "facet": "",
+      "keyed": "plus"
+    },
+    {
+      "num": "15",
+      "text": "영리하고 생각이 깊다",
+      "text_en": "is ingenious, a deep thinker",
+      "language": "ko",
+      "factor": "Openness",
+      "facet": "",
+      "keyed": "plus"
+    },
+    {
+      "num": "16",
+      "text": "열정이 넘치고 주변에 활기를 잘 불어넣는다",
+      "text_en": "generates a lot of enthusiasm",
+      "language": "ko",
+      "factor": "Extraversion",
+      "facet": "",
+      "keyed": "plus"
+    },
+    {
+      "num": "17",
+      "text": "너그럽게 잘 용서하는 성격이다",
+      "text_en": "has a forgiving nature",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "facet": "",
+      "keyed": "plus"
+    },
+    {
+      "num": "18",
+      "text": "정리 정돈을 잘 못하는 편이다",
+      "text_en": "tends to be disorganized",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "facet": "",
+      "keyed": "minus"
+    },
+    {
+      "num": "19",
+      "text": "걱정이 많다",
+      "text_en": "worries a lot",
+      "language": "ko",
+      "factor": "Neuroticism",
+      "facet": "",
+      "keyed": "plus"
+    },
+    {
+      "num": "20",
+      "text": "상상력이 풍부하다",
+      "text_en": "has an active imagination",
+      "language": "ko",
+      "factor": "Openness",
+      "facet": "",
+      "keyed": "plus"
+    },
+    {
+      "num": "21",
+      "text": "조용한 편이다",
+      "text_en": "tends to be quiet",
+      "language": "ko",
+      "factor": "Extraversion",
+      "facet": "",
+      "keyed": "minus"
+    },
+    {
+      "num": "22",
+      "text": "대체로 남을 잘 믿는 편이다",
+      "text_en": "is generally trusting",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "facet": "",
+      "keyed": "plus"
+    },
+    {
+      "num": "23",
+      "text": "게으른 편이다",
+      "text_en": "tends to be lazy",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "facet": "",
+      "keyed": "minus"
+    },
+    {
+      "num": "24",
+      "text": "정서적으로 안정되어 있고 쉽게 동요하지 않는다",
+      "text_en": "is emotionally stable, not easily upset",
+      "language": "ko",
+      "factor": "Neuroticism",
+      "facet": "",
+      "keyed": "minus"
+    },
+    {
+      "num": "25",
+      "text": "창의적이고 새로운 것을 잘 고안해 낸다",
+      "text_en": "is inventive",
+      "language": "ko",
+      "factor": "Openness",
+      "facet": "",
+      "keyed": "plus"
+    },
+    {
+      "num": "26",
+      "text": "자기 주장이 뚜렷한 성격이다",
+      "text_en": "has an assertive personality",
+      "language": "ko",
+      "factor": "Extraversion",
+      "facet": "",
+      "keyed": "plus"
+    },
+    {
+      "num": "27",
+      "text": "차갑고 쌀쌀맞게 굴 때가 있다",
+      "text_en": "can be cold and aloof",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "facet": "",
+      "keyed": "minus"
+    },
+    {
+      "num": "28",
+      "text": "일을 끝마칠 때까지 끈기 있게 해낸다",
+      "text_en": "perseveres until the task is finished",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "facet": "",
+      "keyed": "plus"
+    },
+    {
+      "num": "29",
+      "text": "기분 변화가 심한 편이다",
+      "text_en": "can be moody",
+      "language": "ko",
+      "factor": "Neuroticism",
+      "facet": "",
+      "keyed": "plus"
+    },
+    {
+      "num": "30",
+      "text": "예술적이고 미적인 경험을 소중히 여긴다",
+      "text_en": "values artistic, aesthetic experiences",
+      "language": "ko",
+      "factor": "Openness",
+      "facet": "",
+      "keyed": "plus"
+    },
+    {
+      "num": "31",
+      "text": "때때로 수줍음을 타고 소극적이다",
+      "text_en": "is sometimes shy, inhibited",
+      "language": "ko",
+      "factor": "Extraversion",
+      "facet": "",
+      "keyed": "minus"
+    },
+    {
+      "num": "32",
+      "text": "거의 모든 사람에게 사려 깊고 친절하다",
+      "text_en": "is considerate and kind to almost everyone",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "facet": "",
+      "keyed": "plus"
+    },
+    {
+      "num": "33",
+      "text": "일을 효율적으로 처리한다",
+      "text_en": "does things efficiently",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "facet": "",
+      "keyed": "plus"
+    },
+    {
+      "num": "34",
+      "text": "긴장된 상황에서도 침착함을 유지한다",
+      "text_en": "remains calm in tense situations",
+      "language": "ko",
+      "factor": "Neuroticism",
+      "facet": "",
+      "keyed": "minus"
+    },
+    {
+      "num": "35",
+      "text": "판에 박힌 일상적인 일을 더 좋아한다",
+      "text_en": "prefers work that is routine",
+      "language": "ko",
+      "factor": "Openness",
+      "facet": "",
+      "keyed": "minus"
+    },
+    {
+      "num": "36",
+      "text": "외향적이고 사교적이다",
+      "text_en": "is outgoing, sociable",
+      "language": "ko",
+      "factor": "Extraversion",
+      "facet": "",
+      "keyed": "plus"
+    },
+    {
+      "num": "37",
+      "text": "때때로 다른 사람에게 무례하게 군다",
+      "text_en": "is sometimes rude to others",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "facet": "",
+      "keyed": "minus"
+    },
+    {
+      "num": "38",
+      "text": "계획을 세우면 끝까지 실행에 옮긴다",
+      "text_en": "makes plans and follows through with them",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "facet": "",
+      "keyed": "plus"
+    },
+    {
+      "num": "39",
+      "text": "쉽게 불안해하고 초조해한다",
+      "text_en": "gets nervous easily",
+      "language": "ko",
+      "factor": "Neuroticism",
+      "facet": "",
+      "keyed": "plus"
+    },
+    {
+      "num": "40",
+      "text": "사색하고 여러 아이디어를 이리저리 궁리하기를 좋아한다",
+      "text_en": "likes to reflect, play with ideas",
+      "language": "ko",
+      "factor": "Openness",
+      "facet": "",
+      "keyed": "plus"
+    },
+    {
+      "num": "41",
+      "text": "예술적인 관심사가 별로 없다",
+      "text_en": "has few artistic interests",
+      "language": "ko",
+      "factor": "Openness",
+      "facet": "",
+      "keyed": "minus"
+    },
+    {
+      "num": "42",
+      "text": "다른 사람과 협력하기를 좋아한다",
+      "text_en": "likes to cooperate with others",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "facet": "",
+      "keyed": "plus"
+    },
+    {
+      "num": "43",
+      "text": "쉽게 주의가 산만해진다",
+      "text_en": "is easily distracted",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "facet": "",
+      "keyed": "minus"
+    },
+    {
+      "num": "44",
+      "text": "미술, 음악, 문학에 조예가 깊다",
+      "text_en": "is sophisticated in art, music, or literature",
+      "language": "ko",
+      "factor": "Openness",
+      "facet": "",
+      "keyed": "plus"
+    }
+  ]
+}

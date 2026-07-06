@@ -1,0 +1,838 @@
+{
+  "_meta": {
+    "instrument": "Big Five Aspect Scales (BFAS)",
+    "full_name": "Big Five Aspect Scales (BFAS), 100-item IPIP version — DeYoung, Quilty & Peterson (2007)",
+    "source_url": "https://ipip.ori.org/BFASKeys.htm",
+    "license": "IPIP items are in the public domain (ipip.ori.org: \"The IPIP items are in the public domain\"). 98 of the 100 BFAS items are public-domain IPIP items — this includes 2 items that are reverse-wordings of IPIP items (\"Avoid imposing my will on others.\" = reverse of IPIP H721 \"Impose my will on others.\"; \"Rarely put people under pressure.\" = reverse of IPIP H774 \"Put people under pressure.\"). 2 of the 100 items are NOT public-domain IPIP: (1) \"Am not a very enthusiastic person.\" was newly written for the BFAS by DeYoung et al. (copyright authors; distributed freely for research); (2) \"Do not have an assertive personality.\" is a reverse-wording of an item from the Big Five Inventory (John, Naumann & Soto, 2008), which is copyrighted but free for non-commercial research use. The assembled 100-item BFAS is freely usable for non-commercial research.",
+    "license_class": "public_domain",
+    "safe_for_noncommercial_reuse": true,
+    "safe_for_commercial_reuse": true,
+    "attribution": "Items drawn from the International Personality Item Pool (Goldberg, L. R., 1999; https://ipip.ori.org). Scale developed and validated by DeYoung, C. G., Quilty, L. C., & Peterson, J. B. (2007). Between facets and domains: 10 aspects of the Big Five. Journal of Personality and Social Psychology, 93(5), 880-896. Verbatim item text and keying obtained from the official IPIP scoring-key page (https://ipip.ori.org/BFASKeys.htm). The BFI-derived item is credited to John, O. P., Naumann, L. P., & Soto, C. J. (2008).",
+    "scoring_notes": "10 aspect scales, 10 items each. Big Five domains = mean of their two aspect scales (20 items each): Neuroticism = Volatility + Withdrawal; Agreeableness = Compassion + Politeness; Conscientiousness = Industriousness + Orderliness; Extraversion = Enthusiasm + Assertiveness; Openness/Intellect = Intellect + Openness. Response scale: 5-point (1 = Very Inaccurate to 5 = Very Accurate). Items marked keyed \"-\" are reverse-scored. Published aspect alphas (n from original sample): Volatility .85, Withdrawal .84, Compassion .84, Politeness .75, Industriousness .81, Orderliness .80, Enthusiasm .81, Assertiveness .85, Intellect .84, Openness .78.",
+    "cautions": "All 100 items were fetched verbatim from the official IPIP scoring-key page (https://ipip.ori.org/BFASKeys.htm) and independently re-verified against the raw page HTML via curl — the two sources matched exactly. Structure confirmed: 10 aspect scales x 10 items = 100 items, 20 items per Big Five domain (2 aspects each). Numbering here (1-100) reflects the order on the IPIP page (Volatility, Withdrawal, Compassion, Politeness, Industriousness, Orderliness, Enthusiasm, Assertiveness, Intellect, Openness), positively-keyed items first then negatively-keyed within each aspect; it is NOT the randomized administration order used in the original study. LICENSE NUANCE: the task framed all items as public-domain IPIP, which is true for 98/100. Two items are exceptions and should be flagged before any redistribution: \"Am not a very enthusiastic person.\" (Enthusiasm, newly written for the BFAS, not from IPIP) and \"Do not have an assertive personality.\" (Assertiveness, a reverse-wording of a copyrighted BFI item). Both remain safe for non-commercial research use. Response format is not part of item text: the standard IPIP/BFAS administration prepends the stem \"I\" and uses a 5-point Likert scale (1 = Very Inaccurate ... 5 = Very Accurate); reverse-key the \"-\" items before scoring. Since this corpus is a stage-1 collection that will be rewritten into plain language, retain the factor/facet/keyed metadata so scoring survives the rewrite. The 2007 article appendix lists these same items and is the authoritative print source.",
+    "corrections_applied": [
+      "license_class reclassified free_research_noncommercial -> public_domain (IPIP items are public domain; per verification)"
+    ],
+    "verification": {
+      "fabrication_risk": "none",
+      "item_count_plausible": true,
+      "license_correct_asreported": false,
+      "summary": "adversarially fact-checked by a second agent vs primary sources (deepinme wide-collection workflow, 2026-07)"
+    },
+    "sources": [
+      {
+        "title": "IPIP — BFAS Scoring Keys (The Items in the Big Five Aspects Scales)",
+        "url": "https://ipip.ori.org/BFASKeys.htm",
+        "license": "Public domain (IPIP items). Per ipip.ori.org: the IPIP items are in the public domain."
+      },
+      {
+        "title": "IPIP — Alphabetical Index of Scale Labels (BFAS entries and anchors)",
+        "url": "https://ipip.ori.org/newIndexofScaleLabels.htm",
+        "license": "Public domain (IPIP)"
+      }
+    ]
+  },
+  "count": 100,
+  "items": [
+    {
+      "num": "1",
+      "text": "Get angry easily.",
+      "factor": "Neuroticism",
+      "facet": "Volatility",
+      "keyed": "+",
+      "language": "en"
+    },
+    {
+      "num": "2",
+      "text": "Get upset easily.",
+      "factor": "Neuroticism",
+      "facet": "Volatility",
+      "keyed": "+",
+      "language": "en"
+    },
+    {
+      "num": "3",
+      "text": "Change my mood a lot.",
+      "factor": "Neuroticism",
+      "facet": "Volatility",
+      "keyed": "+",
+      "language": "en"
+    },
+    {
+      "num": "4",
+      "text": "Am a person whose moods go up and down easily.",
+      "factor": "Neuroticism",
+      "facet": "Volatility",
+      "keyed": "+",
+      "language": "en"
+    },
+    {
+      "num": "5",
+      "text": "Get easily agitated.",
+      "factor": "Neuroticism",
+      "facet": "Volatility",
+      "keyed": "+",
+      "language": "en"
+    },
+    {
+      "num": "6",
+      "text": "Can be stirred up easily.",
+      "factor": "Neuroticism",
+      "facet": "Volatility",
+      "keyed": "+",
+      "language": "en"
+    },
+    {
+      "num": "7",
+      "text": "Rarely get irritated.",
+      "factor": "Neuroticism",
+      "facet": "Volatility",
+      "keyed": "-",
+      "language": "en"
+    },
+    {
+      "num": "8",
+      "text": "Keep my emotions under control.",
+      "factor": "Neuroticism",
+      "facet": "Volatility",
+      "keyed": "-",
+      "language": "en"
+    },
+    {
+      "num": "9",
+      "text": "Rarely lose my composure.",
+      "factor": "Neuroticism",
+      "facet": "Volatility",
+      "keyed": "-",
+      "language": "en"
+    },
+    {
+      "num": "10",
+      "text": "Am not easily annoyed.",
+      "factor": "Neuroticism",
+      "facet": "Volatility",
+      "keyed": "-",
+      "language": "en"
+    },
+    {
+      "num": "11",
+      "text": "Am filled with doubts about things.",
+      "factor": "Neuroticism",
+      "facet": "Withdrawal",
+      "keyed": "+",
+      "language": "en"
+    },
+    {
+      "num": "12",
+      "text": "Feel threatened easily.",
+      "factor": "Neuroticism",
+      "facet": "Withdrawal",
+      "keyed": "+",
+      "language": "en"
+    },
+    {
+      "num": "13",
+      "text": "Worry about things.",
+      "factor": "Neuroticism",
+      "facet": "Withdrawal",
+      "keyed": "+",
+      "language": "en"
+    },
+    {
+      "num": "14",
+      "text": "Am easily discouraged.",
+      "factor": "Neuroticism",
+      "facet": "Withdrawal",
+      "keyed": "+",
+      "language": "en"
+    },
+    {
+      "num": "15",
+      "text": "Become overwhelmed by events.",
+      "factor": "Neuroticism",
+      "facet": "Withdrawal",
+      "keyed": "+",
+      "language": "en"
+    },
+    {
+      "num": "16",
+      "text": "Am afraid of many things.",
+      "factor": "Neuroticism",
+      "facet": "Withdrawal",
+      "keyed": "+",
+      "language": "en"
+    },
+    {
+      "num": "17",
+      "text": "Seldom feel blue.",
+      "factor": "Neuroticism",
+      "facet": "Withdrawal",
+      "keyed": "-",
+      "language": "en"
+    },
+    {
+      "num": "18",
+      "text": "Feel comfortable with myself.",
+      "factor": "Neuroticism",
+      "facet": "Withdrawal",
+      "keyed": "-",
+      "language": "en"
+    },
+    {
+      "num": "19",
+      "text": "Rarely feel depressed.",
+      "factor": "Neuroticism",
+      "facet": "Withdrawal",
+      "keyed": "-",
+      "language": "en"
+    },
+    {
+      "num": "20",
+      "text": "Am not embarrassed easily.",
+      "factor": "Neuroticism",
+      "facet": "Withdrawal",
+      "keyed": "-",
+      "language": "en"
+    },
+    {
+      "num": "21",
+      "text": "Feel others' emotions.",
+      "factor": "Agreeableness",
+      "facet": "Compassion",
+      "keyed": "+",
+      "language": "en"
+    },
+    {
+      "num": "22",
+      "text": "Inquire about others' well-being.",
+      "factor": "Agreeableness",
+      "facet": "Compassion",
+      "keyed": "+",
+      "language": "en"
+    },
+    {
+      "num": "23",
+      "text": "Sympathize with others' feelings.",
+      "factor": "Agreeableness",
+      "facet": "Compassion",
+      "keyed": "+",
+      "language": "en"
+    },
+    {
+      "num": "24",
+      "text": "Take an interest in other people's lives.",
+      "factor": "Agreeableness",
+      "facet": "Compassion",
+      "keyed": "+",
+      "language": "en"
+    },
+    {
+      "num": "25",
+      "text": "Like to do things for others.",
+      "factor": "Agreeableness",
+      "facet": "Compassion",
+      "keyed": "+",
+      "language": "en"
+    },
+    {
+      "num": "26",
+      "text": "Am not interested in other people's problems.",
+      "factor": "Agreeableness",
+      "facet": "Compassion",
+      "keyed": "-",
+      "language": "en"
+    },
+    {
+      "num": "27",
+      "text": "Can't be bothered with other's needs.",
+      "factor": "Agreeableness",
+      "facet": "Compassion",
+      "keyed": "-",
+      "language": "en"
+    },
+    {
+      "num": "28",
+      "text": "Am indifferent to the feelings of others.",
+      "factor": "Agreeableness",
+      "facet": "Compassion",
+      "keyed": "-",
+      "language": "en"
+    },
+    {
+      "num": "29",
+      "text": "Take no time for others.",
+      "factor": "Agreeableness",
+      "facet": "Compassion",
+      "keyed": "-",
+      "language": "en"
+    },
+    {
+      "num": "30",
+      "text": "Don't have a soft side.",
+      "factor": "Agreeableness",
+      "facet": "Compassion",
+      "keyed": "-",
+      "language": "en"
+    },
+    {
+      "num": "31",
+      "text": "Respect authority.",
+      "factor": "Agreeableness",
+      "facet": "Politeness",
+      "keyed": "+",
+      "language": "en"
+    },
+    {
+      "num": "32",
+      "text": "Hate to seem pushy.",
+      "factor": "Agreeableness",
+      "facet": "Politeness",
+      "keyed": "+",
+      "language": "en"
+    },
+    {
+      "num": "33",
+      "text": "Avoid imposing my will on others.",
+      "factor": "Agreeableness",
+      "facet": "Politeness",
+      "keyed": "+",
+      "language": "en"
+    },
+    {
+      "num": "34",
+      "text": "Rarely put people under pressure.",
+      "factor": "Agreeableness",
+      "facet": "Politeness",
+      "keyed": "+",
+      "language": "en"
+    },
+    {
+      "num": "35",
+      "text": "Insult people.",
+      "factor": "Agreeableness",
+      "facet": "Politeness",
+      "keyed": "-",
+      "language": "en"
+    },
+    {
+      "num": "36",
+      "text": "Believe that I am better than others.",
+      "factor": "Agreeableness",
+      "facet": "Politeness",
+      "keyed": "-",
+      "language": "en"
+    },
+    {
+      "num": "37",
+      "text": "Take advantage of others.",
+      "factor": "Agreeableness",
+      "facet": "Politeness",
+      "keyed": "-",
+      "language": "en"
+    },
+    {
+      "num": "38",
+      "text": "Seek conflict.",
+      "factor": "Agreeableness",
+      "facet": "Politeness",
+      "keyed": "-",
+      "language": "en"
+    },
+    {
+      "num": "39",
+      "text": "Love a good fight.",
+      "factor": "Agreeableness",
+      "facet": "Politeness",
+      "keyed": "-",
+      "language": "en"
+    },
+    {
+      "num": "40",
+      "text": "Am out for my own personal gain.",
+      "factor": "Agreeableness",
+      "facet": "Politeness",
+      "keyed": "-",
+      "language": "en"
+    },
+    {
+      "num": "41",
+      "text": "Carry out my plans.",
+      "factor": "Conscientiousness",
+      "facet": "Industriousness",
+      "keyed": "+",
+      "language": "en"
+    },
+    {
+      "num": "42",
+      "text": "Finish what I start.",
+      "factor": "Conscientiousness",
+      "facet": "Industriousness",
+      "keyed": "+",
+      "language": "en"
+    },
+    {
+      "num": "43",
+      "text": "Get things done quickly.",
+      "factor": "Conscientiousness",
+      "facet": "Industriousness",
+      "keyed": "+",
+      "language": "en"
+    },
+    {
+      "num": "44",
+      "text": "Always know what I am doing.",
+      "factor": "Conscientiousness",
+      "facet": "Industriousness",
+      "keyed": "+",
+      "language": "en"
+    },
+    {
+      "num": "45",
+      "text": "Waste my time.",
+      "factor": "Conscientiousness",
+      "facet": "Industriousness",
+      "keyed": "-",
+      "language": "en"
+    },
+    {
+      "num": "46",
+      "text": "Find it difficult to get down to work.",
+      "factor": "Conscientiousness",
+      "facet": "Industriousness",
+      "keyed": "-",
+      "language": "en"
+    },
+    {
+      "num": "47",
+      "text": "Mess things up.",
+      "factor": "Conscientiousness",
+      "facet": "Industriousness",
+      "keyed": "-",
+      "language": "en"
+    },
+    {
+      "num": "48",
+      "text": "Don't put my mind on the task at hand.",
+      "factor": "Conscientiousness",
+      "facet": "Industriousness",
+      "keyed": "-",
+      "language": "en"
+    },
+    {
+      "num": "49",
+      "text": "Postpone decisions.",
+      "factor": "Conscientiousness",
+      "facet": "Industriousness",
+      "keyed": "-",
+      "language": "en"
+    },
+    {
+      "num": "50",
+      "text": "Am easily distracted.",
+      "factor": "Conscientiousness",
+      "facet": "Industriousness",
+      "keyed": "-",
+      "language": "en"
+    },
+    {
+      "num": "51",
+      "text": "Like order.",
+      "factor": "Conscientiousness",
+      "facet": "Orderliness",
+      "keyed": "+",
+      "language": "en"
+    },
+    {
+      "num": "52",
+      "text": "Keep things tidy.",
+      "factor": "Conscientiousness",
+      "facet": "Orderliness",
+      "keyed": "+",
+      "language": "en"
+    },
+    {
+      "num": "53",
+      "text": "Follow a schedule.",
+      "factor": "Conscientiousness",
+      "facet": "Orderliness",
+      "keyed": "+",
+      "language": "en"
+    },
+    {
+      "num": "54",
+      "text": "Want everything to be \"just right.\"",
+      "factor": "Conscientiousness",
+      "facet": "Orderliness",
+      "keyed": "+",
+      "language": "en"
+    },
+    {
+      "num": "55",
+      "text": "See that rules are observed.",
+      "factor": "Conscientiousness",
+      "facet": "Orderliness",
+      "keyed": "+",
+      "language": "en"
+    },
+    {
+      "num": "56",
+      "text": "Want every detail taken care of.",
+      "factor": "Conscientiousness",
+      "facet": "Orderliness",
+      "keyed": "+",
+      "language": "en"
+    },
+    {
+      "num": "57",
+      "text": "Leave my belongings around.",
+      "factor": "Conscientiousness",
+      "facet": "Orderliness",
+      "keyed": "-",
+      "language": "en"
+    },
+    {
+      "num": "58",
+      "text": "Am not bothered by messy people.",
+      "factor": "Conscientiousness",
+      "facet": "Orderliness",
+      "keyed": "-",
+      "language": "en"
+    },
+    {
+      "num": "59",
+      "text": "Am not bothered by disorder.",
+      "factor": "Conscientiousness",
+      "facet": "Orderliness",
+      "keyed": "-",
+      "language": "en"
+    },
+    {
+      "num": "60",
+      "text": "Dislike routine.",
+      "factor": "Conscientiousness",
+      "facet": "Orderliness",
+      "keyed": "-",
+      "language": "en"
+    },
+    {
+      "num": "61",
+      "text": "Make friends easily.",
+      "factor": "Extraversion",
+      "facet": "Enthusiasm",
+      "keyed": "+",
+      "language": "en"
+    },
+    {
+      "num": "62",
+      "text": "Warm up quickly to others.",
+      "factor": "Extraversion",
+      "facet": "Enthusiasm",
+      "keyed": "+",
+      "language": "en"
+    },
+    {
+      "num": "63",
+      "text": "Show my feelings when I'm happy.",
+      "factor": "Extraversion",
+      "facet": "Enthusiasm",
+      "keyed": "+",
+      "language": "en"
+    },
+    {
+      "num": "64",
+      "text": "Have a lot of fun.",
+      "factor": "Extraversion",
+      "facet": "Enthusiasm",
+      "keyed": "+",
+      "language": "en"
+    },
+    {
+      "num": "65",
+      "text": "Laugh a lot.",
+      "factor": "Extraversion",
+      "facet": "Enthusiasm",
+      "keyed": "+",
+      "language": "en"
+    },
+    {
+      "num": "66",
+      "text": "Am hard to get to know.",
+      "factor": "Extraversion",
+      "facet": "Enthusiasm",
+      "keyed": "-",
+      "language": "en"
+    },
+    {
+      "num": "67",
+      "text": "Keep others at a distance.",
+      "factor": "Extraversion",
+      "facet": "Enthusiasm",
+      "keyed": "-",
+      "language": "en"
+    },
+    {
+      "num": "68",
+      "text": "Reveal little about myself.",
+      "factor": "Extraversion",
+      "facet": "Enthusiasm",
+      "keyed": "-",
+      "language": "en"
+    },
+    {
+      "num": "69",
+      "text": "Rarely get caught up in the excitement.",
+      "factor": "Extraversion",
+      "facet": "Enthusiasm",
+      "keyed": "-",
+      "language": "en"
+    },
+    {
+      "num": "70",
+      "text": "Am not a very enthusiastic person.",
+      "factor": "Extraversion",
+      "facet": "Enthusiasm",
+      "keyed": "-",
+      "language": "en"
+    },
+    {
+      "num": "71",
+      "text": "Take charge.",
+      "factor": "Extraversion",
+      "facet": "Assertiveness",
+      "keyed": "+",
+      "language": "en"
+    },
+    {
+      "num": "72",
+      "text": "Have a strong personality.",
+      "factor": "Extraversion",
+      "facet": "Assertiveness",
+      "keyed": "+",
+      "language": "en"
+    },
+    {
+      "num": "73",
+      "text": "Know how to captivate people.",
+      "factor": "Extraversion",
+      "facet": "Assertiveness",
+      "keyed": "+",
+      "language": "en"
+    },
+    {
+      "num": "74",
+      "text": "See myself as a good leader.",
+      "factor": "Extraversion",
+      "facet": "Assertiveness",
+      "keyed": "+",
+      "language": "en"
+    },
+    {
+      "num": "75",
+      "text": "Can talk others into doing things.",
+      "factor": "Extraversion",
+      "facet": "Assertiveness",
+      "keyed": "+",
+      "language": "en"
+    },
+    {
+      "num": "76",
+      "text": "Am the first to act.",
+      "factor": "Extraversion",
+      "facet": "Assertiveness",
+      "keyed": "+",
+      "language": "en"
+    },
+    {
+      "num": "77",
+      "text": "Do not have an assertive personality.",
+      "factor": "Extraversion",
+      "facet": "Assertiveness",
+      "keyed": "-",
+      "language": "en"
+    },
+    {
+      "num": "78",
+      "text": "Lack the talent for influencing people.",
+      "factor": "Extraversion",
+      "facet": "Assertiveness",
+      "keyed": "-",
+      "language": "en"
+    },
+    {
+      "num": "79",
+      "text": "Wait for others to lead the way.",
+      "factor": "Extraversion",
+      "facet": "Assertiveness",
+      "keyed": "-",
+      "language": "en"
+    },
+    {
+      "num": "80",
+      "text": "Hold back my opinions.",
+      "factor": "Extraversion",
+      "facet": "Assertiveness",
+      "keyed": "-",
+      "language": "en"
+    },
+    {
+      "num": "81",
+      "text": "Am quick to understand things.",
+      "factor": "Openness/Intellect",
+      "facet": "Intellect",
+      "keyed": "+",
+      "language": "en"
+    },
+    {
+      "num": "82",
+      "text": "Can handle a lot of information.",
+      "factor": "Openness/Intellect",
+      "facet": "Intellect",
+      "keyed": "+",
+      "language": "en"
+    },
+    {
+      "num": "83",
+      "text": "Like to solve complex problems.",
+      "factor": "Openness/Intellect",
+      "facet": "Intellect",
+      "keyed": "+",
+      "language": "en"
+    },
+    {
+      "num": "84",
+      "text": "Have a rich vocabulary.",
+      "factor": "Openness/Intellect",
+      "facet": "Intellect",
+      "keyed": "+",
+      "language": "en"
+    },
+    {
+      "num": "85",
+      "text": "Think quickly.",
+      "factor": "Openness/Intellect",
+      "facet": "Intellect",
+      "keyed": "+",
+      "language": "en"
+    },
+    {
+      "num": "86",
+      "text": "Formulate ideas clearly.",
+      "factor": "Openness/Intellect",
+      "facet": "Intellect",
+      "keyed": "+",
+      "language": "en"
+    },
+    {
+      "num": "87",
+      "text": "Have difficulty understanding abstract ideas.",
+      "factor": "Openness/Intellect",
+      "facet": "Intellect",
+      "keyed": "-",
+      "language": "en"
+    },
+    {
+      "num": "88",
+      "text": "Avoid philosophical discussions.",
+      "factor": "Openness/Intellect",
+      "facet": "Intellect",
+      "keyed": "-",
+      "language": "en"
+    },
+    {
+      "num": "89",
+      "text": "Avoid difficult reading material.",
+      "factor": "Openness/Intellect",
+      "facet": "Intellect",
+      "keyed": "-",
+      "language": "en"
+    },
+    {
+      "num": "90",
+      "text": "Learn things slowly.",
+      "factor": "Openness/Intellect",
+      "facet": "Intellect",
+      "keyed": "-",
+      "language": "en"
+    },
+    {
+      "num": "91",
+      "text": "Enjoy the beauty of nature.",
+      "factor": "Openness/Intellect",
+      "facet": "Openness",
+      "keyed": "+",
+      "language": "en"
+    },
+    {
+      "num": "92",
+      "text": "Believe in the importance of art.",
+      "factor": "Openness/Intellect",
+      "facet": "Openness",
+      "keyed": "+",
+      "language": "en"
+    },
+    {
+      "num": "93",
+      "text": "Love to reflect on things.",
+      "factor": "Openness/Intellect",
+      "facet": "Openness",
+      "keyed": "+",
+      "language": "en"
+    },
+    {
+      "num": "94",
+      "text": "Get deeply immersed in music.",
+      "factor": "Openness/Intellect",
+      "facet": "Openness",
+      "keyed": "+",
+      "language": "en"
+    },
+    {
+      "num": "95",
+      "text": "See beauty in things that others might not notice.",
+      "factor": "Openness/Intellect",
+      "facet": "Openness",
+      "keyed": "+",
+      "language": "en"
+    },
+    {
+      "num": "96",
+      "text": "Need a creative outlet.",
+      "factor": "Openness/Intellect",
+      "facet": "Openness",
+      "keyed": "+",
+      "language": "en"
+    },
+    {
+      "num": "97",
+      "text": "Do not like poetry.",
+      "factor": "Openness/Intellect",
+      "facet": "Openness",
+      "keyed": "-",
+      "language": "en"
+    },
+    {
+      "num": "98",
+      "text": "Seldom get lost in thought.",
+      "factor": "Openness/Intellect",
+      "facet": "Openness",
+      "keyed": "-",
+      "language": "en"
+    },
+    {
+      "num": "99",
+      "text": "Seldom daydream.",
+      "factor": "Openness/Intellect",
+      "facet": "Openness",
+      "keyed": "-",
+      "language": "en"
+    },
+    {
+      "num": "100",
+      "text": "Seldom notice the emotional aspects of paintings and pictures.",
+      "factor": "Openness/Intellect",
+      "facet": "Openness",
+      "keyed": "-",
+      "language": "en"
+    }
+  ]
+}

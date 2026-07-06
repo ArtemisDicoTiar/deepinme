@@ -1,0 +1,1153 @@
+{
+  "_meta": {
+    "instrument": "IPIP-NEO-120 — 한국어 번역",
+    "full_name": "International Personality Item Pool Representation of the NEO PI-R, 120-item version (IPIP-NEO-120; Johnson, 2014) (Korean translation)",
+    "source_url": "https://ipip.ori.org/30FacetNEO-PI-RItems.htm",
+    "license": "Public domain. All items in the International Personality Item Pool (IPIP), including Johnson's (2014) IPIP-NEO-120, are explicitly not copyrighted and are in the public domain; they may be used for any purpose (research, clinical, commercial) without permission, license, or fee. Johnson (2014) developed and released the 120-item form into the public domain, and the IPIP site (ipip.ori.org) distributes the item text freely.",
+    "license_class": "public_domain",
+    "safe_for_noncommercial_reuse": true,
+    "safe_for_commercial_reuse": true,
+    "reuse_notes": "한국어 번역(파생물). 비상업 1단계용. LLM 번역이며 검증된 한국어 표준검사가 아님 — 실사용 전 재검수 권장. 라이선스는 원본을 따르되 번역은 파생물이므로 CC-SA/연구용 조건이 그대로 적용됨.",
+    "attribution": "Items from the International Personality Item Pool (Goldberg, L. R., Johnson, J. A., Eber, H. W., Hogan, R., Ashton, M. C., Cloninger, C. R., & Gough, H. G., 2006; ipip.ori.org). 120-item form: Johnson, J. A. (2014). Measuring thirty facets of the Five Factor Model with a 120-item public domain inventory: Development of the IPIP-NEO-120. Journal of Research in Personality, 51, 78-89. · 한국어 번역: deepinme 번역 워크플로우(2026-07, LLM).",
+    "scoring_notes": "Respondents rate each statement on a 5-point scale (1 = Very Inaccurate, 2 = Moderately Inaccurate, 3 = Neither Inaccurate nor Accurate, 4 = Moderately Accurate, 5 = Very Accurate) under the instruction to describe themselves as they generally are now, honestly, relative to others of the same sex and roughly the same age. Items keyed \"+\" are scored 1->5; items keyed \"-\" are reverse-scored (5->1). Each of the 30 facet scores is the sum (or mean) of its 4 items (raw sum range 4-20); each of the 5 domain scores (N, E, O, A, C) is the mean/sum of its 6 constituent facets. \"num\" is the item's position in the 120-item administration order (the \"IPIP-120 item no.\" column in Johnson, 2014, Table 1); the parent IPIP-NEO-300 uses different item numbers, not included here.",
+    "cautions": "These are the ORIGINAL, terse IPIP item stems (short first-person predicate phrases such as \"Worry about things.\") captured verbatim for a stage-1 corpus intended to be rewritten into plain language. Item text was taken verbatim from the official IPIP repository page (ipip.ori.org/30FacetNEO-PI-RItems.htm); the administration item numbers (1-120), factor, facet, and +/- keying were independently cross-checked against Johnson (2014) Table 1 (the Penn State PDF) — every keying sign matched across both sources, and all 30 facets have exactly 4 items. One minor wording variant exists: item 58 (O6 Liberalism) reads \"Believe that there is no absolute right and wrong\" on ipip.ori.org (used here) but is typeset as \"right or wrong\" in Johnson (2014) Table 1; the IPIP repository wording is used. Keying is intentionally imbalanced (65 positively-keyed, 55 negatively-keyed) because Johnson selected items purely by item-total correlation, so several facets are all-one-direction (e.g., E5, E6, O1, C1 are entirely +; A2, A4, A5, C6 are entirely -). Apostrophes were normalized to straight ASCII to match the HTML source. Items are listed as bare stems without a leading pronoun; some live administrations of Johnson's IPIP-NEO prepend an \"I\" to each statement. | 번역본: 문항 순서·채점방향(keyed)·factor/facet은 원본과 동일. text_en에 원문 병기.",
+    "translation": {
+      "language": "ko",
+      "translated_from": "raw/bigfive/items.ipip-neo-120.json",
+      "method": "LLM faithful translation (deepinme workflow, 2026-07) — 충실 번역이며 '쉬운말 리라이팅'은 별도 단계",
+      "status": "working draft — NOT a validated Korean instrument",
+      "qa": {
+        "fidelity": "high",
+        "naturalness": "natural",
+        "count_match": true,
+        "reviewer_overall": "High-quality translation set. All 120 items are present (30 facets x 4), one per source item, with no duplicates or gaps. Fidelity is high: measured meaning and first-person self-report framing (-ㄴ다/-는다 declaratives) are preserved, and all reverse-keyed items (e.g., 96, 101, 106, 116, 102, 107, 48/78/108, 68/98, 89/119, 80/110, 85/115) correctly retain their reverse polarity. Language is natural and idiomatic (울적하고 의기소침, 어질러 놓는다, 앙갚음, 어쩔 줄 모른다) with no translationese. Only minor points: item 94 softens active distrust; item 21 is over-elaborated and slightly skews the binge sense; item 111 generalizes 'cravings' to '욕구'; and a consistent, mostly benign habit of adding mild intensifiers (늘/쉽게/아주) — appropriate for 'Love'→'아주 좋아한다' but marginally additive in 31 and 56. None of these distort scoring direction. Recommend accept with the small optional tweaks above.",
+        "issues": [
+          {
+            "id": "94",
+            "problem": "'Distrust people' rendered as '사람을 잘 믿지 못한다', which reads as an inability to trust rather than active distrust (불신). Slight softening of the reverse-keyed trust item.",
+            "suggestion": "사람을 잘 믿지 않는다 / 사람들을 불신한다"
+          },
+          {
+            "id": "21",
+            "problem": "'Go on binges' expanded to '한번 빠지면 흥청망청 지나치게 즐긴다' — over-elaborated with an added interpretive clause ('한번 빠지면') and '흥청망청' skews toward extravagant partying/spending rather than the broader binge (overindulgence) sense of the immoderation facet.",
+            "suggestion": "한번 시작하면 절제하지 못하고 지나치게 빠져든다"
+          },
+          {
+            "id": "111",
+            "problem": "'cravings' translated as generic '욕구' (desires/needs); in the immoderation facet the intended sense is urges/appetites, which is narrower.",
+            "suggestion": "내 충동(갈망)을 잘 조절할 수 있다"
+          },
+          {
+            "id": "31",
+            "problem": "Minor: 'Fear for the worst' gains an added '늘' (always) not in the source; harmless but slightly amplifies the trait framing.",
+            "suggestion": "최악의 상황을 두려워한다 (drop 늘 if strict equivalence is desired)"
+          }
+        ]
+      }
+    },
+    "verification": {
+      "summary": "번역 QA(2차 에이전트): fidelity=high, naturalness=natural, count_match=True, issues=4",
+      "fabrication_risk": "none"
+    },
+    "sources": [
+      {
+        "title": "The Items in Each of the 4-Item IPIP Scales Measuring Constructs Similar to Those in the 30 NEO-PI-R Facet Scales (Johnson, 2014) — International Personality Item Pool",
+        "url": "https://ipip.ori.org/30FacetNEO-PI-RItems.htm",
+        "license": "Public domain (IPIP items are not copyrighted)"
+      },
+      {
+        "title": "Johnson, J. A. (2014). Measuring thirty facets of the Five Factor Model with a 120-item public domain inventory: Development of the IPIP-NEO-120. Journal of Research in Personality, 51, 78-89 (Table 1: item numbers, facet keys, alphas)",
+        "url": "https://bpb-us-e1.wpmucdn.com/sites.psu.edu/dist/1/163537/files/2023/07/IPIPNEO120.pdf",
+        "license": "IPIP items public domain; article prose © Elsevier, used here only to verify item numbering and keying"
+      },
+      {
+        "title": "Korean translation (deepinme workflow)",
+        "url": "https://ipip.ori.org/30FacetNEO-PI-RItems.htm",
+        "license": "translation is a derivative; see reuse_notes"
+      }
+    ]
+  },
+  "count": 120,
+  "items": [
+    {
+      "num": "1",
+      "text": "이런저런 일에 대해 걱정하는 편이다.",
+      "text_en": "Worry about things.",
+      "language": "ko",
+      "factor": "N",
+      "facet": "N1: Anxiety",
+      "keyed": "+"
+    },
+    {
+      "num": "31",
+      "text": "늘 최악의 상황을 두려워한다.",
+      "text_en": "Fear for the worst.",
+      "language": "ko",
+      "factor": "N",
+      "facet": "N1: Anxiety",
+      "keyed": "+"
+    },
+    {
+      "num": "61",
+      "text": "많은 것을 두려워한다.",
+      "text_en": "Am afraid of many things.",
+      "language": "ko",
+      "factor": "N",
+      "facet": "N1: Anxiety",
+      "keyed": "+"
+    },
+    {
+      "num": "91",
+      "text": "쉽게 스트레스를 받는다.",
+      "text_en": "Get stressed out easily.",
+      "language": "ko",
+      "factor": "N",
+      "facet": "N1: Anxiety",
+      "keyed": "+"
+    },
+    {
+      "num": "6",
+      "text": "쉽게 화를 낸다.",
+      "text_en": "Get angry easily.",
+      "language": "ko",
+      "factor": "N",
+      "facet": "N2: Anger",
+      "keyed": "+"
+    },
+    {
+      "num": "36",
+      "text": "쉽게 짜증이 난다.",
+      "text_en": "Get irritated easily.",
+      "language": "ko",
+      "factor": "N",
+      "facet": "N2: Anger",
+      "keyed": "+"
+    },
+    {
+      "num": "66",
+      "text": "화를 참지 못한다.",
+      "text_en": "Lose my temper.",
+      "language": "ko",
+      "factor": "N",
+      "facet": "N2: Anger",
+      "keyed": "+"
+    },
+    {
+      "num": "96",
+      "text": "좀처럼 짜증 내지 않는다.",
+      "text_en": "Am not easily annoyed.",
+      "language": "ko",
+      "factor": "N",
+      "facet": "N2: Anger",
+      "keyed": "-"
+    },
+    {
+      "num": "11",
+      "text": "자주 우울해진다.",
+      "text_en": "Often feel blue.",
+      "language": "ko",
+      "factor": "N",
+      "facet": "N3: Depression",
+      "keyed": "+"
+    },
+    {
+      "num": "41",
+      "text": "나 자신이 싫다.",
+      "text_en": "Dislike myself.",
+      "language": "ko",
+      "factor": "N",
+      "facet": "N3: Depression",
+      "keyed": "+"
+    },
+    {
+      "num": "71",
+      "text": "자주 울적하고 의기소침해진다.",
+      "text_en": "Am often down in the dumps.",
+      "language": "ko",
+      "factor": "N",
+      "facet": "N3: Depression",
+      "keyed": "+"
+    },
+    {
+      "num": "101",
+      "text": "나 자신에 대해 편안함을 느낀다.",
+      "text_en": "Feel comfortable with myself.",
+      "language": "ko",
+      "factor": "N",
+      "facet": "N3: Depression",
+      "keyed": "-"
+    },
+    {
+      "num": "16",
+      "text": "다른 사람에게 다가가는 것을 어려워한다.",
+      "text_en": "Find it difficult to approach others.",
+      "language": "ko",
+      "factor": "N",
+      "facet": "N4: Self-Consciousness",
+      "keyed": "+"
+    },
+    {
+      "num": "46",
+      "text": "나에게 이목이 쏠리는 것을 두려워한다.",
+      "text_en": "Am afraid to draw attention to myself.",
+      "language": "ko",
+      "factor": "N",
+      "facet": "N4: Self-Consciousness",
+      "keyed": "+"
+    },
+    {
+      "num": "76",
+      "text": "친구들과 있을 때만 편안함을 느낀다.",
+      "text_en": "Only feel comfortable with friends.",
+      "language": "ko",
+      "factor": "N",
+      "facet": "N4: Self-Consciousness",
+      "keyed": "+"
+    },
+    {
+      "num": "106",
+      "text": "어려운 사회적 상황에서도 개의치 않는다.",
+      "text_en": "Am not bothered by difficult social situations.",
+      "language": "ko",
+      "factor": "N",
+      "facet": "N4: Self-Consciousness",
+      "keyed": "-"
+    },
+    {
+      "num": "21",
+      "text": "한번 빠지면 흥청망청 지나치게 즐긴다.",
+      "text_en": "Go on binges.",
+      "language": "ko",
+      "factor": "N",
+      "facet": "N5: Immoderation",
+      "keyed": "+"
+    },
+    {
+      "num": "51",
+      "text": "좀처럼 과하게 탐닉하지 않는다.",
+      "text_en": "Rarely overindulge.",
+      "language": "ko",
+      "factor": "N",
+      "facet": "N5: Immoderation",
+      "keyed": "-"
+    },
+    {
+      "num": "81",
+      "text": "유혹을 쉽게 뿌리친다.",
+      "text_en": "Easily resist temptations.",
+      "language": "ko",
+      "factor": "N",
+      "facet": "N5: Immoderation",
+      "keyed": "-"
+    },
+    {
+      "num": "111",
+      "text": "내 욕구를 잘 조절할 수 있다.",
+      "text_en": "Am able to control my cravings.",
+      "language": "ko",
+      "factor": "N",
+      "facet": "N5: Immoderation",
+      "keyed": "-"
+    },
+    {
+      "num": "26",
+      "text": "쉽게 당황해 어쩔 줄 모른다.",
+      "text_en": "Panic easily.",
+      "language": "ko",
+      "factor": "N",
+      "facet": "N6: Vulnerability",
+      "keyed": "+"
+    },
+    {
+      "num": "56",
+      "text": "벌어지는 일들에 쉽게 압도당한다.",
+      "text_en": "Become overwhelmed by events.",
+      "language": "ko",
+      "factor": "N",
+      "facet": "N6: Vulnerability",
+      "keyed": "+"
+    },
+    {
+      "num": "86",
+      "text": "일들을 감당할 수 없다고 느낀다.",
+      "text_en": "Feel that I'm unable to deal with things.",
+      "language": "ko",
+      "factor": "N",
+      "facet": "N6: Vulnerability",
+      "keyed": "+"
+    },
+    {
+      "num": "116",
+      "text": "압박 속에서도 침착함을 유지한다.",
+      "text_en": "Remain calm under pressure.",
+      "language": "ko",
+      "factor": "N",
+      "facet": "N6: Vulnerability",
+      "keyed": "-"
+    },
+    {
+      "num": "2",
+      "text": "쉽게 친구를 사귄다.",
+      "text_en": "Make friends easily.",
+      "language": "ko",
+      "factor": "E",
+      "facet": "E1: Friendliness",
+      "keyed": "+"
+    },
+    {
+      "num": "32",
+      "text": "사람들과 함께 있을 때 편안함을 느낀다.",
+      "text_en": "Feel comfortable around people.",
+      "language": "ko",
+      "factor": "E",
+      "facet": "E1: Friendliness",
+      "keyed": "+"
+    },
+    {
+      "num": "62",
+      "text": "다른 사람과의 접촉을 피한다.",
+      "text_en": "Avoid contacts with others.",
+      "language": "ko",
+      "factor": "E",
+      "facet": "E1: Friendliness",
+      "keyed": "-"
+    },
+    {
+      "num": "92",
+      "text": "다른 사람과 거리를 둔다.",
+      "text_en": "Keep others at a distance.",
+      "language": "ko",
+      "factor": "E",
+      "facet": "E1: Friendliness",
+      "keyed": "-"
+    },
+    {
+      "num": "7",
+      "text": "사람 많은 큰 파티를 아주 좋아한다.",
+      "text_en": "Love large parties.",
+      "language": "ko",
+      "factor": "E",
+      "facet": "E2: Gregariousness",
+      "keyed": "+"
+    },
+    {
+      "num": "37",
+      "text": "파티에서 여러 다양한 사람들과 이야기를 나눈다.",
+      "text_en": "Talk to a lot of different people at parties.",
+      "language": "ko",
+      "factor": "E",
+      "facet": "E2: Gregariousness",
+      "keyed": "+"
+    },
+    {
+      "num": "67",
+      "text": "혼자 있는 것을 더 좋아한다.",
+      "text_en": "Prefer to be alone.",
+      "language": "ko",
+      "factor": "E",
+      "facet": "E2: Gregariousness",
+      "keyed": "-"
+    },
+    {
+      "num": "97",
+      "text": "사람 많은 곳을 피한다.",
+      "text_en": "Avoid crowds.",
+      "language": "ko",
+      "factor": "E",
+      "facet": "E2: Gregariousness",
+      "keyed": "-"
+    },
+    {
+      "num": "12",
+      "text": "앞장서서 일을 주도한다.",
+      "text_en": "Take charge.",
+      "language": "ko",
+      "factor": "E",
+      "facet": "E3: Assertiveness",
+      "keyed": "+"
+    },
+    {
+      "num": "42",
+      "text": "다른 사람들을 이끌려고 한다.",
+      "text_en": "Try to lead others.",
+      "language": "ko",
+      "factor": "E",
+      "facet": "E3: Assertiveness",
+      "keyed": "+"
+    },
+    {
+      "num": "72",
+      "text": "상황을 주도적으로 장악한다.",
+      "text_en": "Take control of things.",
+      "language": "ko",
+      "factor": "E",
+      "facet": "E3: Assertiveness",
+      "keyed": "+"
+    },
+    {
+      "num": "102",
+      "text": "다른 사람이 앞장서기를 기다린다.",
+      "text_en": "Wait for others to lead the way.",
+      "language": "ko",
+      "factor": "E",
+      "facet": "E3: Assertiveness",
+      "keyed": "-"
+    },
+    {
+      "num": "17",
+      "text": "늘 바쁘다.",
+      "text_en": "Am always busy.",
+      "language": "ko",
+      "factor": "E",
+      "facet": "E4: Activity Level",
+      "keyed": "+"
+    },
+    {
+      "num": "47",
+      "text": "늘 분주하게 움직인다.",
+      "text_en": "Am always on the go.",
+      "language": "ko",
+      "factor": "E",
+      "facet": "E4: Activity Level",
+      "keyed": "+"
+    },
+    {
+      "num": "77",
+      "text": "여가 시간에도 많은 일을 한다.",
+      "text_en": "Do a lot in my spare time.",
+      "language": "ko",
+      "factor": "E",
+      "facet": "E4: Activity Level",
+      "keyed": "+"
+    },
+    {
+      "num": "107",
+      "text": "느긋하게 지내는 것을 좋아한다.",
+      "text_en": "Like to take it easy.",
+      "language": "ko",
+      "factor": "E",
+      "facet": "E4: Activity Level",
+      "keyed": "-"
+    },
+    {
+      "num": "22",
+      "text": "짜릿한 자극을 아주 좋아한다.",
+      "text_en": "Love excitement.",
+      "language": "ko",
+      "factor": "E",
+      "facet": "E5: Excitement-Seeking",
+      "keyed": "+"
+    },
+    {
+      "num": "52",
+      "text": "모험을 추구한다.",
+      "text_en": "Seek adventure.",
+      "language": "ko",
+      "factor": "E",
+      "facet": "E5: Excitement-Seeking",
+      "keyed": "+"
+    },
+    {
+      "num": "82",
+      "text": "무모하게 구는 것을 즐긴다.",
+      "text_en": "Enjoy being reckless.",
+      "language": "ko",
+      "factor": "E",
+      "facet": "E5: Excitement-Seeking",
+      "keyed": "+"
+    },
+    {
+      "num": "112",
+      "text": "거칠고 정신없이 제멋대로 행동한다.",
+      "text_en": "Act wild and crazy.",
+      "language": "ko",
+      "factor": "E",
+      "facet": "E5: Excitement-Seeking",
+      "keyed": "+"
+    },
+    {
+      "num": "27",
+      "text": "기쁨을 발산한다.",
+      "text_en": "Radiate joy.",
+      "language": "ko",
+      "factor": "E",
+      "facet": "E6: Cheerfulness",
+      "keyed": "+"
+    },
+    {
+      "num": "57",
+      "text": "즐거운 시간을 많이 보낸다.",
+      "text_en": "Have a lot of fun.",
+      "language": "ko",
+      "factor": "E",
+      "facet": "E6: Cheerfulness",
+      "keyed": "+"
+    },
+    {
+      "num": "87",
+      "text": "삶을 사랑한다.",
+      "text_en": "Love life.",
+      "language": "ko",
+      "factor": "E",
+      "facet": "E6: Cheerfulness",
+      "keyed": "+"
+    },
+    {
+      "num": "117",
+      "text": "삶의 밝은 면을 바라본다.",
+      "text_en": "Look at the bright side of life.",
+      "language": "ko",
+      "factor": "E",
+      "facet": "E6: Cheerfulness",
+      "keyed": "+"
+    },
+    {
+      "num": "3",
+      "text": "상상력이 풍부하다.",
+      "text_en": "Have a vivid imagination.",
+      "language": "ko",
+      "factor": "O",
+      "facet": "O1: Imagination",
+      "keyed": "+"
+    },
+    {
+      "num": "33",
+      "text": "거침없는 공상에 빠져드는 것을 즐긴다.",
+      "text_en": "Enjoy wild flights of fantasy.",
+      "language": "ko",
+      "factor": "O",
+      "facet": "O1: Imagination",
+      "keyed": "+"
+    },
+    {
+      "num": "63",
+      "text": "공상에 잠기는 것을 아주 좋아한다.",
+      "text_en": "Love to daydream.",
+      "language": "ko",
+      "factor": "O",
+      "facet": "O1: Imagination",
+      "keyed": "+"
+    },
+    {
+      "num": "93",
+      "text": "생각에 깊이 잠기는 것을 좋아한다.",
+      "text_en": "Like to get lost in thought.",
+      "language": "ko",
+      "factor": "O",
+      "facet": "O1: Imagination",
+      "keyed": "+"
+    },
+    {
+      "num": "8",
+      "text": "예술의 중요성을 믿는다.",
+      "text_en": "Believe in the importance of art.",
+      "language": "ko",
+      "factor": "O",
+      "facet": "O2: Artistic Interests",
+      "keyed": "+"
+    },
+    {
+      "num": "38",
+      "text": "남들이 알아채지 못할 것에서도 아름다움을 발견한다.",
+      "text_en": "See beauty in things that others might not notice.",
+      "language": "ko",
+      "factor": "O",
+      "facet": "O2: Artistic Interests",
+      "keyed": "+"
+    },
+    {
+      "num": "68",
+      "text": "시를 좋아하지 않는다.",
+      "text_en": "Do not like poetry.",
+      "language": "ko",
+      "factor": "O",
+      "facet": "O2: Artistic Interests",
+      "keyed": "-"
+    },
+    {
+      "num": "98",
+      "text": "미술관에 가는 것을 즐기지 않는다.",
+      "text_en": "Do not enjoy going to art museums.",
+      "language": "ko",
+      "factor": "O",
+      "facet": "O2: Artistic Interests",
+      "keyed": "-"
+    },
+    {
+      "num": "13",
+      "text": "감정을 강렬하게 느낀다.",
+      "text_en": "Experience my emotions intensely.",
+      "language": "ko",
+      "factor": "O",
+      "facet": "O3: Emotionality",
+      "keyed": "+"
+    },
+    {
+      "num": "43",
+      "text": "다른 사람의 감정을 함께 느낀다.",
+      "text_en": "Feel others' emotions.",
+      "language": "ko",
+      "factor": "O",
+      "facet": "O3: Emotionality",
+      "keyed": "+"
+    },
+    {
+      "num": "73",
+      "text": "내 감정 반응을 좀처럼 알아차리지 못한다.",
+      "text_en": "Rarely notice my emotional reactions.",
+      "language": "ko",
+      "factor": "O",
+      "facet": "O3: Emotionality",
+      "keyed": "-"
+    },
+    {
+      "num": "103",
+      "text": "감정적으로 구는 사람을 이해하지 못한다.",
+      "text_en": "Don't understand people who get emotional.",
+      "language": "ko",
+      "factor": "O",
+      "facet": "O3: Emotionality",
+      "keyed": "-"
+    },
+    {
+      "num": "18",
+      "text": "틀에 박힌 일보다 다양함을 더 좋아한다.",
+      "text_en": "Prefer variety to routine.",
+      "language": "ko",
+      "factor": "O",
+      "facet": "O4: Adventurousness",
+      "keyed": "+"
+    },
+    {
+      "num": "48",
+      "text": "내가 아는 것을 고수하는 편을 더 좋아한다.",
+      "text_en": "Prefer to stick with things that I know.",
+      "language": "ko",
+      "factor": "O",
+      "facet": "O4: Adventurousness",
+      "keyed": "-"
+    },
+    {
+      "num": "78",
+      "text": "변화를 싫어한다.",
+      "text_en": "Dislike changes.",
+      "language": "ko",
+      "factor": "O",
+      "facet": "O4: Adventurousness",
+      "keyed": "-"
+    },
+    {
+      "num": "108",
+      "text": "관습적인 방식에 집착한다.",
+      "text_en": "Am attached to conventional ways.",
+      "language": "ko",
+      "factor": "O",
+      "facet": "O4: Adventurousness",
+      "keyed": "-"
+    },
+    {
+      "num": "23",
+      "text": "어렵고 까다로운 글을 읽는 것을 아주 좋아한다.",
+      "text_en": "Love to read challenging material.",
+      "language": "ko",
+      "factor": "O",
+      "facet": "O5: Intellect",
+      "keyed": "+"
+    },
+    {
+      "num": "53",
+      "text": "철학적인 토론을 피한다.",
+      "text_en": "Avoid philosophical discussions.",
+      "language": "ko",
+      "factor": "O",
+      "facet": "O5: Intellect",
+      "keyed": "-"
+    },
+    {
+      "num": "83",
+      "text": "추상적인 개념을 이해하는 데 어려움을 겪는다.",
+      "text_en": "Have difficulty understanding abstract ideas.",
+      "language": "ko",
+      "factor": "O",
+      "facet": "O5: Intellect",
+      "keyed": "-"
+    },
+    {
+      "num": "113",
+      "text": "이론적인 토론에 관심이 없다.",
+      "text_en": "Am not interested in theoretical discussions.",
+      "language": "ko",
+      "factor": "O",
+      "facet": "O5: Intellect",
+      "keyed": "-"
+    },
+    {
+      "num": "28",
+      "text": "진보적인 정치 후보에게 투표하는 편이다.",
+      "text_en": "Tend to vote for liberal political candidates.",
+      "language": "ko",
+      "factor": "O",
+      "facet": "O6: Liberalism",
+      "keyed": "+"
+    },
+    {
+      "num": "58",
+      "text": "절대적인 옳고 그름은 없다고 믿는다.",
+      "text_en": "Believe that there is no absolute right and wrong.",
+      "language": "ko",
+      "factor": "O",
+      "facet": "O6: Liberalism",
+      "keyed": "+"
+    },
+    {
+      "num": "88",
+      "text": "보수적인 정치 후보에게 투표하는 편이다.",
+      "text_en": "Tend to vote for conservative political candidates.",
+      "language": "ko",
+      "factor": "O",
+      "facet": "O6: Liberalism",
+      "keyed": "-"
+    },
+    {
+      "num": "118",
+      "text": "범죄에 대해서는 강경하게 대처해야 한다고 믿는다.",
+      "text_en": "Believe that we should be tough on crime.",
+      "language": "ko",
+      "factor": "O",
+      "facet": "O6: Liberalism",
+      "keyed": "-"
+    },
+    {
+      "num": "4",
+      "text": "다른 사람을 믿는다.",
+      "text_en": "Trust others.",
+      "language": "ko",
+      "factor": "A",
+      "facet": "A1: Trust",
+      "keyed": "+"
+    },
+    {
+      "num": "34",
+      "text": "다른 사람이 선한 의도를 가지고 있다고 믿는다.",
+      "text_en": "Believe that others have good intentions.",
+      "language": "ko",
+      "factor": "A",
+      "facet": "A1: Trust",
+      "keyed": "+"
+    },
+    {
+      "num": "64",
+      "text": "사람들이 하는 말을 믿는다.",
+      "text_en": "Trust what people say.",
+      "language": "ko",
+      "factor": "A",
+      "facet": "A1: Trust",
+      "keyed": "+"
+    },
+    {
+      "num": "94",
+      "text": "사람을 잘 믿지 못한다.",
+      "text_en": "Distrust people.",
+      "language": "ko",
+      "factor": "A",
+      "facet": "A1: Trust",
+      "keyed": "-"
+    },
+    {
+      "num": "9",
+      "text": "내 목적을 위해 다른 사람을 이용한다.",
+      "text_en": "Use others for my own ends.",
+      "language": "ko",
+      "factor": "A",
+      "facet": "A2: Morality",
+      "keyed": "-"
+    },
+    {
+      "num": "39",
+      "text": "앞서 나가기 위해 속임수를 쓴다.",
+      "text_en": "Cheat to get ahead.",
+      "language": "ko",
+      "factor": "A",
+      "facet": "A2: Morality",
+      "keyed": "-"
+    },
+    {
+      "num": "69",
+      "text": "다른 사람을 이용해 먹는다.",
+      "text_en": "Take advantage of others.",
+      "language": "ko",
+      "factor": "A",
+      "facet": "A2: Morality",
+      "keyed": "-"
+    },
+    {
+      "num": "99",
+      "text": "다른 사람의 계획을 방해한다.",
+      "text_en": "Obstruct others' plans.",
+      "language": "ko",
+      "factor": "A",
+      "facet": "A2: Morality",
+      "keyed": "-"
+    },
+    {
+      "num": "14",
+      "text": "다른 사람 돕는 것을 아주 좋아한다.",
+      "text_en": "Love to help others.",
+      "language": "ko",
+      "factor": "A",
+      "facet": "A3: Altruism",
+      "keyed": "+"
+    },
+    {
+      "num": "44",
+      "text": "다른 사람에게 마음을 쓴다.",
+      "text_en": "Am concerned about others.",
+      "language": "ko",
+      "factor": "A",
+      "facet": "A3: Altruism",
+      "keyed": "+"
+    },
+    {
+      "num": "74",
+      "text": "다른 사람의 감정에 무관심하다.",
+      "text_en": "Am indifferent to the feelings of others.",
+      "language": "ko",
+      "factor": "A",
+      "facet": "A3: Altruism",
+      "keyed": "-"
+    },
+    {
+      "num": "104",
+      "text": "다른 사람을 위해 시간을 내지 않는다.",
+      "text_en": "Take no time for others.",
+      "language": "ko",
+      "factor": "A",
+      "facet": "A3: Altruism",
+      "keyed": "-"
+    },
+    {
+      "num": "19",
+      "text": "한판 붙어 다투는 것을 즐긴다.",
+      "text_en": "Love a good fight.",
+      "language": "ko",
+      "factor": "A",
+      "facet": "A4: Cooperation",
+      "keyed": "-"
+    },
+    {
+      "num": "49",
+      "text": "사람들에게 소리를 지른다.",
+      "text_en": "Yell at people.",
+      "language": "ko",
+      "factor": "A",
+      "facet": "A4: Cooperation",
+      "keyed": "-"
+    },
+    {
+      "num": "79",
+      "text": "사람들에게 모욕을 준다.",
+      "text_en": "Insult people.",
+      "language": "ko",
+      "factor": "A",
+      "facet": "A4: Cooperation",
+      "keyed": "-"
+    },
+    {
+      "num": "109",
+      "text": "다른 사람에게 앙갚음을 한다.",
+      "text_en": "Get back at others.",
+      "language": "ko",
+      "factor": "A",
+      "facet": "A4: Cooperation",
+      "keyed": "-"
+    },
+    {
+      "num": "24",
+      "text": "내가 다른 사람보다 낫다고 믿는다.",
+      "text_en": "Believe that I am better than others.",
+      "language": "ko",
+      "factor": "A",
+      "facet": "A5: Modesty",
+      "keyed": "-"
+    },
+    {
+      "num": "54",
+      "text": "나 자신을 높이 평가한다.",
+      "text_en": "Think highly of myself.",
+      "language": "ko",
+      "factor": "A",
+      "facet": "A5: Modesty",
+      "keyed": "-"
+    },
+    {
+      "num": "84",
+      "text": "나 자신에 대해 대단하게 생각한다.",
+      "text_en": "Have a high opinion of myself.",
+      "language": "ko",
+      "factor": "A",
+      "facet": "A5: Modesty",
+      "keyed": "-"
+    },
+    {
+      "num": "114",
+      "text": "내 장점을 자랑한다.",
+      "text_en": "Boast about my virtues.",
+      "language": "ko",
+      "factor": "A",
+      "facet": "A5: Modesty",
+      "keyed": "-"
+    },
+    {
+      "num": "29",
+      "text": "노숙자를 안타깝게 여긴다.",
+      "text_en": "Sympathize with the homeless.",
+      "language": "ko",
+      "factor": "A",
+      "facet": "A6: Sympathy",
+      "keyed": "+"
+    },
+    {
+      "num": "59",
+      "text": "나보다 형편이 어려운 사람들을 안타까이 여긴다.",
+      "text_en": "Feel sympathy for those who are worse off than myself.",
+      "language": "ko",
+      "factor": "A",
+      "facet": "A6: Sympathy",
+      "keyed": "+"
+    },
+    {
+      "num": "89",
+      "text": "다른 사람의 문제에 관심이 없다.",
+      "text_en": "Am not interested in other people's problems.",
+      "language": "ko",
+      "factor": "A",
+      "facet": "A6: Sympathy",
+      "keyed": "-"
+    },
+    {
+      "num": "119",
+      "text": "어려운 처지의 사람들에 대해 생각하지 않으려 한다.",
+      "text_en": "Try not to think about the needy.",
+      "language": "ko",
+      "factor": "A",
+      "facet": "A6: Sympathy",
+      "keyed": "-"
+    },
+    {
+      "num": "5",
+      "text": "맡은 일을 성공적으로 완수한다.",
+      "text_en": "Complete tasks successfully.",
+      "language": "ko",
+      "factor": "C",
+      "facet": "C1: Self-Efficacy",
+      "keyed": "+"
+    },
+    {
+      "num": "35",
+      "text": "내가 하는 일에서 뛰어난 성과를 낸다.",
+      "text_en": "Excel in what I do.",
+      "language": "ko",
+      "factor": "C",
+      "facet": "C1: Self-Efficacy",
+      "keyed": "+"
+    },
+    {
+      "num": "65",
+      "text": "일을 매끄럽게 처리한다.",
+      "text_en": "Handle tasks smoothly.",
+      "language": "ko",
+      "factor": "C",
+      "facet": "C1: Self-Efficacy",
+      "keyed": "+"
+    },
+    {
+      "num": "95",
+      "text": "일을 어떻게 해내야 하는지 잘 안다.",
+      "text_en": "Know how to get things done.",
+      "language": "ko",
+      "factor": "C",
+      "facet": "C1: Self-Efficacy",
+      "keyed": "+"
+    },
+    {
+      "num": "10",
+      "text": "정리 정돈하는 것을 좋아한다.",
+      "text_en": "Like to tidy up.",
+      "language": "ko",
+      "factor": "C",
+      "facet": "C2: Orderliness",
+      "keyed": "+"
+    },
+    {
+      "num": "40",
+      "text": "물건을 제자리에 다시 놓는 것을 자주 잊는다.",
+      "text_en": "Often forget to put things back in their proper place.",
+      "language": "ko",
+      "factor": "C",
+      "facet": "C2: Orderliness",
+      "keyed": "-"
+    },
+    {
+      "num": "70",
+      "text": "내 방을 어질러 놓는다.",
+      "text_en": "Leave a mess in my room.",
+      "language": "ko",
+      "factor": "C",
+      "facet": "C2: Orderliness",
+      "keyed": "-"
+    },
+    {
+      "num": "100",
+      "text": "내 물건을 여기저기 늘어놓는다.",
+      "text_en": "Leave my belongings around.",
+      "language": "ko",
+      "factor": "C",
+      "facet": "C2: Orderliness",
+      "keyed": "-"
+    },
+    {
+      "num": "15",
+      "text": "약속을 지킨다.",
+      "text_en": "Keep my promises.",
+      "language": "ko",
+      "factor": "C",
+      "facet": "C3: Dutifulness",
+      "keyed": "+"
+    },
+    {
+      "num": "45",
+      "text": "진실을 말한다.",
+      "text_en": "Tell the truth.",
+      "language": "ko",
+      "factor": "C",
+      "facet": "C3: Dutifulness",
+      "keyed": "+"
+    },
+    {
+      "num": "75",
+      "text": "규칙을 어긴다.",
+      "text_en": "Break rules.",
+      "language": "ko",
+      "factor": "C",
+      "facet": "C3: Dutifulness",
+      "keyed": "-"
+    },
+    {
+      "num": "105",
+      "text": "약속을 어긴다.",
+      "text_en": "Break my promises.",
+      "language": "ko",
+      "factor": "C",
+      "facet": "C3: Dutifulness",
+      "keyed": "-"
+    },
+    {
+      "num": "20",
+      "text": "열심히 일한다.",
+      "text_en": "Work hard.",
+      "language": "ko",
+      "factor": "C",
+      "facet": "C4: Achievement-Striving",
+      "keyed": "+"
+    },
+    {
+      "num": "50",
+      "text": "나에게 기대되는 것 이상을 해낸다.",
+      "text_en": "Do more than what's expected of me.",
+      "language": "ko",
+      "factor": "C",
+      "facet": "C4: Achievement-Striving",
+      "keyed": "+"
+    },
+    {
+      "num": "80",
+      "text": "겨우 넘어갈 만큼만 일한다.",
+      "text_en": "Do just enough work to get by.",
+      "language": "ko",
+      "factor": "C",
+      "facet": "C4: Achievement-Striving",
+      "keyed": "-"
+    },
+    {
+      "num": "110",
+      "text": "내 일에 시간과 노력을 거의 들이지 않는다.",
+      "text_en": "Put little time and effort into my work.",
+      "language": "ko",
+      "factor": "C",
+      "facet": "C4: Achievement-Striving",
+      "keyed": "-"
+    },
+    {
+      "num": "25",
+      "text": "항상 준비되어 있다.",
+      "text_en": "Am always prepared.",
+      "language": "ko",
+      "factor": "C",
+      "facet": "C5: Self-Discipline",
+      "keyed": "+"
+    },
+    {
+      "num": "55",
+      "text": "세운 계획을 실행에 옮긴다.",
+      "text_en": "Carry out my plans.",
+      "language": "ko",
+      "factor": "C",
+      "facet": "C5: Self-Discipline",
+      "keyed": "+"
+    },
+    {
+      "num": "85",
+      "text": "시간을 허비한다.",
+      "text_en": "Waste my time.",
+      "language": "ko",
+      "factor": "C",
+      "facet": "C5: Self-Discipline",
+      "keyed": "-"
+    },
+    {
+      "num": "115",
+      "text": "일을 시작하는 것을 어려워한다.",
+      "text_en": "Have difficulty starting tasks.",
+      "language": "ko",
+      "factor": "C",
+      "facet": "C5: Self-Discipline",
+      "keyed": "-"
+    },
+    {
+      "num": "30",
+      "text": "생각 없이 일에 뛰어든다.",
+      "text_en": "Jump into things without thinking.",
+      "language": "ko",
+      "factor": "C",
+      "facet": "C6: Cautiousness",
+      "keyed": "-"
+    },
+    {
+      "num": "60",
+      "text": "성급하게 결정을 내린다.",
+      "text_en": "Make rash decisions.",
+      "language": "ko",
+      "factor": "C",
+      "facet": "C6: Cautiousness",
+      "keyed": "-"
+    },
+    {
+      "num": "90",
+      "text": "일을 서둘러 성급하게 밀어붙인다.",
+      "text_en": "Rush into things.",
+      "language": "ko",
+      "factor": "C",
+      "facet": "C6: Cautiousness",
+      "keyed": "-"
+    },
+    {
+      "num": "120",
+      "text": "생각 없이 행동한다.",
+      "text_en": "Act without thinking.",
+      "language": "ko",
+      "factor": "C",
+      "facet": "C6: Cautiousness",
+      "keyed": "-"
+    }
+  ]
+}

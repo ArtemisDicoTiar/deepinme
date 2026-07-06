@@ -1,0 +1,238 @@
+{
+  "_meta": {
+    "instrument": "OHBDS — 한국어 번역",
+    "full_name": "Open Hemispheric Brain Dominance Scale (Korean translation)",
+    "source_url": "https://openpsychometrics.org/tests/OHBDS/development/",
+    "license": "Creative Commons license (specific CC variant not stated). The Open-Source Psychometrics Project (openpsychometrics.org) states on its About page that the tests it has developed \"are made available under a creative commons license,\" and its /development/ page lists the OHBDS among the tests it developed that \"are available under a creative commons licence.\" Because even the most restrictive CC license permits non-commercial reproduction, this is safe for a non-commercial research corpus. NOTE: this is openpsychometrics.ORG (the actual open-source project), NOT openpsychometrics.NET, a separate re-host whose Terms reserve all rights. The interactive test additionally carries a use disclaimer: \"You use of this assessment should be for educational or entertainment purposes only. This is not psychological advice of any kind.\" The underlying construct items were newly written/assembled by OPP for this scale (many resemble public-domain IPIP-style statements).",
+    "license_class": "cc",
+    "safe_for_noncommercial_reuse": true,
+    "safe_for_commercial_reuse": false,
+    "reuse_notes": "한국어 번역(파생물). 비상업 1단계용. LLM 번역이며 검증된 한국어 표준검사가 아님 — 실사용 전 재검수 권장. 라이선스는 원본을 따르되 번역은 파생물이므로 CC-SA/연구용 조건이 그대로 적용됨.",
+    "attribution": "Open Hemispheric Brain Dominance Scale (OHBDS), Open-Source Psychometrics Project. Development manual: Eric Jorgenson (2015), \"Development of the Open Hemispheric Brain Dominance Scale,\" https://openpsychometrics.org/tests/OHBDS/development/. Item text and raw response data: Open-Source Psychometrics Project, https://openpsychometrics.org/ (OHBDS raw dataset, collected April 2015-January 2016, n=29,544). · 한국어 번역: deepinme 번역 워크플로우(2026-07, LLM).",
+    "scoring_notes": "Response format: each item is rated on a 5-point agreement scale where 1=Disagree, 3=Neutral, 5=Agree (per both the codebook and the test page). The OHBDS is unidimensional: it produces a single bipolar score along a left-brain (analytical/logical/orderly) to right-brain (intuitive/creative/spontaneous) continuum. To score, reverse the R-keyed items (or the L-keyed items, depending on which pole you want high scores to represent) and sum/average. The scale was built by criterion keying: from an 80-item pool, 4 items were selected for each of 5 published left-right reference scales (Alert Scale of Cognitive Style / Crane; Wagner Preference Inventory / Wagner; Polarity Questionnaire / Morton; Philip Carter's exercise / Carter; Madeleine Turgeon's questionnaire / Turgeon) on the basis of Pearson correlation, yielding 20 items. Reference-scale polarity used to derive keying: high Carter and high Wagner indicate the left/analytical pole; high Crane and high Turgeon indicate the right/intuitive pole (Morton is weaker/less consistent). keyed values: L (left/analytical pole) = items 1,2,3,5,7,8,10,11,12,14,18,20; R (right/intuitive pole) = items 4,6,9,13,15,16,17,19. Again, this keying is derived from the published correlation table, not an OPP-supplied answer key.",
+    "cautions": "ITEM TEXT is verbatim and double-sourced: all 20 items were taken from the OHBDS raw-data codebook (OHBDS-data.zip on https://openpsychometrics.org/_rawdata/) and each was independently confirmed to appear verbatim in the item pool published on the development page. Nothing was reconstructed from memory. One item preserves a source typo verbatim: item 4 reads \"I don't bother to the read instructions before I start putting something together.\" KEYING IS DERIVED, NOT OPP-STATED: OPP does not publish an explicit per-item scoring key for the OHBDS. The scale yields a single bipolar left-brain/right-brain score. I derived each item's L (left-brain/analytical) or R (right-brain/intuitive) direction from the development-page correlation table (correlations of each item with five reference scales: Carter, Crane, Morton, Turgeon, Wagner), anchored on unambiguous items (\"I prize logic above all else\" and \"I would prefer a class in mathematics to a class in pottery\" define the left/analytical pole). Items keyed L correlate positively with Carter/Wagner and negatively with Crane/Turgeon; R items show the reverse. Treat keyed as a documented inference, not an official key. Least certain item: item 7 (\"I like working with words\") has mixed reference-scale correlations (Carter -0.12 and Crane +0.13 point R, but Wagner +0.22 points L); I keyed it L because verbal/language content maps to the left-brain pole in this construct and it was retained via the Wagner reference scale, but this one is genuinely ambiguous. ITEM-COUNT DISCREPANCY: the finalized scale and the published dataset both contain 20 items (codebook lists Q1-Q20 with matching response-time variables E1-E20; development page states \"yielding the 20 items of the OHBDS\"), so expected_item_count=20. However, the CURRENT live interactive test page (https://openpsychometrics.org/tests/OHBDS/) states it now presents 24 items. The 4 additional live items are NOT included here: the live items load via client-side JS/AJAX and are not in the static HTML or in any published codebook, so fetching their verbatim text was not possible and including them would violate the verbatim rule. CONSTRUCT CAVEAT: the left-brain/right-brain distinction is scientifically discredited as neuroscience; OPP itself states \"The theory is completely bogus.\" It is retained only as a popular descriptive typology. FACET field left empty (OPP does not publish which reference scale each final item was selected for with enough certainty to assign). | 번역본: 문항 순서·채점방향(keyed)·factor/facet은 원본과 동일. text_en에 원문 병기.",
+    "translation": {
+      "language": "ko",
+      "translated_from": "raw/misc/items.open-hemispheric-brain-dominance.json",
+      "method": "LLM faithful translation (deepinme workflow, 2026-07) — 충실 번역이며 '쉬운말 리라이팅'은 별도 단계",
+      "status": "working draft — NOT a validated Korean instrument",
+      "qa": {
+        "fidelity": "high",
+        "naturalness": "natural",
+        "count_match": true,
+        "reviewer_overall": "Clean, high-quality set. All 20 items present, one per source. Fidelity is high: self-report first-person framing is consistently preserved and meanings are accurate. Language is natural and idiomatic — good use of native expressions (좀처럼, 웬만한 일에는, 일을 엉망으로 만들곤 한다, 창의력을 발산할 통로) with no 번역투. Only two minor, low-severity notes: item 6's '종잡을 수 없는 사람' carries a slightly more negative/erratic nuance than the neutral 'random' cognitive-style trait, and item 9 adds '잘', mildly shifting a habitual statement toward a competence claim. Item 8's '편이다' hedge is idiomatic for Korean self-report scales and is acceptable. No true mistranslations.",
+        "issues": [
+          {
+            "id": "6",
+            "problem": "'I am totally random.' rendered as '종잡을 수 없는 사람이다' leans toward 'erratic/unpredictable person,' which adds a mildly negative social connotation. In the brain-dominance context 'random' denotes a non-linear/spontaneous cognitive style vs. sequential/organized, so the neutral trait is slightly shifted.",
+            "suggestion": "나는 정말 즉흥적이다. (or 나는 매우 즉흥적인 사람이다.)"
+          },
+          {
+            "id": "9",
+            "problem": "'I come up with something new.' translated as '새로운 것을 잘 생각해낸다' inserts '잘' (does it well), nudging a plain habitual statement toward a competence/skill claim not present in the source.",
+            "suggestion": "나는 새로운 것을 곧잘 생각해낸다. (or drop the modifier: 나는 새로운 것을 생각해낸다.)"
+          }
+        ]
+      }
+    },
+    "verification": {
+      "summary": "번역 QA(2차 에이전트): fidelity=high, naturalness=natural, count_match=True, issues=2",
+      "fabrication_risk": "none"
+    },
+    "sources": [
+      {
+        "title": "Development of the Open Hemispheric Brain Dominance Scale (item pool + correlation table; Eric Jorgenson, 2015)",
+        "url": "https://openpsychometrics.org/tests/OHBDS/development/",
+        "license": "Creative Commons (OPP-developed test)"
+      },
+      {
+        "title": "OHBDS raw dataset + codebook (OHBDS-data.zip; verbatim 20-item list, n=29,544, collected Apr 2015-Jan 2016)",
+        "url": "https://openpsychometrics.org/_rawdata/",
+        "license": "Anonymous research data released by OPP; test items CC"
+      },
+      {
+        "title": "OHBDS interactive test page (intro, 5-point scale, use disclaimer; currently states 24 items)",
+        "url": "https://openpsychometrics.org/tests/OHBDS/",
+        "license": "Creative Commons (OPP-developed test)"
+      },
+      {
+        "title": "Open-Source Psychometrics Project - About (states OPP-developed measures are available under a creative commons license)",
+        "url": "https://openpsychometrics.org/about/",
+        "license": "n/a (policy page)"
+      },
+      {
+        "title": "Open-Source Psychometrics Project - Tests developed / full list (lists OEJTS, OHBDS, OEPS, Exposure Based Face Memory Test as CC-licensed)",
+        "url": "https://openpsychometrics.org/development/",
+        "license": "n/a (index page)"
+      },
+      {
+        "title": "Korean translation (deepinme workflow)",
+        "url": "https://openpsychometrics.org/tests/OHBDS/development/",
+        "license": "translation is a derivative; see reuse_notes"
+      }
+    ]
+  },
+  "count": 20,
+  "items": [
+    {
+      "num": "1",
+      "text": "나는 다른 사람의 칭찬이 필요하지 않다.",
+      "text_en": "I do not need others praise.",
+      "language": "ko",
+      "factor": "Hemispheric brain dominance (single bipolar left-right dimension)",
+      "keyed": "L"
+    },
+    {
+      "num": "2",
+      "text": "나는 도예 수업보다 수학 수업을 더 선호한다.",
+      "text_en": "I would prefer a class in mathematics to a class in pottery.",
+      "language": "ko",
+      "factor": "Hemispheric brain dominance (single bipolar left-right dimension)",
+      "keyed": "L"
+    },
+    {
+      "num": "3",
+      "text": "나는 절대 지각하지 않는다.",
+      "text_en": "I never show up late.",
+      "language": "ko",
+      "factor": "Hemispheric brain dominance (single bipolar left-right dimension)",
+      "keyed": "L"
+    },
+    {
+      "num": "4",
+      "text": "나는 무언가를 조립하기 전에 설명서를 굳이 읽지 않는다.",
+      "text_en": "I don't bother to the read instructions before I start putting something together.",
+      "language": "ko",
+      "factor": "Hemispheric brain dominance (single bipolar left-right dimension)",
+      "keyed": "R"
+    },
+    {
+      "num": "5",
+      "text": "나는 어지럽혀진 환경에서는 도저히 살 수 없다.",
+      "text_en": "I could not live in a mess.",
+      "language": "ko",
+      "factor": "Hemispheric brain dominance (single bipolar left-right dimension)",
+      "keyed": "L"
+    },
+    {
+      "num": "6",
+      "text": "나는 정말 종잡을 수 없는 사람이다.",
+      "text_en": "I am totally random.",
+      "language": "ko",
+      "factor": "Hemispheric brain dominance (single bipolar left-right dimension)",
+      "keyed": "R"
+    },
+    {
+      "num": "7",
+      "text": "나는 언어를 다루는 일을 좋아한다.",
+      "text_en": "I like working with words.",
+      "language": "ko",
+      "factor": "Hemispheric brain dominance (single bipolar left-right dimension)",
+      "keyed": "L"
+    },
+    {
+      "num": "8",
+      "text": "나는 사무적으로 행동하는 편이다.",
+      "text_en": "I behave in a businesslike manner.",
+      "language": "ko",
+      "factor": "Hemispheric brain dominance (single bipolar left-right dimension)",
+      "keyed": "L"
+    },
+    {
+      "num": "9",
+      "text": "나는 새로운 것을 잘 생각해낸다.",
+      "text_en": "I come up with something new.",
+      "language": "ko",
+      "factor": "Hemispheric brain dominance (single bipolar left-right dimension)",
+      "keyed": "R"
+    },
+    {
+      "num": "10",
+      "text": "나는 웬만한 일에는 쉽게 동요하지 않는다.",
+      "text_en": "I am not easily disturbed by events.",
+      "language": "ko",
+      "factor": "Hemispheric brain dominance (single bipolar left-right dimension)",
+      "keyed": "L"
+    },
+    {
+      "num": "11",
+      "text": "나는 슬픈 영화를 봐도 좀처럼 울지 않는다.",
+      "text_en": "I rarely cry during sad movies.",
+      "language": "ko",
+      "factor": "Hemispheric brain dominance (single bipolar left-right dimension)",
+      "keyed": "L"
+    },
+    {
+      "num": "12",
+      "text": "나는 내 삶을 논리적으로 계획한다.",
+      "text_en": "I plan my life logically.",
+      "language": "ko",
+      "factor": "Hemispheric brain dominance (single bipolar left-right dimension)",
+      "keyed": "L"
+    },
+    {
+      "num": "13",
+      "text": "나는 창의력을 발산할 통로가 필요하다.",
+      "text_en": "I need a creative outlet.",
+      "language": "ko",
+      "factor": "Hemispheric brain dominance (single bipolar left-right dimension)",
+      "keyed": "R"
+    },
+    {
+      "num": "14",
+      "text": "나는 감정이 아니라 사실에 근거해 결정을 내린다.",
+      "text_en": "I make decisions based on facts, not feelings.",
+      "language": "ko",
+      "factor": "Hemispheric brain dominance (single bipolar left-right dimension)",
+      "keyed": "L"
+    },
+    {
+      "num": "15",
+      "text": "나는 일을 엉망으로 만들곤 한다.",
+      "text_en": "I make a mess of things.",
+      "language": "ko",
+      "factor": "Hemispheric brain dominance (single bipolar left-right dimension)",
+      "keyed": "R"
+    },
+    {
+      "num": "16",
+      "text": "나는 쉽게 스트레스를 받는다.",
+      "text_en": "I get stressed out easily.",
+      "language": "ko",
+      "factor": "Hemispheric brain dominance (single bipolar left-right dimension)",
+      "keyed": "R"
+    },
+    {
+      "num": "17",
+      "text": "나는 낭만적이다.",
+      "text_en": "I am romantic.",
+      "language": "ko",
+      "factor": "Hemispheric brain dominance (single bipolar left-right dimension)",
+      "keyed": "R"
+    },
+    {
+      "num": "18",
+      "text": "나는 무엇보다 논리를 중시한다.",
+      "text_en": "I prize logic above all else.",
+      "language": "ko",
+      "factor": "Hemispheric brain dominance (single bipolar left-right dimension)",
+      "keyed": "L"
+    },
+    {
+      "num": "19",
+      "text": "나는 물건을 제자리에 돌려놓는 것을 자주 잊는다.",
+      "text_en": "I often forget to put things back in their proper place.",
+      "language": "ko",
+      "factor": "Hemispheric brain dominance (single bipolar left-right dimension)",
+      "keyed": "R"
+    },
+    {
+      "num": "20",
+      "text": "나는 긴장된 상황에서도 침착하다.",
+      "text_en": "I am calm even in tense situations.",
+      "language": "ko",
+      "factor": "Hemispheric brain dominance (single bipolar left-right dimension)",
+      "keyed": "L"
+    }
+  ]
+}

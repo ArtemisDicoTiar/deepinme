@@ -1,0 +1,414 @@
+{
+  "_meta": {
+    "instrument": "Open Enneagram of Personality Scales (OEPS v1.0), Open-Source Psychometrics Project",
+    "full_name": "Open Enneagram of Personality Scales (OEPS v1.0), Open-Source Psychometrics Project",
+    "source_url": "https://openpsychometrics.org/tests/OEPS/",
+    "license": "Creative Commons per OSPP project policy (About page confirms 'a creative commons license'); the specific BY-NC-SA 4.0 variant is INFERRED from a sibling page and is NOT printed on the OEPS artifacts",
+    "license_class": "cc",
+    "safe_for_noncommercial_reuse": true,
+    "safe_for_commercial_reuse": false,
+    "attribution": "Open Enneagram of Personality Scales (OEPS v1.0), Open-Source Psychometrics Project (anonymous author/maintainer). Creative Commons (specific variant not printed on artifacts; treat as BY-NC-SA).",
+    "cautions": "REFERENCE ONLY. 36 Likert items, 4 per type, all positively keyed. Treat as CC NonCommercial+ShareAlike (variant uncertain) → do NOT reproduce/rewrite commercially without confirming the license with the author. Useful as a structural model for authoring ORIGINAL Enneagram items.",
+    "scoring_key": {
+      "instrument": "OEPS v1.0 (36 Likert items, 1-5, all positively keyed)",
+      "Type1": [
+        "Q1",
+        "Q10",
+        "Q19",
+        "Q28"
+      ],
+      "Type2": [
+        "Q2",
+        "Q11",
+        "Q20",
+        "Q29"
+      ],
+      "Type3": [
+        "Q3",
+        "Q12",
+        "Q21",
+        "Q30"
+      ],
+      "Type4": [
+        "Q4",
+        "Q13",
+        "Q22",
+        "Q31"
+      ],
+      "Type5": [
+        "Q5",
+        "Q14",
+        "Q23",
+        "Q32"
+      ],
+      "Type6": [
+        "Q6",
+        "Q15",
+        "Q24",
+        "Q33"
+      ],
+      "Type7": [
+        "Q7",
+        "Q16",
+        "Q25",
+        "Q34"
+      ],
+      "Type8": [
+        "Q8",
+        "Q17",
+        "Q26",
+        "Q35"
+      ],
+      "Type9": [
+        "Q9",
+        "Q18",
+        "Q27",
+        "Q36"
+      ],
+      "note": "Higher summed rating = stronger match to that type; type with highest score is the assigned type."
+    },
+    "verification": {
+      "summary": "adversarially fact-checked by a second agent against primary sources (deepinme research workflow, 2026-07) — 36/36 items verbatim-accurate vs publisher ODT; license certainty flagged down from the research draft",
+      "fabrication_risk": "low"
+    },
+    "sources": [
+      {
+        "title": "OEPS v1.0 (Open Enneagram of Personality Scales)",
+        "url": "https://openpsychometrics.org/tests/OEPS/development/OSPP-Enneagram-of-Personality-Scales-v1.odt",
+        "license": "CC BY-NC-SA 4.0 (OSPP project policy; inferred — no per-page notice; see licensing_notes)"
+      },
+      {
+        "title": "OEPS (Open-Source Psychometrics Project)",
+        "url": "https://openpsychometrics.org/tests/OEPS/",
+        "license": "CC (variant inferred BY-NC-SA 4.0)"
+      }
+    ]
+  },
+  "count": 36,
+  "items": [
+    {
+      "instrument": "OEPS v1.0 (Open Enneagram of Personality Scales)",
+      "text": "I am a perfectionist.",
+      "language": "English",
+      "source": "https://openpsychometrics.org/tests/OEPS/development/OSPP-Enneagram-of-Personality-Scales-v1.odt",
+      "license": "CC BY-NC-SA 4.0 (OSPP project policy; inferred — no per-page notice; see licensing_notes)",
+      "dimension": "Type 1 (The Reformer/Perfectionist)",
+      "keyed": "positive (Likert 1-5; higher = more Type 1)"
+    },
+    {
+      "instrument": "OEPS v1.0 (Open Enneagram of Personality Scales)",
+      "text": "I strive for efficiency.",
+      "language": "English",
+      "source": "https://openpsychometrics.org/tests/OEPS/development/OSPP-Enneagram-of-Personality-Scales-v1.odt",
+      "license": "CC BY-NC-SA 4.0 (OSPP project policy; inferred — see licensing_notes)",
+      "dimension": "Type 1 (The Reformer/Perfectionist)",
+      "keyed": "positive"
+    },
+    {
+      "instrument": "OEPS v1.0 (Open Enneagram of Personality Scales)",
+      "text": "I often have to redo other peoples work.",
+      "language": "English",
+      "source": "https://openpsychometrics.org/tests/OEPS/development/OSPP-Enneagram-of-Personality-Scales-v1.odt",
+      "license": "CC BY-NC-SA 4.0 (OSPP project policy; inferred — see licensing_notes)",
+      "dimension": "Type 1 (The Reformer/Perfectionist)",
+      "keyed": "positive"
+    },
+    {
+      "instrument": "OEPS v1.0 (Open Enneagram of Personality Scales)",
+      "text": "I keep my belongings in order.",
+      "language": "English",
+      "source": "https://openpsychometrics.org/tests/OEPS/development/OSPP-Enneagram-of-Personality-Scales-v1.odt",
+      "license": "CC BY-NC-SA 4.0 (OSPP project policy; inferred — see licensing_notes)",
+      "dimension": "Type 1 (The Reformer/Perfectionist)",
+      "keyed": "positive"
+    },
+    {
+      "instrument": "OEPS v1.0 (Open Enneagram of Personality Scales)",
+      "text": "My relationships with others are what my life is about.",
+      "language": "English",
+      "source": "https://openpsychometrics.org/tests/OEPS/development/OSPP-Enneagram-of-Personality-Scales-v1.odt",
+      "license": "CC BY-NC-SA 4.0 (OSPP project policy; inferred — see licensing_notes)",
+      "dimension": "Type 2 (The Helper/Giver)",
+      "keyed": "positive"
+    },
+    {
+      "instrument": "OEPS v1.0 (Open Enneagram of Personality Scales)",
+      "text": "I have difficulty saying no.",
+      "language": "English",
+      "source": "https://openpsychometrics.org/tests/OEPS/development/OSPP-Enneagram-of-Personality-Scales-v1.odt",
+      "license": "CC BY-NC-SA 4.0 (OSPP project policy; inferred — see licensing_notes)",
+      "dimension": "Type 2 (The Helper/Giver)",
+      "keyed": "positive"
+    },
+    {
+      "instrument": "OEPS v1.0 (Open Enneagram of Personality Scales)",
+      "text": "I get lots of satisfaction from helping others achieve their goals.",
+      "language": "English",
+      "source": "https://openpsychometrics.org/tests/OEPS/development/OSPP-Enneagram-of-Personality-Scales-v1.odt",
+      "license": "CC BY-NC-SA 4.0 (OSPP project policy; inferred — see licensing_notes)",
+      "dimension": "Type 2 (The Helper/Giver)",
+      "keyed": "positive"
+    },
+    {
+      "instrument": "OEPS v1.0 (Open Enneagram of Personality Scales)",
+      "text": "I put family first.",
+      "language": "English",
+      "source": "https://openpsychometrics.org/tests/OEPS/development/OSPP-Enneagram-of-Personality-Scales-v1.odt",
+      "license": "CC BY-NC-SA 4.0 (OSPP project policy; inferred — see licensing_notes)",
+      "dimension": "Type 2 (The Helper/Giver)",
+      "keyed": "positive"
+    },
+    {
+      "instrument": "OEPS v1.0 (Open Enneagram of Personality Scales)",
+      "text": "I put work first.",
+      "language": "English",
+      "source": "https://openpsychometrics.org/tests/OEPS/development/OSPP-Enneagram-of-Personality-Scales-v1.odt",
+      "license": "CC BY-NC-SA 4.0 (OSPP project policy; inferred — see licensing_notes)",
+      "dimension": "Type 3 (The Achiever/Performer)",
+      "keyed": "positive"
+    },
+    {
+      "instrument": "OEPS v1.0 (Open Enneagram of Personality Scales)",
+      "text": "I like to stand out.",
+      "language": "English",
+      "source": "https://openpsychometrics.org/tests/OEPS/development/OSPP-Enneagram-of-Personality-Scales-v1.odt",
+      "license": "CC BY-NC-SA 4.0 (OSPP project policy; inferred — see licensing_notes)",
+      "dimension": "Type 3 (The Achiever/Performer)",
+      "keyed": "positive"
+    },
+    {
+      "instrument": "OEPS v1.0 (Open Enneagram of Personality Scales)",
+      "text": "It is good to wake up to a full day of planned activities.",
+      "language": "English",
+      "source": "https://openpsychometrics.org/tests/OEPS/development/OSPP-Enneagram-of-Personality-Scales-v1.odt",
+      "license": "CC BY-NC-SA 4.0 (OSPP project policy; inferred — see licensing_notes)",
+      "dimension": "Type 3 (The Achiever/Performer)",
+      "keyed": "positive"
+    },
+    {
+      "instrument": "OEPS v1.0 (Open Enneagram of Personality Scales)",
+      "text": "Money is important to my happiness.",
+      "language": "English",
+      "source": "https://openpsychometrics.org/tests/OEPS/development/OSPP-Enneagram-of-Personality-Scales-v1.odt",
+      "license": "CC BY-NC-SA 4.0 (OSPP project policy; inferred — see licensing_notes)",
+      "dimension": "Type 3 (The Achiever/Performer)",
+      "keyed": "positive"
+    },
+    {
+      "instrument": "OEPS v1.0 (Open Enneagram of Personality Scales)",
+      "text": "I daydream about being in love.",
+      "language": "English",
+      "source": "https://openpsychometrics.org/tests/OEPS/development/OSPP-Enneagram-of-Personality-Scales-v1.odt",
+      "license": "CC BY-NC-SA 4.0 (OSPP project policy; inferred — see licensing_notes)",
+      "dimension": "Type 4 (The Individualist/Romantic)",
+      "keyed": "positive"
+    },
+    {
+      "instrument": "OEPS v1.0 (Open Enneagram of Personality Scales)",
+      "text": "I really enjoy feeling bitter sweet.",
+      "language": "English",
+      "source": "https://openpsychometrics.org/tests/OEPS/development/OSPP-Enneagram-of-Personality-Scales-v1.odt",
+      "license": "CC BY-NC-SA 4.0 (OSPP project policy; inferred — see licensing_notes)",
+      "dimension": "Type 4 (The Individualist/Romantic)",
+      "keyed": "positive"
+    },
+    {
+      "instrument": "OEPS v1.0 (Open Enneagram of Personality Scales)",
+      "text": "I cry.",
+      "language": "English",
+      "source": "https://openpsychometrics.org/tests/OEPS/development/OSPP-Enneagram-of-Personality-Scales-v1.odt",
+      "license": "CC BY-NC-SA 4.0 (OSPP project policy; inferred — see licensing_notes)",
+      "dimension": "Type 4 (The Individualist/Romantic)",
+      "keyed": "positive"
+    },
+    {
+      "instrument": "OEPS v1.0 (Open Enneagram of Personality Scales)",
+      "text": "I side with the rebels over the establishment.",
+      "language": "English",
+      "source": "https://openpsychometrics.org/tests/OEPS/development/OSPP-Enneagram-of-Personality-Scales-v1.odt",
+      "license": "CC BY-NC-SA 4.0 (OSPP project policy; inferred — see licensing_notes)",
+      "dimension": "Type 4 (The Individualist/Romantic)",
+      "keyed": "positive"
+    },
+    {
+      "instrument": "OEPS v1.0 (Open Enneagram of Personality Scales)",
+      "text": "I have a hard time showing emotions.",
+      "language": "English",
+      "source": "https://openpsychometrics.org/tests/OEPS/development/OSPP-Enneagram-of-Personality-Scales-v1.odt",
+      "license": "CC BY-NC-SA 4.0 (OSPP project policy; inferred — see licensing_notes)",
+      "dimension": "Type 5 (The Investigator/Observer)",
+      "keyed": "positive"
+    },
+    {
+      "instrument": "OEPS v1.0 (Open Enneagram of Personality Scales)",
+      "text": "I spend hours alone with my hobbies.",
+      "language": "English",
+      "source": "https://openpsychometrics.org/tests/OEPS/development/OSPP-Enneagram-of-Personality-Scales-v1.odt",
+      "license": "CC BY-NC-SA 4.0 (OSPP project policy; inferred — see licensing_notes)",
+      "dimension": "Type 5 (The Investigator/Observer)",
+      "keyed": "positive"
+    },
+    {
+      "instrument": "OEPS v1.0 (Open Enneagram of Personality Scales)",
+      "text": "I spend most of my time trying to understand things.",
+      "language": "English",
+      "source": "https://openpsychometrics.org/tests/OEPS/development/OSPP-Enneagram-of-Personality-Scales-v1.odt",
+      "license": "CC BY-NC-SA 4.0 (OSPP project policy; inferred — see licensing_notes)",
+      "dimension": "Type 5 (The Investigator/Observer)",
+      "keyed": "positive"
+    },
+    {
+      "instrument": "OEPS v1.0 (Open Enneagram of Personality Scales)",
+      "text": "I like mental challenges.",
+      "language": "English",
+      "source": "https://openpsychometrics.org/tests/OEPS/development/OSPP-Enneagram-of-Personality-Scales-v1.odt",
+      "license": "CC BY-NC-SA 4.0 (OSPP project policy; inferred — see licensing_notes)",
+      "dimension": "Type 5 (The Investigator/Observer)",
+      "keyed": "positive"
+    },
+    {
+      "instrument": "OEPS v1.0 (Open Enneagram of Personality Scales)",
+      "text": "Fear of being taken advantage of keeps me from being more trusting.",
+      "language": "English",
+      "source": "https://openpsychometrics.org/tests/OEPS/development/OSPP-Enneagram-of-Personality-Scales-v1.odt",
+      "license": "CC BY-NC-SA 4.0 (OSPP project policy; inferred — see licensing_notes)",
+      "dimension": "Type 6 (The Loyalist/Loyal Skeptic)",
+      "keyed": "positive"
+    },
+    {
+      "instrument": "OEPS v1.0 (Open Enneagram of Personality Scales)",
+      "text": "I get input from others before I make a decision.",
+      "language": "English",
+      "source": "https://openpsychometrics.org/tests/OEPS/development/OSPP-Enneagram-of-Personality-Scales-v1.odt",
+      "license": "CC BY-NC-SA 4.0 (OSPP project policy; inferred — see licensing_notes)",
+      "dimension": "Type 6 (The Loyalist/Loyal Skeptic)",
+      "keyed": "positive"
+    },
+    {
+      "instrument": "OEPS v1.0 (Open Enneagram of Personality Scales)",
+      "text": "I conform.",
+      "language": "English",
+      "source": "https://openpsychometrics.org/tests/OEPS/development/OSPP-Enneagram-of-Personality-Scales-v1.odt",
+      "license": "CC BY-NC-SA 4.0 (OSPP project policy; inferred — see licensing_notes)",
+      "dimension": "Type 6 (The Loyalist/Loyal Skeptic)",
+      "keyed": "positive"
+    },
+    {
+      "instrument": "OEPS v1.0 (Open Enneagram of Personality Scales)",
+      "text": "I am loyal.",
+      "language": "English",
+      "source": "https://openpsychometrics.org/tests/OEPS/development/OSPP-Enneagram-of-Personality-Scales-v1.odt",
+      "license": "CC BY-NC-SA 4.0 (OSPP project policy; inferred — see licensing_notes)",
+      "dimension": "Type 6 (The Loyalist/Loyal Skeptic)",
+      "keyed": "positive"
+    },
+    {
+      "instrument": "OEPS v1.0 (Open Enneagram of Personality Scales)",
+      "text": "I must always be having new experiences.",
+      "language": "English",
+      "source": "https://openpsychometrics.org/tests/OEPS/development/OSPP-Enneagram-of-Personality-Scales-v1.odt",
+      "license": "CC BY-NC-SA 4.0 (OSPP project policy; inferred — see licensing_notes)",
+      "dimension": "Type 7 (The Enthusiast/Epicure)",
+      "keyed": "positive"
+    },
+    {
+      "instrument": "OEPS v1.0 (Open Enneagram of Personality Scales)",
+      "text": "I can keep a conversation going with anyone about anything.",
+      "language": "English",
+      "source": "https://openpsychometrics.org/tests/OEPS/development/OSPP-Enneagram-of-Personality-Scales-v1.odt",
+      "license": "CC BY-NC-SA 4.0 (OSPP project policy; inferred — see licensing_notes)",
+      "dimension": "Type 7 (The Enthusiast/Epicure)",
+      "keyed": "positive"
+    },
+    {
+      "instrument": "OEPS v1.0 (Open Enneagram of Personality Scales)",
+      "text": "I am uninhibited.",
+      "language": "English",
+      "source": "https://openpsychometrics.org/tests/OEPS/development/OSPP-Enneagram-of-Personality-Scales-v1.odt",
+      "license": "CC BY-NC-SA 4.0 (OSPP project policy; inferred — see licensing_notes)",
+      "dimension": "Type 7 (The Enthusiast/Epicure)",
+      "keyed": "positive"
+    },
+    {
+      "instrument": "OEPS v1.0 (Open Enneagram of Personality Scales)",
+      "text": "I always try to break the tension with a good joke.",
+      "language": "English",
+      "source": "https://openpsychometrics.org/tests/OEPS/development/OSPP-Enneagram-of-Personality-Scales-v1.odt",
+      "license": "CC BY-NC-SA 4.0 (OSPP project policy; inferred — see licensing_notes)",
+      "dimension": "Type 7 (The Enthusiast/Epicure)",
+      "keyed": "positive"
+    },
+    {
+      "instrument": "OEPS v1.0 (Open Enneagram of Personality Scales)",
+      "text": "I naturally emerge as a leader.",
+      "language": "English",
+      "source": "https://openpsychometrics.org/tests/OEPS/development/OSPP-Enneagram-of-Personality-Scales-v1.odt",
+      "license": "CC BY-NC-SA 4.0 (OSPP project policy; inferred — see licensing_notes)",
+      "dimension": "Type 8 (The Challenger/Protector)",
+      "keyed": "positive"
+    },
+    {
+      "instrument": "OEPS v1.0 (Open Enneagram of Personality Scales)",
+      "text": "I like a conversation where no one agrees.",
+      "language": "English",
+      "source": "https://openpsychometrics.org/tests/OEPS/development/OSPP-Enneagram-of-Personality-Scales-v1.odt",
+      "license": "CC BY-NC-SA 4.0 (OSPP project policy; inferred — see licensing_notes)",
+      "dimension": "Type 8 (The Challenger/Protector)",
+      "keyed": "positive"
+    },
+    {
+      "instrument": "OEPS v1.0 (Open Enneagram of Personality Scales)",
+      "text": "I want people to tell me the truth, not spare my feelings.",
+      "language": "English",
+      "source": "https://openpsychometrics.org/tests/OEPS/development/OSPP-Enneagram-of-Personality-Scales-v1.odt",
+      "license": "CC BY-NC-SA 4.0 (OSPP project policy; inferred — see licensing_notes)",
+      "dimension": "Type 8 (The Challenger/Protector)",
+      "keyed": "positive"
+    },
+    {
+      "instrument": "OEPS v1.0 (Open Enneagram of Personality Scales)",
+      "text": "I prefer it when leaders are decisive.",
+      "language": "English",
+      "source": "https://openpsychometrics.org/tests/OEPS/development/OSPP-Enneagram-of-Personality-Scales-v1.odt",
+      "license": "CC BY-NC-SA 4.0 (OSPP project policy; inferred — see licensing_notes)",
+      "dimension": "Type 8 (The Challenger/Protector)",
+      "keyed": "positive"
+    },
+    {
+      "instrument": "OEPS v1.0 (Open Enneagram of Personality Scales)",
+      "text": "When other people are arguing, I leave the room.",
+      "language": "English",
+      "source": "https://openpsychometrics.org/tests/OEPS/development/OSPP-Enneagram-of-Personality-Scales-v1.odt",
+      "license": "CC BY-NC-SA 4.0 (OSPP project policy; inferred — see licensing_notes)",
+      "dimension": "Type 9 (The Peacemaker/Mediator)",
+      "keyed": "positive"
+    },
+    {
+      "instrument": "OEPS v1.0 (Open Enneagram of Personality Scales)",
+      "text": "I keep my thoughts to myself, to prevent trouble.",
+      "language": "English",
+      "source": "https://openpsychometrics.org/tests/OEPS/development/OSPP-Enneagram-of-Personality-Scales-v1.odt",
+      "license": "CC BY-NC-SA 4.0 (OSPP project policy; inferred — see licensing_notes)",
+      "dimension": "Type 9 (The Peacemaker/Mediator)",
+      "keyed": "positive"
+    },
+    {
+      "instrument": "OEPS v1.0 (Open Enneagram of Personality Scales)",
+      "text": "I am very accepting and flexible.",
+      "language": "English",
+      "source": "https://openpsychometrics.org/tests/OEPS/development/OSPP-Enneagram-of-Personality-Scales-v1.odt",
+      "license": "CC BY-NC-SA 4.0 (OSPP project policy; inferred — see licensing_notes)",
+      "dimension": "Type 9 (The Peacemaker/Mediator)",
+      "keyed": "positive"
+    },
+    {
+      "instrument": "OEPS v1.0 (Open Enneagram of Personality Scales)",
+      "text": "I avoid confrontation.",
+      "language": "English",
+      "source": "https://openpsychometrics.org/tests/OEPS/development/OSPP-Enneagram-of-Personality-Scales-v1.odt",
+      "license": "CC BY-NC-SA 4.0 (OSPP project policy; inferred — see licensing_notes)",
+      "dimension": "Type 9 (The Peacemaker/Mediator)",
+      "keyed": "positive"
+    }
+  ]
+}

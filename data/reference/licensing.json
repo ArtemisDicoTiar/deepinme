@@ -1,0 +1,85 @@
+{
+  "_meta": {
+    "kind": "licensing & copyright map",
+    "disclaimer": "Informational summary, NOT legal advice. Confirm with counsel before relying on it.",
+    "verified": "adversarially fact-checked by a second agent against primary sources (deepinme research workflow, 2026-07)",
+    "correction": "Arica Institute v. Palmer (970 F.2d 1067, 2d Cir. 1992) is a COPYRIGHT case (held the specific one-word ego-fixation labels lacked minimal creativity for copyright; defendant's use was fair use). It did NOT decide a trademark question — do not cite it as authority that 'Enneagram' is un-trademarkable, only that those short labels/common terms were not copyrightable.",
+    "license_class": "reference_map",
+    "safe_for_noncommercial_reuse": true,
+    "safe_for_commercial_reuse": true,
+    "attribution": "Compiled licensing/copyright map — informational, not legal advice.",
+    "source": "see reference/sources.md",
+    "sources": [
+      {
+        "title": "See aggregated sources",
+        "url": "reference/sources.md",
+        "license": "mixed — see file"
+      }
+    ]
+  },
+  "instruments": [
+    {
+      "instrument": "Official MBTI, MBTI Step I & Step II",
+      "owner": "The Myers-Briggs Company (publisher/distributor); trademarks owned by the Myers & Briggs Foundation, Inc.",
+      "status": "Fully copyrighted instrument. 'Myers-Briggs Type Indicator', 'Myers-Briggs', 'MBTI', 'Step I', 'Step II', 'Step III', 'Introduction to Type' and the MBTI logo are registered trademarks.",
+      "reusable": "No",
+      "terms": "Items may not be reproduced, copied online, adapted, modified, or translated without prior written permission and a paid content-license agreement; licenses are granted only for the most current version. Illustrative 'sample items' can be requested from the company. May not be used as the basis of a competing or derivative published test."
+    },
+    {
+      "instrument": "NERIS Type Explorer / 16Personalities",
+      "owner": "NERIS Analytics Limited",
+      "status": "Proprietary. Copyright in the test, questions and site content is exclusively reserved; 'NERIS', 'NERIS Type Explorer' and '16Personalities' are protected names/marks.",
+      "reusable": "No",
+      "terms": "All IP rights reserved; users may only view/cache/print pages for personal use. No license to reuse, republish, or build derivative or competing tests from the items."
+    },
+    {
+      "instrument": "RHETI (Riso-Hudson Enneagram Type Indicator) and other Riso-Hudson / Enneagram Institute materials",
+      "owner": "The Enneagram Institute (EI)",
+      "status": "Copyrighted, proprietary instrument. 'RHETI', 'The Enneagram Institute' and 'EnneaThought' are registered marks. NOTE: the generic word 'Enneagram' itself is NOT owned/trademarkable (public domain per Arica Institute v. Palmer, 970 F.2d 1067, 2d Cir. 1992).",
+      "reusable": "No",
+      "terms": "Tests, text and other content may not be copied, reproduced, adapted, distributed or stored for reuse without EI's advance written permission; professional/official use requires purchase or licensing and fees. If permission is granted, user must conspicuously attribute EI and display EI's copyright notice."
+    },
+    {
+      "instrument": "WEPSS (Wagner Enneagram Personality Style Scales)",
+      "owner": "Jerome P. Wagner, Ph.D.; published and distributed by Western Psychological Services (WPS)",
+      "status": "Copyrighted commercial test (200 items, 9 scales).",
+      "reusable": "No",
+      "terms": "Must be purchased/licensed from WPS (wpspublish.com) or taken via wepss.com. Items are protected; no reproduction, adaptation, or derivative use without WPS permission."
+    },
+    {
+      "instrument": "OEJTS (Open Extended Jungian Type Scales)",
+      "owner": "Eric Jorgenson / Open-Source Psychometrics Project",
+      "status": "Copyrighted but openly licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 (CC BY-NC-SA 4.0).",
+      "reusable": "Yes for NON-COMMERCIAL use only",
+      "terms": "May be shared/adapted with (a) attribution, (b) ShareAlike (derivatives must carry the same CC BY-NC-SA license), and (c) NON-COMMERCIAL use only. The NonCommercial clause bars a for-profit product from using it as-is; a commercial launch would require separate permission from the author or use of an alternative. Being 'open source' does NOT make it public domain."
+    },
+    {
+      "instrument": "IPIP (International Personality Item Pool)",
+      "owner": "Curated by Lewis R. Goldberg / Oregon Research Institute (ipip.ori.org); items dedicated to the public domain",
+      "status": "PUBLIC DOMAIN.",
+      "reusable": "Yes — including commercial use",
+      "terms": "No permission needed and no fee. Items (3,000+ across 250+ scales) may be copied, reordered, reworded, translated, interspersed with other items, and administered online freely. Best foundation for a commercial product. Citing IPIP is a courtesy, not a requirement. Caveat: do not adopt the proprietary names of the scales IPIP items are 'keyed to' (e.g., NEO PI-R, 16PF) as your own branding, and do not imply endorsement by those instruments' owners."
+    },
+    {
+      "instrument": "Big Five Inventory (BFI) and BFI-2 / BFI-2-S / BFI-2-XS",
+      "owner": "Oliver P. John (original 44-item BFI); Christopher J. Soto & Oliver P. John (BFI-2, copyright 2015/2017), Berkeley Personality Lab / Colby College",
+      "status": "Copyrighted. NOT public domain.",
+      "reusable": "Non-commercial research/education only; commercial use requires written permission",
+      "terms": "Freely available for non-commercial research and educational use (BFI-2 forms downloadable after a short usage survey). Any commercial use requires written permission from the Berkeley Personality Lab (ucbpersonalitylab@gmail.com). For a commercial product, prefer public-domain IPIP Big-Five markers instead of copying BFI items."
+    },
+    {
+      "instrument": "HEXACO / HEXACO-PI-R (and HEXACO-60, Brief HEXACO)",
+      "owner": "Kibeom Lee, Ph.D. & Michael C. Ashton, Ph.D. (hexaco.org)",
+      "status": "Copyrighted. NOT public domain.",
+      "reusable": "Non-profit academic research/education only; commercial use requires permission",
+      "terms": "HEXACO-PI-R forms are free to download for non-profit academic research and educational use; any other or commercial use requires contacting the authors. Public-domain alternative that measures the same six factors: the IPIP-HEXACO scales (usable commercially)."
+    },
+    {
+      "instrument": "openpsychometrics.org datasets and site-authored tests",
+      "owner": "Open-Source Psychometrics Project (maintained by Eric Jorgenson)",
+      "status": "Mixed. Raw response-data dumps are published openly for public use (Kaggle mirrors carry the Open Data Commons Database Contents License, DbCL v1.0). The project's own authored measures are released under a Creative Commons license (typically CC BY-NC-SA 4.0 = NonCommercial). Some hosted tests use public-domain IPIP items.",
+      "reusable": "Raw datasets: yes; project-authored scales: non-commercial only; IPIP-based items within them: yes",
+      "terms": "You may download and analyze the raw response datasets freely, but the data license does NOT grant rights in any third-party copyrighted instrument whose items happen to appear in a dataset. Reusing the project's own scales (e.g., OEJTS) in a commercial product is restricted by their NonCommercial license. Always check the license stated for the specific test or dataset before reuse."
+    }
+  ]
+}

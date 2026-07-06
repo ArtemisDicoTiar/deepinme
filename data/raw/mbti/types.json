@@ -1,0 +1,199 @@
+{
+  "_meta": {
+    "kind": "reference (factual)",
+    "subject": "16 MBTI types + cognitive-function stacks",
+    "nickname_source": "Truity convention (nicknames vary by author; not official MBTI labels)",
+    "license": "factual mapping — not copyrightable; 'MBTI' is a trademark",
+    "safe_for_commercial_reuse": true,
+    "verified": "adversarially fact-checked by a second agent against primary sources (deepinme research workflow, 2026-07) — all 16 function stacks confirmed correct",
+    "license_class": "factual_reference",
+    "safe_for_noncommercial_reuse": true,
+    "attribution": "16-type function-stack mapping — factual. Nicknames follow the Truity convention (not official MBTI labels).",
+    "source": "see reference/sources.md and _meta of related item files",
+    "sources": [
+      {
+        "title": "See aggregated sources",
+        "url": "reference/sources.md",
+        "license": "mixed — see file"
+      }
+    ]
+  },
+  "types": [
+    {
+      "code": "ISTJ",
+      "nickname": "The Inspector",
+      "description": "Responsible, thorough, and dependable; values order, facts, and tradition and follows through on duties methodically.",
+      "stack": {
+        "dominant": "Si",
+        "auxiliary": "Te",
+        "tertiary": "Fi",
+        "inferior": "Ne"
+      }
+    },
+    {
+      "code": "ISFJ",
+      "nickname": "The Protector",
+      "description": "Warm, conscientious, and loyal caretakers who quietly support others and preserve stability and tradition.",
+      "stack": {
+        "dominant": "Si",
+        "auxiliary": "Fe",
+        "tertiary": "Ti",
+        "inferior": "Ne"
+      }
+    },
+    {
+      "code": "INFJ",
+      "nickname": "The Counselor",
+      "description": "Insightful, principled idealists driven to understand people and quietly guide others toward their potential.",
+      "stack": {
+        "dominant": "Ni",
+        "auxiliary": "Fe",
+        "tertiary": "Ti",
+        "inferior": "Se"
+      }
+    },
+    {
+      "code": "INTJ",
+      "nickname": "The Mastermind",
+      "description": "Strategic, independent, long-range thinkers who design systems and drive relentlessly toward their vision.",
+      "stack": {
+        "dominant": "Ni",
+        "auxiliary": "Te",
+        "tertiary": "Fi",
+        "inferior": "Se"
+      }
+    },
+    {
+      "code": "ISTP",
+      "nickname": "The Craftsperson",
+      "description": "Practical, hands-on problem-solvers who understand how things work and thrive on action and cool analysis.",
+      "stack": {
+        "dominant": "Ti",
+        "auxiliary": "Se",
+        "tertiary": "Ni",
+        "inferior": "Fe"
+      }
+    },
+    {
+      "code": "ISFP",
+      "nickname": "The Composer",
+      "description": "Gentle, aesthetically attuned individualists who live in the present and act quietly on their personal values.",
+      "stack": {
+        "dominant": "Fi",
+        "auxiliary": "Se",
+        "tertiary": "Ni",
+        "inferior": "Te"
+      }
+    },
+    {
+      "code": "INFP",
+      "nickname": "The Healer",
+      "description": "Imaginative, value-driven idealists who seek authenticity, meaning, and harmony with their inner ideals.",
+      "stack": {
+        "dominant": "Fi",
+        "auxiliary": "Ne",
+        "tertiary": "Si",
+        "inferior": "Te"
+      }
+    },
+    {
+      "code": "INTP",
+      "nickname": "The Architect",
+      "description": "Logical, curious theorists who seek to understand ideas deeply and build precise conceptual frameworks.",
+      "stack": {
+        "dominant": "Ti",
+        "auxiliary": "Ne",
+        "tertiary": "Si",
+        "inferior": "Fe"
+      }
+    },
+    {
+      "code": "ESTP",
+      "nickname": "The Dynamo",
+      "description": "Energetic, pragmatic risk-takers who thrive on action, improvisation, and immediate real-world results.",
+      "stack": {
+        "dominant": "Se",
+        "auxiliary": "Ti",
+        "tertiary": "Fe",
+        "inferior": "Ni"
+      }
+    },
+    {
+      "code": "ESFP",
+      "nickname": "The Performer",
+      "description": "Spontaneous, enthusiastic entertainers who love people and experiences and live fully in the moment.",
+      "stack": {
+        "dominant": "Se",
+        "auxiliary": "Fi",
+        "tertiary": "Te",
+        "inferior": "Ni"
+      }
+    },
+    {
+      "code": "ENFP",
+      "nickname": "The Champion",
+      "description": "Enthusiastic, imaginative connectors who explore possibilities and inspire others with warmth and ideas.",
+      "stack": {
+        "dominant": "Ne",
+        "auxiliary": "Fi",
+        "tertiary": "Te",
+        "inferior": "Si"
+      }
+    },
+    {
+      "code": "ENTP",
+      "nickname": "The Visionary",
+      "description": "Inventive, quick-witted debaters who generate ideas, challenge assumptions, and chase new possibilities.",
+      "stack": {
+        "dominant": "Ne",
+        "auxiliary": "Ti",
+        "tertiary": "Fe",
+        "inferior": "Si"
+      }
+    },
+    {
+      "code": "ESTJ",
+      "nickname": "The Supervisor",
+      "description": "Organized, decisive managers who value structure, rules, and getting things done efficiently.",
+      "stack": {
+        "dominant": "Te",
+        "auxiliary": "Si",
+        "tertiary": "Ne",
+        "inferior": "Fi"
+      }
+    },
+    {
+      "code": "ESFJ",
+      "nickname": "The Provider",
+      "description": "Sociable, caring organizers who nurture harmony and attend to the practical needs of the people around them.",
+      "stack": {
+        "dominant": "Fe",
+        "auxiliary": "Si",
+        "tertiary": "Ne",
+        "inferior": "Ti"
+      }
+    },
+    {
+      "code": "ENFJ",
+      "nickname": "The Teacher",
+      "description": "Charismatic, empathetic leaders who mentor and inspire others toward growth and shared goals.",
+      "stack": {
+        "dominant": "Fe",
+        "auxiliary": "Ni",
+        "tertiary": "Se",
+        "inferior": "Ti"
+      }
+    },
+    {
+      "code": "ENTJ",
+      "nickname": "The Commander",
+      "description": "Assertive, strategic organizers who marshal people and resources to achieve long-term objectives.",
+      "stack": {
+        "dominant": "Te",
+        "auxiliary": "Ni",
+        "tertiary": "Se",
+        "inferior": "Fi"
+      }
+    }
+  ]
+}

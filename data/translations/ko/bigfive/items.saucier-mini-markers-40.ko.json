@@ -1,0 +1,403 @@
+{
+  "_meta": {
+    "instrument": "Saucier's Mini-Markers (1994) — 한국어 번역",
+    "full_name": "Mini-Markers: A Brief Version of Goldberg's Unipolar Big-Five Markers (40 trait-adjective Big Five markers) (Korean translation)",
+    "source_url": "https://pages.uoregon.edu/gsaucier/gsau41.pdf",
+    "license": "Copyrighted instrument published in Saucier, G. (1994), Journal of Personality Assessment (Taylor & Francis). The author, Gerard Saucier, distributes the full instrument and scoring key free of charge on his University of Oregon faculty page for non-commercial research/educational use (the page also invites researchers to contact him for normative values). The Mini-Markers is a selected subset of Goldberg's (1992) Big-Five adjective markers, which follow the public-domain/IPIP tradition; the items themselves are single, common English trait adjectives that are not individually copyrightable. Free for non-commercial research and educational use; no commercial license is established.",
+    "license_class": "free_research_noncommercial",
+    "safe_for_noncommercial_reuse": true,
+    "safe_for_commercial_reuse": false,
+    "reuse_notes": "한국어 번역(파생물). 비상업 1단계용. LLM 번역이며 검증된 한국어 표준검사가 아님 — 실사용 전 재검수 권장. 라이선스는 원본을 따르되 번역은 파생물이므로 CC-SA/연구용 조건이 그대로 적용됨.",
+    "attribution": "Saucier, G. (1994). Mini-Markers: A brief version of Goldberg's unipolar Big-Five markers. Journal of Personality Assessment, 63(3), 506-516. Item list and scoring key (Table 3: Varimax-Rotated Factor Loadings of 40 Mini-Marker Scale Items, N = 636) retrieved verbatim from the author's University of Oregon faculty page: https://pages.uoregon.edu/gsaucier/gsau41.pdf · 한국어 번역: deepinme 번역 워크플로우(2026-07, LLM).",
+    "scoring_notes": "40 unipolar trait adjectives, 8 per Big-Five scale. Standard instruction (\"How Accurately Can You Describe Yourself?\") asks respondents to write a number indicating how accurately each trait describes them on a 9-point accuracy rating scale (1 = Extremely Inaccurate ... 9 = Extremely Accurate). Scoring per the author's key: negatively-loading (reverse-keyed) items are reflected (9->1, 8->2, ... 1->9) before summing; the author's preferred method reflects reverse items, sums each scale's 8 items, and divides by 8 for the scale mean. The \"keyed\" field gives the sign of each item's highest varimax loading on its assigned factor from Saucier's Table 3. Factor labels (Saucier): I = Extraversion, II = Agreeableness, III = Conscientiousness, IV = Emotional Stability, V = Intellect or Openness. For Factor IV (Emotional Stability), \"+\" keyed items (Unenvious, Relaxed) indicate emotional stability and \"-\" keyed items indicate neuroticism.",
+    "cautions": "All 40 items and their factor/keying were extracted verbatim from Saucier's own instrument PDF (form plus Table 3), not reconstructed from memory. Notes: (1) The 9-point rating-scale anchor legend was not present as extractable text in the PDF (it appears to have been a graphic); the 1-9 accuracy format is confirmed both by the instrument's own scoring instructions, which reference reflecting values \"[9-->1, 1-->9]\", and by the Saucier (1994) / Goldberg marker tradition. (2) In Table 3 the item is spelled \"Extroverted\" while the administered self-report form prints \"Extraverted\"; the verbatim item as administered is \"Extraverted\". (3) Factor IV is labeled \"Emotional Stability\" by Saucier; much secondary literature labels this pole \"Neuroticism\" and lists Moody/Jealous/etc. as positively keyed on Neuroticism -- keying here is expressed relative to Saucier's Emotional Stability pole (sign of the published loading). (4) This is the original 1994 U.S. Mini-Markers; the \"International English Mini-Markers\" (Thompson, 2008) is a separate, revised 40-item instrument and is NOT reproduced here. (5) \"facet\" is intentionally blank: the Mini-Markers is a domain-level measure with no facet structure. | 번역본: 문항 순서·채점방향(keyed)·factor/facet은 원본과 동일. text_en에 원문 병기.",
+    "translation": {
+      "language": "ko",
+      "translated_from": "raw/bigfive/items.saucier-mini-markers-40.json",
+      "method": "LLM faithful translation (deepinme workflow, 2026-07) — 충실 번역이며 '쉬운말 리라이팅'은 별도 단계",
+      "status": "working draft — NOT a validated Korean instrument",
+      "qa": {
+        "fidelity": "high",
+        "naturalness": "natural",
+        "count_match": true,
+        "reviewer_overall": "Clean, high-quality set. All 40 source items are translated one-to-one (count matches), and every item uses the correct Korean attributive/descriptive adjective form suited to self-report trait rating, with no 번역투 — naturalness is high. Fidelity is high: the measured meaning is preserved and important lexical distinctions are maintained (시기심 vs 질투심 for Envious/Jealous; the Efficient/Inefficient, Creative/Uncreative, Intellectual/Unintellectual, Envious/Unenvious, Sympathetic/Unsympathetic antonym pairs; and the Bashful/Shy/Quiet/Withdrawn cluster are all differentiated). Only minor nuance drifts remain: #40 위축된 leans toward a Neuroticism 'cowed' reading rather than social withdrawal; #34 발끈하는 shifts Touchy from oversensitivity toward anger; #14 안절부절못하는 gives restlessness where Fretful implies worry; #23 사색적인 slightly softens 'Philosophical.' None are meaning-breaking; the set is usable as-is with small optional refinements.",
+        "issues": [
+          {
+            "id": "40",
+            "problem": "'Withdrawn' is a low-Extraversion marker (socially withdrawn, keeps to oneself). The second gloss 위축된 connotes being intimidated/cowed/emotionally diminished, which reads as a Neuroticism trait rather than social withdrawal.",
+            "suggestion": "Keep 소극적인 and pair with a social-withdrawal sense: 소극적인 / 내성적인 (or 사람들과 잘 어울리지 않는); drop or de-emphasize 위축된."
+          },
+          {
+            "id": "34",
+            "problem": "'Touchy' means oversensitive / easily offended (thin-skinned). 쉽게 발끈하는 emphasizes flaring up in anger, which drifts toward irritability and overlaps with Temperamental(33).",
+            "suggestion": "쉽게 상처받는 / (신경이) 예민한 to capture the easily-offended sense; e.g. 쉽게 발끈하는 / 예민한."
+          },
+          {
+            "id": "14",
+            "problem": "'Fretful' centers on anxious worrying/fretting (Emotional Stability marker). 안절부절못하는 conveys behavioral restlessness (can't sit still) more than internal worry.",
+            "suggestion": "걱정이 많은 / 조바심 내는, optionally combined: 걱정이 많은 / 안절부절못하는."
+          },
+          {
+            "id": "23",
+            "problem": "Minor: 'Philosophical' (Intellect/Openness marker) is rendered as 사색적인 (contemplative/reflective), a defensible trait reading but a slight drift from the literal 철학적인.",
+            "suggestion": "Acceptable as-is; if closer fidelity is wanted, 사색적인 / 철학적인."
+          }
+        ]
+      }
+    },
+    "verification": {
+      "summary": "번역 QA(2차 에이전트): fidelity=high, naturalness=natural, count_match=True, issues=4",
+      "fabrication_risk": "none"
+    },
+    "sources": [
+      {
+        "title": "Mini-Markers instrument form and scoring key (Table 3: Varimax-Rotated Factor Loadings of 40 Mini-Marker Scale Items) — Gerard Saucier, University of Oregon",
+        "url": "https://pages.uoregon.edu/gsaucier/gsau41.pdf",
+        "license": "Author-distributed free for non-commercial research/educational use"
+      },
+      {
+        "title": "Saucier, G. (1994). Mini-Markers: A brief version of Goldberg's unipolar Big-Five markers — PubMed record",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/7844738/",
+        "license": "Bibliographic record (public)"
+      },
+      {
+        "title": "Mini-Markers: A Brief Version of Goldberg's Unipolar Big-Five Markers — Journal of Personality Assessment, 63(3) (publisher record)",
+        "url": "https://www.tandfonline.com/doi/abs/10.1207/s15327752jpa6303_8",
+        "license": "Copyrighted, Taylor & Francis"
+      },
+      {
+        "title": "List of Commonly-Used Scales (Saucier Mini-Markers item/factor listing) — Dr. Matt C. Howard",
+        "url": "https://mattchoward.com/list-of-scales/",
+        "license": "Secondary corroborating source"
+      },
+      {
+        "title": "Korean translation (deepinme workflow)",
+        "url": "https://pages.uoregon.edu/gsaucier/gsau41.pdf",
+        "license": "translation is a derivative; see reuse_notes"
+      }
+    ]
+  },
+  "count": 40,
+  "items": [
+    {
+      "num": "1",
+      "text": "수줍음을 많이 타는",
+      "text_en": "Bashful",
+      "language": "ko",
+      "factor": "Extraversion",
+      "keyed": "-"
+    },
+    {
+      "num": "2",
+      "text": "대담한",
+      "text_en": "Bold",
+      "language": "ko",
+      "factor": "Extraversion",
+      "keyed": "+"
+    },
+    {
+      "num": "3",
+      "text": "부주의한",
+      "text_en": "Careless",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "keyed": "-"
+    },
+    {
+      "num": "4",
+      "text": "냉정한 / 쌀쌀맞은",
+      "text_en": "Cold",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "keyed": "-"
+    },
+    {
+      "num": "5",
+      "text": "복잡한",
+      "text_en": "Complex",
+      "language": "ko",
+      "factor": "Intellect/Openness",
+      "keyed": "+"
+    },
+    {
+      "num": "6",
+      "text": "협조적인",
+      "text_en": "Cooperative",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "keyed": "+"
+    },
+    {
+      "num": "7",
+      "text": "창의적인",
+      "text_en": "Creative",
+      "language": "ko",
+      "factor": "Intellect/Openness",
+      "keyed": "+"
+    },
+    {
+      "num": "8",
+      "text": "깊이 있는",
+      "text_en": "Deep",
+      "language": "ko",
+      "factor": "Intellect/Openness",
+      "keyed": "+"
+    },
+    {
+      "num": "9",
+      "text": "정리정돈을 못하는",
+      "text_en": "Disorganized",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "keyed": "-"
+    },
+    {
+      "num": "10",
+      "text": "효율적인",
+      "text_en": "Efficient",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "keyed": "+"
+    },
+    {
+      "num": "11",
+      "text": "활기찬",
+      "text_en": "Energetic",
+      "language": "ko",
+      "factor": "Extraversion",
+      "keyed": "+"
+    },
+    {
+      "num": "12",
+      "text": "시기심이 많은",
+      "text_en": "Envious",
+      "language": "ko",
+      "factor": "Emotional Stability",
+      "keyed": "-"
+    },
+    {
+      "num": "13",
+      "text": "외향적인",
+      "text_en": "Extraverted",
+      "language": "ko",
+      "factor": "Extraversion",
+      "keyed": "+"
+    },
+    {
+      "num": "14",
+      "text": "안절부절못하는",
+      "text_en": "Fretful",
+      "language": "ko",
+      "factor": "Emotional Stability",
+      "keyed": "-"
+    },
+    {
+      "num": "15",
+      "text": "가혹한 / 모진",
+      "text_en": "Harsh",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "keyed": "-"
+    },
+    {
+      "num": "16",
+      "text": "상상력이 풍부한",
+      "text_en": "Imaginative",
+      "language": "ko",
+      "factor": "Intellect/Openness",
+      "keyed": "+"
+    },
+    {
+      "num": "17",
+      "text": "비효율적인",
+      "text_en": "Inefficient",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "keyed": "-"
+    },
+    {
+      "num": "18",
+      "text": "지적인",
+      "text_en": "Intellectual",
+      "language": "ko",
+      "factor": "Intellect/Openness",
+      "keyed": "+"
+    },
+    {
+      "num": "19",
+      "text": "질투심이 많은",
+      "text_en": "Jealous",
+      "language": "ko",
+      "factor": "Emotional Stability",
+      "keyed": "-"
+    },
+    {
+      "num": "20",
+      "text": "친절한",
+      "text_en": "Kind",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "keyed": "+"
+    },
+    {
+      "num": "21",
+      "text": "기분 변화가 심한 / 변덕스러운",
+      "text_en": "Moody",
+      "language": "ko",
+      "factor": "Emotional Stability",
+      "keyed": "-"
+    },
+    {
+      "num": "22",
+      "text": "정리정돈을 잘하는",
+      "text_en": "Organized",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "keyed": "+"
+    },
+    {
+      "num": "23",
+      "text": "사색적인",
+      "text_en": "Philosophical",
+      "language": "ko",
+      "factor": "Intellect/Openness",
+      "keyed": "+"
+    },
+    {
+      "num": "24",
+      "text": "실용적인",
+      "text_en": "Practical",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "keyed": "+"
+    },
+    {
+      "num": "25",
+      "text": "조용한",
+      "text_en": "Quiet",
+      "language": "ko",
+      "factor": "Extraversion",
+      "keyed": "-"
+    },
+    {
+      "num": "26",
+      "text": "느긋한",
+      "text_en": "Relaxed",
+      "language": "ko",
+      "factor": "Emotional Stability",
+      "keyed": "+"
+    },
+    {
+      "num": "27",
+      "text": "무례한",
+      "text_en": "Rude",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "keyed": "-"
+    },
+    {
+      "num": "28",
+      "text": "부끄럼을 타는 / 소심한",
+      "text_en": "Shy",
+      "language": "ko",
+      "factor": "Extraversion",
+      "keyed": "-"
+    },
+    {
+      "num": "29",
+      "text": "대충대충 하는 / 엉성한",
+      "text_en": "Sloppy",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "keyed": "-"
+    },
+    {
+      "num": "30",
+      "text": "인정이 많은 / 공감을 잘하는",
+      "text_en": "Sympathetic",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "keyed": "+"
+    },
+    {
+      "num": "31",
+      "text": "체계적인",
+      "text_en": "Systematic",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "keyed": "+"
+    },
+    {
+      "num": "32",
+      "text": "말이 많은",
+      "text_en": "Talkative",
+      "language": "ko",
+      "factor": "Extraversion",
+      "keyed": "+"
+    },
+    {
+      "num": "33",
+      "text": "신경질적인 / 성미가 급한",
+      "text_en": "Temperamental",
+      "language": "ko",
+      "factor": "Emotional Stability",
+      "keyed": "-"
+    },
+    {
+      "num": "34",
+      "text": "쉽게 발끈하는",
+      "text_en": "Touchy",
+      "language": "ko",
+      "factor": "Emotional Stability",
+      "keyed": "-"
+    },
+    {
+      "num": "35",
+      "text": "창의적이지 않은",
+      "text_en": "Uncreative",
+      "language": "ko",
+      "factor": "Intellect/Openness",
+      "keyed": "-"
+    },
+    {
+      "num": "36",
+      "text": "시기심이 없는",
+      "text_en": "Unenvious",
+      "language": "ko",
+      "factor": "Emotional Stability",
+      "keyed": "+"
+    },
+    {
+      "num": "37",
+      "text": "지적이지 않은",
+      "text_en": "Unintellectual",
+      "language": "ko",
+      "factor": "Intellect/Openness",
+      "keyed": "-"
+    },
+    {
+      "num": "38",
+      "text": "인정이 없는 / 공감할 줄 모르는",
+      "text_en": "Unsympathetic",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "keyed": "-"
+    },
+    {
+      "num": "39",
+      "text": "따뜻한",
+      "text_en": "Warm",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "keyed": "+"
+    },
+    {
+      "num": "40",
+      "text": "소극적인 / 위축된",
+      "text_en": "Withdrawn",
+      "language": "ko",
+      "factor": "Extraversion",
+      "keyed": "-"
+    }
+  ]
+}

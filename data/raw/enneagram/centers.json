@@ -1,0 +1,49 @@
+{
+  "_meta": {
+    "kind": "reference (factual, classical tradition)",
+    "safe_for_commercial_reuse": true,
+    "verified": "adversarially fact-checked by a second agent against primary sources (deepinme research workflow, 2026-07)",
+    "license_class": "factual_classical",
+    "safe_for_noncommercial_reuse": true,
+    "attribution": "Centers/triads — classical Enneagram tradition (Ichazo/Naranjo), non-proprietary.",
+    "source": "see reference/sources.md and _meta of related item files",
+    "sources": [
+      {
+        "title": "See aggregated sources",
+        "url": "reference/sources.md",
+        "license": "mixed — see file"
+      }
+    ]
+  },
+  "centers": {
+    "description": "The nine types are organized into three Centers of intelligence; each Center has a dominant/underlying emotion its three types must come to terms with.",
+    "instinctive_gut_body": {
+      "types": [
+        8,
+        9,
+        1
+      ],
+      "dominant_emotion": "Anger / Rage",
+      "theme": "Autonomy, control, resistance, and maintaining boundaries against the environment."
+    },
+    "feeling_heart": {
+      "types": [
+        2,
+        3,
+        4
+      ],
+      "dominant_emotion": "Shame",
+      "theme": "Identity, self-image, and the search for value, recognition, and love from others."
+    },
+    "thinking_head": {
+      "types": [
+        5,
+        6,
+        7
+      ],
+      "dominant_emotion": "Fear / Anxiety",
+      "theme": "Security, guidance, and managing anxiety about the future and inner support."
+    },
+    "note": "In Riso-Hudson usage the central type of each Center (9 for Instinctive, 3 for Feeling, 6 for Thinking) most represents yet is most out of touch with that Center's dominant faculty."
+  }
+}

@@ -1,0 +1,613 @@
+{
+  "_meta": {
+    "instrument": "HEXACO-60 — 한국어 번역",
+    "full_name": "HEXACO-60: A Short Measure of the Major Dimensions of Personality (HEXACO-PI-R 60-item self-report short form; Ashton & Lee, 2009) (Korean translation)",
+    "source_url": "https://cpb-us-e1.wpmucdn.com/sites.psu.edu/dist/f/29060/files/2015/07/HEXACO-60-item-factor-analysis-study.pdf",
+    "license": "Copyright Kibeom Lee and Michael C. Ashton. Per the article Appendix: \"The HEXACO-60 items may be used free of charge for nonprofit research purposes.\" The English self-report form is reproduced here. The observer-report form and non-English translations require contacting the authors for authorization. Item text reprinted with permission in Journal of Personality Assessment.",
+    "license_class": "free_research_noncommercial",
+    "safe_for_noncommercial_reuse": true,
+    "safe_for_commercial_reuse": false,
+    "reuse_notes": "한국어 번역(파생물). 비상업 1단계용. LLM 번역이며 검증된 한국어 표준검사가 아님 — 실사용 전 재검수 권장. 라이선스는 원본을 따르되 번역은 파생물이므로 CC-SA/연구용 조건이 그대로 적용됨.",
+    "attribution": "Ashton, M. C., & Lee, K. (2009). The HEXACO-60: A short measure of the major dimensions of personality. Journal of Personality Assessment, 91(4), 340-345. Items copyright Kibeom Lee and Michael C. Ashton; may be used free of charge for nonprofit research purposes. Official instrument resources: hexaco.org. · 한국어 번역: deepinme 번역 워크플로우(2026-07, LLM).",
+    "scoring_notes": "Response scale: 5-point agree-disagree (5 = strongly agree, 4 = agree, 3 = neutral, 2 = disagree, 1 = strongly disagree). keyed \"+\" = item scored in the direction of the factor; keyed \"-\" = reverse-keyed (marked \"R\" in the source), recode before scoring as 5->1, 4->2, 3->3, 2->4, 1->5. Factor scale score = mean of that factor's 10 items after recoding reverse-keyed items. Facet scale score = mean of that facet's items after recoding. Factor-item key (from the article): Honesty-Humility = 6,12R,18,24R,30R,36,42R,48R,54,60R; Emotionality = 5,11,17,23,29,35R,41R,47,53R,59R; Extraversion = 4,10R,16,22,28R,34,40,46R,52R,58; Agreeableness (versus Anger) = 3,9R,15R,21R,27,33,39,45,51,57R; Conscientiousness = 2,8,14R,20R,26R,32R,38,44R,50,56R; Openness to Experience = 1R,7,13,19R,25,31R,37,43,49R,55R. Each factor has 10 items; 24 facets of 2-3 items each.",
+    "cautions": "LICENSE SCOPE: The authors permit use \"free of charge for nonprofit research purposes\" only. A stage-1 non-commercial research corpus is within scope, but if the downstream self-understanding product becomes commercial, this license does NOT cover it — separate permission from Kibeom Lee and Michael C. Ashton would be required. REWRITING: The task plans to rewrite items into plain language; the copyright is on the original wording, so retain attribution and do not present rewrites as the authentic instrument. FORM: This is the English SELF-report form only; the observer-report form and translations are separate authorized materials (contact authors). FACETS: The 60-item version's 24 facet scales are very short (2-3 items each) and are explicitly NOT intended to have high internal-consistency reliability — recommended only as factor indicators or predictors, not stand-alone facet scores. VERBATIM NOTE: Item text is reproduced exactly from the article Appendix; curly apostrophes/quotes in the source have been rendered as straight ASCII quotes (e.g., item 27 contains the quoted phrase \"forgive and forget\"), no words changed. All 60 items and their factor/facet/keying were cross-checked against both the article's scoring key and the official hexaco.org ScoringKeys_60 facet key; both agree. | 번역본: 문항 순서·채점방향(keyed)·factor/facet은 원본과 동일. text_en에 원문 병기.",
+    "translation": {
+      "language": "ko",
+      "translated_from": "raw/hexaco/items.hexaco-60.json",
+      "method": "LLM faithful translation (deepinme workflow, 2026-07) — 충실 번역이며 '쉬운말 리라이팅'은 별도 단계",
+      "status": "working draft — NOT a validated Korean instrument",
+      "qa": {
+        "fidelity": "high",
+        "naturalness": "natural",
+        "count_match": true,
+        "reviewer_overall": "Clean, high-quality translation set. All 60 source items are present with one Korean rendering each (count_match = true). Fidelity is high: each item preserves the measured HEXACO construct, reverse-keying direction, and self-report framing (first-person 나는…, and observer framing 사람들은…말한다 where the English uses 'People tell me'). Idioms are handled well (e.g., item 30 'worst jokes' → 아무리 재미없는 농담; item 47 strong emotions → 감정이 북받친다; item 53 panicking → 당황하다). Register is consistently the neutral declarative -다 form appropriate for questionnaire items, and the text reads as natural Korean rather than 번역투. Only three minor, non-meaning-altering polish points: item 6 (redundant repetition of 아첨), item 57 (doubly redundant 'first' markers 우선/첫 반응), and item 43 (남다른 slightly softens the 'unconventional/non-conforming' nuance). None of these change the construct being measured or the response direction, so overall fidelity remains high and the set is fit for use with light copy-editing.",
+        "issues": [
+          {
+            "id": "6",
+            "problem": "The word 아첨 (flattery) is repeated twice in the same sentence ('아첨으로... 아첨하지는 않을 것이다'), which reads redundant/clunky. Meaning is preserved but the phrasing is awkward.",
+            "suggestion": "나는 직장에서 임금 인상이나 승진에 도움이 될 거라고 생각하더라도 아첨을 하지는 않을 것이다."
+          },
+          {
+            "id": "57",
+            "problem": "Doubly redundant markers of 'first': 우선 (first) and 첫 반응 (first reaction) both appear, making '우선 그들과 따지고 드는 게 첫 반응이다' repetitive.",
+            "suggestion": "나는 사람들이 내가 틀렸다고 말하면, 첫 반응으로 그들과 따지고 든다. (or) ...나의 첫 반응은 그들과 따지고 드는 것이다."
+          },
+          {
+            "id": "43",
+            "problem": "'unconventional views' is rendered as 남다른 관점 (views different from others/exceptional), which slightly loses the 'not bound by convention' nuance central to the Unconventionality facet.",
+            "suggestion": "나는 관습에 얽매이지 않는 관점을 가진 사람들을 좋아한다. (or) ...독특한 관점을..."
+          }
+        ]
+      }
+    },
+    "verification": {
+      "summary": "번역 QA(2차 에이전트): fidelity=high, naturalness=natural, count_match=True, issues=3",
+      "fabrication_risk": "none"
+    },
+    "sources": [
+      {
+        "title": "Ashton, M. C., & Lee, K. (2009). The HEXACO-60: A short measure of the major dimensions of personality. Journal of Personality Assessment, 91(4), 340-345 (full-text PDF with Appendix containing all 60 items and scoring key).",
+        "url": "https://cpb-us-e1.wpmucdn.com/sites.psu.edu/dist/f/29060/files/2015/07/HEXACO-60-item-factor-analysis-study.pdf",
+        "license": "Copyright Kibeom Lee & Michael C. Ashton; items free for nonprofit research use (per Appendix note)."
+      },
+      {
+        "title": "Official HEXACO scoring keys for the 60-item version (facet- and factor-level item assignments with reverse-keying), hexaco.org.",
+        "url": "https://hexaco.org/downloads/ScoringKeys_60.pdf",
+        "license": "Copyright Kibeom Lee & Michael C. Ashton; scoring resources provided free for nonprofit research use."
+      },
+      {
+        "title": "Journal of Personality Assessment publisher record (canonical citation / DOI 10.1080/00223890902935878).",
+        "url": "https://www.tandfonline.com/doi/abs/10.1080/00223890902935878",
+        "license": "Publisher (Taylor & Francis) copyright; item text free for nonprofit research per authors."
+      },
+      {
+        "title": "Korean translation (deepinme workflow)",
+        "url": "https://cpb-us-e1.wpmucdn.com/sites.psu.edu/dist/f/29060/files/2015/07/HEXACO-60-item-factor-analysis-study.pdf",
+        "license": "translation is a derivative; see reuse_notes"
+      }
+    ]
+  },
+  "count": 60,
+  "items": [
+    {
+      "num": "1",
+      "text": "나는 미술관에 가면 꽤 지루할 것 같다.",
+      "text_en": "I would be quite bored by a visit to an art gallery.",
+      "language": "ko",
+      "factor": "Openness to Experience",
+      "facet": "Aesthetic Appreciation",
+      "keyed": "-"
+    },
+    {
+      "num": "2",
+      "text": "나는 막판에 허둥대지 않으려고 미리 계획을 세우고 일을 정리해 두는 편이다.",
+      "text_en": "I plan ahead and organize things, to avoid scrambling at the last minute.",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "facet": "Organization",
+      "keyed": "+"
+    },
+    {
+      "num": "3",
+      "text": "나는 나에게 크게 잘못한 사람에게조차 좀처럼 앙심을 품지 않는다.",
+      "text_en": "I rarely hold a grudge, even against people who have badly wronged me.",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "facet": "Forgiveness",
+      "keyed": "+"
+    },
+    {
+      "num": "4",
+      "text": "나는 전반적으로 나 자신에게 어느 정도 만족하는 편이다.",
+      "text_en": "I feel reasonably satisfied with myself overall.",
+      "language": "ko",
+      "factor": "Extraversion",
+      "facet": "Social Self-Esteem",
+      "keyed": "+"
+    },
+    {
+      "num": "5",
+      "text": "나는 날씨가 나쁠 때 이동해야 한다면 두려움을 느낄 것 같다.",
+      "text_en": "I would feel afraid if I had to travel in bad weather conditions.",
+      "language": "ko",
+      "factor": "Emotionality",
+      "facet": "Fearfulness",
+      "keyed": "+"
+    },
+    {
+      "num": "6",
+      "text": "나는 아첨으로 직장에서 임금 인상이나 승진을 얻을 수 있다고 생각하더라도, 그런 식으로 아첨하지는 않을 것이다.",
+      "text_en": "I wouldn't use flattery to get a raise or promotion at work, even if I thought it would succeed.",
+      "language": "ko",
+      "factor": "Honesty-Humility",
+      "facet": "Sincerity",
+      "keyed": "+"
+    },
+    {
+      "num": "7",
+      "text": "나는 다른 나라의 역사와 정치에 대해 배우는 데 관심이 있다.",
+      "text_en": "I'm interested in learning about the history and politics of other countries.",
+      "language": "ko",
+      "factor": "Openness to Experience",
+      "facet": "Inquisitiveness",
+      "keyed": "+"
+    },
+    {
+      "num": "8",
+      "text": "나는 목표를 이루려 할 때 나 자신을 아주 심하게 몰아붙일 때가 많다.",
+      "text_en": "I often push myself very hard when trying to achieve a goal.",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "facet": "Diligence",
+      "keyed": "+"
+    },
+    {
+      "num": "9",
+      "text": "사람들은 가끔 내가 다른 사람들을 지나치게 비판한다고 말한다.",
+      "text_en": "People sometimes tell me that I am too critical of others.",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "facet": "Gentleness",
+      "keyed": "-"
+    },
+    {
+      "num": "10",
+      "text": "나는 여럿이 모인 회의에서 좀처럼 내 의견을 말하지 않는다.",
+      "text_en": "I rarely express my opinions in group meetings.",
+      "language": "ko",
+      "factor": "Extraversion",
+      "facet": "Social Boldness",
+      "keyed": "-"
+    },
+    {
+      "num": "11",
+      "text": "나는 가끔 사소한 일에도 걱정하지 않을 수 없다.",
+      "text_en": "I sometimes can't help worrying about little things.",
+      "language": "ko",
+      "factor": "Emotionality",
+      "facet": "Anxiety",
+      "keyed": "+"
+    },
+    {
+      "num": "12",
+      "text": "절대 들키지 않는다는 것을 안다면, 나는 백만 달러라도 훔칠 의향이 있다.",
+      "text_en": "If I knew that I could never get caught, I would be willing to steal a million dollars.",
+      "language": "ko",
+      "factor": "Honesty-Humility",
+      "facet": "Fairness",
+      "keyed": "-"
+    },
+    {
+      "num": "13",
+      "text": "나는 소설, 노래, 그림 같은 예술 작품을 창작하는 일을 즐길 것 같다.",
+      "text_en": "I would enjoy creating a work of art, such as a novel, a song, or a painting.",
+      "language": "ko",
+      "factor": "Openness to Experience",
+      "facet": "Creativity",
+      "keyed": "+"
+    },
+    {
+      "num": "14",
+      "text": "나는 무언가를 할 때 사소한 세부 사항에는 크게 신경 쓰지 않는다.",
+      "text_en": "When working on something, I don't pay much attention to small details.",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "facet": "Perfectionism",
+      "keyed": "-"
+    },
+    {
+      "num": "15",
+      "text": "사람들은 가끔 내가 너무 고집이 세다고 말한다.",
+      "text_en": "People sometimes tell me that I'm too stubborn.",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "facet": "Flexibility",
+      "keyed": "-"
+    },
+    {
+      "num": "16",
+      "text": "나는 혼자 하는 일보다 사람들과 활발히 어울리는 일을 더 좋아한다.",
+      "text_en": "I prefer jobs that involve active social interaction to those that involve working alone.",
+      "language": "ko",
+      "factor": "Extraversion",
+      "facet": "Sociability",
+      "keyed": "+"
+    },
+    {
+      "num": "17",
+      "text": "나는 괴로운 일을 겪을 때, 나를 다독여 편안하게 해 줄 누군가가 필요하다.",
+      "text_en": "When I suffer from a painful experience, I need someone to make me feel comfortable.",
+      "language": "ko",
+      "factor": "Emotionality",
+      "facet": "Dependence",
+      "keyed": "+"
+    },
+    {
+      "num": "18",
+      "text": "나에게 돈이 많은 것은 그다지 중요하지 않다.",
+      "text_en": "Having a lot of money is not especially important to me.",
+      "language": "ko",
+      "factor": "Honesty-Humility",
+      "facet": "Greed-Avoidance",
+      "keyed": "+"
+    },
+    {
+      "num": "19",
+      "text": "나는 급진적인 생각에 관심을 기울이는 것은 시간 낭비라고 생각한다.",
+      "text_en": "I think that paying attention to radical ideas is a waste of time.",
+      "language": "ko",
+      "factor": "Openness to Experience",
+      "facet": "Unconventionality",
+      "keyed": "-"
+    },
+    {
+      "num": "20",
+      "text": "나는 신중하게 생각하기보다 그 순간의 기분에 따라 결정을 내린다.",
+      "text_en": "I make decisions based on the feeling of the moment rather than on careful thought.",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "facet": "Prudence",
+      "keyed": "-"
+    },
+    {
+      "num": "21",
+      "text": "사람들은 나를 성미가 급한 사람으로 여긴다.",
+      "text_en": "People think of me as someone who has a quick temper.",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "facet": "Patience",
+      "keyed": "-"
+    },
+    {
+      "num": "22",
+      "text": "나는 대부분의 날에 밝고 낙관적인 기분을 느낀다.",
+      "text_en": "On most days, I feel cheerful and optimistic.",
+      "language": "ko",
+      "factor": "Extraversion",
+      "facet": "Liveliness",
+      "keyed": "+"
+    },
+    {
+      "num": "23",
+      "text": "나는 다른 사람이 우는 것을 보면 나도 울고 싶어진다.",
+      "text_en": "I feel like crying when I see other people crying.",
+      "language": "ko",
+      "factor": "Emotionality",
+      "facet": "Sentimentality",
+      "keyed": "+"
+    },
+    {
+      "num": "24",
+      "text": "나는 내가 보통 사람보다 더 존중받을 자격이 있다고 생각한다.",
+      "text_en": "I think that I am entitled to more respect than the average person is.",
+      "language": "ko",
+      "factor": "Honesty-Humility",
+      "facet": "Modesty",
+      "keyed": "-"
+    },
+    {
+      "num": "25",
+      "text": "기회가 된다면, 나는 클래식 음악 연주회에 가 보고 싶다.",
+      "text_en": "If I had the opportunity, I would like to attend a classical music concert.",
+      "language": "ko",
+      "factor": "Openness to Experience",
+      "facet": "Aesthetic Appreciation",
+      "keyed": "+"
+    },
+    {
+      "num": "26",
+      "text": "나는 일을 할 때 정리 정돈이 안 되어 있어서 가끔 어려움을 겪는다.",
+      "text_en": "When working, I sometimes have difficulties due to being disorganized.",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "facet": "Organization",
+      "keyed": "-"
+    },
+    {
+      "num": "27",
+      "text": "나를 나쁘게 대한 사람들에 대한 내 태도는 '용서하고 잊자'는 것이다.",
+      "text_en": "My attitude toward people who have treated me badly is \"forgive and forget.\"",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "facet": "Forgiveness",
+      "keyed": "+"
+    },
+    {
+      "num": "28",
+      "text": "나는 내가 인기 없는 사람이라고 느낀다.",
+      "text_en": "I feel that I am an unpopular person.",
+      "language": "ko",
+      "factor": "Extraversion",
+      "facet": "Social Self-Esteem",
+      "keyed": "-"
+    },
+    {
+      "num": "29",
+      "text": "나는 신체적 위험 앞에서는 겁이 아주 많다.",
+      "text_en": "When it comes to physical danger, I am very fearful.",
+      "language": "ko",
+      "factor": "Emotionality",
+      "facet": "Fearfulness",
+      "keyed": "+"
+    },
+    {
+      "num": "30",
+      "text": "나는 누군가에게 원하는 것이 있으면, 그 사람의 아무리 재미없는 농담에도 웃어 준다.",
+      "text_en": "If I want something from someone, I will laugh at that person's worst jokes.",
+      "language": "ko",
+      "factor": "Honesty-Humility",
+      "facet": "Sincerity",
+      "keyed": "-"
+    },
+    {
+      "num": "31",
+      "text": "나는 백과사전을 들춰 보는 것을 딱히 즐긴 적이 없다.",
+      "text_en": "I've never really enjoyed looking through an encyclopedia.",
+      "language": "ko",
+      "factor": "Openness to Experience",
+      "facet": "Inquisitiveness",
+      "keyed": "-"
+    },
+    {
+      "num": "32",
+      "text": "나는 그럭저럭 넘어갈 만큼의 최소한의 일만 한다.",
+      "text_en": "I do only the minimum amount of work needed to get by.",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "facet": "Diligence",
+      "keyed": "-"
+    },
+    {
+      "num": "33",
+      "text": "나는 다른 사람을 판단할 때 너그러운 편이다.",
+      "text_en": "I tend to be lenient in judging other people.",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "facet": "Gentleness",
+      "keyed": "+"
+    },
+    {
+      "num": "34",
+      "text": "나는 사람들과 어울리는 자리에서 대개 먼저 다가가는 쪽이다.",
+      "text_en": "In social situations, I'm usually the one who makes the first move.",
+      "language": "ko",
+      "factor": "Extraversion",
+      "facet": "Social Boldness",
+      "keyed": "+"
+    },
+    {
+      "num": "35",
+      "text": "나는 대부분의 사람들보다 걱정을 훨씬 덜 한다.",
+      "text_en": "I worry a lot less than most people do.",
+      "language": "ko",
+      "factor": "Emotionality",
+      "facet": "Anxiety",
+      "keyed": "-"
+    },
+    {
+      "num": "36",
+      "text": "나는 뇌물이 아무리 크더라도 결코 받지 않을 것이다.",
+      "text_en": "I would never accept a bribe, even if it were very large.",
+      "language": "ko",
+      "factor": "Honesty-Humility",
+      "facet": "Fairness",
+      "keyed": "+"
+    },
+    {
+      "num": "37",
+      "text": "사람들은 내가 상상력이 풍부하다고 자주 말해 왔다.",
+      "text_en": "People have often told me that I have a good imagination.",
+      "language": "ko",
+      "factor": "Openness to Experience",
+      "facet": "Creativity",
+      "keyed": "+"
+    },
+    {
+      "num": "38",
+      "text": "나는 시간이 더 걸리더라도 늘 일을 정확하게 하려고 애쓴다.",
+      "text_en": "I always try to be accurate in my work, even at the expense of time.",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "facet": "Perfectionism",
+      "keyed": "+"
+    },
+    {
+      "num": "39",
+      "text": "나는 사람들이 내 의견에 반대할 때 대체로 꽤 유연하게 태도를 바꾸는 편이다.",
+      "text_en": "I am usually quite flexible in my opinions when people disagree with me.",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "facet": "Flexibility",
+      "keyed": "+"
+    },
+    {
+      "num": "40",
+      "text": "나는 새로운 곳에 가면 늘 가장 먼저 친구를 사귄다.",
+      "text_en": "The first thing that I always do in a new place is to make friends.",
+      "language": "ko",
+      "factor": "Extraversion",
+      "facet": "Sociability",
+      "keyed": "+"
+    },
+    {
+      "num": "41",
+      "text": "나는 다른 누구의 정서적 지지 없이도 어려운 상황을 혼자 헤쳐 나갈 수 있다.",
+      "text_en": "I can handle difficult situations without needing emotional support from anyone else.",
+      "language": "ko",
+      "factor": "Emotionality",
+      "facet": "Dependence",
+      "keyed": "-"
+    },
+    {
+      "num": "42",
+      "text": "나는 값비싼 명품을 소유하는 데서 큰 즐거움을 느낄 것 같다.",
+      "text_en": "I would get a lot of pleasure from owning expensive luxury goods.",
+      "language": "ko",
+      "factor": "Honesty-Humility",
+      "facet": "Greed-Avoidance",
+      "keyed": "-"
+    },
+    {
+      "num": "43",
+      "text": "나는 남다른 관점을 가진 사람들을 좋아한다.",
+      "text_en": "I like people who have unconventional views.",
+      "language": "ko",
+      "factor": "Openness to Experience",
+      "facet": "Unconventionality",
+      "keyed": "+"
+    },
+    {
+      "num": "44",
+      "text": "나는 행동하기 전에 생각하지 않아서 실수를 많이 한다.",
+      "text_en": "I make a lot of mistakes because I don't think before I act.",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "facet": "Prudence",
+      "keyed": "-"
+    },
+    {
+      "num": "45",
+      "text": "대부분의 사람들은 나보다 더 빨리 화를 내는 편이다.",
+      "text_en": "Most people tend to get angry more quickly than I do.",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "facet": "Patience",
+      "keyed": "+"
+    },
+    {
+      "num": "46",
+      "text": "대부분의 사람들은 평소의 나보다 더 밝고 활기차다.",
+      "text_en": "Most people are more upbeat and dynamic than I generally am.",
+      "language": "ko",
+      "factor": "Extraversion",
+      "facet": "Liveliness",
+      "keyed": "-"
+    },
+    {
+      "num": "47",
+      "text": "나는 가까운 사람이 오랫동안 떠나 있게 되면 감정이 북받친다.",
+      "text_en": "I feel strong emotions when someone close to me is going away for a long time.",
+      "language": "ko",
+      "factor": "Emotionality",
+      "facet": "Sentimentality",
+      "keyed": "+"
+    },
+    {
+      "num": "48",
+      "text": "나는 내가 지위가 높은 중요한 사람이라는 것을 사람들이 알아주기를 바란다.",
+      "text_en": "I want people to know that I am an important person of high status.",
+      "language": "ko",
+      "factor": "Honesty-Humility",
+      "facet": "Modesty",
+      "keyed": "-"
+    },
+    {
+      "num": "49",
+      "text": "나는 내가 예술적이거나 창의적인 유형이라고 생각하지 않는다.",
+      "text_en": "I don't think of myself as the artistic or creative type.",
+      "language": "ko",
+      "factor": "Openness to Experience",
+      "facet": "Creativity",
+      "keyed": "-"
+    },
+    {
+      "num": "50",
+      "text": "사람들은 나를 완벽주의자라고 자주 부른다.",
+      "text_en": "People often call me a perfectionist.",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "facet": "Perfectionism",
+      "keyed": "+"
+    },
+    {
+      "num": "51",
+      "text": "나는 사람들이 실수를 많이 해도 좀처럼 부정적인 말을 하지 않는다.",
+      "text_en": "Even when people make a lot of mistakes, I rarely say anything negative.",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "facet": "Gentleness",
+      "keyed": "+"
+    },
+    {
+      "num": "52",
+      "text": "나는 가끔 내가 쓸모없는 사람이라고 느낀다.",
+      "text_en": "I sometimes feel that I am a worthless person.",
+      "language": "ko",
+      "factor": "Extraversion",
+      "facet": "Social Self-Esteem",
+      "keyed": "-"
+    },
+    {
+      "num": "53",
+      "text": "나는 위급한 상황에서도 당황하지 않을 것 같다.",
+      "text_en": "Even in an emergency I wouldn't feel like panicking.",
+      "language": "ko",
+      "factor": "Emotionality",
+      "facet": "Fearfulness",
+      "keyed": "-"
+    },
+    {
+      "num": "54",
+      "text": "나는 누군가가 나에게 호의를 베풀게 하려고 그 사람을 좋아하는 척하지는 않을 것이다.",
+      "text_en": "I wouldn't pretend to like someone just to get that person to do favors for me.",
+      "language": "ko",
+      "factor": "Honesty-Humility",
+      "facet": "Sincerity",
+      "keyed": "+"
+    },
+    {
+      "num": "55",
+      "text": "나는 철학에 대해 이야기하는 것이 지루하다고 느낀다.",
+      "text_en": "I find it boring to discuss philosophy.",
+      "language": "ko",
+      "factor": "Openness to Experience",
+      "facet": "Unconventionality",
+      "keyed": "-"
+    },
+    {
+      "num": "56",
+      "text": "나는 계획을 고수하기보다 그때그때 떠오르는 대로 하는 것을 더 좋아한다.",
+      "text_en": "I prefer to do whatever comes to mind, rather than stick to a plan.",
+      "language": "ko",
+      "factor": "Conscientiousness",
+      "facet": "Prudence",
+      "keyed": "-"
+    },
+    {
+      "num": "57",
+      "text": "나는 사람들이 내가 틀렸다고 말하면, 우선 그들과 따지고 드는 게 첫 반응이다.",
+      "text_en": "When people tell me that I'm wrong, my first reaction is to argue with them.",
+      "language": "ko",
+      "factor": "Agreeableness",
+      "facet": "Flexibility",
+      "keyed": "-"
+    },
+    {
+      "num": "58",
+      "text": "나는 여러 사람들과 있을 때 종종 그 무리를 대표해서 말하는 사람이 된다.",
+      "text_en": "When I'm in a group of people, I'm often the one who speaks on behalf of the group.",
+      "language": "ko",
+      "factor": "Extraversion",
+      "facet": "Social Boldness",
+      "keyed": "+"
+    },
+    {
+      "num": "59",
+      "text": "나는 대부분의 사람들이 몹시 감상적이 되는 상황에서도 감정에 흔들리지 않는다.",
+      "text_en": "I remain unemotional even in situations where most people get very sentimental.",
+      "language": "ko",
+      "factor": "Emotionality",
+      "facet": "Sentimentality",
+      "keyed": "-"
+    },
+    {
+      "num": "60",
+      "text": "나는 들키지 않을 것이 확실하다면, 위조지폐를 쓰고 싶은 유혹을 느낄 것 같다.",
+      "text_en": "I'd be tempted to use counterfeit money, if I were sure I could get away with it.",
+      "language": "ko",
+      "factor": "Honesty-Humility",
+      "facet": "Fairness",
+      "keyed": "-"
+    }
+  ]
+}
