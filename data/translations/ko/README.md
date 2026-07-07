@@ -23,7 +23,8 @@
 일부 문항에는 `text`(충실 번역)에 더해 **`text_ko_friendly`** 필드가 붙어 있다. 번역투를 걷어낸 **자연스러운 한국어**(검사 문항 말투 `나는 ~다` 유지, 측정 구성개념·채점 방향 불변)다. 예: `리더로 떠오르는 편이다`(번역) → `리더가 되는 편이다`(친화).
 
 - 규칙·도구: [`../../reference/rewriting/README.md`](../../reference/rewriting/README.md) (+ `review.py` before/after 검토기).
-- 현재 **샘플 2종**(TIPI-10, OEPS v2)에만 적용 — 말투/톤 검수 후 전 데이터셋으로 확장 예정.
+- 현재 **샘플 2종**(TIPI-10, OEPS v2)은 초안이 채워져 있고, 나머지 13종은 비어 있다.
+- **어노테이터 웹앱**으로 이 폴더 15개 파일 전체를 사람이 확정한다: [`../../../tools/annotator/README.md`](../../../tools/annotator/README.md) (`python3 tools/annotator/server.py` → 브라우저). 문항마다 원문/번역/친화를 비교해 선택하거나 직접 입력 → 저장 시 `text_ko_friendly_source`(friendly/translation/custom)와 `text_ko_friendly_reviewed: true`가 기록된다.
 - 완전 구어체(해요체) "쉬운 일상어"는 별도 후속 단(tier 3).
 
 ## 라이선스 (파생물)

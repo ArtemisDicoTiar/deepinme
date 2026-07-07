@@ -224,6 +224,14 @@
           "minLength": 1,
           "description": "Natural, idiomatic Korean rewrite of `text` in the same item register (나는 ~다/~하는 편이다, adjective forms) — fixes translationese while preserving the measured construct, difficulty, and scoring direction. NOT the casual 해요체 plain-language tier. See reference/rewriting/README.md."
         },
+        "text_ko_friendly_source": {
+          "enum": ["friendly", "translation", "custom"],
+          "description": "Where an annotator's saved text_ko_friendly value came from: the suggested friendly rewrite, the faithful translation (text), or hand-typed custom text. Set by tools/annotator/."
+        },
+        "text_ko_friendly_reviewed": {
+          "type": "boolean",
+          "description": "Whether a human annotator has confirmed/edited text_ko_friendly via tools/annotator/ (as opposed to an unreviewed machine-generated suggestion)."
+        },
         "language": {
           "type": "string",
           "description": "BCP-ish tag or name, e.g. 'en', 'ko', 'English'."

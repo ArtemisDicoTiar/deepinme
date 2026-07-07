@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>deepinme 문항 리라이팅 어노테이터</title>
+<link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <div id="app">
+    <aside id="sidebar">
+      <h1>deepinme 어노테이터</h1>
+      <p class="hint">원문 · 번역 · 친화 비교 후 최종 문구 확정</p>
+      <div id="overall-progress" class="progress-block"></div>
+      <ul id="file-list"></ul>
+    </aside>
+    <main id="main">
+      <div id="toolbar">
+        <span id="file-title">왼쪽에서 데이터셋을 선택하세요</span>
+        <label class="toggle">
+          <input type="checkbox" id="filter-unreviewed" checked />
+          미검토만 보기
+        </label>
+      </div>
+      <div id="items"></div>
+    </main>
+  </div>
+  <script src="/app.js"></script>
+</body>
+</html>
