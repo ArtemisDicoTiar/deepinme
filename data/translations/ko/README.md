@@ -16,7 +16,15 @@
 
 - **LLM 충실 번역**이다(2026-07 deepinme 번역 워크플로우). 각 번역은 2차 에이전트 QA를 거쳤고 **전 데이터셋 fidelity=high · naturalness=natural · 카운트 일치**로 나왔지만, 학술적으로 타당화(validated)된 한국어 검사와는 다르다.
 - 실제 서비스 투입 전 **사람 재검수** 권장. 각 파일 `_meta.translation.qa.issues`에 QA가 짚은 경미한 다듬기 포인트가 들어 있다(데이터셋당 1~5개, 주로 뉘앙스).
-- **번역 ≠ 쉬운말 리라이팅.** 이건 뜻·난이도를 보존한 번역이고, deepinme의 핵심인 "번역투 → 쉬운 일상어" 변환은 이 번역본을 원본 삼아 **다음 단계**에서 한다. 작성 원칙은 [`../../raw/korean/plain-language-examples.json`](../../raw/korean/plain-language-examples.json) 참고.
+- **번역 ≠ 쉬운말 리라이팅.** 이건 뜻·난이도를 보존한 번역이고, deepinme의 핵심인 "번역투 → 쉬운 일상어" 변환은 이 번역본을 원본 삼아 이뤄진다. 작성 원칙은 [`../../raw/korean/plain-language-examples.json`](../../raw/korean/plain-language-examples.json) 참고.
+
+## 한국어 친화 리라이팅 — `text_ko_friendly` (진행 중)
+
+일부 문항에는 `text`(충실 번역)에 더해 **`text_ko_friendly`** 필드가 붙어 있다. 번역투를 걷어낸 **자연스러운 한국어**(검사 문항 말투 `나는 ~다` 유지, 측정 구성개념·채점 방향 불변)다. 예: `리더로 떠오르는 편이다`(번역) → `리더가 되는 편이다`(친화).
+
+- 규칙·도구: [`../../reference/rewriting/README.md`](../../reference/rewriting/README.md) (+ `review.py` before/after 검토기).
+- 현재 **샘플 2종**(TIPI-10, OEPS v2)에만 적용 — 말투/톤 검수 후 전 데이터셋으로 확장 예정.
+- 완전 구어체(해요체) "쉬운 일상어"는 별도 후속 단(tier 3).
 
 ## 라이선스 (파생물)
 

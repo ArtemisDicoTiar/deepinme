@@ -219,6 +219,11 @@
           "type": "string",
           "description": "Source-language text (for translated banks); the English original."
         },
+        "text_ko_friendly": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Natural, idiomatic Korean rewrite of `text` in the same item register (나는 ~다/~하는 편이다, adjective forms) — fixes translationese while preserving the measured construct, difficulty, and scoring direction. NOT the casual 해요체 plain-language tier. See reference/rewriting/README.md."
+        },
         "language": {
           "type": "string",
           "description": "BCP-ish tag or name, e.g. 'en', 'ko', 'English'."

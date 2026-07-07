@@ -48,6 +48,21 @@
             "suggestion": "돈은 나의 행복에 중요하다 (or 나의 행복에는 돈이 중요하다)"
           }
         ]
+      },
+      "friendly_rewrite": {
+        "field": "text_ko_friendly",
+        "tier": "2 — natural item register (나는 ~다/~하는 편이다); NOT 해요체 plain-language (tier 3)",
+        "spec": "data/reference/rewriting/README.md",
+        "method": "by-hand sample rewrite (deepinme, 2026-07). text 원본 보존, 추가 필드.",
+        "invariants_kept": "construct, keyed direction, difficulty, bipolar A↔B format — unchanged",
+        "status": "sample — pending human review of register/tone",
+        "applied_qa_issues": [
+          "Q8",
+          "Q30",
+          "Q33",
+          "Q37",
+          "Q51"
+        ]
       }
     },
     "verification": {
@@ -88,6 +103,7 @@
       "num": "Q1",
       "text": "나는 효율성을 추구하는 편이다.",
       "text_en": "I strive for efficiency.",
+      "text_ko_friendly": "나는 뭐든 효율적으로 하려는 편이다.",
       "language": "ko",
       "factor": "Type 1 (The Reformer/Perfectionist)",
       "keyed": "positive (Likert 1-5, 1=Disagree 5=Agree; higher = more Type 1 (The Reformer/Perfectionist)); scored: +Q1 in Type 1"
@@ -96,6 +112,7 @@
       "num": "Q2",
       "text": "나에게 삶에서 가장 중요한 것은 다른 사람들과의 관계다.",
       "text_en": "My relationships with others are what my life is about.",
+      "text_ko_friendly": "나에게 인생에서 제일 중요한 건 사람들과의 관계다.",
       "language": "ko",
       "factor": "Type 2 (The Helper/Giver)",
       "keyed": "positive (Likert 1-5, 1=Disagree 5=Agree; higher = more Type 2 (The Helper/Giver)); scored: +Q2 in Type 2"
@@ -104,6 +121,7 @@
       "num": "Q3",
       "text": "나는 일을 최우선으로 둔다.",
       "text_en": "I put work first.",
+      "text_ko_friendly": "나는 일을 가장 먼저 챙긴다.",
       "language": "ko",
       "factor": "Type 3 (The Achiever/Performer)",
       "keyed": "positive (Likert 1-5, 1=Disagree 5=Agree; higher = more Type 3 (The Achiever/Performer)); scored: +Q3 in Type 3"
@@ -112,6 +130,7 @@
       "num": "Q4",
       "text": "나는 사랑에 빠진 모습을 공상하곤 한다.",
       "text_en": "I daydream about being in love.",
+      "text_ko_friendly": "나는 사랑에 빠지는 상상을 자주 한다.",
       "language": "ko",
       "factor": "Type 4 (The Individualist/Romantic)",
       "keyed": "positive (Likert 1-5, 1=Disagree 5=Agree; higher = more Type 4 (The Individualist/Romantic)); scored: +Q4 in Type 4"
@@ -120,6 +139,7 @@
       "num": "Q5",
       "text": "나는 감정을 드러내는 것을 어려워하는 편이다.",
       "text_en": "I have a hard time showing emotions.",
+      "text_ko_friendly": "나는 감정을 잘 드러내지 못하는 편이다.",
       "language": "ko",
       "factor": "Type 5 (The Investigator/Observer)",
       "keyed": "positive (Likert 1-5, 1=Disagree 5=Agree; higher = more Type 5 (The Investigator/Observer)); scored: +Q5 in Type 5"
@@ -128,6 +148,7 @@
       "num": "Q6",
       "text": "나는 이용당할까 봐 두려워서 남을 더 신뢰하지 못한다.",
       "text_en": "Fear of being taken advantage of keeps me from being more trusting.",
+      "text_ko_friendly": "나는 이용당할까 봐 사람을 잘 믿지 못한다.",
       "language": "ko",
       "factor": "Type 6 (The Loyalist/Loyal Skeptic)",
       "keyed": "positive (Likert 1-5, 1=Disagree 5=Agree; higher = more Type 6 (The Loyalist/Loyal Skeptic)); scored: +Q6 in Type 6"
@@ -136,6 +157,7 @@
       "num": "Q7",
       "text": "나는 늘 새로운 경험을 해야만 한다.",
       "text_en": "I must always be having new experiences.",
+      "text_ko_friendly": "나는 늘 새로운 경험이 필요하다.",
       "language": "ko",
       "factor": "Type 7 (The Enthusiast/Epicure)",
       "keyed": "positive (Likert 1-5, 1=Disagree 5=Agree; higher = more Type 7 (The Enthusiast/Epicure)); scored: +Q7 in Type 7"
@@ -144,6 +166,7 @@
       "num": "Q8",
       "text": "나는 자연스럽게 리더로 떠오르는 편이다.",
       "text_en": "I naturally emerge as a leader.",
+      "text_ko_friendly": "나는 자연스럽게 리더가 되는 편이다.",
       "language": "ko",
       "factor": "Type 8 (The Challenger/Protector)",
       "keyed": "positive (Likert 1-5, 1=Disagree 5=Agree; higher = more Type 8 (The Challenger/Protector)); scored: +Q8 in Type 8"
@@ -152,6 +175,7 @@
       "num": "Q9",
       "text": "나는 다른 사람들이 다투고 있으면 그 자리를 떠난다.",
       "text_en": "When other people are arguing, I leave the room.",
+      "text_ko_friendly": "나는 사람들이 다투고 있으면 슬그머니 자리를 뜬다.",
       "language": "ko",
       "factor": "Type 9 (The Peacemaker/Mediator)",
       "keyed": "positive (Likert 1-5, 1=Disagree 5=Agree; higher = more Type 9 (The Peacemaker/Mediator)); scored: +Q9 in Type 9"
@@ -160,6 +184,7 @@
       "num": "Q10",
       "text": "나는 완벽주의자다.",
       "text_en": "I am a perfectionist.",
+      "text_ko_friendly": "나는 완벽주의자다.",
       "language": "ko",
       "factor": "Type 1 (The Reformer/Perfectionist)",
       "keyed": "positive (Likert 1-5, 1=Disagree 5=Agree; higher = more Type 1 (The Reformer/Perfectionist)); scored: +Q10 in Type 1"
@@ -168,6 +193,7 @@
       "num": "Q11",
       "text": "나는 거절하는 것을 어려워하는 편이다.",
       "text_en": "I have difficulty saying no.",
+      "text_ko_friendly": "나는 거절을 잘 못하는 편이다.",
       "language": "ko",
       "factor": "Type 2 (The Helper/Giver)",
       "keyed": "positive (Likert 1-5, 1=Disagree 5=Agree; higher = more Type 2 (The Helper/Giver)); scored: +Q11 in Type 2"
@@ -176,6 +202,7 @@
       "num": "Q12",
       "text": "나는 남들 눈에 띄는 것을 좋아한다.",
       "text_en": "I like to stand out.",
+      "text_ko_friendly": "나는 남들 눈에 띄는 게 좋다.",
       "language": "ko",
       "factor": "Type 3 (The Achiever/Performer)",
       "keyed": "positive (Likert 1-5, 1=Disagree 5=Agree; higher = more Type 3 (The Achiever/Performer)); scored: +Q12 in Type 3"
@@ -184,6 +211,7 @@
       "num": "Q13",
       "text": "나는 달콤씁쓸한 기분을 느끼는 것을 정말 즐긴다.",
       "text_en": "I really enjoy feeling bitter sweet.",
+      "text_ko_friendly": "나는 달콤씁쓸한 기분을 정말 즐긴다.",
       "language": "ko",
       "factor": "Type 4 (The Individualist/Romantic)",
       "keyed": "positive (Likert 1-5, 1=Disagree 5=Agree; higher = more Type 4 (The Individualist/Romantic)); scored: +Q13 in Type 4"
@@ -192,6 +220,7 @@
       "num": "Q14",
       "text": "나는 혼자서 취미에 몇 시간씩 몰두한다.",
       "text_en": "I spend hours alone with my hobbies.",
+      "text_ko_friendly": "나는 혼자 취미에 몇 시간씩 빠져 있곤 한다.",
       "language": "ko",
       "factor": "Type 5 (The Investigator/Observer)",
       "keyed": "positive (Likert 1-5, 1=Disagree 5=Agree; higher = more Type 5 (The Investigator/Observer)); scored: +Q14 in Type 5"
@@ -200,6 +229,7 @@
       "num": "Q15",
       "text": "나는 결정을 내리기 전에 다른 사람들의 의견을 구한다.",
       "text_en": "I get input from others before I make a decision.",
+      "text_ko_friendly": "나는 결정하기 전에 다른 사람들 의견을 들어 본다.",
       "language": "ko",
       "factor": "Type 6 (The Loyalist/Loyal Skeptic)",
       "keyed": "positive (Likert 1-5, 1=Disagree 5=Agree; higher = more Type 6 (The Loyalist/Loyal Skeptic)); scored: +Q15 in Type 6"
@@ -208,6 +238,7 @@
       "num": "Q16",
       "text": "나는 누구와도 어떤 주제로든 대화를 계속 이어갈 수 있다.",
       "text_en": "I can keep a conversation going with anyone about anything.",
+      "text_ko_friendly": "나는 누구와도 무슨 얘기든 잘 이어 간다.",
       "language": "ko",
       "factor": "Type 7 (The Enthusiast/Epicure)",
       "keyed": "positive (Likert 1-5, 1=Disagree 5=Agree; higher = more Type 7 (The Enthusiast/Epicure)); scored: +Q16 in Type 7"
@@ -216,6 +247,7 @@
       "num": "Q17",
       "text": "나는 아무도 의견이 일치하지 않는 대화를 좋아한다.",
       "text_en": "I like a conversation where no one agrees.",
+      "text_ko_friendly": "나는 서로 의견이 엇갈리는 대화를 좋아한다.",
       "language": "ko",
       "factor": "Type 8 (The Challenger/Protector)",
       "keyed": "positive (Likert 1-5, 1=Disagree 5=Agree; higher = more Type 8 (The Challenger/Protector)); scored: +Q17 in Type 8"
@@ -224,6 +256,7 @@
       "num": "Q18",
       "text": "나는 문제를 일으키지 않으려고 내 생각을 속에만 담아 둔다.",
       "text_en": "I keep my thoughts to myself, to prevent trouble.",
+      "text_ko_friendly": "나는 괜히 문제를 만들기 싫어서 생각을 속에만 담아 둔다.",
       "language": "ko",
       "factor": "Type 9 (The Peacemaker/Mediator)",
       "keyed": "positive (Likert 1-5, 1=Disagree 5=Agree; higher = more Type 9 (The Peacemaker/Mediator)); scored: +Q18 in Type 9"
@@ -232,6 +265,7 @@
       "num": "Q19",
       "text": "나는 다른 사람들이 해 놓은 일을 다시 해야 하는 경우가 많다.",
       "text_en": "I often have to redo other peoples work.",
+      "text_ko_friendly": "나는 남이 해 놓은 일을 다시 손봐야 할 때가 많다.",
       "language": "ko",
       "factor": "Type 1 (The Reformer/Perfectionist)",
       "keyed": "positive (Likert 1-5, 1=Disagree 5=Agree; higher = more Type 1 (The Reformer/Perfectionist)); scored: +Q19 in Type 1"
@@ -240,6 +274,7 @@
       "num": "Q20",
       "text": "나는 다른 사람들이 목표를 이루도록 돕는 데서 큰 만족을 얻는다.",
       "text_en": "I get lots of satisfaction from helping others achieve their goals.",
+      "text_ko_friendly": "나는 남이 목표를 이루도록 돕는 데서 큰 보람을 느낀다.",
       "language": "ko",
       "factor": "Type 2 (The Helper/Giver)",
       "keyed": "positive (Likert 1-5, 1=Disagree 5=Agree; higher = more Type 2 (The Helper/Giver)); scored: +Q20 in Type 2"
@@ -248,6 +283,7 @@
       "num": "Q21",
       "text": "나는 하루 일정이 빼곡히 계획된 채로 아침을 맞는 것이 좋다.",
       "text_en": "It is good to wake up to a full day of planned activities.",
+      "text_ko_friendly": "나는 아침에 눈떴을 때 하루 일정이 빼곡히 짜여 있는 게 좋다.",
       "language": "ko",
       "factor": "Type 3 (The Achiever/Performer)",
       "keyed": "positive (Likert 1-5, 1=Disagree 5=Agree; higher = more Type 3 (The Achiever/Performer)); scored: +Q21 in Type 3"
@@ -256,6 +292,7 @@
       "num": "Q22",
       "text": "나는 잘 운다.",
       "text_en": "I cry.",
+      "text_ko_friendly": "나는 잘 운다.",
       "language": "ko",
       "factor": "Type 4 (The Individualist/Romantic)",
       "keyed": "positive (Likert 1-5, 1=Disagree 5=Agree; higher = more Type 4 (The Individualist/Romantic)); scored: +Q22 in Type 4"
@@ -264,6 +301,7 @@
       "num": "Q23",
       "text": "나는 대부분의 시간을 무언가를 이해하려 애쓰는 데 쓴다.",
       "text_en": "I spend most of my time trying to understand things.",
+      "text_ko_friendly": "나는 대부분의 시간을 뭔가를 이해하려 애쓰며 보낸다.",
       "language": "ko",
       "factor": "Type 5 (The Investigator/Observer)",
       "keyed": "positive (Likert 1-5, 1=Disagree 5=Agree; higher = more Type 5 (The Investigator/Observer)); scored: +Q23 in Type 5"
@@ -272,6 +310,7 @@
       "num": "Q24",
       "text": "나는 주위에 순응하는 편이다.",
       "text_en": "I conform.",
+      "text_ko_friendly": "나는 주변에 잘 맞추는 편이다.",
       "language": "ko",
       "factor": "Type 6 (The Loyalist/Loyal Skeptic)",
       "keyed": "positive (Likert 1-5, 1=Disagree 5=Agree; higher = more Type 6 (The Loyalist/Loyal Skeptic)); scored: +Q24 in Type 6"
@@ -280,6 +319,7 @@
       "num": "Q25",
       "text": "나는 거리낌이 없는 편이다.",
       "text_en": "I am uninhibited.",
+      "text_ko_friendly": "나는 거리낌 없이 행동하는 편이다.",
       "language": "ko",
       "factor": "Type 7 (The Enthusiast/Epicure)",
       "keyed": "positive (Likert 1-5, 1=Disagree 5=Agree; higher = more Type 7 (The Enthusiast/Epicure)); scored: +Q25 in Type 7"
@@ -288,6 +328,7 @@
       "num": "Q26",
       "text": "나는 사람들이 내 기분을 살피기보다 사실대로 말해 주기를 바란다.",
       "text_en": "I want people to tell me the truth, not spare my feelings.",
+      "text_ko_friendly": "나는 사람들이 내 기분을 살피기보다 사실대로 말해 주기를 바란다.",
       "language": "ko",
       "factor": "Type 8 (The Challenger/Protector)",
       "keyed": "positive (Likert 1-5, 1=Disagree 5=Agree; higher = more Type 8 (The Challenger/Protector)); scored: +Q26 in Type 8"
@@ -296,6 +337,7 @@
       "num": "Q27",
       "text": "나는 매우 수용적이고 유연하다.",
       "text_en": "I am very accepting and flexible.",
+      "text_ko_friendly": "나는 웬만한 건 잘 받아들이고 유연한 편이다.",
       "language": "ko",
       "factor": "Type 9 (The Peacemaker/Mediator)",
       "keyed": "positive (Likert 1-5, 1=Disagree 5=Agree; higher = more Type 9 (The Peacemaker/Mediator)); scored: +Q27 in Type 9"
@@ -304,6 +346,7 @@
       "num": "Q28",
       "text": "나는 내 물건을 잘 정돈해 둔다.",
       "text_en": "I keep my belongings in order.",
+      "text_ko_friendly": "나는 내 물건을 잘 정돈해 둔다.",
       "language": "ko",
       "factor": "Type 1 (The Reformer/Perfectionist)",
       "keyed": "positive (Likert 1-5, 1=Disagree 5=Agree; higher = more Type 1 (The Reformer/Perfectionist)); scored: +Q28 in Type 1"
@@ -312,6 +355,7 @@
       "num": "Q29",
       "text": "나는 가족을 최우선으로 둔다.",
       "text_en": "I put family first.",
+      "text_ko_friendly": "나는 무엇보다 가족이 먼저다.",
       "language": "ko",
       "factor": "Type 2 (The Helper/Giver)",
       "keyed": "positive (Likert 1-5, 1=Disagree 5=Agree; higher = more Type 2 (The Helper/Giver)); scored: +Q29 in Type 2"
@@ -320,6 +364,7 @@
       "num": "Q30",
       "text": "나에게 돈은 행복에 중요하다.",
       "text_en": "Money is important to my happiness.",
+      "text_ko_friendly": "돈은 내 행복에 중요하다.",
       "language": "ko",
       "factor": "Type 3 (The Achiever/Performer)",
       "keyed": "positive (Likert 1-5, 1=Disagree 5=Agree; higher = more Type 3 (The Achiever/Performer)); scored: +Q30 in Type 3"
@@ -328,6 +373,7 @@
       "num": "Q31",
       "text": "나는 기성 체제보다 저항하는 쪽의 편을 든다.",
       "text_en": "I side with the rebels over the establishment.",
+      "text_ko_friendly": "나는 기성 체제보다 반항하는 쪽 편을 든다.",
       "language": "ko",
       "factor": "Type 4 (The Individualist/Romantic)",
       "keyed": "positive (Likert 1-5, 1=Disagree 5=Agree; higher = more Type 4 (The Individualist/Romantic)); scored: +Q31 in Type 4"
@@ -336,6 +382,7 @@
       "num": "Q32",
       "text": "나는 머리를 쓰는 도전을 좋아한다.",
       "text_en": "I like mental challenges.",
+      "text_ko_friendly": "나는 머리 쓰는 도전을 좋아한다.",
       "language": "ko",
       "factor": "Type 5 (The Investigator/Observer)",
       "keyed": "positive (Likert 1-5, 1=Disagree 5=Agree; higher = more Type 5 (The Investigator/Observer)); scored: +Q32 in Type 5"
@@ -344,6 +391,7 @@
       "num": "Q33",
       "text": "나는 충직하다.",
       "text_en": "I am loyal.",
+      "text_ko_friendly": "나는 의리가 있다.",
       "language": "ko",
       "factor": "Type 6 (The Loyalist/Loyal Skeptic)",
       "keyed": "positive (Likert 1-5, 1=Disagree 5=Agree; higher = more Type 6 (The Loyalist/Loyal Skeptic)); scored: +Q33 in Type 6"
@@ -352,6 +400,7 @@
       "num": "Q34",
       "text": "나는 늘 재치 있는 농담으로 긴장된 분위기를 풀려고 한다.",
       "text_en": "I always try to break the tension with a good joke.",
+      "text_ko_friendly": "나는 늘 재치 있는 농담으로 굳은 분위기를 풀려고 한다.",
       "language": "ko",
       "factor": "Type 7 (The Enthusiast/Epicure)",
       "keyed": "positive (Likert 1-5, 1=Disagree 5=Agree; higher = more Type 7 (The Enthusiast/Epicure)); scored: +Q34 in Type 7"
@@ -360,6 +409,7 @@
       "num": "Q35",
       "text": "나는 리더가 결단력 있는 것을 선호한다.",
       "text_en": "I prefer it when leaders are decisive.",
+      "text_ko_friendly": "나는 리더가 결단력 있는 편이 좋다.",
       "language": "ko",
       "factor": "Type 8 (The Challenger/Protector)",
       "keyed": "positive (Likert 1-5, 1=Disagree 5=Agree; higher = more Type 8 (The Challenger/Protector)); scored: +Q35 in Type 8"
@@ -368,6 +418,7 @@
       "num": "Q36",
       "text": "나는 정면으로 부딪치는 것을 피한다.",
       "text_en": "I avoid confrontation.",
+      "text_ko_friendly": "나는 정면으로 부딪치는 걸 피한다.",
       "language": "ko",
       "factor": "Type 9 (The Peacemaker/Mediator)",
       "keyed": "positive (Likert 1-5, 1=Disagree 5=Agree; higher = more Type 9 (The Peacemaker/Mediator)); scored: +Q36 in Type 9"
@@ -376,6 +427,7 @@
       "num": "Q37",
       "text": "자신감 있는 ↔ 불안해하는",
       "text_en": "confident (left pole) — insecure (right pole)",
+      "text_ko_friendly": "자신감 있는 ↔ 자신 없어 하는",
       "language": "ko",
       "factor": "Type 6 (The Loyalist/Loyal Skeptic) / Type 8 (The Challenger/Protector)",
       "keyed": "bipolar semantic-differential (1=entirely like left 'confident', 5=entirely like right 'insecure', 3=in between). Type 6 (The Loyalist/Loyal Skeptic) positive (+Q37: higher/right-pole 'insecure' raises Type 6); Type 8 (The Challenger/Protector) reverse (6-Q37: lower/left-pole 'confident' raises Type 8)"
@@ -384,6 +436,7 @@
       "num": "Q38",
       "text": "이성적인 ↔ 엉뚱한",
       "text_en": "rational (left pole) — whimsical (right pole)",
+      "text_ko_friendly": "이성적인 ↔ 엉뚱한",
       "language": "ko",
       "factor": "Type 1 (The Reformer/Perfectionist) / Type 4 (The Individualist/Romantic)",
       "keyed": "bipolar semantic-differential (1=entirely like left 'rational', 5=entirely like right 'whimsical', 3=in between). Type 1 (The Reformer/Perfectionist) reverse (6-Q38: lower/left-pole 'rational' raises Type 1); Type 4 (The Individualist/Romantic) positive (+Q38: higher/right-pole 'whimsical' raises Type 4)"
@@ -392,6 +445,7 @@
       "num": "Q39",
       "text": "야망 없는 ↔ 추진력 있는",
       "text_en": "unambitious (left pole) — driven (right pole)",
+      "text_ko_friendly": "야망 없는 ↔ 추진력 있는",
       "language": "ko",
       "factor": "Type 3 (The Achiever/Performer) / Type 9 (The Peacemaker/Mediator)",
       "keyed": "bipolar semantic-differential (1=entirely like left 'unambitious', 5=entirely like right 'driven', 3=in between). Type 3 (The Achiever/Performer) positive (+Q39: higher/right-pole 'driven' raises Type 3); Type 9 (The Peacemaker/Mediator) reverse (6-Q39: lower/left-pole 'unambitious' raises Type 9)"
@@ -400,6 +454,7 @@
       "num": "Q40",
       "text": "외향적인 ↔ 내향적인",
       "text_en": "extrovert (left pole) — introvert (right pole)",
+      "text_ko_friendly": "외향적인 ↔ 내향적인",
       "language": "ko",
       "factor": "Type 3 (The Achiever/Performer) / Type 6 (The Loyalist/Loyal Skeptic)",
       "keyed": "bipolar semantic-differential (1=entirely like left 'extrovert', 5=entirely like right 'introvert', 3=in between). Type 3 (The Achiever/Performer) reverse (6-Q40: lower/left-pole 'extrovert' raises Type 3); Type 6 (The Loyalist/Loyal Skeptic) positive (+Q40: higher/right-pole 'introvert' raises Type 6)"
@@ -408,6 +463,7 @@
       "num": "Q41",
       "text": "정돈된 ↔ 무질서한",
       "text_en": "orderly (left pole) — chaotic (right pole)",
+      "text_ko_friendly": "정돈된 ↔ 무질서한",
       "language": "ko",
       "factor": "Type 1 (The Reformer/Perfectionist) / Type 7 (The Enthusiast/Epicure)",
       "keyed": "bipolar semantic-differential (1=entirely like left 'orderly', 5=entirely like right 'chaotic', 3=in between). Type 1 (The Reformer/Perfectionist) reverse (6-Q41: lower/left-pole 'orderly' raises Type 1); Type 7 (The Enthusiast/Epicure) positive (+Q41: higher/right-pole 'chaotic' raises Type 7)"
@@ -416,6 +472,7 @@
       "num": "Q42",
       "text": "다정다감한 ↔ 거리를 두는",
       "text_en": "touchy-feely (left pole) — distant (right pole)",
+      "text_ko_friendly": "다정다감한 ↔ 거리를 두는",
       "language": "ko",
       "factor": "Type 2 (The Helper/Giver) / Type 5 (The Investigator/Observer)",
       "keyed": "bipolar semantic-differential (1=entirely like left 'touchy-feely', 5=entirely like right 'distant', 3=in between). Type 2 (The Helper/Giver) reverse (6-Q42: lower/left-pole 'touchy-feely' raises Type 2); Type 5 (The Investigator/Observer) positive (+Q42: higher/right-pole 'distant' raises Type 5)"
@@ -424,6 +481,7 @@
       "num": "Q43",
       "text": "거친 ↔ 얌전한",
       "text_en": "wild (left pole) — tame (right pole)",
+      "text_ko_friendly": "거친 ↔ 얌전한",
       "language": "ko",
       "factor": "Type 7 (The Enthusiast/Epicure) / Type 9 (The Peacemaker/Mediator)",
       "keyed": "bipolar semantic-differential (1=entirely like left 'wild', 5=entirely like right 'tame', 3=in between). Type 7 (The Enthusiast/Epicure) reverse (6-Q43: lower/left-pole 'wild' raises Type 7); Type 9 (The Peacemaker/Mediator) positive (+Q43: higher/right-pole 'tame' raises Type 9)"
@@ -432,6 +490,7 @@
       "num": "Q44",
       "text": "결코 울지 않는 ↔ 자주 우는",
       "text_en": "never cries (left pole) — often crying (right pole)",
+      "text_ko_friendly": "결코 울지 않는 ↔ 자주 우는",
       "language": "ko",
       "factor": "Type 4 (The Individualist/Romantic) / Type 5 (The Investigator/Observer)",
       "keyed": "bipolar semantic-differential (1=entirely like left 'never cries', 5=entirely like right 'often crying', 3=in between). Type 4 (The Individualist/Romantic) positive (+Q44: higher/right-pole 'often crying' raises Type 4); Type 5 (The Investigator/Observer) reverse (6-Q44: lower/left-pole 'never cries' raises Type 5)"
@@ -440,6 +499,7 @@
       "num": "Q45",
       "text": "모진 ↔ 온화한",
       "text_en": "harsh (left pole) — gentle (right pole)",
+      "text_ko_friendly": "모진 ↔ 온화한",
       "language": "ko",
       "factor": "Type 2 (The Helper/Giver) / Type 8 (The Challenger/Protector)",
       "keyed": "bipolar semantic-differential (1=entirely like left 'harsh', 5=entirely like right 'gentle', 3=in between). Type 2 (The Helper/Giver) positive (+Q45: higher/right-pole 'gentle' raises Type 2); Type 8 (The Challenger/Protector) reverse (6-Q45: lower/left-pole 'harsh' raises Type 8)"
@@ -448,6 +508,7 @@
       "num": "Q46",
       "text": "체계 없는 ↔ 자기 관리가 철저한",
       "text_en": "disorganized (left pole) — self-disciplined (right pole)",
+      "text_ko_friendly": "체계 없는 ↔ 자기 관리가 철저한",
       "language": "ko",
       "factor": "Type 1 (The Reformer/Perfectionist)",
       "keyed": "bipolar semantic-differential (1=entirely like left 'disorganized', 5=entirely like right 'self-disciplined', 3=in between). Type 1 (The Reformer/Perfectionist) positive (+Q46: higher/right-pole 'self-disciplined' raises Type 1)"
@@ -456,6 +517,7 @@
       "num": "Q47",
       "text": "독이 되는 ↔ 보살펴 주는",
       "text_en": "poisonous (left pole) — nurturing (right pole)",
+      "text_ko_friendly": "독이 되는 ↔ 보살펴 주는",
       "language": "ko",
       "factor": "Type 2 (The Helper/Giver) / Type 7 (The Enthusiast/Epicure)",
       "keyed": "bipolar semantic-differential (1=entirely like left 'poisonous', 5=entirely like right 'nurturing', 3=in between). Type 2 (The Helper/Giver) positive (+Q47: higher/right-pole 'nurturing' raises Type 2); Type 7 (The Enthusiast/Epicure) reverse (6-Q47: lower/left-pole 'poisonous' raises Type 7)"
@@ -464,6 +526,7 @@
       "num": "Q48",
       "text": "출세 지향적인 ↔ 관습에 얽매이지 않는",
       "text_en": "social climber (left pole) — nonconformist (right pole)",
+      "text_ko_friendly": "출세 지향적인 ↔ 관습에 얽매이지 않는",
       "language": "ko",
       "factor": "Type 3 (The Achiever/Performer)",
       "keyed": "bipolar semantic-differential (1=entirely like left 'social climber', 5=entirely like right 'nonconformist', 3=in between). Type 3 (The Achiever/Performer) reverse (6-Q48: lower/left-pole 'social climber' raises Type 3)"
@@ -472,6 +535,7 @@
       "num": "Q49",
       "text": "안정적인 ↔ 불안정한",
       "text_en": "stable (left pole) — unstable (right pole)",
+      "text_ko_friendly": "안정적인 ↔ 불안정한",
       "language": "ko",
       "factor": "Type 4 (The Individualist/Romantic)",
       "keyed": "bipolar semantic-differential (1=entirely like left 'stable', 5=entirely like right 'unstable', 3=in between). Type 4 (The Individualist/Romantic) positive (+Q49: higher/right-pole 'unstable' raises Type 4)"
@@ -480,6 +544,7 @@
       "num": "Q50",
       "text": "사람을 상대하기 좋아하는 유형 ↔ 사물을 다루기 좋아하는 유형",
       "text_en": "people-person (left pole) — things-person (right pole)",
+      "text_ko_friendly": "사람을 대하는 걸 좋아하는 ↔ 사물을 다루는 걸 좋아하는",
       "language": "ko",
       "factor": "Type 5 (The Investigator/Observer)",
       "keyed": "bipolar semantic-differential (1=entirely like left 'people-person', 5=entirely like right 'things-person', 3=in between). Type 5 (The Investigator/Observer) positive (+Q50: higher/right-pole 'things-person' raises Type 5)"
@@ -488,6 +553,7 @@
       "num": "Q51",
       "text": "희망적인 ↔ 겁이 많은",
       "text_en": "hopeful (left pole) — fearful (right pole)",
+      "text_ko_friendly": "희망적인 ↔ 두려움이 많은",
       "language": "ko",
       "factor": "Type 6 (The Loyalist/Loyal Skeptic)",
       "keyed": "bipolar semantic-differential (1=entirely like left 'hopeful', 5=entirely like right 'fearful', 3=in between). Type 6 (The Loyalist/Loyal Skeptic) positive (+Q51: higher/right-pole 'fearful' raises Type 6)"
@@ -496,6 +562,7 @@
       "num": "Q52",
       "text": "즉흥적인 ↔ 신중한",
       "text_en": "spontaneous (left pole) — deliberate (right pole)",
+      "text_ko_friendly": "즉흥적인 ↔ 신중한",
       "language": "ko",
       "factor": "Type 7 (The Enthusiast/Epicure)",
       "keyed": "bipolar semantic-differential (1=entirely like left 'spontaneous', 5=entirely like right 'deliberate', 3=in between). Type 7 (The Enthusiast/Epicure) reverse (6-Q52: lower/left-pole 'spontaneous' raises Type 7)"
@@ -504,6 +571,7 @@
       "num": "Q53",
       "text": "무던한 ↔ 예민한",
       "text_en": "thick-skinned (left pole) — sensitive (right pole)",
+      "text_ko_friendly": "무던한 ↔ 예민한",
       "language": "ko",
       "factor": "Type 8 (The Challenger/Protector)",
       "keyed": "bipolar semantic-differential (1=entirely like left 'thick-skinned', 5=entirely like right 'sensitive', 3=in between). Type 8 (The Challenger/Protector) reverse (6-Q53: lower/left-pole 'thick-skinned' raises Type 8)"
@@ -512,6 +580,7 @@
       "num": "Q54",
       "text": "중립적인 ↔ 자기 주장이 강한",
       "text_en": "neutral (left pole) — opinionated (right pole)",
+      "text_ko_friendly": "중립적인 ↔ 자기 주장이 강한",
       "language": "ko",
       "factor": "Type 9 (The Peacemaker/Mediator)",
       "keyed": "bipolar semantic-differential (1=entirely like left 'neutral', 5=entirely like right 'opinionated', 3=in between). Type 9 (The Peacemaker/Mediator) reverse (6-Q54: lower/left-pole 'neutral' raises Type 9)"
