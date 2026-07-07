@@ -81,9 +81,9 @@
       "instrument": "Ten-Item Personality Inventory (TIPI)",
       "count": 10,
       "language": "en",
-      "license_class": "free_research_noncommercial",
+      "license_class": "permissive_any_use",
       "safe_noncommercial": true,
-      "safe_commercial": false,
+      "safe_commercial": true,
       "translated_from": null
     },
     {
@@ -251,9 +251,9 @@
       "instrument": "Ten-Item Personality Inventory (TIPI) — 한국어 번역",
       "count": 10,
       "language": "ko",
-      "license_class": "free_research_noncommercial",
+      "license_class": "permissive_any_use",
       "safe_noncommercial": true,
-      "safe_commercial": false,
+      "safe_commercial": true,
       "translated_from": "raw/bigfive/items.tipi-10.json"
     },
     {

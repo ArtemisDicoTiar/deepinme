@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project status
 
-This repository is at its inception. It currently contains only `README.md`, `LICENSE` (Apache 2.0), and a Python `.gitignore`. There is no source code, dependency manifest, build tooling, or tests yet.
+This repository is at its inception. `LICENSE` is **CC BY-NC-SA 4.0** (non-commercial; changed from an initial Apache 2.0 placeholder once `data/` began aggregating third-party non-commercial-only psychometric content — see the LICENSE file's "Why non-commercial" note and `data/README.md`). There is no application source code, dependency manifest, build tooling, or tests yet — `data/` (psychometric item banks) and `tools/annotator/` (a local review webapp) exist, but no product/app scaffold.
 
 The `.gitignore` is the standard GitHub Python template, which signals the intended language is **Python**. No package manager, framework, or project layout has been chosen yet — when scaffolding, establish these deliberately rather than assuming them.
 

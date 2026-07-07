@@ -11,7 +11,7 @@
 | `raw/bigfive/items.ipip-neo-120.json` | IPIP-NEO-120 | 120 | en | public_domain | 🟢 | 🟢 |
 | `raw/bigfive/items.mini-ipip-20.json` | Mini-IPIP | 20 | en | public_domain | 🟢 | 🟢 |
 | `raw/bigfive/items.saucier-mini-markers-40.json` | Saucier's Mini-Markers (1994) | 40 | en | free_research_noncommercial | 🟢 | 🔴 |
-| `raw/bigfive/items.tipi-10.json` | Ten-Item Personality Inventory (TI | 10 | en | free_research_noncommercial | 🟢 | 🔴 |
+| `raw/bigfive/items.tipi-10.json` | Ten-Item Personality Inventory (TI | 10 | en | permissive_any_use | 🟢 | 🟢 |
 | `raw/enneagram/items.oeps-v2-bipolar.json` | Open Enneagram of Personality Scal | 54 | en | cc | 🟢 | 🔴 |
 | `raw/enneagram/items.oeps.json` | Open Enneagram of Personality Scal | 36 | en | cc | 🟢 | 🔴 |
 | `raw/hexaco/items.hexaco-60.json` | HEXACO-60 | 60 | en | free_research_noncommercial | 🟢 | 🔴 |
@@ -28,7 +28,7 @@
 | `translations/ko/bigfive/items.ipip-neo-120.ko.json` | IPIP-NEO-120 — 한국어 번역 | 120 | ko | public_domain | 🟢 | 🟢 |
 | `translations/ko/bigfive/items.mini-ipip-20.ko.json` | Mini-IPIP — 한국어 번역 | 20 | ko | public_domain | 🟢 | 🟢 |
 | `translations/ko/bigfive/items.saucier-mini-markers-40.ko.json` | Saucier's Mini-Markers (1994) — 한국 | 40 | ko | free_research_noncommercial | 🟢 | 🔴 |
-| `translations/ko/bigfive/items.tipi-10.ko.json` | Ten-Item Personality Inventory (TI | 10 | ko | free_research_noncommercial | 🟢 | 🔴 |
+| `translations/ko/bigfive/items.tipi-10.ko.json` | Ten-Item Personality Inventory (TI | 10 | ko | permissive_any_use | 🟢 | 🟢 |
 | `translations/ko/enneagram/items.oeps-v2-bipolar.ko.json` | Open Enneagram of Personality Scal | 54 | ko | cc | 🟢 | 🔴 |
 | `translations/ko/enneagram/items.oeps.ko.json` | Open Enneagram of Personality Scal | 36 | ko | cc | 🟢 | 🔴 |
 | `translations/ko/hexaco/items.hexaco-60.ko.json` | HEXACO-60 — 한국어 번역 | 60 | ko | free_research_noncommercial | 🟢 | 🔴 |

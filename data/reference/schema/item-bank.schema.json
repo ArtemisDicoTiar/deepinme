@@ -64,12 +64,13 @@
         "license_class": {
           "enum": [
             "public_domain",
+            "permissive_any_use",
             "cc",
             "free_research_noncommercial",
             "proprietary",
             "unknown"
           ],
-          "description": "Machine-filterable license bucket."
+          "description": "Machine-filterable license bucket. permissive_any_use = still copyrighted by the author, but the author's own stated terms grant free use for any purpose including commercial (distinct from public_domain, where no copyright exists at all)."
         },
         "safe_for_noncommercial_reuse": {
           "type": "boolean"
